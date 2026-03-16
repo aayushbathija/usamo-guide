@@ -75,7 +75,7 @@ Our front-end is built with:
 
 ## Contact Info
 
-If you have any questions, please reach out to us at thejourneyofpranav@gmail.com.
+If you have any questions, please reach out to us at contact@usamoguide.com
 
 ## License
 
