@@ -634,7 +634,7 @@
   z-index: 99;
   border-radius: 0px 0px 4px 4px;
   font-size: 12px;
-    font-family: 'Space Grotesk', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono',
+  font-family: 'Inter', 'Space Grotesk', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono';
 
   .dark &:hover {
     background-color: var(--bg-surface-alt);

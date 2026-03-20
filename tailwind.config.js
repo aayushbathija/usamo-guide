@@ -6,9 +6,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Space Grotesk', ...defaultTheme.fontFamily.sans],
-        brand: ['Space Grotesk', 'sans-serif'],
-        mono: ['Space Grotesk', ...defaultTheme.fontFamily.mono],
+        sans: ['Inter', ...defaultTheme.fontFamily.sans],
+        brand: ['Inter', 'sans-serif'],
+        mono: ['Inter', ...defaultTheme.fontFamily.mono],
       },
       boxShadow: {
         xs: '0 0 0 1px rgba(0, 0, 0, 0.05)',
