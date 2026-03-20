@@ -1,0 +1,51 @@
+{
+  "MODULE_ID": "pascals-triangle-binomial-theorem",
+  "practice": [
+    {
+      "uniqueId": "amc8-1999-24",
+      "name": "Problem 24 (1999 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php/1999_AMC_8_Problems/Problem_24",
+      "source": "AMC 8",
+      "difficulty": "Medium",
+      "isStarred": true,
+      "tags": [
+        "Binomial Theorem",
+        "Modular Arithmetic"
+      ],
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc10b-2011-23",
+      "name": "Problem 23 (2011 AMC 10B)",
+      "url": "https://artofproblemsolving.com/wiki/index.php/2011_AMC_10B_Problems/Problem_23",
+      "source": "AMC 10",
+      "difficulty": "Hard",
+      "isStarred": true,
+      "tags": [
+        "Binomial Theorem",
+        "Modular Arithmetic",
+        "Pascal's Triangle"
+      ],
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc12a-2021fall-12",
+      "name": "Problem 12 (2021 Fall AMC 12A)",
+      "url": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_12A_Problems/Problem_12",
+      "source": "AMC 12",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Binomial Theorem",
+        "Coefficient Extraction"
+      ],
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    }
+  ]
+}
