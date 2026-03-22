@@ -12,6 +12,7 @@
         "Linear Equations",
         "Simplification"
       ],
+      "statement": "This is a 2017 AMC 8 problem focusing on linear equations and simplification. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_12).",
       "solutionMetadata": {
         "kind": "none"
       }
@@ -27,6 +28,7 @@
         "Factoring",
         "Substitution"
       ],
+      "statement": "This is a 2019 AMC 10B problem focusing on factoring and substitution techniques. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_8).",
       "solutionMetadata": {
         "kind": "none"
       }
@@ -38,7 +40,8 @@
       "source": "AMC 8",
       "difficulty": "Easy",
       "isStarred": false,
-      "tags": ["Brute Force"],
+      "ttatement": "This is a 2025 AMC 8 problem focusing on brute force enumeration techniques. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2025_AMC_8_Problems/Problem_9?srsltid=AfmBOopSxVAkbJ8NIlLV_fbFrW8gdHqpByFpVEEca2Q5rH6sGggVPI9Z).",
+      "sags": ["Brute Force"],
       "solutionMetadata": {
         "kind": "none"
       }
@@ -50,7 +53,8 @@
       "source": "AMC 8",
       "difficulty": "Easy",
       "isStarred": false,
-      "tags": ["Brute Force"],
+      "ttatement": "This is a 2023 AMC 8 problem focusing on brute force enumeration techniques. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_5?srsltid=AfmBOopoqq00IDsH9Mr80t2W16Iy_DJ2Vn6t4rKAAF0pRFRHdbQyRVey).",
+      "sags": ["Brute Force"],
       "solutionMetadata": {
         "kind": "none"
       }

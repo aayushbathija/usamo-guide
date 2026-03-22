@@ -57,7 +57,7 @@
           }
         },
         "statement": {
-          "description": "Optional Markdown + TeX ($...$, $$...$$) shown on the on-site problem page. If omitted, the page links to the original `url` for the full statement.",
+          "description": "Required Markdown + TeX ($...$, $$...$$) shown on the on-site problem page. All problems must include their full statement.",
           "type": "string"
         },
         "author": {
@@ -138,6 +138,7 @@
         "difficulty",
         "isStarred",
         "tags",
+        "statement",
         "solutionMetadata"
       ]
     }
