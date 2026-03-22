@@ -191,7 +191,7 @@ export function getProblemURL(
   }
 ): string {
   return `/problems/${slug(problem.source)}-${slug(
-    problem.name.replace(' - ', ' ')
+    (problem.name || '').replace(' - ', ' ')
   )}`;
 }
 

@@ -392,6 +392,42 @@
   }
 }
 
+.shine-effect {
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 120%;
+    position: absolute;
+    top: -10%;
+    left: -150%;
+    background: white;
+    opacity: 0;
+    transform: skewX(-20deg);
+  }
+
+  &:hover::before {
+    animation: shine 0.75s;
+  }
+}
+
+@keyframes shine {
+  from {
+    opacity: 0.5;
+    left: -50%;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  to {
+    opacity: 0;
+    left: 150%;
+  }
+}
+
 .textarea {
   @apply block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm dark:border-transparent dark:bg-gray-800 dark:focus:border-blue-500;
 }

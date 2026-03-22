@@ -172,7 +172,7 @@ export default function IndexPage({ path }): JSX.Element {
             <div className="flex flex-wrap justify-center gap-4 sm:gap-10">
               <Link
                 to="/dashboard"
-                className="inline-block rounded-full border-orange-600 bg-linear-to-br from-orange-300 to-orange-400 px-8 py-3 text-[16px] font-bold text-white transition-all duration-300 hover:scale-105 hover:shadow-[0_0_20px_rgba(251,146,60,0.4)]"
+                className="shine-effect inline-block rounded-full border-orange-600 bg-linear-to-br from-orange-300 to-orange-400 px-8 py-3 text-[16px] font-bold text-white transition-all duration-300 hover:scale-105 hover:shadow-[0_0_20px_rgba(251,146,60,0.4)]"
               >
                 Start Learning {'>'}
               </Link>
@@ -223,7 +223,24 @@ export default function IndexPage({ path }): JSX.Element {
         </div>
       </div>
       {/* End Hero */}
-
+      {/* Begin Stars System Section */}
+      <div className="relative overflow-hidden bg-gray-50 dark:bg-gradient-to-b dark:from-[#2d1f3d] dark:to-black transition-colors duration-500">
+        <div className="pointer-events-none absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('/images/starbg.jpg')" }} />
+        
+        <div className="relative z-10 flex items-center min-h-[400px] -translate-x-1/8">
+          <div className={containerClasses}>
+            <div className="max-w-2xl">
+              <h2 className="text-4xl md:text-5xl font-bold pb-6 text-gray-900 dark:text-yellow-50">
+                ⭐ Earn Stars, Unlock Rewards
+              </h2>
+              <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
+                Earn stars as you progress through USAMO Guide. Get 5 stars for completing each page and 1 star for every problem you solve. Collect stars and redeem them in our shop for exclusive rewards and perks.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* End Stars System Section */}
       <div className="relative bg-gradient-to-b from-white via-orange-100 to-orange-50 dark:bg-gradient-to-b dark:from-[#e85d04]/10 dark:via-[#e85d04]/20 dark:to-[#e85d04]/30 transition-colors duration-500">
         <div className="pointer-events-none absolute inset-0 z-0">
           <div className="absolute inset-0 z-0 [mask-image:radial-gradient(ellipse_at_center,white_20%,transparent_75%)]">
@@ -336,6 +353,8 @@ export default function IndexPage({ path }): JSX.Element {
 
       <ActiveCardsHome/>
 
+      
+
       <div className="relative bg-gray-100 dark:bg-black">
         <div className="relative z-10">
           <div className="h-15 md:h-20"></div>
@@ -363,7 +382,7 @@ export default function IndexPage({ path }): JSX.Element {
                 href="https://docs.google.com/document/d/13QpXqdiYQwjBLnywGL1FUG7GFdh8SM_1NigIkJl-A7k/edit?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
-                className={classNames(whiteButtonClasses, 'inline-block')}
+                className={classNames(whiteButtonClasses, 'inline-block shine-effect')}
               >
                 Apply Now
               </a>
