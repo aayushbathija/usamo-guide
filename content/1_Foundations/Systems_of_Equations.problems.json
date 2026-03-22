@@ -1,4 +1,43 @@
 {
   "MODULE_ID": "systems-equations",
-  "practice": []
+  "practice": [
+     {
+      "uniqueId": "2026-amc8-19",
+      "name": "Problem 19 (2026 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2026_AMC_8_Problems/Problem_19",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": true,
+      "tags": ["Add Tags"],
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "2026-amc8-14",
+      "name": "Problem 14 (2026 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2026_AMC_8_Problems/Problem_14",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [],
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "1970-ahsme-26",
+      "name": "Problem 26 (1970 AHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1970_AHSME_Problems/Problem_26",
+      "source": "AHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [],
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    }
+
+  ]
 }
+
