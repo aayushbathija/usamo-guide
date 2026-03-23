@@ -1,4 +1,18 @@
 {
   "MODULE_ID": "substitution-techniques",
-  "practice": []
+  "practice": [
+    {
+  "uniqueId": "2020-amc10a-14",
+  "name": "Problem 14 (2020 AMC 10A)",
+  "url": "https://artofproblemsolving.com/wiki/index.php?title=2020_AMC_10A_Problems/Problem_14",
+  "source": "AMC 10A",
+  "difficulty": "Easy",
+  "isStarred": false,
+  "tags": [],
+  "solutionMetadata": {
+    "kind": "none"
+  }
+}
+    #i can't find more problems as of now :C 
+  ]
 }
