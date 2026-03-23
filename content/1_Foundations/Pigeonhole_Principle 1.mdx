@@ -1,0 +1,129 @@
+id: pigeonhole-theorem-foundations
+title: Pigeonhole Principle 1
+author: USAMO Guide Team - Wyatt
+description: The pigeonhole principle, and its applications
+to counting, number theory, and combinatorial geometry 
+prerequisites: [counting-fundamentals, stars-and-bars]
+---
+ 
+## Overview
+ 
+The Pigeonhole Principle states that if you have more objects than containers, at least one container must hold
+more than one object.
+ 
+---
+
+## Key Ideas
+ 
+- First identify the "pigeons" (objects) and the holes (containers/categories).
+- The number of holes is your bound. If pigeons $>$ holes, a contradiction is formed.
+- For "at least $m$" ways, use the extended formula of, $\lceil k/n \rceil \geq m$, which means $k \geq n(m-1) + 1$.
+- For specific range problems, one should partition the range into intervals and apply the
+  pigeonhole princple to the subintervals that are created. 
+- Note that the pigeonhole principle proves the existence only and hence does not tell you which hole
+  is crowded or how to find the contradiction.
+ 
+ 
+## Core Skills
+ 
+### The Pigeonhole Principle
+ 
+The Pigeonhole Principle states that if $n + 1$ or more objects are distributed into
+$n$ containers, then at least one container contains $\mathbf{2}$ or more
+objects.
+ 
+Equivalently, if every container held at most $1$ object, the total number
+of objects would be at most $n$. Since we have more than $n$, this is
+impossible and hence the proof forms a contradiction. 
+ 
+The most used example for this comes from the name itself. You have $k$ pigeons and $n$ holes. If $k > n$, at
+least one hole has $\geq 2$ pigeons.
+ 
+### Generalization - Also known as the extended formula of the principle 
+ 
+If $k$ objects are distributed into $n$ containers, then at least one container contains at least $\left\lceil k/n \right\rceil$ objects.
+ 
+Here $\lceil x \rceil$ is the ceiling function (also called the Gauss function in some countries), the smallest integer
+$\geq x$.
+ 
+An example of this would be $25$ students sit in $7$ rows. At least one row has
+> $\lceil 25/7 \rceil = \lceil 3.57 \rceil = 4$ students.
+ 
+### The Average across spaces
+ 
+Another idea from this comes if the average value across $n$ containers is
+$> m$, then at least one container has value $> m$. Furthermore, if the average is
+$\geq m$, at least one container has value $\geq m$.
+ 
+This is in cases, cleaner than actually invoking the ceiling formula directly.
+
+An example of this would be when five numbers sum to $51$. Since the average is $51/5 = 10.2$,
+hence at least one number is $\geq 11$. 
+ 
+---
+ 
+## Worked Example
+ 
+Show that among any $5$ integers, two must have the same
+remainder when divided by $4$.
+ 
+There are only $4$ possible remainders mod $4$: $\{0, 1, 2, 3\}$. These are the "holes", and the $5$ integers are the pigeons. Since $5 > 4$, by the Pigeonhole Principle, at least two integers share
+a remainder. Their difference and is therefore divisible by $4$. $\blacksquare$
+ 
+ 
+---
+ 
+## More Examples
+ 
+### Example 1 — A Basic application 
+ 
+A drawer contains red, blue, and green socks. What is the minimum number of socks you must draw (without looking) to guarantee a matching pair?
+ 
+The colors are the holes: $3$ holes. Each sock drawn is a pigeon. We know that by the Pigeonhole Principle, once you draw $3 + 1 = 4$ socks, two must share a color.
+ 
+Answer: $\boxed{4}$.
+ 
+ 
+---
+ 
+### Example 2 — The Generalized Pigeonhole (Or extended)
+ 
+There are $30$ students in a class. Show that at least $\lceil 30/12 \rceil = 3$ of them share a birth month.
+ 
+There are $12$ months (holes) and $30$ students (pigeons). $$\left\lceil \frac{30}{12} \right\rceil = \left\lceil 2.5 \right\rceil = 3.$$
+ 
+So at least one month contains $3$ or more students. $\blacksquare$ 
+
+### Example 3 — Pigeonhole Principle in an interval 
+ 
+Five points are chosen inside (or on the boundary of) a unit square. Show that two of them are within distance $\frac{\sqrt{2}}{2}$ of each other.
+ 
+We divide the unit square into $4$ smaller squares of side $1/2$ by cutting it in half horizontally and vertically. These $4$ smaller squares are the would act as the "holes", 
+and the five points would be the "piegons".
+ 
+By pigeonhole, two points lie in the same small square. The maximum distance within a square of side $1/2$ is its diagonal, and thus
+$\sqrt{(1/2)^2 + (1/2)^2} = \sqrt{1/2} = \frac{\sqrt{2}}{2}$.
+ 
+So those two points are within $\frac{\sqrt{2}}{2}$ of each other.
+$\blacksquare$
+
+## Strategy Checklist
+
+- Always write what are the "pigeons", What are the "holes", to avoid confusion. 
+- Check if the number of pigeons strictly greater than the holes.
+- For "sum/difference equals $c$" problems, pair up elements that sum or differ by $c$ and use those pairs as "holes" in our piegonhole principle. 
+
+
+## Common Pitfalls
+
+- The basic principle requires $n + 1$ "pigeons" for $n$ holes, not $n$. With exactly $n$ pigeons it is possible (though not
+  guaranteed) that all holes are distinct. The guarantee of the contradiction will start at $n + 1$.
+- Every "pigeon" must belong to exactly one hole. 
+- The pigeonhole proves existence, not the specific contradiction formed within. 
+
+## Practice Problems
+
+<Problems problems="practice" />
+ 
+---
+ 
