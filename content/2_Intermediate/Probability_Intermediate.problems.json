@@ -11,6 +11,7 @@
       "tags": [
         "Conditional Probability"
       ],
+      "statement": "This is a 2019 AMC 12B problem focusing on conditional probability. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2019_AMC_12B_Problems/Problem_14).",
       "solutionMetadata": {
         "kind": "none"
       }
@@ -25,6 +26,7 @@
       "tags": [
         "Expected Value"
       ],
+      "statement": "This is a 2017 AIME I problem focusing on expected value. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2017_AIME_I_Problems/Problem_9).",
       "solutionMetadata": {
         "kind": "none"
       }

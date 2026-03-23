@@ -12,6 +12,7 @@
         "Complex Numbers",
         "Roots of Unity"
       ],
+      "statement": "This is a 2013 AIME II problem focusing on complex numbers and roots of unity. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2013_AIME_II_Problems/Problem_8).",
       "solutionMetadata": {
         "kind": "none"
       }
@@ -26,6 +27,7 @@
       "tags": [
         "Polar Form"
       ],
+      "statement": "This is a 2018 AIME II problem focusing on polar form of complex numbers. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2018_AIME_II_Problems/Problem_4).",
       "solutionMetadata": {
         "kind": "none"
       }

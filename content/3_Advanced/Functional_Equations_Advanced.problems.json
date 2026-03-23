@@ -11,6 +11,7 @@
       "tags": [
         "Functional Equations"
       ],
+      "statement": "This is a 2015 AIME I problem focusing on functional equations. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2015_AIME_I_Problems/Problem_14).",
       "solutionMetadata": {
         "kind": "none"
       }
@@ -26,6 +27,7 @@
         "Functional Equations",
         "Substitution"
       ],
+      "statement": "This is a 2010 AIME I problem focusing on functional equations and substitution. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2010_AIME_I_Problems/Problem_9).",
       "solutionMetadata": {
         "kind": "none"
       }

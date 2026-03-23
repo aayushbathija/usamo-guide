@@ -1,4 +1,66 @@
 {
   "MODULE_ID": "sfft-factoring",
-  "practice": []
+  "practice": 
+  [
+  {
+    "uniqueId": "2015-amc10a-23",
+    "name": "Problem 23 (2015 AMC 10A)",
+    "url": "https://artofproblemsolving.com/wiki/index.php?title=2015_AMC_10A_Problems/Problem_23",
+    "source": "AMC 10A",
+    "difficulty": "Easy",
+    "isStarred": false,
+    "tags": [],
+    "solutionMetadata": {
+      "kind": "none"
+    }
+  },
+  {
+    "uniqueId": "2021-amc10b-11",
+    "name": "Problem 11 (2021 AMC 10B)",
+    "url": "https://artofproblemsolving.com/wiki/index.php?title=2021_AMC_10B_Problems/Problem_11",
+    "source": "AMC 10B",
+    "difficulty": "Easy",
+    "isStarred": false,
+    "tags": [],
+    "solutionMetadata": {
+      "kind": "none"
+    }
+  },
+  {
+    "uniqueId": "2000-amc12-6",
+    "name": "Problem 6 (2000 AMC 12)",
+    "url": "https://artofproblemsolving.com/wiki/index.php?title=2000_AMC_12_Problems/Problem_6",
+    "source": "AMC 12",
+    "difficulty": "Easy",
+    "isStarred": false,
+    "tags": [],
+    "solutionMetadata": {
+      "kind": "none"
+    }
+  },
+  {
+    "uniqueId": "2008-amc12b-16",
+    "name": "Problem 16 (2008 AMC 12B)",
+    "url": "https://artofproblemsolving.com/wiki/index.php?title=2008_AMC_12B_Problems/Problem_16",
+    "source": "AMC 12B",
+    "difficulty": "Easy",
+    "isStarred": false,
+    "tags": [],
+    "solutionMetadata": {
+      "kind": "none"
+    }
+  },
+  {
+    "uniqueId": "1987-aime-5",
+    "name": "Problem 5 (1987 AIME)",
+    "url": "https://artofproblemsolving.com/wiki/index.php?title=1987_AIME_Problems/Problem_5",
+    "source": "AIME",
+    "difficulty": "Easy",
+    "isStarred": false,
+    "tags": [],
+    "solutionMetadata": {
+      "kind": "none"
+    }
+  }
+]
 }

@@ -9,6 +9,7 @@
       "difficulty": "Normal",
       "isStarred": true,
       "tags": ["Proof", "Write-up"],
+      "statement": "This is a custom write-up critique exercise focusing on inequality proofs and mathematical exposition.",
       "solutionMetadata": {
         "kind": "none"
       }
@@ -21,6 +22,7 @@
       "difficulty": "Normal",
       "isStarred": false,
       "tags": ["Proof", "Strategy"],
+      "statement": "This is a custom write-up outline exercise focusing on geometry problem strategies and solution organization.",
       "solutionMetadata": {
         "kind": "none"
       }

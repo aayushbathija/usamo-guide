@@ -61,7 +61,7 @@ const MODULE_ORDERING: { [key in SectionID]: Chapter[] } = {
     },
     {
       name: 'Counting Fundamentals',
-      items: ['counting-fundamentals', 'pascals-triangle-binomial-theorem', 'inclusion-exclusion'],
+      items: ['counting-fundamentals', 'pascals-triangle-binomial-theorem', 'inclusion-exclusion','stars-and-bars'],
     },
     {
       name: 'Geometry Basics',

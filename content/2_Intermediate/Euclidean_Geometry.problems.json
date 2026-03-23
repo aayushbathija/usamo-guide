@@ -12,6 +12,7 @@
         "Circles",
         "Angles"
       ],
+      "statement": "This is a 2017 AMC 12B problem focusing on circles and angles. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2017_AMC_12B_Problems/Problem_12).",
       "solutionMetadata": {
         "kind": "none"
       }
@@ -26,6 +27,7 @@
       "tags": [
         "Power of a Point"
       ],
+      "statement": "This is a 2018 AIME I problem focusing on power of a point. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2018_AIME_I_Problems/Problem_7).",
       "solutionMetadata": {
         "kind": "none"
       }

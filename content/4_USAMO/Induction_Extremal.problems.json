@@ -12,6 +12,7 @@
         "Induction",
         "Extremal"
       ],
+      "statement": "This is a 2014 USAMO problem focusing on induction and extremal arguments. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2014_USAMO_Problems/Problem_2).",
       "solutionMetadata": {
         "kind": "none"
       }
@@ -26,6 +27,7 @@
       "tags": [
         "Induction"
       ],
+      "statement": "This is a 2010 USAMO problem focusing on induction. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2010_USAMO_Problems/Problem_2).",
       "solutionMetadata": {
         "kind": "none"
       }

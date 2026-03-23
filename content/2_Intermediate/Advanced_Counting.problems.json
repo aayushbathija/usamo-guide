@@ -12,6 +12,7 @@
         "Combinatorics",
         "Casework"
       ],
+      "statement": "This is a 2018 AMC 12A problem focusing on combinatorics and casework. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2018_AMC_12A_Problems/Problem_16).",
       "solutionMetadata": {
         "kind": "none"
       }
@@ -26,6 +27,7 @@
       "tags": [
         "Inclusion-Exclusion"
       ],
+      "statement": "This is a 2015 AIME I problem focusing on inclusion-exclusion. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2015_AIME_I_Problems/Problem_9).",
       "solutionMetadata": {
         "kind": "none"
       }

@@ -12,6 +12,7 @@
         "Functions",
         "Substitution"
       ],
+      "statement": "This is a 2017 AMC 12A problem focusing on functions and substitution. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2017_AMC_12A_Problems/Problem_10).",
       "solutionMetadata": {
         "kind": "none"
       }
@@ -26,6 +27,7 @@
       "tags": [
         "Functional Equations"
       ],
+      "statement": "This is a 2017 AIME I problem focusing on functional equations. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2017_AIME_I_Problems/Problem_4).",
       "solutionMetadata": {
         "kind": "none"
       }

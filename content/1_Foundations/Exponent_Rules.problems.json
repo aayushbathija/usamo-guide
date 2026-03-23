@@ -2,73 +2,49 @@
   "MODULE_ID": "exponent-rules",
   "practice": [
     {
-      "uniqueId": "amc8-1999-24",
-      "name": "Problem 24 (1999 AMC 8)",
-      "url": "https://artofproblemsolving.com/wiki/index.php/1999_AMC_8_Problems/Problem_24?srsltid=AfmBOoo_mYztggwKu3nlpr7iWWovZP3eeNU0_MD4s-LzpY-mo-_iQIVw",
-      "source": "AMC 8",
-      "difficulty": "Medium",
+      "uniqueId": "test-exponent-simplify",
+      "name": "TEST: Simplify Exponents",
+      "url": "https://usamo.guide/test/exponent-simplify",
+      "source": "Custom",
+      "difficulty": "Very Easy",
       "isStarred": true,
-      "tags": ["Exponents"],
+      "tags": ["Testing", "Inline Solution", "Exponents"],
+      "statement": "Simplify $\\frac{x^5 \\cdot x^3}{x^2}$ where $x \\neq 0$.\n\nEnter your answer as a single power of $x$ (just the exponent).\n\n**Example:** If the answer is $x^7$, enter `7`",
+      "interaction": {
+        "type": "integer",
+        "correct": "6"
+      },
+      "solutionReveal": {
+        "mode": "inline",
+        "markdown": "## Solution\n\nWe use the exponent rules:\n- $x^a \\cdot x^b = x^{a+b}$ (product rule)\n- $\\frac{x^a}{x^b} = x^{a-b}$ (quotient rule)\n\nApplying these rules:\n$$\\frac{x^5 \\cdot x^3}{x^2} = \\frac{x^{5+3}}{x^2} = \\frac{x^8}{x^2} = x^{8-2} = x^6$$\n\nTherefore, the exponent is **6**."
+      },
       "solutionMetadata": {
         "kind": "none"
       }
     },
     {
-      "uniqueId": "ahsme-1976-21",
-      "name": "Problem 21 (1976 AHSME)",
-      "url": "https://artofproblemsolving.com/wiki/index.php?title=1976_AHSME_Problems/Problem_21",
-      "source": "AHSME",
-      "difficulty": "Medium",
-      "isStarred": false,
-      "tags": ["Arithmetic Series", "Exponents"],
-      "solutionMetadata": {
-        "kind": "none"
-      }
-    },
-    {
-      "uniqueId": "aime1-2020-2",
-      "name": "Problem 2 (2020 AIME I)",
-      "url": "https://artofproblemsolving.com/wiki/index.php?title=2020_AIME_I_Problems/Problem_2",
-      "source": "AIME",
-      "difficulty": "Medium",
-      "isStarred": true,
-      "tags": [],
-      "solutionMetadata": {
-        "kind": "none"
-      }
-    },
-    {
-      "uniqueId": "amc8-2016-15",
-      "name": "Problem 15 (2016 AMC 8)",
-      "url": "https://artofproblemsolving.com/wiki/index.php?title=2016_AMC_8_Problems/Problem_15",
-      "source": "AMC 8",
+      "uniqueId": "test-exponent-negative",
+      "name": "TEST: Negative Exponents",
+      "url": "https://usamo.guide/test/exponent-negative",
+      "source": "Custom",
       "difficulty": "Easy",
       "isStarred": false,
-      "tags": [],
-      "solutionMetadata": {
-        "kind": "none"
-      }
-    },
-    {
-      "uniqueId": "ahsme-1961-1",
-      "name": "Problem 1 (1961 AHSME)",
-      "url": "https://artofproblemsolving.com/wiki/index.php?title=1961_AHSME_Problems/Problem_1",
-      "source": "AHSME",
-      "difficulty": "Easy",
-      "isStarred": false,
-      "tags": [],
-      "solutionMetadata": {
-        "kind": "none"
-      }
-    },
-    {
-      "uniqueId": "amc12a-2021-1",
-      "name": "Problem 1 (2021 AMC 12A)",
-      "url": "https://artofproblemsolving.com/wiki/index.php?title=2021_Fall_AMC_12A_Problems/Problem_1",
-      "source": "AMC 12",
-      "difficulty": "Easy",
-      "isStarred": false,
-      "tags": [],
+      "tags": ["Testing", "Inline Solution", "Exponents"],
+      "statement": "Which expression is equivalent to $2^{-3}$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$-8$",
+          "$\\frac{1}{8}$",
+          "$-\\frac{1}{8}$",
+          "$8$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionReveal": {
+        "mode": "inline",
+        "markdown": "## Solution\n\nThe negative exponent rule states:\n$$x^{-n} = \\frac{1}{x^n}$$\n\nApplying this to $2^{-3}$:\n$$2^{-3} = \\frac{1}{2^3} = \\frac{1}{8}$$\n\nTherefore, the answer is $\\boxed{\\frac{1}{8}}$."
+      },
       "solutionMetadata": {
         "kind": "none"
       }

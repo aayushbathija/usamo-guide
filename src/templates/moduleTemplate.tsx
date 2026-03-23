@@ -136,6 +136,19 @@ export const pageQuery = graphql`
           difficulty
           isStarred
           tags
+          statement
+          author
+          interaction {
+            type
+            correct
+            choices
+            correctIndex
+          }
+          solutionReveal {
+            mode
+            url
+            markdown
+          }
           solution {
             kind
             label

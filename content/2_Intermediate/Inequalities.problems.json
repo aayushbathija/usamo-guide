@@ -12,6 +12,7 @@
         "AM-GM",
         "Algebra"
       ],
+      "statement": "This is a 2015 AMC 10B problem focusing on AM-GM inequality and algebra. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_20).",
       "solutionMetadata": {
         "kind": "none"
       }
@@ -26,6 +27,7 @@
       "tags": [
         "Cauchy-Schwarz"
       ],
+      "statement": "This is a 2018 AMC 12B problem focusing on Cauchy-Schwarz inequality. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2018_AMC_12B_Problems/Problem_19).",
       "solutionMetadata": {
         "kind": "none"
       }

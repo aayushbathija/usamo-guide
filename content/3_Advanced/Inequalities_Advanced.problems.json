@@ -12,6 +12,7 @@
         "Cauchy-Schwarz",
         "Inequalities"
       ],
+      "statement": "This is a 2017 AIME I problem focusing on Cauchy-Schwarz inequality. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2017_AIME_I_Problems/Problem_12).",
       "solutionMetadata": {
         "kind": "none"
       }
@@ -26,6 +27,7 @@
       "tags": [
         "AM-GM"
       ],
+      "statement": "This is a 2016 AIME I problem focusing on AM-GM inequality. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2016_AIME_I_Problems/Problem_10).",
       "solutionMetadata": {
         "kind": "none"
       }

@@ -240,7 +240,12 @@ export default function DashboardPage(props: PageProps) {
     <Layout>
       <SEO title="Dashboard" image={null} pathname={props.path} />
 
-      <div className="ui-page min-h-screen">
+      <div
+        className="ui-page min-h-screen"
+        style={{
+          '--ui-page-bg-image': 'url(/images/math-doodles.png)',
+        } as React.CSSProperties}
+      >
         <TopNavigationBar linkLogoToIndex={true} redirectToDashboard={false} />
 
         {finishedRendering && (

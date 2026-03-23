@@ -3,7 +3,10 @@ import * as React from 'react';
 import { useContext, useState } from 'react';
 import ConfettiContext from '../../context/ConfettiContext';
 import MarkdownLayoutContext from '../../context/MarkdownLayoutContext';
-import { ProblemSolutionContext } from '../../context/ProblemSolutionContext';
+import {
+  ProblemSolutionContext,
+  type ProblemSolutionContextValue,
+} from '../../context/ProblemSolutionContext';
 import { ProblemSuggestionModalProvider } from '../../context/ProblemSuggestionModalContext';
 import {
   useSetProgressOnModule,
@@ -59,9 +62,12 @@ const ContentContainer = ({ children, tableOfContents }) => (
 export default function MarkdownLayout({
   markdownData,
   children,
+  /** When `markdownData` is a solution page, pass this or wrap with ProblemSolutionProvider. */
+  problemSolution,
 }: {
   markdownData: ModuleInfo | SolutionInfo;
   children: React.ReactNode;
+  problemSolution?: ProblemSolutionContextValue | null;
 }) {
   const userProgressOnModules = useUserProgressOnModules();
   const setModuleProgress = useSetProgressOnModule();
@@ -121,16 +127,26 @@ export default function MarkdownLayout({
     }
   };
 
-  // problemSolutionContext is null when markdownData is a ModuleInfo
-  const problemSolutionContext = useContext(ProblemSolutionContext);
+  const problemSolutionFromTree = useContext(ProblemSolutionContext);
+  const solutionLayoutContext: ProblemSolutionContextValue | null =
+    markdownData instanceof SolutionInfo
+      ? problemSolution ?? problemSolutionFromTree
+      : null;
+
+  if (markdownData instanceof SolutionInfo && !solutionLayoutContext) {
+    throw new Error(
+      'MarkdownLayout: solution pages need `problemSolution={...}` or an ancestor ProblemSolutionProvider'
+    );
+  }
+
   let activeIDs: string[] = [];
   if (markdownData instanceof ModuleInfo) {
     activeIDs.push(markdownData.id);
   } else {
-    activeIDs = problemSolutionContext!.modulesThatHaveProblem.map(x => x.id);
+    activeIDs = solutionLayoutContext!.modulesThatHaveProblem.map(x => x.id);
   }
 
-  return (
+  const layoutTree = (
     <MarkdownLayoutContext.Provider
       value={{
         markdownLayoutInfo: markdownData,
@@ -173,4 +189,14 @@ export default function MarkdownLayout({
       </ProblemSuggestionModalProvider>
     </MarkdownLayoutContext.Provider>
   );
+
+  if (markdownData instanceof SolutionInfo && problemSolution) {
+    return (
+      <ProblemSolutionContext.Provider value={problemSolution}>
+        {layoutTree}
+      </ProblemSolutionContext.Provider>
+    );
+  }
+
+  return layoutTree;
 }

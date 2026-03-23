@@ -1,77 +1,174 @@
 ---
 id: systems-equations
 title: Systems of Equations
-author: USAMO Guide Team
+author: Siddhant Arora
 description: Substitution, elimination, and symmetric tactics.
-prerequisites: []
+prerequisites: [algebra-basics]
 ---
 
 ## Overview
 
-Systems problems often hide symmetry. Look for sums and products that let you
-replace two variables with easier ones.
+Systems of equations are extremely powerful and prevalent in competitions such as the AMC and AIME and involve several equations involving many variables. In this module, we will cover the most useful techniques in setting up systems of equations and solving them. We can often use various techniques to simplify equations and solve as desired.
 
 ## Key Ideas
 
-- Substitution works well when one equation isolates a variable.
+### Isolation
+
+In most cases, it suffices to isolate variables and plug those derived equations into the other given equations. Repeat until there exists an equation with solely one variable.
+
+For instance, consider the system:
+
+$$
+\begin{aligned}
+2x + y - z &= 8 \\
+-3x - y + 2z &= -11 \\
+-2x + y + 2z &= -3
+\end{aligned}
+$$
+
+A good first step is to look for a variable that can be eliminated easily. Notice that $y$ appears with coefficients $1, -1, 1$ across the three equations — adding equations $1$ and $2$ cancels it immediately:
+
+$$
+-x + z = -3 \quad \cdots (4)
+$$
+
+Subtracting equation $3$ from equation $1$ also eliminates $y$:
+
+$$
+4x - 3z = 11 \quad \cdots (5)
+$$
+
+We now have a clean two-variable system. From $(4)$, isolate $z = x - 3$ and substitute into $(5)$:
+
+$$
+4x - 3(x - 3) = 11 \implies x + 9 = 11 \implies x = 2
+$$
+
+Back-substituting gives $z = -1$, and substituting both into equation $1$:
+
+$$
+4 + y + 1 = 8 \implies y = 3
+$$
+
+The solution is $x = 2$, $y = 3$, $z = -1$. As always, verify by substituting into all three original equations to catch any arithmetic errors along the way.
+
+- Substitution works well when one equation isolates a variable cleanly.
+- Elimination cancels a variable by scaling and subtracting.
+
+### Smart Substitutions
+
+In some equations, it is beneficial to make substitutions involving various variables or terms to further simplify the system.
+
+Consider:
+
+$$
+\begin{aligned}
+x^2y + xy^2 &= 30 \\
+x^2 + y^2 &= 13 \\
+xy(x^2 + y^2) &= 60
+\end{aligned}
+$$
+
+These equations look daunting, but notice that $xy$ and $x+y$ appear repeatedly in disguise. Let $s = x + y$ and $p = xy$. Recall the identities:
+
+$$
+x^2 + y^2 = s^2 - 2p, \qquad x^2y + xy^2 = sp
+$$
+
+Substituting into equation $1$:
+
+$$
+sp = 30
+$$
+
+Substituting into equation $2$:
+
+$$
+s^2 - 2p = 13
+$$
+
+Equation $3$ becomes $p \cdot 13 = 60$, which is consistent with $sp = 30$ and gives us a check. Now we have a clean two-variable system in $s$ and $p$:
+
+$$
+\begin{aligned}
+sp &= 30 \\
+s^2 - 2p &= 13
+\end{aligned}
+$$
+
+From the first equation, $p = \frac{30}{s}$. Substituting into the second:
+
+$$
+s^2 - \frac{60}{s} = 13
+$$
+
+Multiplying through by $s$ and rearranging:
+
+$$
+s^3 - 13s - 60 = 0
+$$
+
+Testing $s = 5$: $125 - 65 - 60 = 0$ ✓. So $s = 5$, giving $p = 6$.
+
+We now know $x + y = 5$ and $xy = 6$, meaning $x$ and $y$ are roots of:
+
+$$
+t^2 - 5t + 6 = 0 \implies (t-2)(t-3) = 0
+$$
+
+So $(x, y) = (2, 3)$ or $(3, 2)$.
+
+The key insight is recognising which combinations of variables recur across equations those will be your substitution targets.
+
+- Substitution works well when one equation isolates a variable cleanly.
 - Elimination cancels a variable by scaling and subtracting.
 - Symmetric systems often reduce with $s=x+y$ and $p=xy$.
 
-## Core Skills
+## Practice Problem
 
-### Choose a Method
+### Smart Substitutions
 
-If one variable is easy to isolate, substitute. If coefficients align, use
-elimination. If the system is symmetric, use $s$ and $p$.
+Consider the following system from AIME I 2000 #7:
 
-### Track Extraneous Solutions
+$$
+\begin{aligned}
+xyz &= 1 \\
+x + \frac{1}{z} &= 5 \\
+y + \frac{1}{x} &= 29 \\
+z + \frac{1}{y} &= \, ?
+\end{aligned}
+$$
 
-Squaring or multiplying equations can introduce extra solutions; check every
-candidate in the original system.
+Since $xyz = 1$, we have $\frac{1}{z} = xy$, $\frac{1}{x} = yz$, $\frac{1}{y} = xz$. This lets us rewrite the three equations as:
 
-### Use Vieta When Quadratic Appears
+$$
+x(1 + y) = 5, \quad y(1 + z) = 29, \quad z(1 + x) = \, ?
+$$
 
-If $x$ and $y$ satisfy $t^2-st+p=0$, then the solutions are the roots $t$.
+The key motivation: these factored forms chain together naturally. From the first equation, $x = \frac{5}{1+y}$. Substituting into $xyz = 1$:
 
-## Worked Example
+$$
+\frac{5}{1+y} \cdot y \cdot z = 1 \implies z = \frac{1+y}{5y}
+$$
 
-Solve $x+y=5$ and $xy=6$.
+Substituting into $y(1+z) = 29$:
 
-Let $t$ be a root of $t^2 - 5t + 6 = 0$ by Vieta. Then
-$(t-2)(t-3)=0$, so $t=2$ or $t=3$. Thus $(x,y)=(2,3)$ or $(3,2)$.
+$$
+y\left(1 + \frac{1+y}{5y}\right) = 29 \implies y + \frac{1+y}{5} = 29 \implies 6y + 1 = 145 \implies y = 24
+$$
 
-## More Examples
+Back-substituting gives $x = \frac{5}{25} = \frac{1}{5}$ and $z = \frac{25}{120} = \frac{5}{24}$. Therefore:
 
-### Example 1: Elimination
+$$
+z + \frac{1}{y} = \frac{5}{24} + \frac{1}{24} = \frac{6}{24} = \boxed{\frac{1}{4}}
+$$
 
-Solve $2x+3y=13$ and $4x-3y=5$.
+### Tips
+- Always take a moment to observe the system and see if there is anything clever we can do.
 
-Add: $6x=18$, so $x=3$, then $y=7/3$.
+- If one variable is easy to isolate, substitute. If coefficients align, use elimination. If the system is symmetric, use $s$ and $p$.
+- If the problem does not give you equations, make your own variables and derive equations from the given information.
 
-### Example 2: Symmetric System
-
-Solve $x+y=4$ and $x^2+y^2=10$.
-
-$x^2+y^2=(x+y)^2-2xy$ gives $10=16-2xy$, so $xy=3$.
-Then $t^2-4t+3=0$, so $t=1$ or $3$.
-
-### Example 3: Check Extraneous
-
-Solve $x+y=3$ and $xy=4$.
-
-$t^2-3t+4=0$ has no real roots, so no real solutions.
-
-## Strategy Checklist
-
-- Pick substitution, elimination, or symmetry first.
-- Convert symmetric systems to $s$ and $p$.
-- Check all solutions in the original equations.
-
-## Common Pitfalls
-
-- Dropping solutions when squaring or substituting.
-- Forgetting to check against the original equations.
-- Mixing up which equation to substitute.
 
 ## Practice Problems
 

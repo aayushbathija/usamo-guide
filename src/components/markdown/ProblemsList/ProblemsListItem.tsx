@@ -1,5 +1,10 @@
+import { Link } from 'gatsby';
 import React from 'react';
-import { ProblemInfo, probSources } from '../../../models/problem';
+import {
+  getProblemURL,
+  ProblemInfo,
+  probSources,
+} from '../../../models/problem';
 import DifficultyBox from '../../DifficultyBox';
 import TextTooltip from '../../Tooltip/TextTooltip';
 import Tooltip from '../../Tooltip/Tooltip';
@@ -72,19 +77,17 @@ export default function ProblemsListItem(
             </svg>
           </Tooltip>
         )}
-        <a
-          href={problem.url}
+        <Link
+          to={getProblemURL(problem)}
           className={
             (isDivisionTable == false && problem.isStarred
               ? 'pl-1 sm:pl-2'
               : 'sm:pl-6') + ' problem-list-item-anchor truncate'
           }
           style={{ maxWidth: '20rem' }}
-          target="_blank"
-          rel="nofollow noopener noreferrer"
         >
           {problem.name}
-        </a>
+        </Link>
       </div>
     </ListTableCell>
   );

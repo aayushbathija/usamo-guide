@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { getProblemURL, ProblemInfo } from '../../../models/problem';
+import { ProblemInfo } from '../../../models/problem';
 import TextTooltip from '../../Tooltip/TextTooltip';
 import Tooltip from '../../Tooltip/Tooltip';
 

@@ -1,4 +1,53 @@
 {
   "MODULE_ID": "altitudes-orthocenter",
-  "practice": []
+  "practice": [
+  {
+    "uniqueId": "2014-amc10a-9",
+    "name": "Problem 9 (2014 AMC 10A)",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_10A_Problems/Problem_9",
+    "source": "AMC 10A",
+    "difficulty": "",
+    "isStarred": false,
+    "tags": [],
+    "solutionMetadata": {
+      "kind": "none"
+    }
+  },
+  {
+    "uniqueId": "2025-amc8-24",
+    "name": "Problem 24 (2025 AMC 8)",
+    "url": "https://artofproblemsolving.com/wiki/index.php?title=2025_AMC_8_Problems/Problem_24",
+    "source": "AMC 8",
+    "difficulty": "",
+    "isStarred": false,
+    "tags": [],
+    "solutionMetadata": {
+      "kind": "none"
+    }
+  },
+  {
+    "uniqueId": "2013-amc10a-15",
+    "name": "Problem 15 (2013 AMC 10A)",
+    "url": "https://artofproblemsolving.com/wiki/index.php?title=2013_AMC_10A_Problems/Problem_15",
+    "source": "AMC 10A",
+    "difficulty": "",
+    "isStarred": false,
+    "tags": [],
+    "solutionMetadata": {
+      "kind": "none"
+    }
+  },
+  {
+    "uniqueId": "2025-amc12a-11",
+    "name": "Problem 11 (2025 AMC 12A)",
+    "url": "https://artofproblemsolving.com/wiki/index.php?title=2025_AMC_12A_Problems/Problem_11",
+    "source": "AMC 12A",
+    "difficulty": "",
+    "isStarred": false,
+    "tags": [],
+    "solutionMetadata": {
+      "kind": "none"
+    }
+  }
+]
 }

@@ -12,6 +12,7 @@
         "Geometry",
         "Inversion"
       ],
+      "statement": "This is a 2017 USAMO problem focusing on geometry and inversion transformations. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2017_USAMO_Problems/Problem_5).",
       "solutionMetadata": {
         "kind": "none"
       }
@@ -26,6 +27,7 @@
       "tags": [
         "Geometry"
       ],
+      "statement": "This is a 2014 USAMO problem focusing on geometry. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2014_USAMO_Problems/Problem_1).",
       "solutionMetadata": {
         "kind": "none"
       }

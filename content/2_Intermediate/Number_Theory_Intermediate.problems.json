@@ -11,6 +11,7 @@
       "tags": [
         "Modular Arithmetic"
       ],
+      "statement": "This is a 2016 AMC 12A problem focusing on modular arithmetic. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2016_AMC_12A_Problems/Problem_12).",
       "solutionMetadata": {
         "kind": "none"
       }
@@ -25,6 +26,7 @@
       "tags": [
         "Diophantine"
       ],
+      "statement": "This is a 2019 AIME I problem focusing on Diophantine equations. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2019_AIME_I_Problems/Problem_4).",
       "solutionMetadata": {
         "kind": "none"
       }

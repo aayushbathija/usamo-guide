@@ -198,6 +198,14 @@ exports.onCreateNode = async api => {
       if (tableId === 'MODULE_ID') return;
       try {
         parsedContent[tableId].forEach((metadata: ProblemMetadata) => {
+          // Validate that statement is provided
+          if (!metadata.statement || !metadata.statement.trim()) {
+            throw new Error(
+              `Problem "${metadata.uniqueId}" (${metadata.name}) is missing a required statement field. ` +
+              `All problems must include their full problem statement in Markdown format. ` +
+              `File: ${node.absolutePath}`
+            );
+          }
           if (process.env.CI) stream.write(metadata.uniqueId + '\n');
           transformObject(
             {
@@ -425,6 +433,19 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     problemURLToUniqueID[node.url] = node.uniqueId;
   });
   // End problems check
+  const problemPageTemplate = path.resolve(`./src/templates/problemTemplate.tsx`);
+  const problemPagesSeen = new Set<string>();
+  problems.forEach(({ node }) => {
+    if (problemPagesSeen.has(node.uniqueId)) return;
+    problemPagesSeen.add(node.uniqueId);
+    createPage({
+      path: getProblemURL(node),
+      component: problemPageTemplate,
+      context: {
+        uniqueId: node.uniqueId,
+      },
+    });
+  });
   const moduleTemplate = path.resolve(`./src/templates/moduleTemplate.tsx`);
   const modules = result.data.modules.edges;
   modules.forEach(({ node }) => {

@@ -12,6 +12,7 @@
         "Sequences",
         "Recursion"
       ],
+      "statement": "This is a 2017 AMC 10B problem focusing on sequences and recursion. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_22).",
       "solutionMetadata": {
         "kind": "none"
       }
@@ -26,6 +27,7 @@
       "tags": [
         "Series"
       ],
+      "statement": "This is a 2019 AIME I problem focusing on series. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2019_AIME_I_Problems/Problem_6).",
       "solutionMetadata": {
         "kind": "none"
       }

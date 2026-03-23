@@ -2,8 +2,7 @@
   "MODULE_ID": "word-problems",
   "practice": [
     {
-      "uniqueId": "amc8-2019-13",
-      "name": "Problem 13 (2019 AMC 8)",
+      "uniqueId": "amc8-2019-13",  "name": "Problem 13 (2019 AMC 8)",
       "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_13",
       "source": "AMC 8",
       "difficulty": "Easy",
@@ -12,6 +11,7 @@
         "Rates",
         "Units"
       ],
+      "statement": "This is a 2019 AMC 8 problem focusing on rates and unit conversion. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_13).",
       "solutionMetadata": {
         "kind": "none"
       }
@@ -27,6 +27,7 @@
         "Mixtures",
         "Ratios"
       ],
+      "statement": "This is a 2016 AMC 10B problem focusing on mixture problems and ratios. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_7).",
       "solutionMetadata": {
         "kind": "none"
       }

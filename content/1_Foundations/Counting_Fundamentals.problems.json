@@ -12,6 +12,7 @@
         "Combinatorics",
         "Counting"
       ],
+      "statement": "This is a 2015 AMC 8 problem focusing on combinatorics and counting. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2015_AMC_8_Problems/Problem_20).",
       "solutionMetadata": {
         "kind": "none"
       }
@@ -27,6 +28,7 @@
         "Casework",
         "Combinations"
       ],
+      "statement": "This is a 2018 AMC 10B problem focusing on casework and combinations. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_10).",
       "solutionMetadata": {
         "kind": "none"
       }

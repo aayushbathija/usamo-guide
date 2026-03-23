@@ -1,0 +1,156 @@
+---
+id: stars-and-bars
+title: Stars and Bars
+author: USAMO Guide Team
+description: Distributing identical objects into distinct "boxes", positive integer solutions, and distributions that are constraint
+prerequisites: [counting-fundamentals, pascals-triangle-binomial-theorem]
+---
+
+## Overview
+
+Stars and bars is a technique to count the number of
+ways to distribute identical objects into distinct boxes, hence where its name comes
+from. We represent objects as stars and dividers between boxes as bars.
+Counting arrangements of stars and bars can reduce a distribution problem into a binomial coefficient.
+
+## Key Ideas
+
+- The number of ways to place $n$ identical objects into $k$ distinct boxes
+  with non-negative integers is $\binom{n+k-1}{k-1}$.
+- For positive integer solutions (each bin gets at least 1), give each box 
+  one object first, then distribute the rest: $\binom{n-1}{k-1}$.
+- Stars and bars only applies when objects are identical and boxes are
+  distinct. If objects are distinct, the rule of product can be used. 
+- Upper-bound constraints (in other words, "each bin gets at most $m$") require
+  inclusion-exclusion with stars and bars.
+- Equations of the form $x_1 + x_2 + \cdots + x_k = n$ with non-negative
+  integer solutions are equivalent to distributing $n$ identical objects into
+  $k$ boxes.
+
+## Core Skills
+
+### Stars and Bars  
+
+The scenario we use when we think about stars and bars is when $n$ stars in a row with $k-1$ bars placed among them to create $k$
+groups. Each arrangement corresponds to exactly one way to split $n$ objects
+into $k$ boxes. Hence. there are $n + k - 1$ total symbols (stars and bars), and we
+choose which $k-1$ of those positions are bars:
+
+$$\binom{n+k-1}{k-1} = \binom{n+k-1}{n}.$$
+
+Both forms are equal by symmetry as said in Bionomial Theorem & Pascal's Triangle 1.  
+
+### Finding Postitive Integer Solutions
+
+The number of solutions to $x_1 + x_2 + \cdots + x_k = n$ with each $x_i \geq 0$
+is $\binom{n+k-1}{k-1}$.
+
+Think of each $x_i$ as the number of stars in bin $i$. Arranging $n$ stars and
+$k-1$ bars gives us the same way as this. There is also the notation of H that some people use instead of P (Permutations) and C (Combinatorics). 
+
+### Lower Bounds Other than 0 or 1
+
+In some problems, there may be a condition in which where the Stars and Bars method may be used. $x_i \geq a_i$, substitute $y_i = x_i - a_i \geq 0$. The equation becomes
+
+$$y_1 + y_2 + \cdots + y_k = n - (a_1 + a_2 + \cdots + a_k),$$
+
+and the non-negative formula applies to the $y_i$.
+
+### Upper Bound Constraints
+
+If each $x_i \leq m$, use inclusion and exclusion. First, count all solutions, and then
+subtract those where at least one variable exceeds $m$.
+
+Let $A_i$ = solutions where $x_i \geq m+1$. We substitute $y_i = x_i - (m+1)$
+to count $|A_i|$, then apply the two or three-set PIE formula. For more information about PIE, read Inclusion Exclusion 1. 
+
+## Worked Example
+
+In how many ways can 8 identical books be distributed among 3 children if
+each child may receive zero or more books?
+
+This is the number of positive integer solutions to $x_1 + x_2 + x_3 = 8$.
+
+$$\binom{8 + 3 - 1}{3 - 1} = \binom{10}{2} = 45.$$
+
+If instead each child must receive at least one book, 
+
+$$\binom{8-1}{3-1} = \binom{7}{2} = 21.$$
+ 
+## More Examples
+
+### Example 1: Counting Solutions to an Equation
+
+How many non-negative integer solutions does $x + y + z + w = 10$ have?
+
+Four variables, sum 10: $\binom{10 + 4 - 1}{4 - 1} = \binom{13}{3} = 286$.
+
+### Example 2: Positive Solutions
+
+How many ways can you write 12 as an ordered sum of 4 positive integers?
+
+Positive solutions to $x_1 + x_2 + x_3 + x_4 = 12$:
+
+$$\binom{12-1}{4-1} = \binom{11}{3} = 165.$$
+
+### Example 3: Lower Bound Shift
+
+How many non-negative integer solutions does $x + y + z = 15$ have with
+$x \geq 2$, $y \geq 3$, $z \geq 0$?
+
+Substitute $a = x - 2 \geq 0$ and $b = y - 3 \geq 0$:
+
+$$a + b + z = 15 - 2 - 3 = 10.$$
+
+Thus, we obtain $$\binom{10 + 3 - 1}{3 - 1} = \binom{12}{2} = 66.$$
+
+### Example 4: Utilizing Inclusion-Exclusion (PIE) 
+
+How many ways can 10 identical balls be placed into 3 boxes with each box
+holding at most 4 balls?
+
+Total without restriction: $\binom{12}{2} = 66$.
+
+Let $A_i$ = solutions where box $i$ has $\geq 5$ balls. Substitute $y_i = x_i - 5$:
+the remaining sum is $10 - 5 = 5$, giving $\binom{5+2}{2} = 21$ solutions for each $|A_i|$.
+
+We consider if two boxes simultaneously hold $\geq 5$. This would require $\geq 10$ balls
+in those two boxes alone, leaving $\leq 0$ for the third, meaning 0 or
+all remaining go elsewhere. Specifically, $5+5=10$ forces the third box to have
+0: $|A_i \cap A_j| = 1$ for each pair.
+
+No triple overlap (would need $\geq 15$ balls).
+
+$$|A_1 \cup A_2 \cup A_3| = 3(21) - 3(1) + 0 = 60.$$
+
+Solutions with each box $\leq 4$: $66 - 60 = \boxed{6}$.
+
+ 
+ 
+
+## Strategy Checklist
+
+- Identical vs. Distinct Objects
+
+| Objects | Bins | Formula |
+|---|---|---|
+| Identical | Distinct | Stars and bars: $\binom{n+k-1}{k-1}$ |
+| Distinct | Distinct | Rule of product: $k^n$ (with repetition) |
+| Identical | Identical | Integer partitions (harder, no closed form) |
+
+In summary, always check whether the objects are truly identical before applying stars and bars.
+ - If there are multiple types of identical objects, apply stars and bars once per type, and then multiply.
+
+## Common Pitfalls
+
+- Applying stars and bars to distinct objects. If the they are different,
+  use $k^n$ or permutations, not stars and bars.
+- Confusing $\binom{n+k-1}{k-1}$ with $\binom{n+k}{k}$ or $\binom{n+k-1}{k}$.
+  This could come from memorizing the formula by its derivation: $n$ stars and $k-1$ bars among
+  $n+k-1$ total symbols.
+- Forgetting to subtract when doing the positive-solution shift , and thus giving one
+  object to each of $k$ bins first. 
+- Treating unlabeled boxes or "spaces" as labeled.  
+## Practice Problems
+
+<Problems problems="practice" />

@@ -12,6 +12,7 @@
         "Orders",
         "Modular Arithmetic"
       ],
+      "statement": "This is a 2014 AIME I problem focusing on orders and modular arithmetic. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2014_AIME_I_Problems/Problem_12).",
       "solutionMetadata": {
         "kind": "none"
       }
@@ -27,6 +28,7 @@
         "Diophantine",
         "LTE"
       ],
+      "statement": "This is a 2016 AIME II problem focusing on Diophantine equations and Lifting the Exponent Lemma. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2016_AIME_II_Problems/Problem_10).",
       "solutionMetadata": {
         "kind": "none"
       }

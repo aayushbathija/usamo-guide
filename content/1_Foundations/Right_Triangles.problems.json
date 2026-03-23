@@ -1,4 +1,53 @@
 {
   "MODULE_ID": "right-triangles",
-  "practice": []
+  "practice": [
+    {
+      "uniqueId": "test-pythagorean",
+      "name": "TEST: Pythagorean Theorem",
+      "url": "https://usamo.guide/test/pythagorean",
+      "source": "Custom",
+      "difficulty": "Very Easy",
+      "isStarred": true,
+      "tags": ["Testing", "Inline Solution", "Pythagorean Theorem"],
+      "statement": "A right triangle has legs of length 3 and 4. What is the length of the hypotenuse?\n\n**Note:** Enter your answer as a decimal or whole number.",
+      "interaction": {
+        "type": "integer",
+        "correct": "5"
+      },
+      "solutionReveal": {
+        "mode": "inline",
+        "markdown": "## Solution\n\nBy the **Pythagorean Theorem**, if a right triangle has legs $a$ and $b$ and hypotenuse $c$, then:\n$$a^2 + b^2 = c^2$$\n\nIn this problem, $a = 3$ and $b = 4$, so:\n$$3^2 + 4^2 = c^2$$\n$$9 + 16 = c^2$$\n$$25 = c^2$$\n$$c = 5$$\n\nTherefore, the hypotenuse has length **5**.\n\n*Note: This is a 3-4-5 Pythagorean triple, one of the most common right triangle side ratios.*"
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "test-special-45-45-90",
+      "name": "TEST: 45-45-90 Triangle",
+      "url": "https://usamo.guide/test/special-triangle",
+      "source": "Custom",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": ["Testing", "Inline Solution", "Special Right Triangles"],
+      "statement": "In a 45-45-90 triangle, if each leg has length 5, what is the length of the hypotenuse?\n\n**Hint:** Think about the side ratios in a 45-45-90 triangle.",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$5$",
+          "$5\\sqrt{2}$",
+          "$10$",
+          "$5\\sqrt{3}$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionReveal": {
+        "mode": "inline",
+        "markdown": "## Solution\n\nIn a **45-45-90 triangle** (isosceles right triangle), the sides are always in the ratio:\n$$1 : 1 : \\sqrt{2}$$\n\nwhere the legs have length 1 and the hypotenuse has length $\\sqrt{2}$.\n\nSince each leg in our problem has length 5, we scale the ratio by 5:\n$$5 : 5 : 5\\sqrt{2}$$\n\nTherefore, the hypotenuse has length $\\boxed{5\\sqrt{2}}$.\n\nWe can verify this using the Pythagorean theorem:\n$$c^2 = 5^2 + 5^2 = 25 + 25 = 50$$\n$$c = \\sqrt{50} = \\sqrt{25 \\cdot 2} = 5\\sqrt{2}$$"
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    }
+  ]
 }

@@ -56,6 +56,59 @@
             "type": "string"
           }
         },
+        "statement": {
+          "description": "Required Markdown + TeX ($...$, $$...$$) shown on the on-site problem page. All problems must include their full statement.",
+          "type": "string"
+        },
+        "author": {
+          "description": "Optional attribution line shown next to the contest source on the problem page.",
+          "type": "string"
+        },
+        "interaction": {
+          "description": "Optional answer UI on the problem page. Omit or use type \"none\" for proof problems or AoPS-only stubs.",
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": ["none", "integer", "mcq"]
+            },
+            "correct": {
+              "description": "For type \"integer\": canonical answer string (trimmed; numeric equality also accepted).",
+              "type": ["string", "number"]
+            },
+            "choices": {
+              "description": "For type \"mcq\": list of choice labels (Markdown allowed in strings).",
+              "type": "array",
+              "items": { "type": "string" },
+              "minItems": 2
+            },
+            "correctIndex": {
+              "description": "For type \"mcq\": zero-based index into `choices`.",
+              "type": "integer",
+              "minimum": 0
+            }
+          },
+          "required": ["type"]
+        },
+        "solutionReveal": {
+          "description": "How “Show me the solution” behaves on the problem page. Defaults to external link using the problem `url` (e.g. AoPS).",
+          "type": "object",
+          "properties": {
+            "mode": {
+              "type": "string",
+              "enum": ["external", "inline"]
+            },
+            "url": {
+              "description": "For mode \"external\": link target (defaults to problem `url`).",
+              "type": "string"
+            },
+            "markdown": {
+              "description": "For mode \"inline\": Markdown + TeX solution body revealed in-page.",
+              "type": "string"
+            }
+          },
+          "required": ["mode"]
+        },
         "solutionMetadata": {
           "description": "Metadata storing information about the internal solution.",
           "type": "object",
@@ -85,6 +138,7 @@
         "difficulty",
         "isStarred",
         "tags",
+        "statement",
         "solutionMetadata"
       ]
     }

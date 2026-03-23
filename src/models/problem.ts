@@ -39,6 +39,32 @@ export const probSources = {
   Custom: ['https://usamo.guide/', 'Custom Problem (USAMO Guide)'],
 };
 
+/** Raw `interaction` object in `.problems.json` */
+export type ProblemInteractionMetadata = {
+  type?: 'none' | 'integer' | 'mcq';
+  correct?: string | number;
+  choices?: string[];
+  /** Zero-based index into `choices` */
+  correctIndex?: number;
+};
+
+/** Raw `solutionReveal` object in `.problems.json` */
+export type ProblemSolutionRevealMetadata = {
+  mode?: 'external' | 'inline';
+  /** Defaults to the problem `url` when mode is external */
+  url?: string;
+  markdown?: string;
+};
+
+export type ProblemInteraction =
+  | { type: 'none' }
+  | { type: 'integer'; correct: string }
+  | { type: 'mcq'; choices: string[]; correctIndex: number };
+
+export type ProblemSolutionReveal =
+  | { mode: 'external'; url: string }
+  | { mode: 'inline'; markdown: string };
+
 export type ProblemInfo = {
   /**
    * Unique ID of the problem. See Content Documentation.md for more info
@@ -58,6 +84,13 @@ export type ProblemInfo = {
   isStarred: boolean;
   tags: string[];
   solution: ProblemSolutionInfo;
+  /** Markdown + TeX ($...$, $$...$$) statement required for all problems */
+  statement: string;
+  /** Optional attribution shown next to source */
+  author?: string;
+  interaction: ProblemInteraction;
+  /** Where the “show solution” action goes */
+  solutionReveal: ProblemSolutionReveal;
 };
 
 export type ProblemSolutionInfo =
@@ -105,9 +138,15 @@ export type AlgoliaProblemInfo = Omit<ProblemInfo, 'uniqueId'> & {
   }[];
 };
 
-export type ProblemMetadata = Omit<ProblemInfo, 'solution'> & {
-  solutionMetadata: ProblemSolutionMetadata;
-};
+export type ProblemMetadata = Omit<
+  ProblemInfo,
+  'solution' | 'interaction' | 'solutionReveal'
+> &
+  Partial<Pick<ProblemInfo, 'author'>> & {
+    solutionMetadata: ProblemSolutionMetadata;
+    interaction?: ProblemInteractionMetadata;
+    solutionReveal?: ProblemSolutionRevealMetadata;
+  };
 
 export type ProblemSolutionMetadata =
   | {
@@ -152,8 +191,65 @@ export function getProblemURL(
   }
 ): string {
   return `/problems/${slug(problem.source)}-${slug(
-    problem.name.replace(' - ', ' ')
+    (problem.name || '').replace(' - ', ' ')
   )}`;
+}
+
+function normalizeProblemInteraction(
+  raw: ProblemInteractionMetadata | undefined,
+  uniqueId: string
+): ProblemInteraction {
+  if (!raw || raw.type === 'none' || !raw.type) {
+    return { type: 'none' };
+  }
+  if (raw.type === 'integer') {
+    if (raw.correct === undefined || raw.correct === null) {
+      console.warn(
+        `Problem ${uniqueId}: integer interaction missing "correct"; using none`
+      );
+      return { type: 'none' };
+    }
+    return { type: 'integer', correct: String(raw.correct).trim() };
+  }
+  if (raw.type === 'mcq') {
+    const choices = raw.choices;
+    const idx = raw.correctIndex;
+    if (
+      !Array.isArray(choices) ||
+      choices.length < 2 ||
+      typeof idx !== 'number' ||
+      idx < 0 ||
+      idx >= choices.length
+    ) {
+      console.warn(
+        `Problem ${uniqueId}: invalid mcq interaction; using none`
+      );
+      return { type: 'none' };
+    }
+    return { type: 'mcq', choices, correctIndex: idx };
+  }
+  return { type: 'none' };
+}
+
+function normalizeSolutionReveal(
+  raw: ProblemSolutionRevealMetadata | undefined,
+  fallbackUrl: string,
+  uniqueId: string
+): ProblemSolutionReveal {
+  if (!raw || !raw.mode || raw.mode === 'external') {
+    return { mode: 'external', url: raw?.url ?? fallbackUrl };
+  }
+  if (raw.mode === 'inline') {
+    const md = raw.markdown?.trim();
+    if (!md) {
+      console.warn(
+        `Problem ${uniqueId}: inline solutionReveal missing markdown; using external`
+      );
+      return { mode: 'external', url: fallbackUrl };
+    }
+    return { mode: 'inline', markdown: raw.markdown! };
+  }
+  return { mode: 'external', url: fallbackUrl };
 }
 
 export const getProblemInfo = (
@@ -164,8 +260,7 @@ export const getProblemInfo = (
   if (!ordering) {
     ordering = defaultOrdering;
   }
-  // eslint-disable-next-line prefer-const
-  let { solutionMetadata, ...info } = metadata;
+  let { solutionMetadata, interaction: rawInteraction, solutionReveal: rawSolutionReveal, statement, author, ...info } = metadata;
 
   if (
     !info.source ||
@@ -243,6 +338,14 @@ export const getProblemInfo = (
 
   return {
     ...info,
+    statement,
+    author,
+    interaction: normalizeProblemInteraction(rawInteraction, info.uniqueId),
+    solutionReveal: normalizeSolutionReveal(
+      rawSolutionReveal,
+      info.url,
+      info.uniqueId
+    ),
     solution: sol,
   };
 };

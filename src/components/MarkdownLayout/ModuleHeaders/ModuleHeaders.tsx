@@ -1,4 +1,4 @@
-import { ExternalLinkIcon } from '@heroicons/react/solid';
+import { Link } from 'gatsby';
 import * as React from 'react';
 import { useContext } from 'react';
 import { SECTION_LABELS } from '../../../../content/ordering';
@@ -6,6 +6,7 @@ import { useMarkdownLayout } from '../../../context/MarkdownLayoutContext';
 import { useMarkdownProblems } from '../../../context/MarkdownProblemListsContext';
 import { ProblemSolutionContext } from '../../../context/ProblemSolutionContext';
 import { ModuleInfo, ModuleLinkInfo } from '../../../models/module';
+import { getProblemURL } from '../../../models/problem';
 import { useProblemsProgressInfo } from '../../../utils/getProgressInfo';
 import { ClientOnly } from '../../ClientOnly';
 import { DashboardProgressSmall } from '../../Dashboard/DashboardProgress';
@@ -182,15 +183,12 @@ export default function ModuleHeaders({
             {problem && (
               <div>
                 {moduleHeaderLinks?.length > 0 && <div className="h-4 sm:h-6" />}
-                <a
-                  href={problem.url}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="group my-0 inline-flex items-center space-x-1.5 text-sm font-medium text-gray-800 hover:text-gray-900 dark:text-gray-200 dark:hover:text-gray-100"
+                <Link
+                  to={getProblemURL(problem)}
+                  className="my-0 inline-flex items-center text-sm font-medium text-gray-800 hover:text-gray-900 dark:text-gray-200 dark:hover:text-gray-100"
                 >
-                  <span>View Problem Statement</span>
-                  <ExternalLinkIcon className="h-5 w-5 text-gray-400 group-hover:text-gray-600 dark:text-gray-400 dark:group-hover:text-gray-300" />
-                </a>
+                  View problem →
+                </Link>
               </div>
             )}
           </div>

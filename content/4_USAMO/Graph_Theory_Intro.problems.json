@@ -12,6 +12,7 @@
         "Graph Theory",
         "Invariants"
       ],
+      "statement": "This is a 2005 USAMO problem focusing on graph theory and invariants. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2005_USAMO_Problems/Problem_3).",
       "solutionMetadata": {
         "kind": "none"
       }
@@ -26,6 +27,7 @@
       "tags": [
         "Graph Theory"
       ],
+      "statement": "This is a 2015 USAMO problem focusing on graph theory. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2015_USAMO_Problems/Problem_5).",
       "solutionMetadata": {
         "kind": "none"
       }

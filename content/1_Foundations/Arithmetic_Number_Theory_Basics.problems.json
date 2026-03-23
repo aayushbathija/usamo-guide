@@ -12,6 +12,7 @@
         "Divisibility",
         "Remainders"
       ],
+      "statement": "This is a 2019 AMC 8 problem focusing on divisibility and remainders. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_6).",
       "solutionMetadata": {
         "kind": "none"
       }
@@ -27,6 +28,7 @@
         "GCD",
         "Prime Factorization"
       ],
+      "statement": "This is a 2018 AMC 10A problem focusing on GCD and prime factorization. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_4).",
       "solutionMetadata": {
         "kind": "none"
       }

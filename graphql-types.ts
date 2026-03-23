@@ -44,6 +44,19 @@ export const typeDefs = `
       problems: [ModuleProblemInfo]
     }
 
+    type ProblemInteraction {
+      type: String!
+      correct: String
+      choices: [String!]
+      correctIndex: Int
+    }
+
+    type ProblemSolutionReveal {
+      mode: String!
+      url: String
+      markdown: String
+    }
+
     type ProblemInfo implements Node {
       uniqueId: String!
       name: String!
@@ -54,6 +67,10 @@ export const typeDefs = `
       difficulty: String
       tags: [String!]!
       solution: ProblemSolutionInfo
+      statement: String
+      author: String
+      interaction: ProblemInteraction!
+      solutionReveal: ProblemSolutionReveal!
       inModule: Boolean!
       module: Xdm @link(by: "frontmatter.id")
     }
@@ -68,6 +85,10 @@ export const typeDefs = `
       difficulty: String
       tags: [String!]!
       solution: ProblemSolutionInfo
+      statement: String
+      author: String
+      interaction: ProblemInteraction!
+      solutionReveal: ProblemSolutionReveal!
     }
 
     type ProblemSolutionInfo {

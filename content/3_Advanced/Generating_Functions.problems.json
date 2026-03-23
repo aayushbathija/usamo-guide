@@ -11,6 +11,7 @@
       "tags": [
         "Generating Functions"
       ],
+      "statement": "This is a 2012 AIME I problem focusing on generating functions. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2012_AIME_I_Problems/Problem_13).",
       "solutionMetadata": {
         "kind": "none"
       }
@@ -25,6 +26,7 @@
       "tags": [
         "Counting"
       ],
+      "statement": "This is a 2011 AIME I problem focusing on counting. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2011_AIME_I_Problems/Problem_11).",
       "solutionMetadata": {
         "kind": "none"
       }

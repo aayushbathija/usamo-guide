@@ -44,6 +44,17 @@ const problemsQuery = `{
         url
         isStarred
         difficulty
+        interaction {
+          type
+          correct
+          choices
+          correctIndex
+        }
+        solutionReveal {
+          mode
+          url
+          markdown
+        }
         solution {
           kind
           label
@@ -154,6 +165,8 @@ const queries = [
             url: node.url,
             difficulty: node.difficulty,
             isStarred: node.isStarred,
+            interaction: node.interaction,
+            solutionReveal: node.solutionReveal,
             // this removes null fields from the problem info solution
             // graphql doesn't do this for us so we need to do it manually
             solution: node.solution

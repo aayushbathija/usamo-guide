@@ -1,4 +1,4 @@
-import { Link } from 'gatsby';
+import { Link, navigate } from 'gatsby';
 import { BaseHit, Hit } from 'instantsearch.js';
 import * as React from 'react';
 import { Highlight, useHits } from 'react-instantsearch';
@@ -42,14 +42,16 @@ function ProblemHit({ hit }: ProblemHitProps) {
             {hit.source}
           </span>
           <p className="mt-1 mb-2 text-xl leading-6">
-            <a
-              href={hit.url}
-              target="_blank"
-              rel="noreferrer"
+            <Link
+              to={getProblemURL({
+                source: hit.source,
+                name: hit.name,
+                uniqueId: hit.objectID,
+              })}
               className="hover:underline"
             >
               <Highlight hit={hit} attribute="name" />
-            </a>
+            </Link>
             {hit.isStarred && (
               <svg
                 className="ml-2 inline-block h-6 w-4 pb-1 text-blue-400"
@@ -172,19 +174,24 @@ export default function ProblemHits({ shuffle, random }) {
 
   React.useEffect(() => {
     if (random) {
-      const unsolvedURLs: string[] = [];
+      const unsolvedPaths: string[] = [];
       for (const h of hits) {
         const status: ProblemProgress =
-          userProgressOnProblems[String(h.uniqueId)] || 'Not Attempted';
+          userProgressOnProblems[String(h.objectID)] || 'Not Attempted';
         if (status === 'Not Attempted') {
-          unsolvedURLs.push(h.url);
+          unsolvedPaths.push(
+            getProblemURL({
+              source: h.source,
+              name: h.name,
+              uniqueId: h.objectID,
+            })
+          );
         }
       }
 
-      if (unsolvedURLs.length > 0) {
-        window.open(
-          unsolvedURLs[Math.floor(Math.random() * unsolvedURLs.length)],
-          '_blank'
+      if (unsolvedPaths.length > 0) {
+        navigate(
+          unsolvedPaths[Math.floor(Math.random() * unsolvedPaths.length)]
         );
       }
     }

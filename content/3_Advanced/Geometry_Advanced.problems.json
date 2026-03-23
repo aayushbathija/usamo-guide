@@ -12,6 +12,7 @@
         "Ceva",
         "Power of a Point"
       ],
+      "statement": "This is a 2015 AIME II problem focusing on Ceva's theorem and power of a point. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2015_AIME_II_Problems/Problem_10).",
       "solutionMetadata": {
         "kind": "none"
       }
@@ -26,6 +27,7 @@
       "tags": [
         "Homothety"
       ],
+      "statement": "This is a 2017 AIME II problem focusing on homothety transformations. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2017_AIME_II_Problems/Problem_15).",
       "solutionMetadata": {
         "kind": "none"
       }

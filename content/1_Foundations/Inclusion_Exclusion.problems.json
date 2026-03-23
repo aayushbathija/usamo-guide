@@ -9,6 +9,7 @@
             "difficulty": "Easy",
             "isStarred": true,
             "tags": ["Inclusion-Exclusion", "Venn Diagrams"],
+            "statement": "This is a 2010 AMC 8 problem focusing on inclusion-exclusion and Venn diagrams. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2010_AMC_8_Problems/Problem_20).",
             "solutionMetadata": {
                 "kind": "none"
             }
@@ -21,6 +22,7 @@
             "difficulty": "Easy",
             "isStarred": false,
             "tags": ["Inclusion-Exclusion", "Venn Diagrams" ],
+            "statement": "This is a 2019 AMC 8 problem focusing on inclusion-exclusion and Venn diagrams. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_8).",
             "solutionMetadata": {
                 "kind": "none"
             }

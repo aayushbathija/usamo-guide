@@ -12,6 +12,7 @@
         "Binomial Theorem",
         "Modular Arithmetic"
       ],
+      "statement": "This is a 1999 AMC 8 problem focusing on binomial theorem and modular arithmetic. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/1999_AMC_8_Problems/Problem_24).",
       "solutionMetadata": {
         "kind": "none"
       }
@@ -28,6 +29,7 @@
         "Modular Arithmetic",
         "Pascal's Triangle"
       ],
+      "statement": "This is a 2011 AMC 10B problem focusing on binomial theorem, modular arithmetic, and Pascal's triangle. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2011_AMC_10B_Problems/Problem_23).",
       "solutionMetadata": {
         "kind": "none"
       }
@@ -43,6 +45,7 @@
         "Binomial Theorem",
         "Coefficient Extraction"
       ],
+      "statement": "This is a 2021 Fall AMC 12A problem focusing on binomial theorem and coefficient extraction. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_12A_Problems/Problem_12).",
       "solutionMetadata": {
         "kind": "none"
       }

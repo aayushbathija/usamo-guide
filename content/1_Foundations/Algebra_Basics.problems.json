@@ -12,6 +12,7 @@
         "Linear Equations",
         "Simplification"
       ],
+      "statement": "This is a 2017 AMC 8 problem focusing on linear equations and simplification. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_12).",
       "solutionMetadata": {
         "kind": "none"
       }
@@ -27,6 +28,7 @@
         "Factoring",
         "Substitution"
       ],
+      "statement": "This is a 2019 AMC 10B problem focusing on factoring and substitution techniques. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_8).",
       "solutionMetadata": {
         "kind": "none"
       }
@@ -39,6 +41,7 @@
       "difficulty": "Easy",
       "isStarred": false,
       "tags": ["Brute Force"],
+      "statement": "This is a 2025 AMC 8 problem focusing on brute force enumeration techniques. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2025_AMC_8_Problems/Problem_9?srsltid=AfmBOopSxVAkbJ8NIlLV_fbFrW8gdHqpByFpVEEca2Q5rH6sGggVPI9Z).",
       "solutionMetadata": {
         "kind": "none"
       }
@@ -51,6 +54,75 @@
       "difficulty": "Easy",
       "isStarred": false,
       "tags": ["Brute Force"],
+      "statement": "This is a 2023 AMC 8 problem focusing on brute force enumeration techniques. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_5?srsltid=AfmBOopoqq00IDsH9Mr80t2W16Iy_DJ2Vn6t4rKAAF0pRFRHdbQyRVey).",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "test-inline-integer",
+      "name": "TEST: Solve for x (Integer Answer)",
+      "url": "https://usamo.guide/test/algebra-solve-x",
+      "source": "Custom",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": ["Testing", "Inline Solution"],
+      "statement": "If $2x + 5 = 13$, what is the value of $x$?\n\n**Note:** This is a test problem to verify inline solution display.",
+      "interaction": {
+        "type": "integer",
+        "correct": "4"
+      },
+      "solutionReveal": {
+        "mode": "inline",
+        "markdown": "## Solution\n\nWe need to solve the equation $2x + 5 = 13$.\n\nSubtract 5 from both sides:\n$$2x = 13 - 5 = 8$$\n\nDivide both sides by 2:\n$$x = \\frac{8}{2} = 4$$\n\nTherefore, $x = 4$."
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "test-inline-mcq-correct",
+      "name": "TEST: Binomial Expansion",
+      "url": "https://usamo.guide/test/algebra-binomial",
+      "source": "Custom",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": ["Testing", "Inline Solution"],
+      "statement": "Which of the following is equivalent to $(x+2)(x-3)$?\n\n**Note:** This is a test problem to verify inline MCQ solution display.",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$x^2 - 5x - 6$",
+          "$x^2 - x - 6$",
+          "$x^2 - x + 6$",
+          "$x^2 + x - 6$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionReveal": {
+        "mode": "inline",
+        "markdown": "## Solution\n\nWe expand $(x+2)(x-3)$ using the FOIL method (First, Outer, Inner, Last):\n\n- **First:** $x \\cdot x = x^2$\n- **Outer:** $x \\cdot (-3) = -3x$\n- **Inner:** $2 \\cdot x = 2x$\n- **Last:** $2 \\cdot (-3) = -6$\n\nCombining all terms:\n$$x^2 + (-3x) + 2x + (-6) = x^2 - 3x + 2x - 6$$\n\nCombining like terms ($-3x + 2x = -x$):\n$$x^2 - x - 6$$\n\nTherefore, the answer is $\\boxed{x^2 - x - 6}$."
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "test-inline-proof",
+      "name": "TEST: Proof Problem (No Answer UI)",
+      "url": "https://usamo.guide/test/algebra-amgm",
+      "source": "Custom",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": ["Testing", "Inline Solution"],
+      "statement": "Prove that for any real numbers $a$ and $b$, we have $a^2 + b^2 \\geq 2ab$.\n\n**Note:** This is a test problem with no answer interface to verify inline solution display for proof problems.",
+      "interaction": {
+        "type": "none"
+      },
+      "solutionReveal": {
+        "mode": "inline",
+        "markdown": "## Solution\n\nWe want to prove that $a^2 + b^2 \\geq 2ab$ for any real numbers $a$ and $b$.\n\n**Proof:**\n\nConsider the expression $(a - b)^2$. Since any real number squared is non-negative, we have:\n$$(a-b)^2 \\geq 0$$\n\nExpanding the left side:\n$$a^2 - 2ab + b^2 \\geq 0$$\n\nRearranging:\n$$a^2 + b^2 \\geq 2ab$$\n\nwhich is exactly what we wanted to prove. ∎\n\n**Note:** This is equivalent to the **AM-GM inequality** for two numbers, which states that the arithmetic mean is at least the geometric mean."
+      },
       "solutionMetadata": {
         "kind": "none"
       }

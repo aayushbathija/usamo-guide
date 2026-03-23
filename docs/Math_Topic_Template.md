@@ -66,6 +66,16 @@ prerequisites: ["optional-prereq-id"]
 }
 ```
 
+Each problem gets an on-site page at `/problems/{slug(source)}-{slug(name)}/` (same as `getProblemURL`). Required and optional fields:
+
+**Required:**
+- **`statement`**: Markdown + TeX for the full problem statement displayed on the on-site page. All problems must include their complete statement so they can be viewed directly on the USAMO Guide website.
+
+**Optional:**
+- **`author`**: Shown next to the source line.
+- **`interaction`**: `{ "type": "none" }` (default if omitted), `{ "type": "integer", "correct": "42" }`, or `{ "type": "mcq", "choices": ["A", "B"], "correctIndex": 0 }`.
+- **`solutionReveal`**: Omit for default external solution using `url`. For your own write-up: `{ "mode": "inline", "markdown": "## Solution\\nWe have..." }`. For a different external write-up: `{ "mode": "external", "url": "https://..." }`.
+
 ## Notes
 
 - The `id` in frontmatter must match `MODULE_ID` in the problems JSON.

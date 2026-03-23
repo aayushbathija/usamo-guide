@@ -12,6 +12,7 @@
         "Slope",
         "Distance"
       ],
+      "statement": "This is a 2018 AMC 10A problem focusing on slope and distance formulas. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_19).",
       "solutionMetadata": {
         "kind": "none"
       }
@@ -26,6 +27,7 @@
       "tags": [
         "Coordinate Geometry"
       ],
+      "statement": "This is a 2016 AIME I problem focusing on coordinate geometry. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2016_AIME_I_Problems/Problem_2).",
       "solutionMetadata": {
         "kind": "none"
       }
