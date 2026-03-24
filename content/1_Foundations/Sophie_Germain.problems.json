@@ -1,4 +1,56 @@
 {
   "MODULE_ID": "sophie-germain-identity",
-  "practice": []
+  "practice": [
+  {
+    "uniqueId": "aime-1987-14",
+    "name": "Problem 14 (1987 AIME)",
+    "url": "https://artofproblemsolving.com/wiki/index.php?title=1987_AIME_Problems/Problem_14",
+    "source": "AIME",
+    "difficulty": "Hard",
+    "isStarred": false,
+    "tags": [
+      "Algebra",
+      "Sophie Germain Identity",
+      "Sums of Powers"
+    ],
+    "statement": "Compute (1⁴ + 4⁴ + 7⁴ + ··· + 34⁴) / (2⁴ + 5⁴ + 8⁴ + ··· + 35⁴)",
+    "solutionMetadata": {
+      "kind": "none"
+    }
+  },
+  {
+    "uniqueId": "amc10b-2020-22",
+    "name": "Problem 22 (2020 AMC 10B)",
+    "url": "https://artofproblemsolving.com/wiki/index.php?title=2020_AMC_10B_Problems/Problem_22",
+    "source": "AMC 10B",
+    "difficulty": "Hard",
+    "isStarred": false,
+    "tags": [
+      "Algebra",
+      "Sophie Germain Identity",
+      "Factorization"
+    ],
+    "statement": "Problem statement available at the Art of Problem Solving wiki.",
+    "solutionMetadata": {
+      "kind": "none"
+    }
+  },
+  {
+    "uniqueId": "mock-aime-5-2005-2006-5",
+    "name": "Problem 5 (Mock AIME 5 2005-2006)",
+    "url": "https://artofproblemsolving.com/wiki/index.php?title=Mock_AIME_5_2005-2006_Problems/Problem_5",
+    "source": "Mock AIME",
+    "difficulty": "Medium",
+    "isStarred": false,
+    "tags": [
+      "Algebra",
+      "Sophie Germain Identity",
+      "Number Theory"
+    ],
+    "statement": "Find the largest prime divisor of 2¹⁸ + 1.",
+    "solutionMetadata": {
+      "kind": "none"
+    }
+  }
+]
 }
