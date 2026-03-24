@@ -1,4 +1,56 @@
 {
   "MODULE_ID": "triangle-angle-sum",
-  "practice": []
+  "practice": [
+  {
+    "uniqueId": "amc8-2000-13",
+    "name": "Problem 13 (2000 AMC 8)",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_13",
+    "source": "AMC 8",
+    "difficulty": "Easy",
+    "isStarred": false,
+    "tags": [
+      "Geometry",
+      "Triangle Angle Sum",
+      "Angle Bisector"
+    ],
+    "statement": "In triangle ABC, we have angle ABC = 50° and angle BCA = 60°. If BD bisects angle ABC, then what is the measure of angle ABD?",
+    "solutionMetadata": {
+      "kind": "none"
+    }
+  },
+  {
+    "uniqueId": "amc8-1999-21",
+    "name": "Problem 21 (1999 AMC 8)",
+    "url": "https://artofproblemsolving.com/wiki/index.php?title=1999_AMC_8_Problems/Problem_21",
+    "source": "AMC 8",
+    "difficulty": "Hard",
+    "isStarred": false,
+    "tags": [
+      "Geometry",
+      "Triangle Angle Sum",
+      "Angle Chasing"
+    ],
+    "statement": "Problem involves angle-finding using triangle and angle-chasing techniques with diagram.",
+    "solutionMetadata": {
+      "kind": "none"
+    }
+  },
+  {
+    "uniqueId": "amc8-2014-9",
+    "name": "Problem 9 (2014 AMC 8)",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_9",
+    "source": "AMC 8",
+    "difficulty": "Medium",
+    "isStarred": false,
+    "tags": [
+      "Geometry",
+      "Triangle Angle Sum",
+      "Isosceles Triangle"
+    ],
+    "statement": "In triangle ABC, AB = AC and D is a point on AC such that BD = BC. What is the degree measure of angle BAC?",
+    "solutionMetadata": {
+      "kind": "none"
+    }
+  }
+]
 }
