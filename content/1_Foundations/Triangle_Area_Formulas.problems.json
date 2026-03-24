@@ -1,4 +1,57 @@
 {
   "MODULE_ID": "triangle-area-formulas",
-  "practice": []
+  "practice": [
+  {
+    "uniqueId": "aime-1985-6",
+    "name": "Problem 6 (1985 AIME)",
+    "url": "https://artofproblemsolving.com/wiki/index.php/1985_AIME_Problems/Problem_6",
+    "source": "AIME",
+    "difficulty": "Medium",
+    "isStarred": false,
+    "tags": [
+      "Geometry",
+      "Triangle",
+      "Area"
+    ],
+    "statement": "Triangle ABC is divided into six smaller triangles by lines drawn from the vertices through a common interior point. The areas of four of these triangles are as indicated. Find the area of triangle ABC.",
+    "solutionMetadata": {
+      "kind": "none"
+    }
+  },
+  {
+    "uniqueId": "ahsme-1962-39",
+    "name": "Problem 39 (1962 AHSME)",
+    "url": "https://artofproblemsolving.com/wiki/index.php?title=1962_AHSME_Problems/Problem_39",
+    "source": "AHSME",
+    "difficulty": "Hard",
+    "isStarred": false,
+    "tags": [
+      "Geometry",
+      "Triangle",
+      "Medians"
+    ],
+    "statement": "Two medians of a triangle with unequal sides are 3 inches and 4 inches. Its area is 6 square inches. Find the length of the third median in inches.",
+    "solutionMetadata": {
+      "kind": "none"
+    }
+  },
+  {
+    "uniqueId": "amc8-2008-23",
+    "name": "Problem 23 (2008 AMC 8)",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_23",
+    "source": "AMC 8",
+    "difficulty": "Hard",
+    "isStarred": false,
+    "tags": [
+      "Geometry",
+      "Area",
+      "Square",
+      "Triangle"
+    ],
+    "statement": "A square has a triangle inside it. Find the ratio of the area of the triangle to the area of the square.",
+    "solutionMetadata": {
+      "kind": "none"
+    }
+  }
+]
 }
