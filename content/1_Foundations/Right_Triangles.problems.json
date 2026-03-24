@@ -48,6 +48,59 @@
       "solutionMetadata": {
         "kind": "none"
       }
+    },
+  {
+    "uniqueId": "amc10b-2021-15",
+    "name": "Problem 15 (2021 Fall AMC 10B)",
+    "url": "https://artofproblemsolving.com/wiki/index.php?title=2021_AMC_10B_Problems/Problem_15",
+    "source": "AMC 10B",
+    "difficulty": "Hard",
+    "isStarred": false,
+    "tags": [
+      "Algebra",
+      "Right Triangles",
+      "Trigonometry"
+    ],
+    "statement": "The real number x satisfies the equation x + 1/x = 2cos(2π/7). What is the value of x^7 + 1/x^7?",
+    "solutionMetadata": {
+      "kind": "none"
     }
-  ]
+  },
+  {
+    "uniqueId": "amc10a-2025-15",
+    "name": "Problem 15 (2025 AMC 10A)",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_15",
+    "source": "AMC 10A",
+    "difficulty": "Medium",
+    "isStarred": false,
+    "tags": [
+      "Geometry",
+      "Right Triangles",
+      "Octagon"
+    ],
+    "statement": "A regular octagon with sides of length 1 has 20 diagonals. Compute the sum of the squares of the lengths of these diagonals.",
+    "solutionMetadata": {
+      "kind": "none"
+    }
+  },
+  {
+    "uniqueId": "cemc-cayley-2009-5",
+    "name": "Problem 5 (2009 CEMC Cayley)",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2009_CEMC_Cayley_Problems/Problem_5",
+    "source": "CEMC Cayley",
+    "difficulty": "Medium",
+    "isStarred": false,
+    "tags": [
+      "Geometry",
+      "Right Triangles"
+    ],
+    "statement": "Problem statement available at the Art of Problem Solving wiki.",
+    "solutionMetadata": {
+      "kind": "none"
+    }
+  }
+  
+]
+    
+  
 }
