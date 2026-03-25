@@ -1,4 +1,59 @@
 {
   "MODULE_ID": "triangle-medians-centroid",
-  "practice": []
+  "practice": [
+  {
+    "uniqueId": "amc10a-2020-12",
+    "name": "Problem 12 (2020 AMC 10A)",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_12",
+    "source": "AMC 10A",
+    "difficulty": "Medium",
+    "isStarred": false,
+    "tags": [
+      "Geometry",
+      "Triangle Medians",
+      "Centroid",
+      "Isosceles Triangle"
+    ],
+    "statement": "Triangle ABC is isosceles with AB = AC. Medians BD and CE are perpendicular to each other, and BD = CE = 12. What is the area of triangle ABC?",
+    "solutionMetadata": {
+      "kind": "none"
+    }
+  },
+  {
+    "uniqueId": "amc10b-2018-12",
+    "name": "Problem 12 (2018 AMC 10B)",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_12",
+    "source": "AMC 10B",
+    "difficulty": "Hard",
+    "isStarred": false,
+    "tags": [
+      "Geometry",
+      "Triangle Medians",
+      "Centroid",
+      "Locus"
+    ],
+    "statement": "Line segment AB is a diameter of a circle with center O and radius 6. Point C, not equal to A or B, lies on the circle. As point C moves around the circle, the centroid of triangle ABC traces out a closed curve. To the nearest positive integer, what is the area of the region bounded by this curve?",
+    "solutionMetadata": {
+      "kind": "none"
+    }
+  },
+  {
+    "uniqueId": "amc12b-2018-13",
+    "name": "Problem 13 (2018 AMC 12B)",
+    "url": "https://artofproblemsolving.com/wiki/index.php?title=2018_AMC_12B_Problems/Problem_13",
+    "source": "AMC 12B",
+    "difficulty": "Hard",
+    "isStarred": false,
+    "tags": [
+      "Geometry",
+      "Triangle Medians",
+      "Centroid",
+      "Area"
+    ],
+    "statement": "Square ABCD has side length 1. Point P lies inside the square so that AP = 2BP = 2CP. The centroids of triangles ABP, BCP, CDP, and DAP are the vertices of a convex quadrilateral. What is the area of that quadrilateral?",
+    "solutionMetadata": {
+      "kind": "none"
+    }
+  }
+]
 }
