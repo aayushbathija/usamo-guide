@@ -2,32 +2,35 @@
   "MODULE_ID": "word-problems",
   "practice": [
     {
-      "uniqueId": "amc8-2019-13",  "name": "Problem 13 (2019 AMC 8)",
-      "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_13",
-      "source": "AMC 8",
+      "uniqueId": "amc12a-2025-2",
+      "name": "Problem 2 (2025 AMC 12A)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2025_AMC_12A_Problems/Problem_2",
+      "source": "AMC 12",
       "difficulty": "Easy",
-      "isStarred": true,
+      "isStarred": false,
       "tags": [
-        "Rates",
-        "Units"
+        "Word Problems",
+        "Percentages",
+        "Weighted Average"
       ],
-      "statement": "This is a 2019 AMC 8 problem focusing on rates and unit conversion. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_13).",
+      "statement": "A box contains $10$ pounds of a nut mix that is $50$ percent peanuts, $20$ percent cashews, and $30$ percent almonds. A second nut mix containing $20$ percent peanuts, $40$ percent cashews, and $40$ percent almonds is added to the box resulting in a new nut mix that is $40$ percent peanuts. How many pounds of cashews are now in the box?",
       "solutionMetadata": {
         "kind": "none"
       }
     },
     {
-      "uniqueId": "amc10-2016b-7",
-      "name": "Problem 7 (2016 AMC 10B)",
-      "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_7",
-      "source": "AMC 10",
+      "uniqueId": "amc12a-2025-3",
+      "name": "Problem 3 (2025 AMC 12A)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2025_AMC_12A_Problems/Problem_3",
+      "source": "AMC 12",
       "difficulty": "Easy",
       "isStarred": false,
       "tags": [
-        "Mixtures",
-        "Ratios"
+        "Word Problems",
+        "Averages",
+        "Systems of Equations"
       ],
-      "statement": "This is a 2016 AMC 10B problem focusing on mixture problems and ratios. See the full problem statement on [AoPS](https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_7).",
+      "statement": "A team of students is going to compete against a team of teachers in a trivia contest. The total number of students and teachers is $15$. Ash, a cousin of one of the students, wants to join the contest. If Ash plays with the students, the average age on that team will increase from $12$ to $14$. If Ash plays with the teachers, the average age on that team will decrease from $55$ to $52$. How old is Ash?",
       "solutionMetadata": {
         "kind": "none"
       }
