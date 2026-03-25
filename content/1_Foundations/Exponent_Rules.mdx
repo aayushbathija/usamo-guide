@@ -1,65 +1,169 @@
 ---
 id: exponent-rules
 title: Exponent Rules
-author: USAMO Guide Team
+author: Siddhant Arora
 description: Laws of exponents for simplifying and solving equations.
 prerequisites: []
 ---
 
 ## Overview
 
-Exponent rules let you rewrite expressions quickly without expanding. Mastery
-here makes later factoring and functional equations much easier.
+Exponent Rules are used in almost every problem involving some form of algebra and are extremely important to know to progress further.  This module will cover the fundamentals of exponentiation, exponent rules, and common forms fo exponentiation that appear frequently.
 
-## Key Ideas
+## Definition
 
-- $x^a x^b = x^{a+b}$ and $\frac{x^a}{x^b} = x^{a-b}$.
-- $(x^a)^b = x^{ab}$ and $(xy)^a = x^a y^a$.
-- $x^{-a} = \frac{1}{x^a}$ for $x \ne 0$.
-- $x^0 = 1$ for $x \ne 0$.
+Exponentiation is essentially just repeated multiplication. It provides a shortcut way of writing repeated multiplication.
 
-## Core Skills
+- **Base**: The number that is being repeatedly multiplied. In the expression: $5 \cdot 5 \cdot 5$, $5$ may be considered the "base".
+- **Exponent**: How many times the number is being repeatedly multplied. In the expression: $5 \cdot 5 \cdot 5$, the exponent is $3$ as there are $3$ instances of $5$ being multplied.
+- **Power**: A combination of a "base" and an "exponent": $5^3$, 5 being the "base" and 3 being the "exponent"
 
-### Combine Like Bases
+## Exponent Rules
 
-Only add or subtract exponents when the bases are the same.
+These "rules" are essential for quick computation with exponents and are the crux of exponentiation. Ensure you are familiar with these!
 
-### Handle Negative and Fractional Exponents
+Exponent rules (also called *laws of exponents*) are shortcuts that let you simplify and manipulate expressions involving powers without expanding them term by term. They apply universally across algebra, calculus, and beyond, so internalizing them early pays dividends.
 
-Move negative exponents to the denominator and rewrite fractional exponents as
-roots when needed.
+### The Core Rules
 
-### Avoid Distributing Over Sums
+**Product Rule**
 
-Remember $(x+y)^a$ does not split into $x^a+y^a$.
+When multiplying two powers that share the same base, add the exponents:
+
+$$a^m \cdot a^n = a^{m+n}$$
+
+*Example:* $2^3 \cdot 2^4 = 2^7 = 128$
+
+---
+
+**Quotient Rule**
+
+When dividing two powers with the same base, subtract the exponents:
+
+$$\frac{a^m}{a^n} = a^{m-n}, \quad a \neq 0$$
+
+*Example:* $\frac{5^6}{5^2} = 5^4 = 625$
+
+---
+
+**Power Rule**
+
+When raising a power to another power, multiply the exponents:
+
+$$(a^m)^n = a^{mn}$$
+
+*Example:* $(3^2)^4 = 3^8 = 6561$
+
+---
+
+**Power of a Product**
+
+An exponent outside parentheses distributes to every factor inside:
+
+$$(ab)^n = a^n b^n$$
+
+*Example:* $(2 \cdot 3)^3 = 8 \cdot 27 = 216$
+
+---
+
+**Power of a Quotient**
+
+The same distribution applies to fractions:
+
+$$\left(\frac{a}{b}\right)^n = \frac{a^n}{b^n}, \quad b \neq 0$$
+
+*Example:* $\left(\frac{4}{2}\right)^3 = \frac{64}{8} = 8$
+
+---
+
+**Negative Exponent Rule**
+
+A negative exponent means *reciprocal* and not a negative result:
+
+$$a^{-n} = \frac{1}{a^n}, \quad a \neq 0$$
+
+*Example:* $2^{-3} = \frac{1}{8} = 0.125$
+
+---
+
+### Special Cases
+
+**Zero Exponent**
+
+Any nonzero base raised to the power of zero equals 1:
+
+$$a^0 = 1, \quad a \neq 0$$
+
+This follows directly from the quotient rule: $\frac{a^n}{a^n} = a^{n-n} = a^0 = 1$. Note that $0^0$ is indeterminate.
+
+---
+
+**Exponent of One**
+
+Any base raised to the power of 1 is simply itself:
+
+$$a^1 = a$$
+
+---
+
+**Fractional Exponents**
+
+A fractional exponent represents a root. The denominator is the root index and the numerator is the power:
+
+$$a^{1/n} = \sqrt[n]{a} \qquad \text{and more generally,} \qquad a^{m/n} = \left(\sqrt[n]{a}\right)^m$$
+
+*Example:* $8^{1/3} = \sqrt[3]{8} = 2$ and $8^{2/3} = \left(\sqrt[3]{8}\right)^2 = 4$
+
+---
+
+### Putting It All Together
+
+These rules are not independent facts to memorize in isolation, they are simply applications of the same underlying structure. Notice, for instance, that the negative exponent rule is just the quotient rule applied when $m < n$, and the zero exponent rule is the quotient rule when $m = n$. Fractional exponents unify roots and powers into a single notation.
+
+When simplifying a complex expression, work systematically: handle parentheses first (power of a product/quotient), then consolidate like bases (product and quotient rules), and finally resolve any negative or fractional exponents. With practice, multi-step simplifications collapse into a single line.
+
+Importantly, $a^{b^{c}}$ is not the same as $(a^{b)^{c}}$. Instead, you must first compute $b^c$ then compute $a$ to that power. For instance, $2^{3^{4}}$ is $2^{81}$, not $8^4$.
 
 ## Worked Example
 
-Simplify $\frac{(2x^3y^{-2})^2}{4x^{-1}y}$.
+> Simplify $\frac{(2x^3y^{-2})^2}{4x^{-1}y}$.
 
-First expand the power: $(2x^3y^{-2})^2 = 4x^6y^{-4}$.
-Then divide: $\frac{4x^6y^{-4}}{4x^{-1}y} = x^{6-(-1)} y^{-4-1} = x^7 y^{-5}$.
-So the expression is $\frac{x^7}{y^5}$.
+---
 
-## More Examples
+### Step 1: Apply the power of a product rule to the numerator
 
-### Example 1: Negative Exponents
+Distribute the outer exponent of 2 to every factor inside the parentheses:
 
-Simplify $x^{-3}y^2/x^{-1}$.
+$$(2x^3y^{-2})^2 = 2^2 \cdot x^{3 \cdot 2} \cdot y^{-2 \cdot 2} = 4x^6y^{-4}$$
 
-$x^{-3}/x^{-1}=x^{-2}$, so the result is $\frac{y^2}{x^2}$.
+The expression becomes:
 
-### Example 2: Fractional Exponents
+$$\frac{4x^6y^{-4}}{4x^{-1}y}$$
 
-Simplify $(16x^4)^{1/2}$.
 
-$4x^2$ (assuming $x\ge 0$).
+### Step 2: Simplify the coefficients
 
-### Example 3: Combine Bases
+$$\frac{4}{4} = 1$$
 
-Simplify $3^2\cdot 3^5$.
 
-$3^7$.
+### Step 3: Apply the quotient rule to each variable
+
+For $x$:
+
+$$\frac{x^6}{x^{-1}} = x^{6-(-1)} = x^7$$
+
+For $y$:
+
+$$\frac{y^{-4}}{y^1} = y^{-4-1} = y^{-5}$$
+
+
+### Step 4: Eliminate the negative exponent
+
+$$y^{-5} = \frac{1}{y^5}$$
+
+### Final Answer
+
+$$\boxed{\dfrac{x^7}{y^5}}$$
 
 ## Strategy Checklist
 
@@ -71,7 +175,7 @@ $3^7$.
 ## Common Pitfalls
 
 - Forgetting that negative exponents move factors to the denominator.
-- Distributing powers across sums, e.g., $(x+y)^2 \ne x^2 + y^2$.
+- Distributing powers across sums, e.g., $(x+y)^2 \ne x^2 + y^2$. The product exponentiation rule, as you may have guessed, only works on products, not sums.
 - Canceling terms with different bases.
 
 ## Practice Problems
