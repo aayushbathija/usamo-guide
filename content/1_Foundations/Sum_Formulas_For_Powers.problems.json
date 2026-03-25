@@ -1,4 +1,56 @@
 {
-  "MODULE_ID": "sum-formulas-powers",
-  "practice": []
+  "MODULE_ID": "sum-formulas-for-powers",
+  "practice": [
+    {
+      "uniqueId": "amc12a-2023-12",
+      "name": "Problem 12 (2023 AMC 12A)",
+      "url": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_12A_Problems/Problem_12",
+      "source": "AMC 12",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Sum Formulas for Powers",
+        "Logarithms",
+        "Change of Base"
+      ],
+      "statement": "What is the product of all solutions to the equation $\\log_{7x} 2023 \\cdot \\log_{289x} 2023 = \\log_{2023x} 2023$?",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc10a-2012-22",
+      "name": "Problem 22 (2012 AMC 10A)",
+      "url": "https://artofproblemsolving.com/wiki/index.php/2012_AMC_10A_Problems/Problem_22",
+      "source": "AMC 10",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Sum Formulas for Powers",
+        "Sum of Odd Integers",
+        "Sum of Even Integers"
+      ],
+      "statement": "The sum of the first $m$ positive odd integers is $212$ more than the sum of the first $n$ positive even integers. What is the sum of all possible values of $n$?",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc10a-2020-10",
+      "name": "Problem 10 (2020 AMC 10A)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2020_AMC_10A_Problems/Problem_10",
+      "source": "AMC 10",
+      "difficulty": "Medium",
+      "isStarred": false,
+      "tags": [
+        "Sum Formulas for Powers",
+        "Sum of Squares",
+        "3D Geometry"
+      ],
+      "statement": "Seven cubes, whose volumes are $1, 8, 27, 64, 125, 216,$ and $343$ cubic units, are stacked vertically to form a tower in which the volumes of the cubes decrease from bottom to top. Except for the bottom cube, the bottom face of each cube lies completely on top of the cube below it. What is the total surface area of the tower (including the bottom) in square units?",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    }
+  ]
 }
