@@ -1,4 +1,58 @@
 {
   "MODULE_ID": "special-triangles",
-  "practice": []
+  "practice": [
+  {
+    "uniqueId": "amc8-2023-19",
+    "name": "Problem 19 (2023 AMC 8)",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_19",
+    "source": "AMC 8",
+    "difficulty": "Hard",
+    "isStarred": false,
+    "tags": [
+      "Geometry",
+      "Special Triangles",
+      "Equilateral Triangle",
+      "Area"
+    ],
+    "statement": "An equilateral triangle is placed inside a larger equilateral triangle so that the region between them can be divided into three congruent trapezoids. The side length of the inner triangle is half the side length of the larger triangle. What is the ratio of the area of one trapezoid to the area of the inner triangle?",
+    "solutionMetadata": {
+      "kind": "none"
+    }
+  },
+  {
+    "uniqueId": "amc8-2024-20",
+    "name": "Problem 20 (2024 AMC 8)",
+    "url": "https://artofproblemsolving.com/wiki/index.php?title=2024_AMC_8_Problems/Problem_20",
+    "source": "AMC 8",
+    "difficulty": "Hard",
+    "isStarred": false,
+    "tags": [
+      "Geometry",
+      "Special Triangles",
+      "Equilateral Triangle",
+      "3D Geometry",
+      "Cube"
+    ],
+    "statement": "Any three vertices of a cube can be connected to form a triangle. How many of these triangles are equilateral and contain a given vertex as one of their vertices?",
+    "solutionMetadata": {
+      "kind": "none"
+    }
+  },
+  {
+    "uniqueId": "amc8-2002-16",
+    "name": "Problem 16 (2002 AMC 8)",
+    "url": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_8_Problems/Problem_16",
+    "source": "AMC 8",
+    "difficulty": "Medium",
+    "isStarred": false,
+    "tags": [
+      "Geometry",
+      "Special Triangles"
+    ],
+    "statement": "Problem statement available at the Art of Problem Solving wiki.",
+    "solutionMetadata": {
+      "kind": "none"
+    }
+  }
+]
 }
