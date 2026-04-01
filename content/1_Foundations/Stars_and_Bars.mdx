@@ -2,7 +2,7 @@
 id: stars-and-bars
 title: Stars and Bars
 author: USAMO Guide Team
-description: Distributing identical objects into distinct "boxes", positive integer solutions, and distributions that are constraint
+description: Distributing identical objects into distinct "boxes", positive integer solutions, and distributions that are constrained.
 prerequisites: [counting-fundamentals, pascals-triangle-binomial-theorem]
 ---
 
@@ -33,14 +33,14 @@ Counting arrangements of stars and bars can reduce a distribution problem into a
 
 The scenario we use when we think about stars and bars is when $n$ stars in a row with $k-1$ bars placed among them to create $k$
 groups. Each arrangement corresponds to exactly one way to split $n$ objects
-into $k$ boxes. Hence. there are $n + k - 1$ total symbols (stars and bars), and we
+into $k$ boxes. Hence, there are $n + k - 1$ total symbols (stars and bars), and we
 choose which $k-1$ of those positions are bars:
 
 $$\binom{n+k-1}{k-1} = \binom{n+k-1}{n}.$$
 
-Both forms are equal by symmetry as said in Bionomial Theorem & Pascal's Triangle 1.  
+Both forms are equal by symmetry as said in Binomial Theorem & Pascal's Triangle 1.  
 
-### Finding Postitive Integer Solutions
+### Finding Positive Integer Solutions
 
 The number of solutions to $x_1 + x_2 + \cdots + x_k = n$ with each $x_i \geq 0$
 is $\binom{n+k-1}{k-1}$.
@@ -69,7 +69,7 @@ to count $|A_i|$, then apply the two or three-set PIE formula. For more informat
 In how many ways can 8 identical books be distributed among 3 children if
 each child may receive zero or more books?
 
-This is the number of positive integer solutions to $x_1 + x_2 + x_3 = 8$.
+This is the number of non-negative integer solutions to $x_1 + x_2 + x_3 = 8$.
 
 $$\binom{8 + 3 - 1}{3 - 1} = \binom{10}{2} = 45.$$
 
@@ -143,7 +143,7 @@ In summary, always check whether the objects are truly identical before applying
 
 ## Common Pitfalls
 
-- Applying stars and bars to distinct objects. If the they are different,
+- Applying stars and bars to distinct objects. If they are different,
   use $k^n$ or permutations, not stars and bars.
 - Confusing $\binom{n+k-1}{k-1}$ with $\binom{n+k}{k}$ or $\binom{n+k-1}{k}$.
   This could come from memorizing the formula by its derivation: $n$ stars and $k-1$ bars among

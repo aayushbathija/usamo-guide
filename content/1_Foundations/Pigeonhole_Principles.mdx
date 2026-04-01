@@ -20,7 +20,7 @@ more than one object.
 - The number of holes is your bound. If pigeons $>$ holes, a contradiction is formed.
 - For "at least $m$" ways, use the extended formula of, $\lceil k/n \rceil \geq m$, which means $k \geq n(m-1) + 1$.
 - For specific range problems, one should partition the range into intervals and apply the
-  pigeonhole princple to the subintervals that are created. 
+  pigeonhole principle to the subintervals that are created. 
 - Note that the pigeonhole principle proves the existence only and hence does not tell you which hole
   is crowded or how to find the contradiction.
  
@@ -69,7 +69,7 @@ Show that among any $5$ integers, two must have the same
 remainder when divided by $4$.
  
 There are only $4$ possible remainders mod $4$: $\{0, 1, 2, 3\}$. These are the "holes", and the $5$ integers are the pigeons. Since $5 > 4$, by the Pigeonhole Principle, at least two integers share
-a remainder. Their difference and is therefore divisible by $4$. $\blacksquare$
+a remainder. Their difference is therefore divisible by $4$. $\blacksquare$
  
  
 ---
@@ -99,20 +99,20 @@ So at least one month contains $3$ or more students. $\blacksquare$
  
 Five points are chosen inside (or on the boundary of) a unit square. Show that two of them are within distance $\sqrt{2}/2$ of each other.
  
-We divide the unit square into $4$ smaller squares of side $1/2$ by cutting it in half horizontally and vertically. These $4$ smaller squares are the would act as the "holes", 
-and the five points would be the "piegons".
+We divide the unit square into $4$ smaller squares of side $1/2$ by cutting it in half horizontally and vertically. These $4$ smaller squares are the "holes",
+and the five points are the "pigeons".
  
 By pigeonhole, two points lie in the same small square. The maximum distance within a square of side $1/2$ is its diagonal, and thus
-$\sqrt((1/2)^2 + (1/2)^2) = \sqrt(1/2) = \sqrt(2)/2$.
+$\sqrt{(1/2)^2 + (1/2)^2} = \sqrt{1/2} = \sqrt{2}/2$.
  
 So those two points are within $\sqrt{2}/2$ of each other.
 $\blacksquare$
 
 ## Strategy Checklist
 
-- Always write what are the "pigeons", What are the "holes", to avoid confusion. 
+- Always write what are the "pigeons", what are the "holes", to avoid confusion. 
 - Check if the number of pigeons strictly greater than the holes.
-- For "sum/difference equals $c$" problems, pair up elements that sum or differ by $c$ and use those pairs as "holes" in our piegonhole principle. 
+- For "sum/difference equals $c$" problems, pair up elements that sum or differ by $c$ and use those pairs as "holes" in our pigeonhole principle. 
 
 
 ## Common Pitfalls

@@ -2,17 +2,17 @@
 id: inclusion-exclusion
 title: Inclusion-Exclusion
 author: USAMO Guide Team - Wonwoo
-description: Basic Two and three set inclusion exclusion, Venn diagram interpretation, and methods of solveing "at least one" problems.
+description: Basic Two and three set inclusion exclusion, Venn diagram interpretation, and methods of solving "at least one" problems.
 prerequisites: [counting-fundamentals, intro-probability]
 ---
 ## Overview
 The Principle of Inclusion-Exclusion (abbreviated PIE) provides an organized method/formula to find the number of elements in the union of a given group of sets, the size of each set, and the size of all possible intersections among the sets.
 When using PIE, one should understand how to strategically overcount and undercount, in the end making sure every element is counted once and only once. In particular, memorizing a formula for PIE is a bad idea for problem solving.
-Hence, When one wants to count elements belonging to at least one of several sets, the inclusion-exclusion principle fixes this by alternately adding and subtracting overlaps.
+Hence, when one wants to count elements belonging to at least one of several sets, the inclusion-exclusion principle fixes this by alternately adding and subtracting overlaps.
  
 ## Key Ideas 
 - Always, and always define your sets precisely before writing any formula, to avoid confusion.
-- Many times in a problem, The complement is often cleaner and easier to calculate, especially in "at least" problems. Instead of $|A \cup B \cup C|$, compute $|U| - |A^c\cap B^c \cap C^c|$.
+- Many times in a problem, the complement is often cleaner and easier to calculate, especially in "at least" problems. Instead of $|A \cup B \cup C|$, compute $|U| - |A^c\cap B^c \cap C^c|$.
 - Utilize this visually through a Venn diagram.
 - For two sets: $|A \cup B| = |A| + |B| - |A \cap B|$.
 - You can apply the formula directly to probabilities: $P(A \cup B) = P(A) + P(B) - P(A \cap B)$.
