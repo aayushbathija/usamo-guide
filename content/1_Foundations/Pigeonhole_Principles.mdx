@@ -17,7 +17,7 @@ more than one object.
  
 - First identify the "pigeons" (objects) and the holes (containers/categories).
 - The number of holes is your bound. If pigeons $>$ holes, a contradiction is formed.
-- For "at least $m$" ways, use the extended formula of, $\lceil k/n \rceil \geq m$, which means $k \geq n(m-1) + 1$.
+- For "at least $m$" ways, use the extended formula of, $\lceil \frac{k}{n} \rceil \geq m$, which means $k \geq n(m-1) + 1$.
 - For specific range problems, one should partition the range into intervals and apply the
   pigeonhole principle to the subintervals that are created. 
 - Note that the pigeonhole principle proves the existence only and hence does not tell you which hole
@@ -96,13 +96,13 @@ So at least one month contains $3$ or more students. $\blacksquare$
 
 ### Example 3 — Pigeonhole Principle in an interval 
  
-Five points are chosen inside (or on the boundary of) a unit square. Show that two of them are within distance $\sqrt{2}/2$ of each other.
+Five points are chosen inside (or on the boundary of) a unit square. Show that two of them are within distance $\frac{sqrt{2}}{2}$ of each other.
  
-We divide the unit square into $4$ smaller squares of side $1/2$ by cutting it in half horizontally and vertically. These $4$ smaller squares are the "holes",
+We divide the unit square into $4$ smaller squares of side $\frac{1}{2}$ by cutting it in half horizontally and vertically. These $4$ smaller squares are the "holes",
 and the five points are the "pigeons".
  
-By pigeonhole, two points lie in the same small square. The maximum distance within a square of side $1/2$ is its diagonal, and thus
-$\sqrt{(1/2)^2 + (1/2)^2} = \sqrt{1/2} = \sqrt{2}/2$.
+By pigeonhole, two points lie in the same small square. The maximum distance within a square of side $\frac{1}{2}$ is its diagonal, and thus
+$\sqrt{(\frac{1}{2})^2 + (\frac{1}{2})^2} = \sqrt{\frac{1}{2}} = \frac{\sqrt{2}}{2}$.
  
 So those two points are within $\sqrt{2}/2$ of each other.
 $\blacksquare$
