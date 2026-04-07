@@ -75,15 +75,15 @@ Factor by adding $1$ to both sides:
 
 $(m + 1)(n + 1) = 18$
 
-Now, we can find all factors pairs that multiply to $18$: $(1, 18), (2, 9), (3, 6), (6, 3), (9, 2), (18, 1)$
+Now, we can find all factors pairs that multiply to $18$: $(1, 18), (2, 9), (3, 6), (6, 3), (9, 2), (18, 1), (-1, -18), (-2, -9), (-3, -6), (-6, -3), (-9, -2), (-18, -1)$
 
-In each pair, we can make $m + 1$ be the left integer and $n + 1$ be the right integer to get $(m, n) = (0, 17), (1, 8), (2, 5), (5, 2), (8, 1), (17, 0)$
+In each pair, we can make $m + 1$ be the left integer and $n + 1$ be the right integer to get $(m, n) = (0, 17), (1, 8), (2, 5), (5, 2), (8, 1), (17, 0), (-2, -19), (-3, -10), (-4, -7), (-7, -4), (-10, -3), (-19, -2)$
 
 This technique can be structured as follows to solve *diophantines*:
 
 1) Construct the equation if needed, i.e, convert word statement to equation
 2) Isolate all variables to one side
 3) Add a constant for **SFFT** and factor
-4) Iterate over factor pairs of the constant on the other side and isolate for the variables to find all valid pairs. Be careful to not include any extraneous solutions!
+4) Iterate over factor pairs of the constant on the other side and isolate for the variables to find all valid pairs. Be careful to not include any extraneous solutions (e.g. check whether the solutions require positive integers)!
 
 <Problems problems="practice" />
