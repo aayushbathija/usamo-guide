@@ -86,10 +86,17 @@ export default function Template(props): JSX.Element {
         `}</script>
       </Helmet>
 
-      <div className="relative overflow-hidden bg-gradient-to-b from-[#171228] via-[#221737] to-[#73576A]">
+      <div
+        data-page-tone="dark"
+        className="relative overflow-hidden bg-gradient-to-b from-[#0D0A1D] via-[#090713] to-[#05040D]"
+      >
+
+        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_82%_16%,rgba(191,128,255,0.07),transparent_34%),radial-gradient(circle_at_18%_84%,rgba(112,66,138,0.09),transparent_34%),linear-gradient(180deg,rgba(7,6,18,0.48),rgba(8,7,18,0.82)_70%,rgba(4,3,10,0.96))]" />
+
+        <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(90deg,rgba(3,2,8,0.42),rgba(3,2,8,0.08)_22%,rgba(3,2,8,0.08)_78%,rgba(3,2,8,0.42))]" />
 
         <div className="pointer-events-none absolute inset-0">
-          <svg className="h-full w-full opacity-[0.08] dark:opacity-[0.1]" xmlns="http://www.w3.org/2000/svg">
+          <svg className="h-full w-full opacity-[0.04] dark:opacity-[0.05]" xmlns="http://www.w3.org/2000/svg">
             <defs>
               <pattern id="module-grid-pattern" width="64" height="64" patternUnits="userSpaceOnUse">
                 <path
@@ -97,7 +104,7 @@ export default function Template(props): JSX.Element {
                   fill="none"
                   stroke="currentColor"
                   strokeWidth="1"
-                  className="text-[#F0C2FF]/28"
+                  className="text-[#F0C2FF]/12"
                 />
               </pattern>
             </defs>

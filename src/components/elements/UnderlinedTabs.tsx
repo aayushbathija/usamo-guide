@@ -20,7 +20,7 @@ export default function UnderlinedTabs({
         <select
           id="selected-tab"
           name="selected-tab"
-          className="mt-1 block w-full rounded-md border-gray-300 py-2 pr-10 pl-3 text-base focus:border-blue-500 focus:ring-blue-500 focus:outline-hidden sm:text-sm dark:border-gray-700 dark:bg-gray-900 dark:focus:border-blue-500"
+          className="mt-1 block w-full rounded-md border-[rgba(240,194,255,0.25)] bg-[rgba(18,15,36,0.80)] py-2 pr-10 pl-3 text-base text-[#F4EDEA] focus:border-[#70428A] focus:ring-[#70428A] focus:outline-hidden sm:text-sm"
           value={value}
           onChange={e => onChange(e.target.value)}
         >
@@ -32,7 +32,7 @@ export default function UnderlinedTabs({
         </select>
       </div>
       <div className="hidden sm:block">
-        <div className="border-b border-gray-200 dark:border-gray-700">
+        <div className="border-b border-[rgba(240,194,255,0.20)]">
           <nav className="-mb-px flex space-x-8">
             {options.map(option => (
               <button
@@ -40,8 +40,8 @@ export default function UnderlinedTabs({
                 onClick={() => onChange(option)}
                 className={
                   (value === option
-                    ? 'border-blue-500 text-blue-600 dark:text-blue-400'
-                    : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 dark:text-gray-400 dark:hover:border-gray-600 dark:hover:text-gray-300') +
+                    ? 'border-[#70428A] text-[#F0C2FF]'
+                    : 'border-transparent text-[rgba(244,237,234,0.55)] hover:border-[rgba(240,194,255,0.30)] hover:text-[rgba(244,237,234,0.85)]') +
                   ' border-b-2 px-1 py-4 text-sm font-medium whitespace-nowrap focus:outline-hidden'
                 }
               >

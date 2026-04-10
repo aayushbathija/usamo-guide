@@ -12,10 +12,15 @@ export default function LicensePage(props: PageProps) {
 
       <TopNavigationBar />
 
-      <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-        <h1 className="mt-8 text-4xl font-extrabold">License and Usage</h1>
+      <div
+        data-page-tone="dark"
+        className="min-h-screen"
+        style={{ background: 'linear-gradient(to bottom, #120F24 0%, #0E0B1F 48%, #0A0818 100%)' }}
+      >
+      <div className="mx-auto max-w-3xl px-4 pb-16 sm:px-6 lg:px-8">
+        <h1 className="mt-8 text-4xl font-extrabold text-[#F4EDEA]">License and Usage</h1>
 
-        <div className="dark:text-dark-high-emphasis mt-6 text-lg text-gray-900">
+        <div className="mt-6 text-lg text-[rgba(244,237,234,0.80)]">
           <p className="mb-4">
             No part of this site may be used, reproduced, redistributed,
             commercialized, or sold without prior written permission, except as
@@ -23,7 +28,7 @@ export default function LicensePage(props: PageProps) {
             <a
               rel="license noreferrer"
               className={
-                'text-blue-500 hover:text-blue-700 hover:underline dark:text-blue-400 dark:hover:text-blue-300'
+                'text-[#F0C2FF] hover:text-[#F4EDEA] hover:underline'
               }
               href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
               target={'_blank'}
@@ -52,7 +57,7 @@ export default function LicensePage(props: PageProps) {
             <a
               rel="license noreferrer"
               className={
-                'text-blue-500 hover:text-blue-700 hover:underline dark:text-blue-400 dark:hover:text-blue-300'
+                'text-[#F0C2FF] hover:text-[#F4EDEA] hover:underline'
               }
               href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
               target={'_blank'}
@@ -119,7 +124,7 @@ export default function LicensePage(props: PageProps) {
             cases described above, please contact us at{' '}
             <a
               href="mailto:contact@usamoguide.com"
-              className="text-blue-500 underline hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300"
+              className="text-[#F0C2FF] underline hover:text-[#F4EDEA]"
             >
               contact@usamoguide.com
             </a>
@@ -127,10 +132,11 @@ export default function LicensePage(props: PageProps) {
           </p>
           <Link
             to="/"
-            className="mb-4 block text-blue-500 underline hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300"
+            className="mb-4 block text-[#F0C2FF] underline hover:text-[#F4EDEA]"
           >
             &larr; Back to Home
           </Link>
+        </div>
         </div>
       </div>
     </Layout>

@@ -103,23 +103,22 @@ export const SignInModal: React.FC<SignInModalProps> = ({
     >
       <DialogBackdrop
         transition
-        className="fixed inset-0 bg-gray-500/75 transition-opacity data-[closed]:opacity-0 data-[enter]:duration-300 data-[enter]:ease-out data-[leave]:duration-200 data-[leave]:ease-in dark:bg-gray-900/75"
+        className="fixed inset-0 bg-[rgba(10,8,24,0.85)] backdrop-blur-sm transition-opacity data-[closed]:opacity-0 data-[enter]:duration-300 data-[enter]:ease-out data-[leave]:duration-200 data-[leave]:ease-in"
       />
 
       <div className="fixed inset-0 z-30 w-screen overflow-y-auto">
         <div className="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0">
           <DialogPanel
             transition
-            className="dark:bg-dark-surface relative transform overflow-hidden rounded-lg bg-white px-4 pt-5 pb-4 text-left shadow-xl transition-all data-[closed]:translate-y-4 data-[closed]:opacity-0 data-[enter]:duration-300 data-[enter]:ease-out data-[leave]:duration-200 data-[leave]:ease-in sm:my-8 sm:w-full sm:max-w-lg sm:p-6 data-[closed]:sm:translate-y-0 data-[closed]:sm:scale-95"
+            className="relative transform overflow-hidden rounded-xl border border-[rgba(240,194,255,0.20)] bg-[#120F24] px-4 pt-5 pb-4 text-left shadow-2xl transition-all data-[closed]:translate-y-4 data-[closed]:opacity-0 data-[enter]:duration-300 data-[enter]:ease-out data-[leave]:duration-200 data-[leave]:ease-in sm:my-8 sm:w-full sm:max-w-lg sm:p-6 data-[closed]:sm:translate-y-0 data-[closed]:sm:scale-95"
           >
             <div className="absolute top-0 right-0 hidden pt-4 pr-4 sm:block">
               <button
                 type="button"
                 onClick={() => {
-                  setIsLinking(false);
                   onClose();
                 }}
-                className="dark:bg-dark-surface dark:focus:ring-offset-dark-surface rounded-md bg-white text-gray-400 hover:text-gray-500 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:outline-hidden dark:text-gray-500 dark:hover:text-gray-400"
+                className="rounded-md bg-transparent text-[rgba(240,194,255,0.50)] hover:text-[#F0C2FF] focus:ring-2 focus:ring-[#70428A] focus:ring-offset-2 focus:ring-offset-[#120F24] focus:outline-hidden transition-colors"
               >
                 <span className="sr-only">Close</span>
                 <XIcon aria-hidden="true" className="size-6" />
@@ -130,12 +129,12 @@ export const SignInModal: React.FC<SignInModalProps> = ({
               <div>
                 <DialogTitle
                   as="h3"
-                  className="text-lg leading-6 font-medium text-gray-900 dark:text-gray-200"
+                  className="text-lg leading-6 font-medium text-[#F4EDEA]"
                 >
                   Sign In
                 </DialogTitle>
                 <div className="mt-2">
-                  <p className="text-sm text-gray-500 dark:text-gray-400">
+                  <p className="text-sm text-[rgba(244,237,234,0.65)]">
                     Signing in allows you to sync your data with our servers
                     (highly recommended). If this is your first time signing in,
                     you will have the option to upload your local data to the
@@ -148,7 +147,7 @@ export const SignInModal: React.FC<SignInModalProps> = ({
               <div className="flex flex-col space-y-2 sm:flex-row sm:items-center sm:space-y-0 sm:space-x-4">
                 <button
                   type="button"
-                  className="btn pl-3"
+                  className="inline-flex items-center rounded-lg border border-[rgba(240,194,255,0.25)] bg-[rgba(112,66,138,0.20)] px-4 py-2 text-sm font-medium text-[#F4EDEA] hover:bg-[rgba(112,66,138,0.35)] transition-colors disabled:opacity-50 pl-3"
                   onClick={handleSignInWithGoogle}
                   disabled={isSigningIn}
                 >
@@ -184,15 +183,15 @@ export const SignInModal: React.FC<SignInModalProps> = ({
                 </button>
                 <button
                   type="button"
-                  className="btn pl-3"
                   onClick={handleSignInWithGithub}
                   disabled={isSigningIn}
+                  className="inline-flex items-center rounded-lg border border-[rgba(240,194,255,0.25)] bg-[rgba(112,66,138,0.20)] px-4 py-2 text-sm font-medium text-[#F4EDEA] hover:bg-[rgba(112,66,138,0.35)] transition-colors disabled:opacity-50 pl-3"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/sv"
                     viewBox="0 0 120 120"
                     version="1.1"
-                    className="h-5 w-5"
+                    className="h-5 w-5 text-[#F0C2FF]"
                   >
                     <g
                       stroke="none"
@@ -217,33 +216,33 @@ export const SignInModal: React.FC<SignInModalProps> = ({
               </div>
               <div className="mt-4 space-y-3">
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 dark:text-gray-200">
+                  <label className="block text-sm font-medium text-[rgba(244,237,234,0.78)]">
                     Email
                   </label>
                   <input
                     type="email"
                     value={email}
                     onChange={e => setEmail(e.target.value)}
-                    className="input mt-1"
+                    className="mt-1 w-full rounded-md border border-[rgba(240,194,255,0.25)] bg-[rgba(10,8,24,0.60)] px-3 py-2 text-sm text-[#F4EDEA] placeholder-[rgba(244,237,234,0.35)] focus:border-[#70428A] focus:outline-none focus:ring-1 focus:ring-[#70428A]"
                     placeholder="you@example.com"
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 dark:text-gray-200">
+                  <label className="block text-sm font-medium text-[rgba(244,237,234,0.78)]">
                     Password
                   </label>
                   <input
                     type="password"
                     value={password}
                     onChange={e => setPassword(e.target.value)}
-                    className="input mt-1"
+                    className="mt-1 w-full rounded-md border border-[rgba(240,194,255,0.25)] bg-[rgba(10,8,24,0.60)] px-3 py-2 text-sm text-[#F4EDEA] placeholder-[rgba(244,237,234,0.35)] focus:border-[#70428A] focus:outline-none focus:ring-1 focus:ring-[#70428A]"
                     placeholder="••••••••"
                   />
                 </div>
                 <div className="flex flex-wrap gap-3">
                   <button
                     type="button"
-                    className="btn"
+                    className="rounded-lg border border-[rgba(240,194,255,0.25)] bg-[rgba(112,66,138,0.20)] px-4 py-2 text-sm font-medium text-[#F4EDEA] hover:bg-[rgba(112,66,138,0.35)] transition-colors disabled:opacity-50"
                     disabled={isSigningIn || !email || !password}
                     onClick={handleEmailSignIn}
                   >
@@ -251,7 +250,7 @@ export const SignInModal: React.FC<SignInModalProps> = ({
                   </button>
                   <button
                     type="button"
-                    className="btn"
+                    className="rounded-lg border border-[rgba(240,194,255,0.25)] bg-[rgba(112,66,138,0.20)] px-4 py-2 text-sm font-medium text-[#F4EDEA] hover:bg-[rgba(112,66,138,0.35)] transition-colors disabled:opacity-50"
                     disabled={isSigningIn || !email || !password}
                     onClick={() => {
                       setIsSigningUp(true);
@@ -266,7 +265,7 @@ export const SignInModal: React.FC<SignInModalProps> = ({
               </div>
               {error && (
                 <div>
-                  <p className="text-red-700 dark:text-red-300">
+                  <p className="text-red-400">
                     Error: {error.message ?? error.code}
                   </p>
                 </div>

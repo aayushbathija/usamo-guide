@@ -15,15 +15,21 @@ export default function NotSignedInWarning() {
   if (isLoaded && !currentUser && numPageviews > 1) {
     return (
       <>
-        <div className="bg-gray-50 sm:rounded-lg dark:bg-gray-900">
+        <div
+          className="overflow-hidden rounded-2xl border shadow-[0_18px_40px_rgba(0,0,0,0.18)]"
+          style={{
+            borderColor: 'rgba(112, 66, 138, 0.28)',
+            background:
+              'linear-gradient(135deg, rgba(244, 237, 234, 0.92) 0%, rgba(240, 194, 255, 0.84) 100%)',
+          }}
+        >
           <div className="px-4 py-5 sm:p-6">
-            <h3 className="dark:text-dark-high-emphasis text-lg leading-6 font-medium text-gray-900">
+            <h3 className="text-lg leading-6 font-medium" style={{ color: '#120F24' }}>
               You're not signed in!
             </h3>
-            <div className="dark:text-dark-med-emphasis mt-2 max-w-xl text-sm leading-5 text-gray-500">
+            <div className="mt-2 max-w-2xl text-sm leading-6" style={{ color: 'rgba(18, 15, 36, 0.8)' }}>
               <p>
-                Sign in to save your progress and sync your settings across
-                devices.
+                Track progress, unlock problem sets, and sync across devices.
               </p>
             </div>
             <div className="mt-5">
@@ -31,9 +37,14 @@ export default function NotSignedInWarning() {
                 <button
                   type="button"
                   onClick={() => signIn()}
-                  className="dark:text-dark-high-emphasis focus:shadow-outline-blue inline-flex items-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm leading-5 font-medium text-gray-700 transition duration-150 ease-in-out hover:text-gray-500 focus:border-blue-300 focus:outline-hidden active:bg-gray-50 active:text-gray-800 dark:border-gray-700 dark:bg-gray-800"
+                  className="inline-flex items-center rounded-md border px-4 py-2 text-sm leading-5 font-medium transition duration-150 ease-in-out focus:outline-hidden"
+                  style={{
+                    borderColor: 'rgba(112, 66, 138, 0.46)',
+                    backgroundColor: '#70428A',
+                    color: '#F4EDEA',
+                  }}
                 >
-                  Sign in
+                  Save Progress
                 </button>
               </span>
             </div>

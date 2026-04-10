@@ -28,7 +28,7 @@ import {
 const VANILLA = '#F4EDEA';
 const TEXT_SECONDARY = 'rgba(244, 237, 234, 0.72)';
 const MIDNIGHT_GRADIENT =
-  'linear-gradient(to bottom, #201C36 0%, #1A1630 45%, #14112A 100%)';
+  'linear-gradient(to bottom, #120F24 0%, #0E0B1F 48%, #0A0818 100%)';
 
 export default function DashboardPage(props: PageProps) {
   const { modules, problems } = props.data as any;
@@ -249,6 +249,7 @@ export default function DashboardPage(props: PageProps) {
       <SEO title="Dashboard" image={null} pathname={props.path} />
 
       <div
+        data-page-tone="dark"
         className="ui-page min-h-screen px-0"
         style={{
           backgroundImage: MIDNIGHT_GRADIENT,
@@ -269,20 +270,41 @@ export default function DashboardPage(props: PageProps) {
                         Signed in as <i>{currentUser.email}</i>.
                       </>
                     ) : (
-                      <span>
-                        Not signed in.{' '}
-                        <a
-                          href="#"
-                          onClick={e => {
-                            e.preventDefault();
-                            signIn();
-                          }}
-                          className="underline"
-                          style={{ color: '#F0C2FF' }}
-                        >
-                          Sign in now!
-                        </a>{' '}
-                      </span>
+                      <div
+                        className="w-full rounded-2xl border px-5 py-5 text-center shadow-[0_18px_40px_rgba(0,0,0,0.18)]"
+                        style={{
+                          borderColor: 'rgba(112, 66, 138, 0.28)',
+                          background:
+                            'linear-gradient(135deg, rgba(244, 237, 234, 0.92) 0%, rgba(240, 194, 255, 0.84) 100%)',
+                          color: '#120F24',
+                        }}
+                      >
+                        <div className="flex flex-col items-center justify-center gap-4">
+                          <div className="max-w-2xl">
+                            <div className="text-xl font-semibold sm:text-2xl">
+                              You&apos;re not signed in!
+                            </div>
+                            <div
+                              className="mt-1 text-sm"
+                              style={{ color: 'rgba(18, 15, 36, 0.8)' }}
+                            >
+                              Track progress, unlock problem sets, and sync across devices.
+                            </div>
+                          </div>
+                          <button
+                            type="button"
+                            onClick={() => signIn()}
+                            className="inline-flex items-center justify-center rounded-md border px-4 py-2 text-sm font-medium transition hover:opacity-95"
+                            style={{
+                              borderColor: 'rgba(112, 66, 138, 0.46)',
+                              backgroundColor: '#70428A',
+                              color: VANILLA,
+                            }}
+                          >
+                            Save Progress
+                          </button>
+                        </div>
+                      </div>
                     )}
                   </div>
                 </div>

@@ -117,9 +117,9 @@ export default function AetherFlowHero(): JSX.Element {
             const distanceMouseA = Math.sqrt(dxMouseA * dxMouseA + dyMouseA * dyMouseA);
 
             if (mouse.x !== null && distanceMouseA < mouse.radius) {
-              ctx.strokeStyle = `rgba(247, 222, 255, ${opacityValue})`;
+              ctx.strokeStyle = `rgba(247, 222, 255, ${opacityValue * 0.9})`;
             } else {
-              ctx.strokeStyle = `rgba(184, 139, 208, ${opacityValue})`;
+              ctx.strokeStyle = `rgba(184, 139, 208, ${opacityValue * 0.7})`;
             }
 
             ctx.lineWidth = 1;
@@ -134,7 +134,7 @@ export default function AetherFlowHero(): JSX.Element {
 
     const animate = () => {
       animationFrameId = window.requestAnimationFrame(animate);
-      ctx.fillStyle = '#201C36';
+      ctx.fillStyle = '#0A0818';
       ctx.fillRect(0, 0, canvas.width, canvas.height);
 
       for (let i = 0; i < particles.length; i += 1) {
@@ -182,11 +182,13 @@ export default function AetherFlowHero(): JSX.Element {
   return (
     <div
       ref={containerRef}
+      data-page-tone="dark"
       className="relative flex min-h-screen w-full flex-col items-center justify-center overflow-hidden"
+      style={{ backgroundColor: '#0A0818' }}
     >
       <canvas ref={canvasRef} className="absolute top-0 left-0 h-full w-full" />
 
-      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_80%_18%,rgba(191,128,255,0.20),transparent_36%),radial-gradient(circle_at_24%_82%,rgba(112,66,138,0.24),transparent_35%),linear-gradient(180deg,rgba(20,17,42,0.15),rgba(32,28,54,0.5)_70%,rgba(26,22,48,0.78))]" />
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_80%_18%,rgba(191,128,255,0.09),transparent_32%),radial-gradient(circle_at_24%_82%,rgba(112,66,138,0.12),transparent_32%),linear-gradient(180deg,rgba(10,8,24,0.55),rgba(12,10,28,0.84)_70%,rgba(6,5,16,0.96))]" />
 
       <div className="relative z-10 px-6 text-center">
         <motion.div
@@ -212,7 +214,7 @@ export default function AetherFlowHero(): JSX.Element {
         >
           A Clear Roadmap from
           <br />
-          <span className="from-[#70428A] to-[#B88BD0] bg-gradient-to-r bg-clip-text text-transparent">
+          <span className="text-[#B88BD0]">
             AMC to Olympiad
           </span>
         </motion.h1>

@@ -30,8 +30,8 @@ import {
  *   - “Browse Topics” button background
  * - Remove glow around “Browse Topics” (no GlowingRing wrapper, no shadow)
  */
-const MIDNIGHT = '#201C36';
-const MIDNIGHT_DEEP = '#14112A';
+const MIDNIGHT = '#120F24';
+const MIDNIGHT_DEEP = '#0A0818';
 
 
 const VANILLA = '#F4EDEA';
