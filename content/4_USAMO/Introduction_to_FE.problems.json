@@ -28,6 +28,19 @@
       }
     }, 
     {
+      "uniqueId": "canada-2015-1",
+      "name": "Canada 2015/1",
+      "url": "https://aops.com/community/c71018_2015_canada_national_olympiad",
+      "source": "Canada",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": ["FE"],
+      "statement": "Let $\\mathbb{N} = \\{1, 2, 3, \\ldots\\}$ be the set of positive integers. Find all functions $f$, defined on $\\mathbb{N}$ and taking values in $\\mathbb{N}$, such that $(n-1)^2< f(n)f(f(n)) < n^2+n$ for every positive integer $n$", 
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    }, 
+    {
       "uniqueId": "Benelux-2025-1",
       "name": "Benelux 2025/1",
       "url": "https://aops.com/community/c4305548_2025_benelux",
@@ -49,6 +62,19 @@
       "isStarred": false,
       "tags": ["FE"],
       "statement": "Find all functions $f: \\mathbb{R} \\to \\mathbb{R}$ such that $f(f(x+y) - f(x)) + f(x)f(y) = f(x^2) - f(x+y),$ for all real numbers $x, y$.", 
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    }, 
+    {
+      "uniqueId": "isl-2015-C2",
+      "name": "ISL 2015 C2",
+      "url": "https://aops.com/community/c111148_2015_imo_shortlist",
+      "source": "IMO shortlist",
+      "difficulty": "hard",
+      "isStarred": false,
+      "tags": ["FE"],
+      "statement": "Determine all functions $f:\\mathbb{Z}\\rightarrow\\mathbb{Z}$ with the property that $$f(x-f(y))=f(f(x))-f(y)-1$$ holds for all $x,y\\in\\mathbb{Z}$.", 
       "solutionMetadata": {
         "kind": "none"
       }
