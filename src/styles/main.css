@@ -61,5 +61,25 @@
   [role='button']:disabled {
     cursor: default;
   }
+
+  ::selection {
+    background: #f5f0fa;
+    color: #171413;
+  }
+
+  ::-moz-selection {
+    background: #f5f0fa;
+    color: #171413;
+  }
+
+  .markdown ::selection {
+    background: #f5f0fa;
+    color: #171413;
+  }
+
+  .markdown ::-moz-selection {
+    background: #f5f0fa;
+    color: #171413;
+  }
 }
 

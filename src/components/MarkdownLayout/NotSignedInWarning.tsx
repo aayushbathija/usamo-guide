@@ -24,29 +24,38 @@ export default function NotSignedInWarning() {
           }}
         >
           <div className="px-4 py-5 sm:p-6">
-            <h3 className="text-lg leading-6 font-medium" style={{ color: '#120F24' }}>
-              You're not signed in!
-            </h3>
-            <div className="mt-2 max-w-2xl text-sm leading-6" style={{ color: 'rgba(18, 15, 36, 0.8)' }}>
-              <p>
-                Track progress, unlock problem sets, and sync across devices.
-              </p>
-            </div>
-            <div className="mt-5">
-              <span className="inline-flex rounded-md shadow-sm">
-                <button
-                  type="button"
-                  onClick={() => signIn()}
-                  className="inline-flex items-center rounded-md border px-4 py-2 text-sm leading-5 font-medium transition duration-150 ease-in-out focus:outline-hidden"
-                  style={{
-                    borderColor: 'rgba(112, 66, 138, 0.46)',
-                    backgroundColor: '#70428A',
-                    color: '#F4EDEA',
-                  }}
-                >
-                  Save Progress
-                </button>
-              </span>
+            <div className="flex w-full flex-col items-center gap-4 sm:flex-row sm:justify-center sm:gap-6 lg:justify-between">
+              <div className="max-w-2xl text-center lg:text-left">
+                <h3 className="text-lg leading-6 font-medium" style={{ color: '#120F24' }}>
+                  You're not signed in!
+                </h3>
+                <div className="mt-2 text-sm leading-6" style={{ color: 'rgba(18, 15, 36, 0.8)' }}>
+                  <p>
+                    Track progress, unlock problem sets, and sync across devices.
+                  </p>
+                </div>
+                <div className="mt-5">
+                  <span className="inline-flex rounded-md shadow-sm">
+                    <button
+                      type="button"
+                      onClick={() => signIn()}
+                      className="inline-flex items-center rounded-md border px-4 py-2 text-sm leading-5 font-medium transition duration-150 ease-in-out focus:outline-hidden"
+                      style={{
+                        borderColor: 'rgba(112, 66, 138, 0.46)',
+                        backgroundColor: '#70428A',
+                        color: '#F4EDEA',
+                      }}
+                    >
+                      Save Progress
+                    </button>
+                  </span>
+                </div>
+              </div>
+              <img
+                src="/images/cryingmascot.png"
+                alt="Crying mascot"
+                className="h-20 w-auto shrink-0 object-contain sm:h-24"
+              />
             </div>
           </div>
         </div>

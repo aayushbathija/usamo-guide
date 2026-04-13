@@ -1,298 +1,170 @@
 import { Link } from 'gatsby';
-import { motion } from 'framer-motion';
 import * as React from 'react';
 
-const cn = (...classes: Array<string | false | null | undefined>) =>
-  classes.filter(Boolean).join(' ');
-
-class Particle {
-  x: number;
-  y: number;
-  directionX: number;
-  directionY: number;
-  size: number;
-  color: string;
-
-  constructor(
-    x: number,
-    y: number,
-    directionX: number,
-    directionY: number,
-    size: number,
-    color: string
-  ) {
-    this.x = x;
-    this.y = y;
-    this.directionX = directionX;
-    this.directionY = directionY;
-    this.size = size;
-    this.color = color;
-  }
-
-  draw(ctx: CanvasRenderingContext2D) {
-    ctx.beginPath();
-    ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2, false);
-    ctx.fillStyle = this.color;
-    ctx.fill();
-  }
-
-  update(
-    ctx: CanvasRenderingContext2D,
-    canvas: HTMLCanvasElement,
-    mouse: { x: number | null; y: number | null; radius: number }
-  ) {
-    if (this.x > canvas.width || this.x < 0) {
-      this.directionX = -this.directionX;
-    }
-    if (this.y > canvas.height || this.y < 0) {
-      this.directionY = -this.directionY;
-    }
-
-    if (mouse.x !== null && mouse.y !== null) {
-      const dx = mouse.x - this.x;
-      const dy = mouse.y - this.y;
-      const distance = Math.sqrt(dx * dx + dy * dy);
-      if (distance < mouse.radius + this.size && distance > 0) {
-        const forceDirectionX = dx / distance;
-        const forceDirectionY = dy / distance;
-        const force = (mouse.radius - distance) / mouse.radius;
-        this.x -= forceDirectionX * force * 5;
-        this.y -= forceDirectionY * force * 5;
-      }
-    }
-
-    this.x += this.directionX;
-    this.y += this.directionY;
-    this.draw(ctx);
-  }
-}
-
 export default function AetherFlowHero(): JSX.Element {
-  const canvasRef = React.useRef<HTMLCanvasElement | null>(null);
-  const containerRef = React.useRef<HTMLDivElement | null>(null);
+  const subtitles = React.useMemo(
+    () => [
+      'A structured pathway for learning competition maths.',
+      'Curated topics from AMC foundations to Olympiad depth.',
+      'Learn faster with battle-tested problem-solving tracks.',
+      'Train with purpose, not guesswork.',
+    ],
+    []
+  );
+
+  const [subtitleIndex, setSubtitleIndex] = React.useState(0);
+  const [typedSubtitle, setTypedSubtitle] = React.useState('');
+  const [isDeleting, setIsDeleting] = React.useState(false);
 
   React.useEffect(() => {
-    const canvas = canvasRef.current;
-    const container = containerRef.current;
-    if (!canvas || !container) return;
+    const current = subtitles[subtitleIndex];
 
-    const ctx = canvas.getContext('2d');
-    if (!ctx) return;
+    if (!isDeleting && typedSubtitle === current) {
+      const holdTimer = window.setTimeout(() => setIsDeleting(true), 1300);
+      return () => window.clearTimeout(holdTimer);
+    }
 
-    let animationFrameId = 0;
-    let particles: Particle[] = [];
-    const mouse = { x: null as number | null, y: null as number | null, radius: 200 };
+    if (isDeleting && typedSubtitle.length === 0) {
+      setIsDeleting(false);
+      setSubtitleIndex((prev) => (prev + 1) % subtitles.length);
+      return;
+    }
 
-    const init = () => {
-      particles = [];
-      const numberOfParticles = (canvas.height * canvas.width) / 9000;
-      for (let i = 0; i < numberOfParticles; i += 1) {
-        const size = Math.random() * 2 + 1;
-        const x = Math.random() * (canvas.width - size * 4) + size * 2;
-        const y = Math.random() * (canvas.height - size * 4) + size * 2;
-        const directionX = Math.random() * 0.4 - 0.2;
-        const directionY = Math.random() * 0.4 - 0.2;
-        const color = 'rgba(240, 194, 255, 0.78)';
-        particles.push(new Particle(x, y, directionX, directionY, size, color));
-      }
-    };
+    const speed = isDeleting ? 36 : 64;
+    const timer = window.setTimeout(() => {
+      setTypedSubtitle((prev) =>
+        isDeleting ? prev.slice(0, -1) : current.slice(0, prev.length + 1)
+      );
+    }, speed);
 
-    const resizeCanvas = () => {
-      canvas.width = container.clientWidth;
-      canvas.height = container.clientHeight;
-      init();
-    };
-
-    const connect = () => {
-      for (let a = 0; a < particles.length; a += 1) {
-        for (let b = a; b < particles.length; b += 1) {
-          const distance =
-            (particles[a].x - particles[b].x) * (particles[a].x - particles[b].x) +
-            (particles[a].y - particles[b].y) * (particles[a].y - particles[b].y);
-
-          if (distance < (canvas.width / 7) * (canvas.height / 7)) {
-            const opacityValue = 1 - distance / 20000;
-            const dxMouseA = particles[a].x - (mouse.x ?? 0);
-            const dyMouseA = particles[a].y - (mouse.y ?? 0);
-            const distanceMouseA = Math.sqrt(dxMouseA * dxMouseA + dyMouseA * dyMouseA);
-
-            if (mouse.x !== null && distanceMouseA < mouse.radius) {
-              ctx.strokeStyle = `rgba(247, 222, 255, ${opacityValue * 0.9})`;
-            } else {
-              ctx.strokeStyle = `rgba(184, 139, 208, ${opacityValue * 0.7})`;
-            }
-
-            ctx.lineWidth = 1;
-            ctx.beginPath();
-            ctx.moveTo(particles[a].x, particles[a].y);
-            ctx.lineTo(particles[b].x, particles[b].y);
-            ctx.stroke();
-          }
-        }
-      }
-    };
-
-    const animate = () => {
-      animationFrameId = window.requestAnimationFrame(animate);
-      ctx.fillStyle = '#0A0818';
-      ctx.fillRect(0, 0, canvas.width, canvas.height);
-
-      for (let i = 0; i < particles.length; i += 1) {
-        particles[i].update(ctx, canvas, mouse);
-      }
-      connect();
-    };
-
-    const handleMouseMove = (event: MouseEvent) => {
-      const rect = canvas.getBoundingClientRect();
-      mouse.x = event.clientX - rect.left;
-      mouse.y = event.clientY - rect.top;
-    };
-
-    const handleMouseOut = () => {
-      mouse.x = null;
-      mouse.y = null;
-    };
-
-    window.addEventListener('resize', resizeCanvas);
-    window.addEventListener('mousemove', handleMouseMove);
-    window.addEventListener('mouseout', handleMouseOut);
-
-    resizeCanvas();
-    animate();
-
-    return () => {
-      window.removeEventListener('resize', resizeCanvas);
-      window.removeEventListener('mousemove', handleMouseMove);
-      window.removeEventListener('mouseout', handleMouseOut);
-      window.cancelAnimationFrame(animationFrameId);
-    };
-  }, []);
-
-  const fadeUp = (index: number) => ({
-    initial: { opacity: 0, y: 20 },
-    animate: { opacity: 1, y: 0 },
-    transition: {
-      delay: index * 0.16 + 0.3,
-      duration: 0.72,
-      ease: 'easeInOut' as const,
-    },
-  });
+    return () => window.clearTimeout(timer);
+  }, [isDeleting, subtitleIndex, subtitles, typedSubtitle]);
 
   return (
     <div
-      ref={containerRef}
       data-page-tone="dark"
-      className="relative flex min-h-screen w-full flex-col items-center justify-center overflow-hidden"
+      className="relative flex min-h-screen w-full flex-col overflow-hidden pt-20"
       style={{ backgroundColor: '#0A0818' }}
     >
-      <canvas ref={canvasRef} className="absolute top-0 left-0 h-full w-full" />
+      <div
+        className="pointer-events-none absolute inset-0 scale-105 blur-[2px]"
+        style={{
+          backgroundImage: "url('/images/Hero.png')",
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      />
 
-      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_80%_18%,rgba(191,128,255,0.09),transparent_32%),radial-gradient(circle_at_24%_82%,rgba(112,66,138,0.12),transparent_32%),linear-gradient(180deg,rgba(10,8,24,0.55),rgba(12,10,28,0.84)_70%,rgba(6,5,16,0.96))]" />
-
-      <div className="relative z-10 px-6 text-center">
-        <motion.div
-          {...fadeUp(0)}
-          className="mb-6 inline-flex items-center rounded-full px-6 py-3 text-base font-extrabold tracking-wide"
-          style={{
-            border: '1px solid rgba(240, 194, 255, 0.26)',
-            background: 'rgba(244, 237, 234, 0.10)',
-            color: '#F4EDEA',
-            backdropFilter: 'blur(10px)',
-            WebkitBackdropFilter: 'blur(10px)',
-          }}
+      {/* ── Top bar ── */}
+      <div className="relative z-10 flex w-full items-center justify-between px-10 py-8">
+        <a
+          href="https://github.com/usamoguide/usamo-guide"
+          target="_blank"
+          rel="noreferrer"
+          className="flex items-center gap-2 font-mono text-xs font-bold uppercase tracking-widest text-[#F5F0FA] drop-shadow-[0_1px_3px_rgba(0,0,0,0.8)] transition-opacity hover:opacity-70"
         >
-          Written by USAMO/JMO qualifiers.
-        </motion.div>
+          {/* GitHub icon */}
+          <svg viewBox="0 0 16 16" className="h-4 w-4 flex-shrink-0 fill-current" aria-hidden="true">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
+              0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+              -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66
+              .07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15
+              -.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27
+              .68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12
+              .51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48
+              0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
+          </svg>
+          HTTPS://GITHUB.COM/USAMOGUIDE/USAMO-GUIDE
+        </a>
 
-        <motion.h1
-          {...fadeUp(1)}
-          className={cn(
-            'mb-6 text-5xl font-bold tracking-tighter md:text-8xl',
-            'bg-gradient-to-b from-white to-[#D9D2DF] bg-clip-text text-transparent'
-          )}
-        >
-          A Clear Roadmap from
-          <br />
-          <span className="text-[#B88BD0]">
+        <p className="font-mono text-xs font-bold uppercase tracking-widest text-[#F5F0FA] drop-shadow-[0_1px_3px_rgba(0,0,0,0.8)]">
+          {'<- '}WE ARE{' '}
+          <strong className="font-bold text-[#FBF7FF]">OPEN SOURCE</strong>
+          !! STAR US ON GITHUB IF YOU THINK MATH IS COOL ;)
+        </p>
+      </div>
+
+      {/* ── Center content ── */}
+      <div className="relative z-10 flex flex-1 flex-col items-center justify-center px-6 text-center">
+        <div className="flex flex-col items-center justify-center gap-4 md:flex-row md:items-end md:gap-6">
+          <h1 className="font-mono text-5xl font-extrabold tracking-tight text-[#F5F0FA] md:text-7xl lg:text-8xl">
+            A Clear Roadmap from
+            <br />
             AMC to Olympiad
-          </span>
-        </motion.h1>
+          </h1>
+        </div>
 
-        <motion.p
-          {...fadeUp(2)}
-          className="mx-auto mb-10 max-w-3xl text-lg text-[#F4EDEA]/80"
-        >
-          Structured topics, curated problems, and a clear path to Olympiad-level
-          problem solving.
-        </motion.p>
+        <p className="mt-5 min-h-[2.25rem] font-mono text-xl font-semibold text-[#F1EAF7] md:min-h-[2.5rem] md:text-2xl">
+          {typedSubtitle}
+          <span className="ml-1 inline-block h-[1.05em] w-[0.09em] animate-pulse bg-[#F1EAF7] align-[-0.15em]" />
+        </p>
 
-        <motion.div
-          {...fadeUp(3)}
-          className="flex flex-wrap items-center justify-center gap-4"
-        >
+        <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
           <Link
             to="/dashboard"
-            className="purple-motion-effect inline-flex items-center justify-center rounded-full px-6 py-3 md:px-8 md:py-3 text-lg font-bold leading-tight"
+            className="purple-motion-effect inline-flex items-center justify-center rounded-full px-6 py-3 md:px-8 md:py-3 font-mono text-lg font-bold leading-tight"
             style={{
-              border: '1px solid rgba(112, 66, 138, 0.55)',
-              background:
-                'linear-gradient(135deg, #F7DEFF 0%, #70428A 55%, #F0C2FF 100%)',
-              boxShadow: 'none',
-              '--pme-color': '#201C36',
-              '--pme-hover-color': '#F4EDEA',
-              '--pme-wipe-bg': '#70428A',
-            } as React.CSSProperties}
-          >
-            Start Learning {'>'}
-          </Link>
-          <Link
-            to="/foundations"
-            className="purple-motion-effect inline-flex items-center justify-center rounded-[130px] px-4 py-2 md:px-6 md:py-3 text-lg font-bold"
-            style={{
-              border: '1px solid rgba(112, 66, 138, 0.55)',
-              backgroundColor: '#70428A',
+              border: '1px solid rgba(240, 194, 255, 0.34)',
+              background: '#171413',
               boxShadow: 'none',
               '--pme-color': '#F4EDEA',
               '--pme-hover-color': '#201C36',
-              '--pme-wipe-bg': '#F7DEFF',
+              '--pme-wipe-bg': '#F0C2FF',
+            } as React.CSSProperties}
+          >
+            Start Learning &gt;
+          </Link>
+          <Link
+            to="/foundations"
+            className="purple-motion-effect inline-flex items-center justify-center rounded-[130px] px-4 py-2 md:px-6 md:py-3 font-mono text-lg font-bold"
+            style={{
+              border: '1px solid rgba(240, 194, 255, 0.34)',
+              backgroundColor: '#171413',
+              boxShadow: 'none',
+              '--pme-color': '#F4EDEA',
+              '--pme-hover-color': '#201C36',
+              '--pme-wipe-bg': '#F0C2FF',
             } as React.CSSProperties}
           >
             Browse Topics
           </Link>
-        </motion.div>
+        </div>
+      </div>
 
-        <motion.div {...fadeUp(4)} className="mt-10 flex flex-col items-center gap-4">
-          <span className="block text-center font-semibold text-[#F4EDEA]/78">
-            Built by the USAMO Guide community
-          </span>
-          <div className="flex w-full flex-wrap justify-center gap-4 sm:gap-6">
-            <a
-              href="https://github.com/usamoguide/usamo-guide"
-              target="_blank"
-              rel="noreferrer"
-              className="font-semibold text-[#F0C2FF] transition-colors hover:text-[#F7DEFF]"
-            >
-              Check out our GitHub →
-            </a>
-            <a
-              href="https://discord.gg/X2zx6u53XH"
-              target="_blank"
-              rel="noreferrer"
-              className="font-semibold text-[#F0C2FF] transition-colors hover:text-[#F7DEFF]"
-            >
-              Join our Discord server →
-            </a>
-            <a
-              href="https://contests.usamoguide.com/"
-              target="_blank"
-              rel="noreferrer"
-              className="font-semibold text-[#F0C2FF] transition-colors hover:text-[#F7DEFF]"
-            >
-              Explore contests platform →
-            </a>
+      {/* ── Bottom bar ── */}
+      <div className="relative z-10 flex w-full items-end justify-between px-12 pb-12 pt-6">
+        {/* Bottom-left: written by */}
+        <div className="font-mono uppercase text-[#F5F0FA] drop-shadow-[0_1px_4px_rgba(0,0,0,0.9)]">
+          <p className="text-base font-bold tracking-widest md:text-lg">Written By</p>
+          <p className="text-3xl font-extrabold tracking-widest md:text-5xl">AIME/AMO</p>
+          <p className="text-base font-bold tracking-widest md:text-lg">Quals!</p>
+        </div>
+
+        {/* Bottom-right: Discord */}
+        <a
+          href="https://discord.gg/X2zx6u53XH"
+          target="_blank"
+          rel="noreferrer"
+          className="flex items-start gap-2 text-right font-mono text-xs font-bold uppercase tracking-widest text-[#F5F0FA] drop-shadow-[0_1px_4px_rgba(0,0,0,0.9)] transition-opacity hover:opacity-70"
+        >
+          <div className="text-right">
+            <p>Let&apos;s love maths together!</p>
+            <p>Join the Discord server :)</p>
+            <p className="mt-1 text-white/50">https://discord.gg/X2zx6u53XH</p>
           </div>
-        </motion.div>
+          {/* Discord icon */}
+          <svg viewBox="0 0 71 55" className="mt-0.5 h-4 w-4 flex-shrink-0 fill-current" aria-hidden="true">
+            <path d="M60.1 4.9A58.5 58.5 0 0045.7.8a.2.2 0 00-.2.1 40.7 40.7 0 00-1.8 3.7
+              -13.9 0-27.7 0-41.5.1a.2.2 0 00-.2.1A40.6 40.6 0 000 8.2C-.1 8.3 0 8.5.1 8.6
+              a57.9 57.9 0 0014.4 4.1.2.2 0 00.2-.1 42.2 42.2 0 003.6-5.8.2.2 0 00-.1-.3
+              -1.9-.7-3.8-1.5-5.5-2.4a.2.2 0 010-.4c.4-.3.7-.5 1.1-.8a.2.2 0 01.2 0
+              c11.5 5.3 24 5.3 35.4 0a.2.2 0 01.2 0c.4.3.8.5 1.1.8a.2.2 0 010 .4
+              -1.8.9-3.6 1.7-5.5 2.4a.2.2 0 00-.1.3 47.4 47.4 0 003.6 5.8.2.2 0 00.2.1
+              A58 58 0 0071 8.6a.2.2 0 000-.2A58.3 58.3 0 0060.1 4.9zM23.7 36.3
+              c-3 0-5.4-2.7-5.4-6.1s2.4-6.1 5.4-6.1 5.5 2.7 5.4 6.1c0 3.4-2.4 6.1-5.4 6.1z
+              m20 0c-3 0-5.4-2.7-5.4-6.1s2.4-6.1 5.4-6.1 5.5 2.7 5.4 6.1c0 3.4-2.4 6.1-5.4 6.1z" />
+          </svg>
+        </a>
       </div>
     </div>
   );

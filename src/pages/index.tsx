@@ -137,7 +137,7 @@ export default function IndexPage({ path }): JSX.Element {
 
       <div className="fixed top-0 z-50 w-full">
         <div className="backdrop-blur-lg">
-          <TopNavigationBar />
+            <TopNavigationBar hidePromoBar />
         </div>
       </div>
 
@@ -176,22 +176,34 @@ export default function IndexPage({ path }): JSX.Element {
         <div className="h-6 sm:h-10 md:h-16 2xl:h-24"></div>
 
 
+        <RevealSection className="px-6 sm:px-8 lg:px-10">
+          <div className="mx-auto grid w-full max-w-6xl items-center justify-center gap-8 pb-3 md:grid-cols-[auto_auto] md:gap-x-10 md:pl-8 lg:gap-x-14 lg:pl-10">
+            <div className="flex min-w-0 flex-col items-center">
+              <h2
+                className="text-center text-5xl font-bold md:text-6xl md:whitespace-nowrap xl:text-7xl"
+                style={{ color: TEXT_PRIMARY }}
+              >
+                Learn Contest Math
+              </h2>
+              <p
+                className="mx-auto mt-4 max-w-2xl text-center text-lg font-medium leading-relaxed md:text-xl 2xl:text-2xl"
+                style={{ color: TEXT_SECONDARY }}
+              >
+                Carefully designed for math contest students - available to everyone,
+                for free.
+              </p>
+            </div>
+            <div className="flex justify-center">
+              <img
+                src="/images/Lovemascot.png"
+                alt="Lovemascot"
+                className="h-32 w-auto shrink-0 object-contain md:h-40 lg:h-48 xl:h-56"
+              />
+            </div>
+          </div>
+        </RevealSection>
+
         <div className={containerClasses}>
-          <RevealSection>
-            <h2
-              className="justify-center items-center mx-auto flex flex-col text-6xl font-bold pb-3"
-              style={{ color: TEXT_PRIMARY }}
-            >
-              Learn Contest Math
-            </h2>
-            <p
-              className="text-center mx-auto !w-2/4 text-lg md:text-xl 2xl:text-2xl font-medium leading-relaxed"
-              style={{ color: TEXT_SECONDARY }}
-            >
-              Carefully designed for math contest students - available to everyone,
-              for free.
-            </p>
-          </RevealSection>
 
 
           <div className="h-12 md:h-20 2xl:h-36"></div>

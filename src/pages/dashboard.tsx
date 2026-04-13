@@ -279,8 +279,8 @@ export default function DashboardPage(props: PageProps) {
                           color: '#120F24',
                         }}
                       >
-                        <div className="flex flex-col items-center justify-center gap-4">
-                          <div className="max-w-2xl">
+                        <div className="flex w-full flex-col items-center gap-4 sm:flex-row sm:justify-center sm:gap-6 lg:justify-between">
+                          <div className="max-w-2xl text-center lg:text-left">
                             <div className="text-xl font-semibold sm:text-2xl">
                               You&apos;re not signed in!
                             </div>
@@ -290,19 +290,24 @@ export default function DashboardPage(props: PageProps) {
                             >
                               Track progress, unlock problem sets, and sync across devices.
                             </div>
+                            <button
+                              type="button"
+                              onClick={() => signIn()}
+                              className="mt-4 inline-flex items-center justify-center rounded-md border px-4 py-2 text-sm font-medium transition hover:opacity-95"
+                              style={{
+                                borderColor: 'rgba(112, 66, 138, 0.46)',
+                                backgroundColor: '#70428A',
+                                color: VANILLA,
+                              }}
+                            >
+                              Save Progress
+                            </button>
                           </div>
-                          <button
-                            type="button"
-                            onClick={() => signIn()}
-                            className="inline-flex items-center justify-center rounded-md border px-4 py-2 text-sm font-medium transition hover:opacity-95"
-                            style={{
-                              borderColor: 'rgba(112, 66, 138, 0.46)',
-                              backgroundColor: '#70428A',
-                              color: VANILLA,
-                            }}
-                          >
-                            Save Progress
-                          </button>
+                          <img
+                            src="/images/cryingmascot.png"
+                            alt="Crying mascot"
+                            className="h-24 w-auto shrink-0 object-contain sm:h-28"
+                          />
                         </div>
                       </div>
                     )}
