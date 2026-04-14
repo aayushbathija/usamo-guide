@@ -1,5 +1,6 @@
 import { Link } from 'gatsby';
 import * as React from 'react';
+import { Component as InfiniteGrid } from '../ui/the-infinite-grid';
 
 export default function AetherFlowHero(): JSX.Element {
   const subtitles = React.useMemo(
@@ -47,13 +48,15 @@ export default function AetherFlowHero(): JSX.Element {
       style={{ backgroundColor: '#0A0818' }}
     >
       <div
-        className="pointer-events-none absolute inset-0 scale-105 blur-[2px]"
+        className="pointer-events-none absolute inset-0 z-0 scale-105 blur-[10px]"
         style={{
-          backgroundImage: "url('/images/Hero.png')",
+          backgroundImage: "url('https://i.pinimg.com/736x/d0/9b/c0/d09bc0f0e04ef42b224edb44c77d0da1.jpg')",
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
       />
+
+      <InfiniteGrid />
 
       {/* ── Top bar ── */}
       <div className="relative z-10 flex w-full items-center justify-between px-10 py-8">
@@ -61,7 +64,7 @@ export default function AetherFlowHero(): JSX.Element {
           href="https://github.com/usamoguide/usamo-guide"
           target="_blank"
           rel="noreferrer"
-          className="flex items-center gap-2 font-mono text-xs font-bold uppercase tracking-widest text-[#F5F0FA] drop-shadow-[0_1px_3px_rgba(0,0,0,0.8)] transition-opacity hover:opacity-70"
+          className="group flex items-center gap-2 font-mono text-xs font-bold uppercase tracking-widest text-[#F5F0FA] drop-shadow-[0_1px_3px_rgba(0,0,0,0.8)] transition-opacity hover:opacity-80"
         >
           {/* GitHub icon */}
           <svg viewBox="0 0 16 16" className="h-4 w-4 flex-shrink-0 fill-current" aria-hidden="true">
@@ -74,11 +77,13 @@ export default function AetherFlowHero(): JSX.Element {
               .51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48
               0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
           </svg>
-          HTTPS://GITHUB.COM/USAMOGUIDE/USAMO-GUIDE
+          <span className="text-white drop-shadow-[0_0_6px_rgba(255,255,255,0.35)]">
+            HTTPS://GITHUB.COM/USAMOGUIDE/USAMO-GUIDE
+          </span>
         </a>
 
         <p className="font-mono text-xs font-bold uppercase tracking-widest text-[#F5F0FA] drop-shadow-[0_1px_3px_rgba(0,0,0,0.8)]">
-          {'<- '}WE ARE{' '}
+          WE ARE{' '}
           <strong className="font-bold text-[#FBF7FF]">OPEN SOURCE</strong>
           !! STAR US ON GITHUB IF YOU THINK MATH IS COOL ;)
         </p>
@@ -87,10 +92,8 @@ export default function AetherFlowHero(): JSX.Element {
       {/* ── Center content ── */}
       <div className="relative z-10 flex flex-1 flex-col items-center justify-center px-6 text-center">
         <div className="flex flex-col items-center justify-center gap-4 md:flex-row md:items-end md:gap-6">
-          <h1 className="font-mono text-5xl font-extrabold tracking-tight text-[#F5F0FA] md:text-7xl lg:text-8xl">
-            A Clear Roadmap from
-            <br />
-            AMC to Olympiad
+          <h1 className="font-mono text-6xl font-extrabold tracking-tight text-[#F5F0FA] md:text-8xl lg:text-9xl">
+            USAMO Guide
           </h1>
         </div>
 
@@ -136,8 +139,8 @@ export default function AetherFlowHero(): JSX.Element {
         {/* Bottom-left: written by */}
         <div className="font-mono uppercase text-[#F5F0FA] drop-shadow-[0_1px_4px_rgba(0,0,0,0.9)]">
           <p className="text-base font-bold tracking-widest md:text-lg">Written By</p>
-          <p className="text-3xl font-extrabold tracking-widest md:text-5xl">AIME/AMO</p>
-          <p className="text-base font-bold tracking-widest md:text-lg">Quals!</p>
+          <p className="text-3xl font-extrabold tracking-widest md:text-5xl">AMO</p>
+          <p className="text-base font-bold tracking-widest md:text-lg">Medalists!</p>
         </div>
 
         {/* Bottom-right: Discord */}
