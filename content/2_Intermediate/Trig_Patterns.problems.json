@@ -1,4 +1,120 @@
 {
-  "MODULE_ID": "trig-patterns",
-  "practice": []
+  "MODULE_ID": "trig-patterns-aime",
+  "practice": [
+    {
+      "uniqueId": "unique-problem-01",
+      "name": "Symmetric Sine Sums",
+      "url": "",
+      "source": "My own",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Trigonometry",
+        "Symmetry"
+      ],
+      "statement": "Compute the value of the sum:\n$$\\sin^2(10^\\circ) + \\sin^2(20^\\circ) + \\sin^2(30^\\circ) + \\dots + \\sin^2(90^\\circ)$$\nExpress your answer as a common fraction or a decimal.",
+      "interaction": {
+        "type": "none"
+      },
+      "solutionReveal": {
+        "mode": "inline",
+        "markdown": "## Solution\n\nWe pair the terms using the identity $\\sin^2(\\theta) + \\cos^2(\\theta) = 1$ and the fact that $\\sin(90^\\circ - \\theta) = \\cos(\\theta)$.\n\nPairs:\n- $\\sin^2(10^\\circ) + \\sin^2(80^\\circ) = \\sin^2(10^\\circ) + \\cos^2(10^\\circ) = 1$\n- $\\sin^2(20^\\circ) + \\sin^2(70^\\circ) = 1$\n- $\\sin^2(30^\\circ) + \\sin^2(60^\\circ) = 1$\n- $\\sin^2(40^\\circ) + \\sin^2(50^\\circ) = 1$\n\nRemaining terms:\n- $\\sin^2(90^\\circ) = 1^2 = 1$\n\nTotal sum:\n$$1 + 1 + 1 + 1 + 1 = 5$$\n\nFinal Answer: **5**"
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "unique-problem-02",
+      "name": "The Cotangent Product",
+      "url": "",
+      "source": "My own",
+      "difficulty": "Hard",
+      "isStarred": true,
+      "tags": [
+        "Trigonometry",
+        "Telescoping"
+      ],
+      "statement": "Evaluate the product:\n$$\\prod_{k=1}^{44} \\tan(k^\\circ)$$\nThen, determine the value of $\\sum_{k=1}^{89} \\log_{10}(\\tan(k^\\circ))$.",
+      "interaction": {
+        "type": "none"
+      },
+      "solutionReveal": {
+        "mode": "inline",
+        "markdown": "## Solution\n\nFor the product $\\prod_{k=1}^{44} \\tan(k^\\circ)$, there is no simple telescoping, but let's look at the second part, the sum of logs:\n$$S = \\sum_{k=1}^{89} \\log_{10}(\\tan(k^\\circ)) = \\log_{10}\\left(\\prod_{k=1}^{89} \\tan(k^\\circ)\\right)$$\n\nPair the terms in the product:\n$$\\tan(1^\\circ) \\tan(89^\\circ) = \\tan(1^\\circ) \\cot(1^\\circ) = 1$$\n$$\\tan(2^\\circ) \\tan(88^\\circ) = 1$$\n...\n$$\\tan(44^\\circ) \\tan(46^\\circ) = 1$$\nThe middle term is $\\tan(45^\\circ) = 1$.\n\nSince every pair and the middle term equals 1, the entire product is 1.\n$$S = \\log_{10}(1) = 0$$\n\nFinal Answer: **0**"
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "unique-problem-03",
+      "name": "Double Angle Power Pattern",
+      "url": "",
+      "source": "My own",
+      "difficulty": "Hard",
+      "isStarred": true,
+      "tags": [
+        "Trigonometry",
+        "Infinite Product"
+      ],
+      "statement": "Let $f(x) = \\prod_{n=1}^{10} \\cos(2^n x)$. Find the value of $f\\left(\\frac{\\pi}{2^{11}-2}\\right)$.",
+      "interaction": {
+        "type": "none"
+      },
+      "solutionReveal": {
+        "mode": "inline",
+        "markdown": "## Solution\n\nUse the identity $\\prod_{n=0}^{k-1} \\cos(2^n x) = \\frac{\\sin(2^k x)}{2^k \\sin x}$.\n\nOur product starts at $n=1$, so we shift it:\n$$f(x) = \\frac{\\sin(2^{11} x)}{2^{10} \\sin(2x)}$$\n\nLet $x = \\frac{\\pi}{2^{11}-2}$. Note that $2^{11}x = (2^{11}-2)x + 2x = \\pi + 2x$.\nSubstituting this into the sine function:\n$$\\sin(2^{11}x) = \\sin(\\pi + 2x) = -\\sin(2x)$$\n\nPlugging this back into $f(x)$:\n$$f(x) = \\frac{-\\sin(2x)}{2^{10} \\sin(2x)} = -\\frac{1}{2^{10}}$$\n\nFinal Answer: **-1/1024**"
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "unique-problem-04",
+      "name": "Tangent Sum Identity",
+      "url": "",
+      "source": "My own",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Trigonometry",
+        "Addition Formula"
+      ],
+      "statement": "If $x+y=45^\\circ$, find the value of $(1+\\tan x)(1+\\tan y)$.",
+      "interaction": {
+        "type": "none"
+      },
+      "solutionReveal": {
+        "mode": "inline",
+        "markdown": "## Solution\n\nExpand the expression:\n$$E = 1 + \\tan x + \\tan y + \\tan x \\tan y$$\n\nUsing the formula $\\tan(x+y) = \\frac{\\tan x + \\tan y}{1 - \\tan x \\tan y}$, and knowing $x+y=45^\\circ$, we have $\\tan(45^\\circ) = 1$:\n$$1 = \\frac{\\tan x + \\tan y}{1 - \\tan x \\tan y} \\implies 1 - \\tan x \\tan y = \\tan x + \\tan y$$\n\nSubstitute $(\\tan x + \\tan y)$ in our expansion:\n$$E = 1 + (1 - \\tan x \\tan y) + \\tan x \\tan y$$\n$$E = 1 + 1 = 2$$\n\nFinal Answer: **2**"
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "unique-problem-05",
+      "name": "Roots of Unity Trig Product",
+      "url": "",
+      "source": "My own",
+      "difficulty": "Hard",
+      "isStarred": true,
+      "tags": [
+        "Trigonometry",
+        "Complex Numbers"
+      ],
+      "statement": "Evaluate the product:\n$$\\sin\\left(\\frac{\\pi}{7}\\right) \\sin\\left(\\frac{2\\pi}{7}\\right) \\sin\\left(\\frac{3\\pi}{7}\\right)$$\nExpress your answer in the form $\\frac{\\sqrt{n}}{m}$ for positive integers $n, m$.",
+      "interaction": {
+        "type": "none"
+      },
+      "solutionReveal": {
+        "mode": "inline",
+        "markdown": "## Solution\n\nConsider the polynomial $z^7 - 1 = 0$. The roots are $e^{i 2\\pi k / 7}$ for $k=0, 1, \\dots, 6$. \n\nA known identity for the product of sines derived from the roots of unity is:\n$$\\prod_{k=1}^{n-1} \\sin\\left(\\frac{k\\pi}{n}\\right) = \\frac{n}{2^{n-1}}$$\n\nFor $n=7$:\n$$\\sin\\left(\\frac{\\pi}{7}\\right) \\sin\\left(\\frac{2\\pi}{7}\\right) \\sin\\left(\\frac{3\\pi}{7}\\right) \\sin\\left(\\frac{4\\pi}{7}\\right) \\sin\\left(\\frac{5\\pi}{7}\\right) \\sin\\left(\\frac{6\\pi}{7}\\right) = \\frac{7}{2^6}$$\n\nUsing $\\sin(\\theta) = \\sin(\\pi - \\theta)$, we see that:\n$$\\sin\\left(\\frac{\\pi}{7}\\right) = \\sin\\left(\\frac{6\\pi}{7}\\right)$$\n$$\\sin\\left(\\frac{2\\pi}{7}\\right) = \\sin\\left(\\frac{5\\pi}{7}\\right)$$\n$$\\sin\\left(\\frac{3\\pi}{7}\\right) = \\sin\\left(\\frac{4\\pi}{7}\\right)$$\n\nSo the product is just $P^2$, where $P = \\sin\\left(\\frac{\\pi}{7}\\right) \\sin\\left(\\frac{2\\pi}{7}\\right) \\sin\\left(\\frac{3\\pi}{7}\\right)$:\n$$P^2 = \\frac{7}{64} \\implies P = \\frac{\\sqrt{7}}{8}$$\n\nFinal Answer: **\\sqrt{7}/8**"
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    }
+  ]
 }
