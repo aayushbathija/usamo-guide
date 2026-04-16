@@ -52,18 +52,21 @@ export default function TopNavigationBar({
       description: 'Topic-by-topic external resources curated by USAMO Guide.',
       href: '/other-useful-resources',
       icon: PresentationChartLineIcon,
+      iconSrc: '/images/otherresourcesicon.jpg',
     },
     {
       name: 'AoPS Community',
       description: 'Math contest discussions and Q&A on Art of Problem Solving.',
       href: 'https://artofproblemsolving.com/community',
       icon: ChatAlt2Icon,
+      iconSrc: '/images/aops_comm.jpg',
     },
     {
       name: 'AoPS Wiki',
       description: 'Official statements and solutions for AMC/AIME/USAMO.',
       href: 'https://artofproblemsolving.com/wiki/index.php/Main_Page',
       icon: TerminalIcon,
+      iconSrc: '/images/maacomp.jpg',
     },
     {
       name: 'USAMO Contests',
@@ -71,18 +74,21 @@ export default function TopNavigationBar({
         'Live contests, archives, and contest-specific features on our contests platform.',
       href: contestsUrl,
       icon: ChartBarIcon,
+      iconSrc: '/images/Contestsicon.jpg',
     },
     {
       name: 'MAA Competitions',
       description: 'Official contest pages and information for AMC/AIME/USAMO.',
       href: 'https://www.maa.org/math-competitions',
       icon: AcademicCapIcon,
+      iconSrc: '/images/Contestsicon.jpg',
     },
     {
       name: 'Past AMC/AIME',
       description: 'Official problem archives and scoring details.',
       href: 'https://artofproblemsolving.com/wiki/index.php/AMC_Problems_and_Solutions',
       icon: ChartBarIcon,
+      iconSrc: '/images/wikicon.jpg',
     },
   ];
 
@@ -190,11 +196,20 @@ export default function TopNavigationBar({
 
                           const body = (
                             <>
-                              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-md bg-blue-500 text-white sm:h-12 sm:w-12">
-                                <item.icon
-                                  className="h-6 w-6"
-                                  aria-hidden="true"
-                                />
+                              <div className="flex h-10 w-10 shrink-0 items-center justify-center text-white sm:h-12 sm:w-12">
+                                {item.iconSrc ? (
+                                  <img
+                                    src={item.iconSrc}
+                                    alt=""
+                                    aria-hidden="true"
+                                    className="h-full w-full object-contain"
+                                  />
+                                ) : (
+                                  <item.icon
+                                    className="h-6 w-6"
+                                    aria-hidden="true"
+                                  />
+                                )}
                               </div>
                               <div className="ml-4">
                                 <div className="dark:text-dark-high-emphasis flex text-base font-medium text-gray-900">
@@ -393,10 +408,19 @@ export default function TopNavigationBar({
                     rel="noreferrer"
                     className="group -m-3 flex items-center rounded-md p-3 hover:bg-gray-100 dark:hover:bg-gray-700"
                   >
-                    <item.icon
-                      className="h-6 w-6 shrink-0 text-gray-600 dark:group-hover:text-gray-400"
-                      aria-hidden="true"
-                    />
+                    {item.iconSrc ? (
+                      <img
+                        src={item.iconSrc}
+                        alt=""
+                        aria-hidden="true"
+                        className="h-6 w-6 shrink-0 object-contain"
+                      />
+                    ) : (
+                      <item.icon
+                        className="h-6 w-6 shrink-0 text-gray-600 dark:group-hover:text-gray-400"
+                        aria-hidden="true"
+                      />
+                    )}
                     <span className="ml-3 text-base font-medium text-gray-700 dark:text-gray-300">
                       {item.name}
                     </span>

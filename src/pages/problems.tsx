@@ -30,8 +30,16 @@ const VANILLA = '#F4EDEA';
 const PLUM_DEEP = '#1B1427';
 const PLUM_MID = '#2A1C37';
 const pageBackgroundClasses = 'min-h-screen transition-colors duration-500';
-const heroCardClasses = 'relative overflow-hidden rounded-3xl p-8 shadow-xl transition-all duration-500';
+const heroCardClasses = 'relative overflow-hidden rounded-3xl p-8 transition-all duration-500';
 const toolbarCardClasses = 'mb-5 rounded-2xl p-4 shadow-lg';
+const heroCardStyle: React.CSSProperties = {
+  background: 'linear-gradient(180deg, rgba(60, 40, 82, 0.9) 0%, rgba(37, 24, 52, 0.92) 100%)',
+  border: '1px solid rgba(229, 194, 255, 0.14)',
+};
+const toolbarCardStyle: React.CSSProperties = {
+  background: 'linear-gradient(180deg, rgba(54, 37, 72, 0.9) 0%, rgba(31, 22, 42, 0.94) 100%)',
+  border: '1px solid rgba(229, 194, 255, 0.12)',
+};
 
 type DataProps = {
   allProblemInfo: {
@@ -111,6 +119,8 @@ export default function ProblemsPage(props: PageProps<DataProps>) {
           '--select-text': '#F4EDEA',
           '--select-option-hover': 'rgba(240, 194, 255, 0.16)',
           '--select-option-selected': 'rgba(240, 194, 255, 0.24)',
+          '--accent-soft': 'rgba(101, 86, 141, 0.22)',
+          '--accent-soft-strong': 'rgba(101, 86, 141, 0.34)',
         } as React.CSSProperties}
       >
         <TopNavigationBar />
@@ -128,18 +138,12 @@ export default function ProblemsPage(props: PageProps<DataProps>) {
               <TagsRefinementList />
             </aside>
             <main className="col-span-12 sm:col-span-8 md:col-span-9 lg:col-span-10 xl:col-span-10">
-              <div
-                className={heroCardClasses}
-                style={{
-                  backgroundImage:
-                    "url('https://i.ibb.co/GQqCH4T2/fox-2.png'), linear-gradient(135deg, rgba(13, 13, 13, 0.86) 0%, rgba(42, 28, 55, 0.82) 62%, rgba(90, 66, 94, 0.44) 100%)",
-                  backgroundPosition: 'left 2rem bottom, left top',
-                  backgroundSize: 'auto 92%, 100% 100%',
-                  backgroundRepeat: 'no-repeat, no-repeat',
-                  border: '1px solid rgba(240, 194, 255, 0.22)',
-                }}
-              >
-                <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_18%_78%,rgba(244,237,234,0.08),transparent_18%),linear-gradient(180deg,rgba(23,18,40,0.08),rgba(126,91,114,0.10))]" />
+              <div className={`${heroCardClasses} ui-card-dark`} >
+                <img
+                  src="https://i.ibb.co/GQqCH4T2/fox-2.png"
+                  aria-hidden="true"
+                  className="pointer-events-none absolute bottom-0 left-8 h-[92%] w-auto object-contain object-bottom select-none"
+                />
                 <div className="relative mx-auto mb-6 max-w-3xl">
                   <h1 className="mb-6 text-center text-3xl font-bold sm:text-5xl" style={{ color: VANILLA }}>
                     Problems
@@ -154,11 +158,8 @@ export default function ProblemsPage(props: PageProps<DataProps>) {
               </div>
               <div className="px-1 py-0.5">
                 <div
-                  className={toolbarCardClasses}
-                  style={{
-                    border: '1px solid rgba(240, 194, 255, 0.20)',
-                    background: `linear-gradient(135deg, rgba(90, 66, 94, 0.40) 0%, rgba(70, 50, 78, 0.34) 100%)`,
-                  }}
+                  className={`${toolbarCardClasses} ui-card-dark`}
+                  style={toolbarCardStyle}
                 >
                   <div className="grid grid-cols-1 items-center gap-x-5 gap-y-3 sm:grid-cols-2 lg:grid-cols-6">
                   {selectionMetadata.map(props => (
@@ -174,7 +175,7 @@ export default function ProblemsPage(props: PageProps<DataProps>) {
                   <div className="flex flex-wrap justify-center gap-3">
                     <button
                       onClick={() => sendShuffle(shuffle + 1)}
-                      className="purple-motion-effect inline-flex items-center rounded-full px-4 py-2 text-sm font-semibold shadow-lg transition duration-200 focus:outline-none"
+                      className="purple-motion-effect inline-flex items-center rounded-lg px-4 py-2 text-sm font-semibold shadow-lg transition duration-200 focus:outline-none"
                       style={{
                         border: '1px solid rgba(112, 66, 138, 0.55)',
                         backgroundColor: '#3F2D51',
@@ -202,7 +203,7 @@ export default function ProblemsPage(props: PageProps<DataProps>) {
                   </button>
                   <button
                     onClick={() => sendRandom(random + 1)}
-                    className="purple-motion-effect inline-flex items-center rounded-full px-4 py-2 text-sm font-semibold shadow-lg transition duration-200 focus:outline-none"
+                    className="purple-motion-effect inline-flex items-center rounded-lg px-4 py-2 text-sm font-semibold shadow-lg transition duration-200 focus:outline-none"
                     style={{
                       border: '1px solid rgba(240, 194, 255, 0.34)',
                       background: 'rgba(36, 26, 49, 0.84)',
@@ -231,18 +232,18 @@ export default function ProblemsPage(props: PageProps<DataProps>) {
                 </div>
                 </div>
               </div>
+              </div>
               <ProblemHits shuffle={shuffle} random={random} />
               <div className="mt-3 flex flex-wrap justify-center">
-                  <Pagination showLast={true} className="pr-4" />
-                  <HitsPerPage
-                    items={[
-                      { label: '24 hits per page', value: 24, default: true },
-                      { label: '32 hits per page', value: 32 },
-                      { label: '48 hits per page', value: 48 },
-                    ]}
-                    className="mt-1 lg:mt-0"
-                  />
-                </div>
+                <Pagination showLast={true} className="problems-pagination pr-4" />
+                <HitsPerPage
+                  items={[
+                    { label: '24 hits per page', value: 24, default: true },
+                    { label: '32 hits per page', value: 32 },
+                    { label: '48 hits per page', value: 48 },
+                  ]}
+                  className="mt-1 lg:mt-0"
+                />
               </div>
             </main>
           </div>

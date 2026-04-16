@@ -59,15 +59,16 @@ function ProblemHit({ hit }: ProblemHitProps) {
           openProblemInNewTab();
         }
       }}
-      className="problem-card relative rounded-xl border p-4 ring-1 backdrop-blur-sm transition hover:-translate-y-0.5 hover:shadow-2xl"
-      style={{
-        borderColor: 'rgba(240, 194, 255, 0.26)',
-        background:
-          'linear-gradient(145deg, rgba(36, 26, 49, 0.88), rgba(30, 22, 44, 0.86))',
-        boxShadow: '0 10px 24px rgba(13, 13, 13, 0.22)',
-      }}
+      className="group relative cursor-pointer overflow-hidden rounded-2xl border border-[rgba(210,212,200,0.14)] bg-[rgba(244,237,234,0.05)] p-4 transition-all duration-300 hover:-translate-y-1 hover:border-[rgba(101,86,141,0.45)] hover:shadow-[0_16px_40px_rgba(101,86,141,0.18)]"
     >
-      <div className="flex w-full flex-row justify-between">
+      <div
+        className="pointer-events-none absolute inset-0 rounded-2xl opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+        style={{
+          background:
+            'linear-gradient(180deg, rgba(101, 86, 141, 0.16) 0%, rgba(101, 86, 141, 0.05) 32%, transparent 100%)',
+        }}
+      />
+      <div className="relative flex w-full flex-row justify-between">
         <span>
           <span className="text-sm font-medium text-[#B88BD0]">
             {hit.source}

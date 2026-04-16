@@ -62,26 +62,22 @@ export default function AetherFlowHero(): JSX.Element {
       <div className="relative z-10 px-6 pt-6 md:px-10">
         <div className="flex max-w-2xl flex-col items-start gap-3">
           <a
-            href="https://github.com/usamoguide/usamo-guide"
+            href="https://discord.gg/X2zx6u53XH"
             target="_blank"
             rel="noreferrer"
             className="group inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/[0.06] px-4 py-2 font-mono text-[11px] font-bold uppercase tracking-[0.24em] text-[#F5F0FA] backdrop-blur-md transition-all duration-300 hover:-translate-y-0.5 hover:border-white/30 hover:bg-white/10 hover:shadow-[0_14px_40px_rgba(0,0,0,0.28)]"
           >
-            <svg viewBox="0 0 16 16" className="h-4 w-4 flex-shrink-0 fill-current" aria-hidden="true">
-              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
-                0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
-                -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66
-                .07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15
-                -.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27
-                .68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12
-                .51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48
-                0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
-            </svg>
-            <span>https://github.com/usamoguide/usamo-guide</span>
+            <img
+              src="/images/discord.svg"
+              alt=""
+              aria-hidden="true"
+              className="h-4 w-4 flex-shrink-0"
+            />
+            <span>Join us on Discord</span>
           </a>
 
           <p className="max-w-xl font-mono text-[11px] font-bold uppercase leading-relaxed tracking-[0.24em] text-[#F5F0FA] opacity-90 drop-shadow-[0_1px_3px_rgba(0,0,0,0.8)]">
-            We are fully <strong className="font-bold text-[#FBF7FF]">open source</strong>. Star the repo if you think math is cool ;)
+            Let&apos;s learn math together!
           </p>
         </div>
       </div>
@@ -112,52 +108,62 @@ export default function AetherFlowHero(): JSX.Element {
         </p>
 
         <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
-          <Link
-            to="/dashboard"
-            className="purple-motion-effect inline-flex items-center justify-center rounded-full px-6 py-3 md:px-8 md:py-3 font-mono text-lg font-bold leading-tight"
-            style={{
-              border: '1px solid rgba(240, 194, 255, 0.34)',
-              background: '#171413',
-              boxShadow: 'none',
-              '--pme-color': '#F4EDEA',
-              '--pme-hover-color': '#201C36',
-              '--pme-wipe-bg': '#F0C2FF',
-            } as React.CSSProperties}
-          >
-            Start Learning &gt;
-          </Link>
-          <Link
-            to="/foundations"
-            className="purple-motion-effect inline-flex items-center justify-center rounded-full px-6 py-3 md:px-8 md:py-3 font-mono text-lg font-bold leading-tight"
-            style={{
-              border: '1px solid rgba(240, 194, 255, 0.34)',
-              backgroundColor: '#171413',
-              boxShadow: 'none',
-              '--pme-color': '#F4EDEA',
-              '--pme-hover-color': '#201C36',
-              '--pme-wipe-bg': '#F0C2FF',
-            } as React.CSSProperties}
-          >
-            Browse Topics
-          </Link>
-        </div>
+            <Link
+              to="/dashboard"
+              className="purple-motion-effect inline-flex items-center justify-center rounded-full px-6 py-3 md:px-8 md:py-3 font-mono text-lg font-bold leading-tight"
+              style={{
+                border: '1px solid rgba(240, 194, 255, 0.34)',
+                background: 'linear-gradient(135deg, #5A2F87 0%, #C58BFF 100%)',
+                boxShadow: 'none',
+                '--pme-color': '#F4EDEA',
+                '--pme-hover-color': '#201C36',
+                '--pme-wipe-bg': '#F0C2FF',
+              } as React.CSSProperties}
+            >
+              Start Learning &gt;
+            </Link>
+            <Link
+              to="/foundations"
+              className="purple-motion-effect inline-flex items-center justify-center rounded-full px-6 py-3 md:px-8 md:py-3 font-mono text-lg font-bold leading-tight"
+              style={{
+                border: '1px solid rgba(240, 194, 255, 0.34)',
+                background: 'linear-gradient(135deg, #FFF8FF 0%, #F3E7FF 38%, #D7B2FF 100%)',
+                boxShadow: 'none',
+                '--pme-color': '#2C1842',
+                '--pme-hover-color': '#201C36',
+                '--pme-wipe-bg': '#F0C2FF',
+              } as React.CSSProperties}
+            >
+              Browse Topics
+            </Link>
+          </div>
       </div>
 
       {/* ── Bottom bar ── */}
       <div className="relative z-10 px-12 pb-12 pt-6 ml-auto flex max-w-2xl flex-col items-end gap-3 text-right">
-        {/* Bottom-right: Discord */}
+        {/* Bottom-right: Open source */}
         <a
-          href="https://discord.gg/X2zx6u53XH"
+          href="https://github.com/usamoguide/usamo-guide"
           target="_blank"
           rel="noreferrer"
-          className="flex items-end gap-2 text-right font-mono text-xs font-bold uppercase tracking-widest text-[#F5F0FA] drop-shadow-[0_1px_4px_rgba(0,0,0,0.9)] transition-opacity hover:opacity-70"
+          className="group inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/[0.06] px-4 py-2 font-mono text-[11px] font-bold uppercase tracking-[0.24em] text-[#F5F0FA] backdrop-blur-md transition-all duration-300 hover:-translate-y-0.5 hover:border-white/30 hover:bg-white/10 hover:shadow-[0_14px_40px_rgba(0,0,0,0.28)]"
         >
-          <div className="text-right">
-            <p>Let&apos;s love maths together!</p>
-            <p>Join us at Discord</p>
-            <p className="mt-1 text-white/50">https://discord.gg/X2zx6u53XH</p>
-          </div>
+          <svg viewBox="0 0 16 16" className="h-4 w-4 flex-shrink-0 fill-current" aria-hidden="true">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
+              0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+              -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66
+              .07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15
+              -.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27
+              .68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12
+              .51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48
+              0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
+          </svg>
+          <span>https://github.com/usamoguide/usamo-guide</span>
         </a>
+
+        <p className="max-w-xl font-mono text-[11px] font-bold uppercase leading-relaxed tracking-[0.24em] text-[#F5F0FA] opacity-90 drop-shadow-[0_1px_3px_rgba(0,0,0,0.8)]">
+          We are fully <strong className="font-bold text-[#FBF7FF]">open source</strong>. Star the repo to support us.
+        </p>
       </div>
     </div>
   );

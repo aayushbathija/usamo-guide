@@ -3,7 +3,6 @@ import classNames from 'classnames';
 import React, { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion';
 import { CalendarCheck } from 'lucide-react';
-import ContestWidget from './ContestWidget';
 
 const MIDNIGHT = '#201C36';
 const MIDNIGHT_DEEP = '#14112A';
@@ -22,14 +21,15 @@ const projects = [
   {
     title: "Weekly Mock Contests",
     icon: CalendarCheck,
+    imageSrc: '/images/weekly_mock_contests.jpg',
     color: "from-[#C79CDA] via-[#9A6BB7] to-[#70428A]",
     desc: "Join guided sessions focused on problem solving, solution writing, and proof critique. Led by top performers to help you master competition-level rigor.",
     url: "https://contests.usamoguide.com/",
-    widget: <ContestWidget/>
   },
   {
     title: "Study Groups",
     icon: UserGroupIcon, // Swapped to UserGroup for better context
+    imageSrc: '/images/aops_comm.jpg',
     color: "from-[#D8B4E8] via-[#AA79C4] to-[#7B4B99]",
     desc: "A custom-built learning management system designed specifically for math clubs, classes, and competitive teams to track progress together. (Coming Soon!)",
     url: "/groups"
@@ -37,6 +37,7 @@ const projects = [
   {
     title: "Mentorship",
     icon: CogIcon,
+    imageSrc: '/images/mentorship.jpg',
     color: "from-[#F0C2FF] via-[#B98CD1] to-[#70428A]",
     desc: "Get paired with experienced mentors for direct feedback on your solutions, personalized study plans, and guidance through the contest circuit. (Coming Soon!)",
     url: "/groups"
@@ -83,8 +84,8 @@ const ActiveCardsHome = () => {
                   className={classNames(
                     'group relative cursor-pointer border p-1 transition-all duration-300',
                     'border-x border-t',
-                    id === 0 ? 'rounded-t-2xl' : '',
-                    id === projects.length - 1 ? 'rounded-b-2xl border-b' : 'border-b-0',
+                    id === 0 ? 'rounded-t-xl' : '',
+                    id === projects.length - 1 ? 'rounded-b-xl border-b' : 'border-b-0',
                     activeCard === id
                       ? 'shadow-[0_0_24px_rgba(112,66,138,0.16)]'
                       : 'hover:border-white/15'
@@ -99,8 +100,25 @@ const ActiveCardsHome = () => {
                         )}
                         <div className='p-4 flex items-center justify-between'>
                             <div className='flex items-center gap-4'>
-                                <div className={classNames("p-2 rounded-lg", project.color)}>
-                                    <project.icon className='size-6 text-[#201C36]'/>
+                                <div
+                                  className={classNames(
+                                    'flex h-10 w-10 items-center justify-center overflow-hidden rounded-2xl',
+                                    project.imageSrc
+                                      ? 'bg-transparent p-0'
+                                      : 'bg-linear-to-br p-2',
+                                    !project.imageSrc && project.color
+                                  )}
+                                >
+                                    {project.imageSrc ? (
+                                      <img
+                                        src={project.imageSrc}
+                                        alt=""
+                                        aria-hidden="true"
+                                        className='h-full w-full object-contain'
+                                      />
+                                    ) : (
+                                      <project.icon className='size-6 text-[#201C36]'/>
+                                    )}
                                 </div>
                                 <span className='text-lg font-bold' style={{ color: VANILLA }}>{project.title}</span>
                             </div>
@@ -134,7 +152,7 @@ const ActiveCardsHome = () => {
                 <div className="sticky top-24 h-fit min-h-[600px]">
                 <div
                   className={classNames(
-                    'relative h-full w-full max-w-full overflow-hidden rounded-3xl p-12 shadow-sm backdrop-blur-sm md:p-10'
+                    'relative h-full w-full max-w-full overflow-hidden rounded-2xl p-12 shadow-sm backdrop-blur-sm md:p-10'
                   )}
                   style={{
                     border: `1px solid ${BORDER_STRONG}`,
@@ -142,10 +160,20 @@ const ActiveCardsHome = () => {
                   }}
                 >
                     <div className="max-w-2xl relative z-10">
-                  <div className={classNames("inline-block rounded-xl my-4 bg-linear-to-br p-3 shadow-2xl", projects[activeCard].color)}>
-                      {React.createElement(projects[activeCard].icon, { className: "w-8 h-8 text-[#201C36]" })}
-                        
-                    </div>
+                    {projects[activeCard].imageSrc ? (
+                      <div className="my-4 inline-flex h-14 w-14 items-center justify-center overflow-hidden rounded-2xl">
+                        <img
+                          src={projects[activeCard].imageSrc}
+                          alt=""
+                          aria-hidden="true"
+                          className="h-full w-full object-contain"
+                        />
+                      </div>
+                    ) : (
+                      <div className={classNames("inline-block rounded-xl my-4 bg-linear-to-br p-3 shadow-2xl", projects[activeCard].color)}>
+                        {React.createElement(projects[activeCard].icon, { className: "w-8 h-8 text-[#201C36]" })}
+                      </div>
+                    )}
                     
                   <h3 className="text-4xl font-extrabold tracking-tighter leading-none" style={{ color: VANILLA }}>
                         {projects[activeCard].title}
@@ -157,12 +185,6 @@ const ActiveCardsHome = () => {
                         {projects[activeCard].desc}
                     </p>
 
-                    <div className="flex-grow flex items-center justify-center py-10">
-                        <div className="w-full">
-                        {projects[activeCard].widget}
-                        </div>
-                    </div>
-
                     </div>
 
                     {/* Deep Ambient Glow in the bottom right of the panel */}
@@ -173,7 +195,6 @@ const ActiveCardsHome = () => {
             </div>
 
         </div>
-        <div className="h-16 md:h-36"></div>
     </div>
   )
 }

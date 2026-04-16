@@ -511,6 +511,52 @@ html.transitioning-color-scheme * {
   background-color: var(--accent-soft);
 }
 
+.problems-page .problems-pagination.ais-Pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.problems-page .problems-pagination .ais-Pagination-list {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.problems-page .problems-pagination .ais-Pagination-link {
+  display: inline-flex;
+  min-width: 2.15rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(232, 194, 255, 0.5);
+  background: #ead8ff;
+  color: #000000;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 150ms ease, border-color 150ms ease,
+    color 150ms ease;
+}
+
+.problems-page .problems-pagination .ais-Pagination-item--selected .ais-Pagination-link,
+.problems-page .problems-pagination .ais-Pagination-link:hover {
+  background: #d6a7f3;
+  border-color: #c97edc;
+  color: #000000;
+}
+
+.problems-page .problems-pagination .ais-Pagination-link:visited,
+.problems-page .problems-pagination .ais-Pagination-link:focus,
+.problems-page .problems-pagination .ais-Pagination-link:active {
+  color: #000000;
+}
+
+.problems-page .problems-pagination .ais-Pagination-item--disabled .ais-Pagination-link {
+  opacity: 0.5;
+}
+
 
 .katex * {
   border-color: currentColor;

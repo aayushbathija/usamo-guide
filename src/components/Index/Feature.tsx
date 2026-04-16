@@ -35,7 +35,7 @@ export const Feature = ({
   return (
     <div
       className={classNames(
-        'ui-card relative overflow-hidden p-5 sm:p-6 md:p-8 h-full transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_0_40px_rgba(251,146,60,0.4)]',
+        'ui-card relative overflow-hidden p-5 sm:p-6 md:p-8 h-full transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_0_40px_rgba(99,84,139,0.4)]',
         className
       )}
     >

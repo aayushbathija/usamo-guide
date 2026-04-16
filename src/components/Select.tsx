@@ -3,8 +3,12 @@ import Select from 'react-select';
 import { useDarkMode } from '../context/DarkModeContext';
 export default function StyledSelect(props) {
   const darkMode = useDarkMode();
+  const portalTarget =
+    typeof document !== 'undefined' ? document.body : null;
   return (
     <Select
+      menuPortalTarget={portalTarget}
+      menuPosition="fixed"
       className={`tw-forms-disable text-left ${props.className}`}
       styles={
         !darkMode
@@ -14,16 +18,23 @@ export default function StyledSelect(props) {
                 ...provided,
                 backgroundColor: 'var(--select-bg)',
                 borderColor: 'var(--select-border)',
+                borderRadius: '1rem',
               }),
               menuList: provided => ({
                 ...provided,
                 borderColor: 'var(--select-border)',
                 borderWidth: '1px',
-                borderRadius: '6px',
+                borderRadius: '1rem',
               }),
               menu: provided => ({
                 ...provided,
                 backgroundColor: 'var(--select-menu-bg)',
+                borderRadius: '1rem',
+                zIndex: 9999,
+              }),
+              menuPortal: provided => ({
+                ...provided,
+                zIndex: 9999,
               }),
               indicatorSeparator: provided => ({
                 ...provided,

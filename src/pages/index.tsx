@@ -13,6 +13,7 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import TopNavigationBar from '../components/TopNavigationBar/TopNavigationBar';
 import { useScrollReveal } from '../hooks/useScrollReveal';
+import LightRays from '../components/Index/LightRays';
 import {
   useCurrentUser,
   useIsUserDataLoaded,
@@ -218,7 +219,7 @@ export default function IndexPage({ path }): JSX.Element {
                 iconAlt="Resources icon"
                 iconClasses="from-black to-black"
                 title="Curated Resources"
-                blobClasses="bg-orange-200 dark:bg-orange-800 hidden xl:block"
+                blobClasses="[background-color:rgb(99,84,139)] hidden xl:block"
                 feature={<ResourcesFeature />}
                 fade="none"
               >
@@ -265,7 +266,7 @@ export default function IndexPage({ path }): JSX.Element {
                 iconAlt="Progress tracking icon"
                 iconClasses="from-black to-black"
                 title="Progress Tracking"
-                blobClasses="bg-orange-200 dark:bg-orange-800"
+                blobClasses="[background-color:rgb(99,84,139)]"
                 feature={<ProgressTrackingFeature />}
                 fade="none"
               >
@@ -287,14 +288,7 @@ export default function IndexPage({ path }): JSX.Element {
                 title="Help when you need it"
                 blobClasses="bg-green-200 dark:bg-green-800"
                 feature={
-                  <div className="rounded-lg shadow-lg">
-                    <StaticImage
-                      src="../assets/aops_banner.png"
-                      alt="AoPS Community Screenshot"
-                      placeholder="blurred"
-                      layout="constrained"
-                      width={560}
-                    />
+                  <div className="">
                   </div>
                 }
                 fade="none"
@@ -322,74 +316,95 @@ export default function IndexPage({ path }): JSX.Element {
         </div>
       </div>
       <ActiveCardsHome/>
-
-
-
-            <div
-              className="relative transition-colors duration-500"
-              style={{
-                background: `linear-gradient(180deg, ${MIDNIGHT} 0%, ${MIDNIGHT_DEEP} 100%)`,
-                color: TEXT_PRIMARY,
-              }}
-            >
+         {/* Section divider — glowing line */}
+      <div
+        className="pointer-events-none mx-auto w-2/3"
+        style={{
+          height: '1px',
+          background: 'linear-gradient(to right, transparent, rgba(197, 139, 255, 0.7), rgba(140, 80, 220, 0.9), rgba(197, 139, 255, 0.7), transparent)',
+          boxShadow: '0 0 18px 6px rgba(140, 80, 220, 0.35)',
+        }}
+      />
+      <div
+        className="relative transition-colors duration-500"
+        style={{
+          background: `linear-gradient(180deg, ${MIDNIGHT_DEEP} 0%, ${MIDNIGHT_DEEP} 100%)`,
+          color: TEXT_PRIMARY,
+        }}
+      >
+        {/* Light rays effect from divider line */}
+        <div className="pointer-events-none absolute inset-0 z-0 overflow-hidden">
+          <LightRays
+            raysOrigin="top-center"
+            raysColor="#bd9ee5"
+            raysSpeed={0.8}
+            lightSpread={0.5}
+            rayLength={2.5}
+            pulsating={true}
+            fadeDistance={1}
+            saturation={0.9}
+            followMouse={true}
+            mouseInfluence={0.1}
+            noiseAmount={0.05}
+            distortion={0.1}
+            className="custom-rays"
+          />
+        </div>
         <div className="relative z-10">
-          <div className="h-15 md:h-20"></div>
+          <div className="h-16 md:h-24"></div>
           <div className={containerClasses}>
             <RevealSection>
-            <div className="grid items-center gap-8 lg:grid-cols-12 xl:gap-12">
-              <div className="lg:col-span-5">
-                <h2
-                        className="max-w-3xl text-left text-4xl font-bold tracking-tight md:text-5xl 2xl:text-6xl"
-                        style={{ color: TEXT_PRIMARY }}
-                >
-                  Join our Team.
-                </h2>
-                <div className="h-5"></div>
-                      <p
-                        className="max-w-2xl text-left text-lg leading-relaxed md:text-xl"
-                        style={{ color: TEXT_SECONDARY }}
-                      >
-                  USAMO Guide is a student-run community dedicated to olympiad
-                  mathematics. Join us to write lessons, curate problem sets,
-                  and grow as a mentor alongside fellow contest enthusiasts.
-                </p>
-                <div className="h-7 md:h-9"></div>
-                <a
-                  href="https://docs.google.com/document/d/1AUNOq6OlVcSZN_gUPfvyhimlh9hA4GNvNaLdzyflX_8/edit?usp=sharing"
-                  target="_blank"
-                  rel="noreferrer"
-                        className="purple-motion-effect inline-flex items-center rounded-full px-7 py-3 text-base font-bold transition hover:opacity-[0.95]"
-                        style={{
-                          border: `1px solid rgba(112, 66, 138, 0.55)`,
-                          backgroundColor: PURPLE_FROM_IMAGE2,
-                          boxShadow: 'none',
-                          '--pme-color': VANILLA,
-                          '--pme-hover-color': '#201C36',
-                          '--pme-wipe-bg': '#F7DEFF',
-                        } as React.CSSProperties}
-                >
-                  Apply Now
-                </a>
-              </div>
-              <div className="lg:col-span-7">
-                      <div
-                        className="overflow-hidden rounded-2xl shadow-sm lg:-mr-10 xl:-mr-16"
-                        style={infoCardStyle}
-                      >
-                  <img
-                    src="/images/builders.png"
-                    alt="USAMO Guide team collaboration"
-                    className="h-[340px] w-full object-cover object-center md:h-[460px] lg:h-[620px] xl:h-[760px]"
-                    loading="lazy"
-                  />
+              <div className="grid items-center gap-10 lg:grid-cols-12">
+                <div className="lg:col-span-7">
+                  <h2
+                    className="max-w-3xl text-left text-4xl font-bold tracking-tight md:text-5xl 2xl:text-6xl"
+                    style={{ color: TEXT_PRIMARY }}
+                  >
+                    Join our Team.
+                  </h2>
+                  <div className="h-5"></div>
+                  <p
+                    className="max-w-2xl text-left text-lg leading-relaxed md:text-xl"
+                    style={{ color: TEXT_SECONDARY }}
+                  >
+                    USAMO Guide is a student-run community dedicated to olympiad
+                    mathematics. Join us to write lessons, curate problem sets,
+                    and grow as a mentor alongside fellow contest enthusiasts.
+                  </p>
+                  <div className="h-7 md:h-9"></div>
+                  <a
+                    href="https://docs.google.com/document/d/1AUNOq6OlVcSZN_gUPfvyhimlh9hA4GNvNaLdzyflX_8/edit?usp=sharing"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="purple-motion-effect inline-flex items-center rounded-full px-7 py-3 text-base font-bold transition"
+                    style={{
+                      border: `1px solid rgba(112, 66, 138, 0.55)`,
+                      backgroundColor: PURPLE_FROM_IMAGE2,
+                      '--pme-color': VANILLA,
+                      '--pme-hover-color': '#201C36',
+                      '--pme-wipe-bg': '#F7DEFF',
+                    } as React.CSSProperties}
+                  >
+                    Apply Now
+                  </a>
                 </div>
+                <div className="lg:col-span-5">
+                  <div className="overflow-hidden rounded-2xl ui-card-dark">
+                    <img
+                      src="/images/builders.png"
+                      alt="USAMO Guide team collaboration"
+                      className="w-full object-cover object-center"
+                      loading="lazy"
+                    />
+                  </div>
+                </div>
+                <div className="h-16 md:h-24"></div>
               </div>
-            </div>
             </RevealSection>
           </div>
-          <div className="h-15 md:h-20"></div>
         </div>
       </div>
+
 
       {/* Begin FAQ */}
       <div

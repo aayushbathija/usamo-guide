@@ -179,6 +179,7 @@
     "latex": "^0.0.1",
     "latex.js": "^0.12.6",
     "lucide-react": "^0.577.0",
+    "ogl": "^1.0.11",
     "supabase": "^2.76.11",
     "throttle-debounce": "^5.0.2"
   },
