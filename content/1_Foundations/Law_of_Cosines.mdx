@@ -1,19 +1,19 @@
 ---
 id: law-of-cosines
 title: Law of Cosines
-author: USAMO Guide Team
+author: apan
 description: Generalized Pythagorean theorem for any triangle.
 prerequisites: []
 ---
 
 ## Overview
 
-Use the Law of Cosines when a triangle is not right but you need a missing side
-or angle.
+Use the Law of Cosines when a triangle is not a right triangle and you need a
+missing side or angle.
 
 ## Key Ideas
 
-- $a^2 = b^2 + c^2 - 2bc\cos A$ and cyclic versions.
+- $a^2 = b^2 + c^2 - 2bc\cos A$ (and similarly for $b^2$ and $c^2$).
 - $\cos A = \frac{b^2 + c^2 - a^2}{2bc}$.
 - If $A=90^\circ$, the formula reduces to the Pythagorean theorem.
 
@@ -21,7 +21,7 @@ or angle.
 
 ### Choose the Correct Opposite Side
 
-Always match $a$ with $A$, $b$ with $B$, and $c$ with $C$. The side opposite
+Always match $a$ with $A$, $b$ with $B$, and $c$ with $C$. The side opposite to
 the angle is the one being solved for in $a^2=b^2+c^2-2bc\cos A$.
 
 ### Find a Side from Two Sides and an Angle
@@ -31,11 +31,11 @@ directly using the first form.
 
 ### Find an Angle from Three Sides
 
-Use $\cos A = (b^2+c^2-a^2)/(2bc)$, then take $\arccos$ if needed.
+Use $\cos A = (b^2+c^2-a^2)/(2bc)$, then take $\arccos$ to get $A$.
 
 ## Worked Example
 
-Triangle has sides $a=7$, $b=8$, $c=9$. Find $\cos A$.
+A triangle has sides $a=7$, $b=8$, $c=9$. Find $\cos A$.
 
 $\cos A = \frac{8^2 + 9^2 - 7^2}{2\cdot 8\cdot 9} = \frac{64+81-49}{144} = 2/3$.
 
@@ -43,14 +43,14 @@ $\cos A = \frac{8^2 + 9^2 - 7^2}{2\cdot 8\cdot 9} = \frac{64+81-49}{144} = 2/3$.
 
 ### Example 1: Find a Side
 
-Triangle has sides $b=6$, $c=10$, and included angle $A=60^\circ$. Find $a$.
+A triangle has sides $b=6$, $c=10$, and included angle $A=60^\circ$. Find $a$.
 
 $a^2 = 6^2 + 10^2 - 2\cdot 6\cdot 10\cdot \cos 60^\circ = 36+100-60=76$,
 so $a=\sqrt{76}$.
 
 ### Example 2: Detect an Obtuse Angle
 
-Triangle has sides $a=9$, $b=5$, $c=7$. Is $\angle A$ obtuse?
+A triangle has sides $a=9$, $b=5$, $c=7$. Is $\angle A$ obtuse?
 
 Compute $b^2 + c^2 - a^2 = 25 + 49 - 81 = -7$, so $\cos A < 0$ and $A$ is obtuse.
 

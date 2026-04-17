@@ -23,7 +23,7 @@ export default function SearchBox(props: UseSearchBoxProps): JSX.Element {
     <div className="relative">
       <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-4">
         <svg
-          className="h-5 w-5 text-orange-400"
+          className="h-5 w-5 text-[#C58BFF]"
           fill="currentColor"
           viewBox="0 0 20 20"
         >
@@ -36,7 +36,12 @@ export default function SearchBox(props: UseSearchBoxProps): JSX.Element {
       </div>
       <input
         id="search"
-        className="block w-full rounded-md bg-white py-3 pr-3 pl-12 text-orange-900 placeholder-orange-300 transition focus:outline-none focus:ring-2 focus:ring-orange-400"
+        className="block w-full rounded-2xl py-3 pr-3 pl-12 transition focus:outline-none focus:ring-2 focus:ring-[#C58BFF]"
+        style={{
+          background: 'rgba(18, 15, 36, 0.55)',
+          border: '1px solid rgba(240, 194, 255, 0.22)',
+          color: '#F4EDEA',
+        }}
         placeholder="Search"
         type="search"
         autoComplete="off"

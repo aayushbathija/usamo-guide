@@ -26,9 +26,20 @@ import { searchClient } from '../utils/algoliaSearchClient';
 const indexName = `${process.env.GATSBY_ALGOLIA_INDEX_NAME ?? 'dev'}_problems`;
 
 // Style constants aligned with homepage
-const pageBackgroundClasses = 'min-h-screen bg-gray-50 dark:bg-gradient-to-b dark:from-black dark:via-black dark:to-[#1a0d00] transition-colors duration-500';
-const heroCardClasses = 'relative overflow-hidden rounded-3xl p-8 shadow-xl transition-all duration-500 dark:shadow-[0_12px_40px_rgba(8,18,40,0.65)]';
-const toolbarCardClasses = 'mb-5 rounded-2xl bg-gradient-to-r from-slate-100 to-blue-50 p-4 shadow-lg dark:bg-gradient-to-r dark:from-slate-700 dark:to-slate-800';
+const VANILLA = '#F4EDEA';
+const PLUM_DEEP = '#1B1427';
+const PLUM_MID = '#2A1C37';
+const pageBackgroundClasses = 'min-h-screen transition-colors duration-500';
+const heroCardClasses = 'relative overflow-hidden rounded-3xl p-8 transition-all duration-500';
+const toolbarCardClasses = 'mb-5 rounded-2xl p-4 shadow-lg';
+const heroCardStyle: React.CSSProperties = {
+  background: 'linear-gradient(180deg, rgba(60, 40, 82, 0.9) 0%, rgba(37, 24, 52, 0.92) 100%)',
+  border: '1px solid rgba(229, 194, 255, 0.14)',
+};
+const toolbarCardStyle: React.CSSProperties = {
+  background: 'linear-gradient(180deg, rgba(54, 37, 72, 0.9) 0%, rgba(31, 22, 42, 0.94) 100%)',
+  border: '1px solid rgba(229, 194, 255, 0.12)',
+};
 
 type DataProps = {
   allProblemInfo: {
@@ -97,7 +108,21 @@ export default function ProblemsPage(props: PageProps<DataProps>) {
     <Layout>
       <SEO title="All Problems" image={null} pathname={props.path} />
 
-      <div className={`problems-page ui-page ${pageBackgroundClasses}`}>
+      <div
+        className={`problems-page ui-page ${pageBackgroundClasses}`}
+        style={{
+          background: `linear-gradient(180deg, #0D0D0D 0%, ${PLUM_DEEP} 38%, ${PLUM_MID} 72%, #15111D 100%)`,
+          color: VANILLA,
+          '--select-bg': '#0D0D0D',
+          '--select-menu-bg': '#0D0D0D',
+          '--select-border': 'rgba(240, 194, 255, 0.26)',
+          '--select-text': '#F4EDEA',
+          '--select-option-hover': 'rgba(240, 194, 255, 0.16)',
+          '--select-option-selected': 'rgba(240, 194, 255, 0.24)',
+          '--accent-soft': 'rgba(101, 86, 141, 0.22)',
+          '--accent-soft-strong': 'rgba(101, 86, 141, 0.34)',
+        } as React.CSSProperties}
+      >
         <TopNavigationBar />
 
         <InstantSearch
@@ -113,19 +138,14 @@ export default function ProblemsPage(props: PageProps<DataProps>) {
               <TagsRefinementList />
             </aside>
             <main className="col-span-12 sm:col-span-8 md:col-span-9 lg:col-span-10 xl:col-span-10">
-              <div
-                className={heroCardClasses}
-                style={{
-                  backgroundImage:
-                    "linear-gradient(180deg, rgba(129, 41, 8, 0.18) 0%, rgba(129, 41, 8, 0.32) 100%), url('https://i.ibb.co/4n1vwT0Y/Untitled-Design.png')",
-                  backgroundPosition: 'left bottom',
-                  backgroundSize: '100% auto',
-                  backgroundRepeat: 'no-repeat',
-                }}
-              >
-                <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_18%_78%,rgba(255,255,255,0.18),transparent_20%),linear-gradient(180deg,rgba(92,27,5,0.08),rgba(92,27,5,0.28))]" />
+              <div className={`${heroCardClasses} ui-card-dark`} >
+                <img
+                  src="https://i.ibb.co/GQqCH4T2/fox-2.png"
+                  aria-hidden="true"
+                  className="pointer-events-none absolute bottom-0 left-8 h-[92%] w-auto object-contain object-bottom select-none"
+                />
                 <div className="relative mx-auto mb-6 max-w-3xl">
-                  <h1 className="dark:text-dark-high-emphasis mb-6 text-center text-3xl font-bold text-white sm:text-5xl dark:text-white">
+                  <h1 className="mb-6 text-center text-3xl font-bold sm:text-5xl" style={{ color: VANILLA }}>
                     Problems
                   </h1>
                   <div className="mx-auto max-w-md">
@@ -137,7 +157,10 @@ export default function ProblemsPage(props: PageProps<DataProps>) {
                 <PoweredBy />
               </div>
               <div className="px-1 py-0.5">
-                <div className={toolbarCardClasses}>
+                <div
+                  className={`${toolbarCardClasses} ui-card-dark`}
+                  style={toolbarCardStyle}
+                >
                   <div className="grid grid-cols-1 items-center gap-x-5 gap-y-3 sm:grid-cols-2 lg:grid-cols-6">
                   {selectionMetadata.map(props => (
                     <div
@@ -152,7 +175,14 @@ export default function ProblemsPage(props: PageProps<DataProps>) {
                   <div className="flex flex-wrap justify-center gap-3">
                     <button
                       onClick={() => sendShuffle(shuffle + 1)}
-                      className="inline-flex items-center rounded-full bg-gradient-to-r from-orange-500 to-orange-600 px-4 py-2 text-sm font-semibold text-white shadow-lg transition duration-200 hover:from-orange-400 hover:to-orange-500 focus:outline-none dark:from-orange-500 dark:to-orange-600 dark:hover:from-orange-400 dark:hover:to-orange-500"
+                      className="purple-motion-effect inline-flex items-center justify-center rounded-full px-5 py-2 font-mono text-sm font-bold leading-tight"
+                      style={{
+                        border: '1px solid rgba(240, 194, 255, 0.34)',
+                        background: 'linear-gradient(135deg, #5A2F87 0%, #C58BFF 100%)',
+                        '--pme-color': '#F4EDEA',
+                        '--pme-hover-color': '#201C36',
+                        '--pme-wipe-bg': '#F0C2FF',
+                      } as React.CSSProperties}
                       title={'Shuffle problems'}
                     >
                     <svg
@@ -173,11 +203,18 @@ export default function ProblemsPage(props: PageProps<DataProps>) {
                   </button>
                   <button
                     onClick={() => sendRandom(random + 1)}
-                    className="inline-flex items-center rounded-full bg-linear-to-r from-sky-500 to-blue-600 px-4 py-2 text-sm font-semibold text-white shadow-lg transition duration-200 hover:from-sky-400 hover:to-blue-500 focus:outline-none dark:from-sky-500 dark:to-blue-600 dark:hover:from-sky-400 dark:hover:to-blue-500"
+                    className="purple-motion-effect inline-flex items-center justify-center rounded-full px-5 py-2 font-mono text-sm font-bold leading-tight"
+                    style={{
+                      border: '1px solid rgba(240, 194, 255, 0.34)',
+                      background: 'linear-gradient(135deg, #FFF8FF 0%, #F3E7FF 38%, #D7B2FF 100%)',
+                      '--pme-color': '#2C1842',
+                      '--pme-hover-color': '#201C36',
+                      '--pme-wipe-bg': '#F0C2FF',
+                    } as React.CSSProperties}
                     title={'Go to a random unsolved problem'}
                   >
                     <svg
-                      className={'mr-2 h-5 w-5 text-gray-200'}
+                      className={'mr-2 h-5 w-5 text-[#2C1842]'}
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -195,18 +232,18 @@ export default function ProblemsPage(props: PageProps<DataProps>) {
                 </div>
                 </div>
               </div>
+              </div>
               <ProblemHits shuffle={shuffle} random={random} />
               <div className="mt-3 flex flex-wrap justify-center">
-                  <Pagination showLast={true} className="pr-4" />
-                  <HitsPerPage
-                    items={[
-                      { label: '24 hits per page', value: 24, default: true },
-                      { label: '32 hits per page', value: 32 },
-                      { label: '48 hits per page', value: 48 },
-                    ]}
-                    className="mt-1 lg:mt-0"
-                  />
-                </div>
+                <Pagination showLast={true} className="problems-pagination pr-4" />
+                <HitsPerPage
+                  items={[
+                    { label: '24 hits per page', value: 24, default: true },
+                    { label: '32 hits per page', value: 32 },
+                    { label: '48 hits per page', value: 48 },
+                  ]}
+                  className="mt-1 lg:mt-0"
+                />
               </div>
             </main>
           </div>

@@ -8,8 +8,310 @@
       "source": "AMC 12A",
       "difficulty": "Medium",
       "isStarred": false,
-      "tags": ["Linear Diophantine Equations", "Number Theory", "GCD"],
-      "statement": "Two farmers agree that pigs are worth $300$ dollars and that goats are worth $210$ dollars. When one farmer owes the other money, he pays the debt in pigs or goats, with "change" received in the form of goats or pigs as necessary. (For example, a $390$ dollar debt could be paid with two pigs, with one goat received in change.) What is the amount of the smallest positive debt that can be resolved in this way?",
+      "tags": [
+        "Linear Diophantine Equations",
+        "Number Theory",
+        "GCD"
+      ],
+      "statement": "Two farmers agree that pigs are worth $300$ dollars and that goats are worth $210$ dollars. When one farmer owes the other money, he pays the debt in pigs or goats, with \\\"change\\\" received in the form of goats or pigs as necessary. (For example, a $390$ dollar debt could be paid with two pigs, with one goat received in change.) What is the amount of the smallest positive debt that can be resolved in this way?",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1987-24",
+      "name": "Problem 24 (1987 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1987_AJHSME_Problems/Problem_24",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Scoring System",
+        "Maximization"
+      ],
+      "statement": "A multiple choice examination consists of $20$ questions. The scoring is $+5$ for each correct answer, $-2$ for each incorrect answer, and $0$ for each unanswered question. John's score on the examination is $48$. What is the maximum number of questions he could have answered correctly?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$9$",
+          "$10$",
+          "$11$",
+          "$12$",
+          "$16$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2001-22",
+      "name": "Problem 22 (2001 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2001_AMC_8_Problems/Problem_22",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Optimization",
+        "Modular Arithmetic"
+      ],
+      "statement": "On a twenty-question test, each correct answer is worth $5$ points, each unanswered question is worth $1$ point and each incorrect answer is worth $0$ points. Which of the following scores is NOT possible?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$90$",
+          "$91$",
+          "$92$",
+          "$95$",
+          "$97$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2002-2",
+      "name": "Problem 2 (2002 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2002_AMC_8_Problems/Problem_2",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Money",
+        "Combinations"
+      ],
+      "statement": "How many different combinations of $\\$5$ bills and $\\$2$ bills can be used to make a total of $\\$17$? Order does not matter in this problem.",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$2$",
+          "$3$",
+          "$4$",
+          "$5$",
+          "$6$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2008-20",
+      "name": "Problem 20 (2008 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2008_AMC_8_Problems/Problem_20",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Fractions",
+        "Ratios",
+        "Minimization"
+      ],
+      "statement": "The students in Mr. Neatkin's class took a penmanship test. Two-thirds of the boys and $\\frac{3}{4}$ of the girls passed the test, and an equal number of boys and girls passed the test. What is the minimum possible number of students in the class?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$12$",
+          "$17$",
+          "$24$",
+          "$27$",
+          "$36$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2015-20",
+      "name": "Problem 20 (2015 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2015_AMC_8_Problems/Problem_20",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Word Problems",
+        "Systems of Equations"
+      ],
+      "statement": "Ralph went to the store and bought $12$ pairs of socks for a total of $\\$24$. Some of the socks he bought cost $\\$1$ a pair, some of the socks he bought cost $\\$3$ a pair, and some of the socks he bought cost $\\$4$ a pair. If he bought at least $1$ pair of each type, how many pairs of $\\$1$ socks did Ralph buy?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2015-24",
+      "name": "Problem 24 (2015 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2015_AMC_8_Problems/Problem_24",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Word Problems",
+        "Inequalities"
+      ],
+      "statement": "A baseball league consists of $2$ four-team divisions. Each team plays every other team in its division $N$ games. Each team plays every team in the other division $M$ games with $N>2M$ and $M>4$. Each team plays a $76$ game schedule. How many games does a team play within its own division?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "36",
+          "48",
+          "54",
+          "60",
+          "72"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2016-11",
+      "name": "Problem 11 (2016 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2016_AMC_8_Problems/Problem_11",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Digit Manipulation",
+        "Base 10 Representation"
+      ],
+      "statement": "Determine how many two-digit numbers satisfy the following property: when the number is added to the number obtained by reversing its digits, the sum is $132$.",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$5$",
+          "$7$",
+          "$9$",
+          "$11$",
+          "$12$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2022-13",
+      "name": "Problem 13 (2022 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2022_AMC_8_Problems/Problem_13",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Algebraic Setup",
+        "Constraints"
+      ],
+      "statement": "How many positive integers can fill the blank in the sentence below?\n\n\"One positive integer is _____ more than twice another, and the sum of the two numbers is $28$.\"",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$6$",
+          "$7$",
+          "$8$",
+          "$9$",
+          "$10$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2023-14",
+      "name": "Problem 14 (2023 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2023_AMC_8_Problems/Problem_14",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Optimization",
+        "Coins/Stamps"
+      ],
+      "statement": "Nicolas is planning to send a package to his friend Anton, who is a stamp collector. To pay for the postage, Nicolas would like to cover the package with a large number of stamps. Suppose he has a collection of $5$-cent, $10$-cent, and $25$-cent stamps, with exactly $20$ of each type. What is the greatest number of stamps Nicolas can use to make exactly $\\$7.10$ in postage? (Note: The amount $\\$7.10$ corresponds to $7$ dollars and $10$ cents. One dollar is worth $100$ cents.)",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$45$",
+          "$46$",
+          "$51$",
+          "$54$",
+          "$55$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2023-18",
+      "name": "Problem 18 (2023 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2023_AMC_8_Problems/Problem_18",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Optimization",
+        "Modular Arithmetic"
+      ],
+      "statement": "Greta Grasshopper sits on a long line of lily pads in a pond. From any lily pad, Greta can jump $5$ pads to the right or $3$ pads to the left. What is the fewest number of jumps Greta must make to reach the lily pad located $2023$ pads to the right of her starting point?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$405$",
+          "$407$",
+          "$409$",
+          "$411$",
+          "$413$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2025-23",
+      "name": "Problem 23 (2025 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2025_AMC_8_Problems/Problem_16",
+      "source": "AMC 8",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Factors",
+        "Diophantine Equations"
+      ],
+      "statement": "A classroom has a row of $35$ coat hooks. Paulina likes coats to be equally spaced, so that there is the same number of empty hooks before the first coat, after the last coat, and between every coat and the next one. Suppose there is at least $1$ coat and at least $1$ empty hook. How many different numbers of coats can satisfy Paulina's pattern?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$2$",
+          "$4$",
+          "$5$",
+          "$7$",
+          "$9$"
+        ],
+        "correctIndex": 2
+      },
       "solutionMetadata": {
         "kind": "none"
       }

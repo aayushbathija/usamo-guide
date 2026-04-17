@@ -89,7 +89,8 @@ const MODULE_ORDERING: { [key in SectionID]: Chapter[] } = {
         'law-of-sines',
         'law-of-cosines',
         'circle-angles',
-        'special-quadrilaterals'
+        'special-quadrilaterals',
+        'triangle-congruence-similarity',
       ],
     },
     {
@@ -136,7 +137,7 @@ const MODULE_ORDERING: { [key in SectionID]: Chapter[] } = {
     {
       name: 'Probability',
       description: 'Conditional probability, geometric probability, and expected value.',
-      items: ['probability-intermediate'],
+      items: ['probability-intermediate', 'geometric-probability', 'expected-value'],
     },
     {
       name: 'Number Theory',

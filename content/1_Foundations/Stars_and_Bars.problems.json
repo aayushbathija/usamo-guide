@@ -1,116 +1,143 @@
 {
   "MODULE_ID": "stars-and-bars",
   "practice": [
-  {
-    "uniqueId": "amc8-2019-25",
-    "name": "Problem 25 (2019 AMC 8)",
-    "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_25",
-    "source": "AMC 8",
-    "difficulty": "Hard",
-    "isStarred": false,
-    "tags": [
-      "Combinatorics",
-      "Stars and Bars"
-    ],
-    "statement": "Alice has 12 apples. In how many ways can she share them with Becky and Chris so that each of the three people has at least two apples?",
-    "solutionMetadata": {
-      "kind": "none"
+    {
+      "uniqueId": "amc8-2019-25",
+      "name": "Problem 25 (2019 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_25",
+      "source": "AMC 8",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Combinatorics",
+        "Stars and Bars"
+      ],
+      "statement": "Alice has 12 apples. In how many ways can she share them with Becky and Chris so that each of the three people has at least two apples?",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2026-20",
+      "name": "Problem 20 (2026 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2026_AMC_8_Problems/Problem_20",
+      "source": "AMC 8",
+      "difficulty": "Unknown",
+      "isStarred": false,
+      "tags": [],
+      "statement": "The land of Catania uses gold coins and silver coins. Gold coins are $1$ mm thick and silver coins are $3$ mm thick. In how many ways can Taylor make a stack of coins that is $8$ mm tall using any arrangement of gold and silver coins, assuming order matters?",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2016-11",
+      "name": "Problem 11 (2016 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_8_Problems/Problem_11",
+      "source": "AMC 8",
+      "difficulty": "Medium",
+      "isStarred": false,
+      "tags": [
+        "Number Theory",
+        "Digits"
+      ],
+      "statement": "Determine how many two-digit numbers satisfy the following property: When the number is added to the number obtained by reversing its digits, the sum is 132.",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc10a-2016-14",
+      "name": "Problem 14 (2016 AMC 10A)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2016_AMC_10A_Problems/Problem_14",
+      "source": "AMC 10A",
+      "difficulty": "Medium",
+      "isStarred": false,
+      "tags": [
+        "Combinatorics",
+        "Stars and Bars"
+      ],
+      "statement": "How many ways are there to write 2016 as the sum of twos and threes, ignoring order?",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc12b-2023-19",
+      "name": "Problem 19 (2023 AMC 12B)",
+      "url": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_12B_Problems/Problem_19",
+      "source": "AMC 12B",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Probability",
+        "Combinatorics"
+      ],
+      "statement": "Each of 2023 balls is randomly placed into one of 3 bins. Which of the following is closest to the probability that each of the bins will contain an odd number of balls?",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc10a-2018-11",
+      "name": "Problem 11 (2018 AMC 10A)",
+      "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_11",
+      "source": "AMC 10A",
+      "difficulty": "Medium",
+      "isStarred": false,
+      "tags": [
+        "Combinatorics",
+        "Probability",
+        "Dice"
+      ],
+      "statement": "When fair standard 6-sided dice are thrown, the probability that the sum of the numbers on the top faces is 10 can be written as p/6^7, where p is a positive integer. What is p?",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc10b-2018-9",
+      "name": "Problem 9 (2018 AMC 10B)",
+      "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_9",
+      "source": "AMC 10B",
+      "difficulty": "Medium",
+      "isStarred": false,
+      "tags": [
+        "Probability",
+        "Combinatorics",
+        "Symmetry"
+      ],
+      "statement": "The faces of each of 7 standard dice are labeled with the integers from 1 to 6. Let P(n) be the probability that when all 7 dice are rolled, the sum of the numbers on the top faces is n. What other sum occurs with the same probability as 10?",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2004-17",
+      "name": "Problem 17 (2004 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2004_AMC_8_Problems/Problem_17",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Combinatorics",
+        "Indistinguishable Items"
+      ],
+      "statement": "Three friends have a total of $6$ identical pencils, and each one has at least one pencil. In how many ways can this happen?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1$",
+          "$3$",
+          "$6$",
+          "$10$",
+          "$12$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
     }
-  },
-  {
-    "uniqueId": "amc8-2026-20",
-    "name": "Problem 20 (2026 AMC 8)",
-    "url": "https://artofproblemsolving.com/wiki/index.php?title=2026_AMC_8_Problems/Problem_20",
-    "source": "AMC 8",
-    "difficulty": "Unknown",
-    "isStarred": false,
-    "tags": [],
-    "statement": "The land of Catania uses gold coins and silver coins. Gold coins are $1$ mm thick and silver coins are $3$ mm thick. In how many ways can Taylor make a stack of coins that is $8$ mm tall using any arrangement of gold and silver coins, assuming order matters?",
-    "solutionMetadata": {
-      "kind": "none"
-    }
-  },
-  {
-    "uniqueId": "amc8-2016-11",
-    "name": "Problem 11 (2016 AMC 8)",
-    "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_8_Problems/Problem_11",
-    "source": "AMC 8",
-    "difficulty": "Medium",
-    "isStarred": false,
-    "tags": [
-      "Number Theory",
-      "Digits"
-    ],
-    "statement": "Determine how many two-digit numbers satisfy the following property: When the number is added to the number obtained by reversing its digits, the sum is 132.",
-    "solutionMetadata": {
-      "kind": "none"
-    }
-  },
-  {
-    "uniqueId": "amc10a-2016-14",
-    "name": "Problem 14 (2016 AMC 10A)",
-    "url": "https://artofproblemsolving.com/wiki/index.php?title=2016_AMC_10A_Problems/Problem_14",
-    "source": "AMC 10A",
-    "difficulty": "Medium",
-    "isStarred": false,
-    "tags": [
-      "Combinatorics",
-      "Stars and Bars"
-    ],
-    "statement": "How many ways are there to write 2016 as the sum of twos and threes, ignoring order?",
-    "solutionMetadata": {
-      "kind": "none"
-    }
-  },
-  {
-    "uniqueId": "amc12b-2023-19",
-    "name": "Problem 19 (2023 AMC 12B)",
-    "url": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_12B_Problems/Problem_19",
-    "source": "AMC 12B",
-    "difficulty": "Hard",
-    "isStarred": false,
-    "tags": [
-      "Probability",
-      "Combinatorics"
-    ],
-    "statement": "Each of 2023 balls is randomly placed into one of 3 bins. Which of the following is closest to the probability that each of the bins will contain an odd number of balls?",
-    "solutionMetadata": {
-      "kind": "none"
-    }
-  },
-  {
-    "uniqueId": "amc10a-2018-11",
-    "name": "Problem 11 (2018 AMC 10A)",
-    "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_11",
-    "source": "AMC 10A",
-    "difficulty": "Medium",
-    "isStarred": false,
-    "tags": [
-      "Combinatorics",
-      "Probability",
-      "Dice"
-    ],
-    "statement": "When fair standard 6-sided dice are thrown, the probability that the sum of the numbers on the top faces is 10 can be written as p/6^7, where p is a positive integer. What is p?",
-    "solutionMetadata": {
-      "kind": "none"
-    }
-  },
-  {
-    "uniqueId": "amc10b-2018-9",
-    "name": "Problem 9 (2018 AMC 10B)",
-    "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_9",
-    "source": "AMC 10B",
-    "difficulty": "Medium",
-    "isStarred": false,
-    "tags": [
-      "Probability",
-      "Combinatorics",
-      "Symmetry"
-    ],
-    "statement": "The faces of each of 7 standard dice are labeled with the integers from 1 to 6. Let P(n) be the probability that when all 7 dice are rolled, the sum of the numbers on the top faces is n. What other sum occurs with the same probability as 10?",
-    "solutionMetadata": {
-      "kind": "none"
-    }
-  }
-]
+  ]
 }

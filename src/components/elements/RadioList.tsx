@@ -19,7 +19,7 @@ export default function RadioList({
 }) {
   return (
     <RadioGroup value={value} onChange={onChange}>
-      <div className="-space-y-px rounded-md bg-white dark:bg-gray-800">
+      <div className="-space-y-px rounded-md bg-[rgba(18,15,36,0.60)] border border-[rgba(240,194,255,0.15)]">
         {options.map((option, idx) => (
           <RadioGroup.Option
             key={option}
@@ -30,8 +30,8 @@ export default function RadioList({
                 idx === 0 && 'rounded-tl-md rounded-tr-md',
                 idx === options.length - 1 && 'rounded-br-md rounded-bl-md',
                 checked
-                  ? 'z-10 border-blue-200 bg-blue-50 dark:border-blue-700 dark:bg-blue-900'
-                  : 'border-gray-200 dark:border-gray-700'
+                  ? 'z-10 border-[rgba(240,194,255,0.30)] bg-[rgba(112,66,138,0.25)]'
+                  : 'border-[rgba(240,194,255,0.12)]'
               )
             }
           >
@@ -40,10 +40,10 @@ export default function RadioList({
                 <span
                   className={classNames(
                     checked
-                      ? 'border-transparent bg-blue-600 dark:bg-blue-500'
-                      : 'border-gray-300 bg-white dark:border-gray-600 dark:bg-gray-700',
+                      ? 'border-transparent bg-[#70428A]'
+                      : 'border-[rgba(240,194,255,0.30)] bg-[rgba(18,15,36,0.80)]',
                     active
-                      ? 'ring-2 ring-blue-500 ring-offset-2 dark:ring-offset-gray-700'
+                      ? 'ring-2 ring-[#70428A] ring-offset-2 ring-offset-[#120F24]'
                       : '',
                     'mt-0.5 flex h-4 w-4 cursor-pointer items-center justify-center rounded-full border'
                   )}
@@ -60,8 +60,8 @@ export default function RadioList({
                     className={classNames(
                       'block text-sm font-medium',
                       checked
-                        ? 'text-blue-900 dark:text-blue-100'
-                        : 'text-gray-900 dark:text-gray-100'
+                        ? 'text-[#F0C2FF]'
+                        : 'text-[#F4EDEA]'
                     )}
                   >
                     {labelMap[option]}
@@ -72,8 +72,8 @@ export default function RadioList({
                       className={classNames(
                         'block text-sm',
                         checked
-                          ? 'text-blue-700 dark:text-blue-300'
-                          : 'text-gray-500 dark:text-gray-400'
+                          ? 'text-[rgba(240,194,255,0.80)]'
+                          : 'text-[rgba(244,237,234,0.65)]'
                       )}
                     >
                       {descriptionMap[option]}

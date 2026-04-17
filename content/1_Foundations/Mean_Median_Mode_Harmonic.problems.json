@@ -8,11 +8,15 @@
       "source": "AMC 10B",
       "difficulty": "Medium",
       "isStarred": false,
-      "tags": ["Statistics", "Mean", "Median"],
+      "tags": [
+        "Statistics",
+        "Mean",
+        "Median"
+      ],
       "statement": "What is the sum of all real numbers $x$ for which the median of the numbers $4,6,8,17,$ and $x$ is equal to the mean of those five numbers?",
       "solutionMetadata": {
         "kind": "none"
-      }   
+      }
     },
     {
       "uniqueId": "amc10a-2021-5",
@@ -21,11 +25,14 @@
       "source": "AMC 10A",
       "difficulty": "Easy",
       "isStarred": false,
-      "tags": ["Number Theory", "Primes"],
+      "tags": [
+        "Number Theory",
+        "Primes"
+      ],
       "statement": "The quiz scores of a class with $k > 12$ students have a mean of $8$. The mean of a collection of $12$ of these quiz scores is $14$. What is the mean of the remaining quiz scores in terms of $k$?",
       "solutionMetadata": {
         "kind": "none"
-      } 
+      }
     },
     {
       "uniqueId": "amc12b-2021-4",
@@ -34,11 +41,14 @@
       "source": "AMC 12B",
       "difficulty": "Easy",
       "isStarred": false,
-      "tags": ["Arithmetic", "Statistics"],
+      "tags": [
+        "Arithmetic",
+        "Statistics"
+      ],
       "statement": "Ms. Blackwell gives an exam to two classes. The mean of the scores of the students in the morning class is $84$, and the afternoon class's mean score is $70$. The ratio of the number of students in the morning class to the number of students in the afternoon class is $\\frac{3}{4}$. What is the mean of the scores of all the students?",
       "solutionMetadata": {
         "kind": "none"
-      } 
+      }
     },
     {
       "uniqueId": "amc12a-2021-16",
@@ -47,11 +57,14 @@
       "source": "AMC 12A",
       "difficulty": "Hard",
       "isStarred": false,
-      "tags": ["Algebra", "Statistics"],
+      "tags": [
+        "Algebra",
+        "Statistics"
+      ],
       "statement": "In the following list of numbers, the integer $n$ appears $n$ times in the list for $1 \\leq n \\leq 200$: $1, 2, 2, 3, 3, 3, 4, 4, 4, 4, \\dots, 200, \\dots, 200$. What is the median of the numbers in this list?",
       "solutionMetadata": {
         "kind": "none"
-      } 
+      }
     },
     {
       "uniqueId": "amc12b-2023-18",
@@ -60,11 +73,1258 @@
       "source": "AMC 12B",
       "difficulty": "Hard",
       "isStarred": false,
-      "tags": ["Statistics", "Averages"],
+      "tags": [
+        "Statistics",
+        "Averages"
+      ],
       "statement": "Last academic year Yolanda and Zelda took different courses that did not necessarily administer the same number of quizzes during each of the two semesters. Yolanda's average on all the quizzes she took during the first semester was $3$ points higher than Zelda's average on all the quizzes she took during the first semester. Yolanda's average on all the quizzes she took during the second semester was also $3$ points higher than Zelda's average on all the quizzes she took during the second semester. Which of the following statements must be true?",
       "solutionMetadata": {
         "kind": "none"
-      } 
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1985-17",
+      "name": "Problem 17 (1985 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1985_AJHSME_Problems/Problem_17",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Averages",
+        "Sums"
+      ],
+      "statement": "If your average score on your first six mathematics tests was $84$ and your average score on your first seven mathematics tests was $85$, then your score on the seventh test was",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$86$",
+          "$88$",
+          "$90$",
+          "$91$",
+          "$92$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1986-25",
+      "name": "Problem 25 (1986 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1986_AJHSME_Problems/Problem_25",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Arithmetic Mean",
+        "Arithmetic Sequences"
+      ],
+      "statement": "Which of the following sets of whole numbers has the largest average?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "multiples of $2$ between $1$ and $101$",
+          "multiples of $3$ between $1$ and $101$",
+          "multiples of $4$ between $1$ and $101$",
+          "multiples of $5$ between $1$ and $101$",
+          "multiples of $6$ between $1$ and $101$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1988-18",
+      "name": "Problem 18 (1988 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1988_AJHSME_Problems/Problem_18",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Weighted Average"
+      ],
+      "statement": "The average weight of $6$ boys is $150$ pounds and the average weight of $4$ girls is $120$ pounds. The average weight of the $10$ children is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$135$ pounds",
+          "$137$ pounds",
+          "$138$ pounds",
+          "$140$ pounds",
+          "$141$ pounds"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1988-21",
+      "name": "Problem 21 (1988 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1988_AJHSME_Problems/Problem_21",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Mean",
+        "Median",
+        "Casework"
+      ],
+      "statement": "A fifth number, $n$, is added to the set $\\{3, 6, 9, 10\\}$ to make the mean of the set of five numbers equal to its median. The number of possible values of $n$ is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1$",
+          "$2$",
+          "$3$",
+          "$4$",
+          "more than $4$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1989-17",
+      "name": "Problem 17 (1989 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1989_AJHSME_Problems/Problem_17",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Averages",
+        "Inequalities"
+      ],
+      "statement": "The number $N$ is between $9$ and $17$. The average of $6$, $10$, and $N$ could be",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$8$",
+          "$10$",
+          "$12$",
+          "$14$",
+          "$16$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1990-20",
+      "name": "Problem 20 (1990 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1990_AJHSME_Problems/Problem_20",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Averages",
+        "Error Analysis"
+      ],
+      "statement": "The annual incomes of $1000$ families range from $8200$ dollars to $98000$ dollars. In error, the largest income was entered on the computer as $980000$ dollars. The difference between the mean of the incorrect data and the mean of the actual data is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$882 \\text{ dollars}$",
+          "$980 \\text{ dollars}$",
+          "$1078 \\text{ dollars}$",
+          "$482,000 \\text{ dollars}$",
+          "$882,000 \\text{ dollars}$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-17",
+      "name": "Problem 17 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_17",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Histograms",
+        "Percentages"
+      ],
+      "statement": "The vertical axis indicates the number of employees, but the scale was accidentally omitted from this graph. What percent of the employees at the Gauss company have worked there for $5$ years or more? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$9\\%$",
+          "$23\\frac{1}{3}\\%$",
+          "$30\\%$",
+          "$42\\frac{6}{7}\\%$",
+          "$50\\%$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-19",
+      "name": "Problem 19 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_19",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Averages",
+        "Extremal Values"
+      ],
+      "statement": "The average (arithmetic mean) of $10$ different positive whole numbers is $10$. The largest possible value of any of these numbers is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$10$",
+          "$50$",
+          "$55$",
+          "$90$",
+          "$91$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1992-13",
+      "name": "Problem 13 (1992 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1992_AJHSME_Problems/Problem_13",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Statistics",
+        "Sum"
+      ],
+      "statement": "Five test scores have a mean (average score) of $90$, a median (middle score) of $91$ and a mode (most frequent score) of $94$. The sum of the two lowest test scores is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$170$",
+          "$171$",
+          "$176$",
+          "$177$",
+          "$\\text{not determined by the information given}$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1993-11",
+      "name": "Problem 11 (1993 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1993_AJHSME_Problems/Problem_11",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Histograms",
+        "Median",
+        "Statistics"
+      ],
+      "statement": "Consider this histogram of the scores for $81$ students taking a test. The median is in the interval labeled [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$60$",
+          "$65$",
+          "$70$",
+          "$75$",
+          "$80$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1993-15",
+      "name": "Problem 15 (1993 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1993_AJHSME_Problems/Problem_15",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Averages",
+        "Sums"
+      ],
+      "statement": "The arithmetic mean (average) of four numbers is $85$. If the largest of these numbers is $97$, then the mean of the remaining three numbers is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$81.0$",
+          "$82.7$",
+          "$83.0$",
+          "$84.0$",
+          "$84.3$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1995-19",
+      "name": "Problem 19 (1995 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1995_AJHSME_Problems/Problem_19",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Statistics",
+        "Median"
+      ],
+      "statement": "The graph shows the distribution of the number of children in the families of the students in Ms. Jordan's English class. The median number of children in the family for this distribution is [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1$",
+          "$2$",
+          "$3$",
+          "$4$",
+          "$5$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1996-12",
+      "name": "Problem 12 (1996 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1996_AJHSME_Problems/Problem_12",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Average",
+        "Sum of Sequence"
+      ],
+      "statement": "What number should be removed from the list $1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11$ so that the average of the remaining numbers is $6.1$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$4$",
+          "$5$",
+          "$6$",
+          "$7$",
+          "$8$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1997-14",
+      "name": "Problem 14 (1997 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1997_AJHSME_Problems/Problem_14",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Statistics",
+        "Optimization"
+      ],
+      "statement": "There is a set of five positive integers whose average (mean) is $5$, whose median is $5$, and whose only mode is $8$. What is the difference between the largest and smallest integers in the set?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$3$",
+          "$5$",
+          "$6$",
+          "$7$",
+          "$8$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-1999-13",
+      "name": "Problem 13 (1999 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1999_AMC_8_Problems/Problem_13",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Weighted Average",
+        "Algebraic Setup"
+      ],
+      "statement": "The average age of the $40$ members of a computer science camp is $17$ years. There are $20$ girls, $15$ boys, and $5$ adults. If the average age of the girls is $15$ and the average age of the boys is $16$, what is the average age of the adults?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$26$",
+          "$27$",
+          "$28$",
+          "$29$",
+          "$30$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2001-21",
+      "name": "Problem 21 (2001 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2001_AMC_8_Problems/Problem_21",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Averages",
+        "Extremal Principle"
+      ],
+      "statement": "The mean of a set of five different positive integers is $15$. The median is $18$. The maximum possible value of the largest of these five integers is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$19$",
+          "$24$",
+          "$32$",
+          "$35$",
+          "$40$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2002-3",
+      "name": "Problem 3 (2002 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2002_AMC_8_Problems/Problem_3",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Averages",
+        "Optimization"
+      ],
+      "statement": "What is the smallest possible average of four distinct positive even integers?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$3$",
+          "$4$",
+          "$5$",
+          "$6$",
+          "$7$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2002-10",
+      "name": "Problem 10 (2002 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2002_AMC_8_Problems/Problem_10",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Weighted Average",
+        "Table Reading"
+      ],
+      "statement": "Juan organizes the stamps in his collection by country and by the decade in which they were issued. The prices he paid for them at a stamp shop were: Brazil and France, $6$ cents each, Peru $4$ cents each, and Spain $5$ cents each. (Brazil and Peru are South American countries and France and Spain are in Europe.)\n\nNumber of Stamps by Decade\nCountry | '50s | '60s | '70s | '80s\nBrazil | $4$ | $7$ | $12$ | $8$\nFrance | $8$ | $4$ | $12$ | $15$\nPeru | $6$ | $4$ | $6$ | $10$\nSpain | $3$ | $9$ | $13$ | $9$\n\nThe average price of his '70s stamps is closest to",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$3.5$ cents",
+          "$4$ cents",
+          "$4.5$ cents",
+          "$5$ cents",
+          "$5.5$ cents"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2002-18",
+      "name": "Problem 18 (2002 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2002_AMC_8_Problems/Problem_18",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Averages",
+        "Time Manipulation"
+      ],
+      "statement": "Gage skated $1$ hr $15$ min each day for $5$ days and $1$ hr $30$ min each day for $3$ days. How long would he have to skate the ninth day in order to average $85$ minutes of skating each day for the entire time?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1$ hr",
+          "$1$ hr $10$ min",
+          "$1$ hr $20$ min",
+          "$1$ hr $40$ min",
+          "$2$ hr"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2003-7",
+      "name": "Problem 7 (2003 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2003_AMC_8_Problems/Problem_7",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Averages",
+        "Differences"
+      ],
+      "statement": "Blake and Jenny each took four $100$ point tests. Blake averaged $78$ on the four tests. Jenny scored $10$ points higher than Blake on the first test, $10$ points lower on the second test, and $20$ points higher on both the third and fourth test. What is the difference between Blake's average on the four tests and Jenny's average on the four tests?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$10$",
+          "$15$",
+          "$20$",
+          "$25$",
+          "$40$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2004-9",
+      "name": "Problem 9 (2004 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2004_AMC_8_Problems/Problem_9",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Averages",
+        "Sums"
+      ],
+      "statement": "The average of the five numbers in a list is $54$. The average of the first two numbers is $48$. What is the average of the last three numbers?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$55$",
+          "$56$",
+          "$57$",
+          "$58$",
+          "$59$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2006-12",
+      "name": "Problem 12 (2006 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2006_AMC_8_Problems/Problem_12",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Weighted Average",
+        "Percentages"
+      ],
+      "statement": "Antonette gets $70\\%$ on a $10$-problem test, $80\\%$ on a $20$-problem test and $90\\%$ on a $30$-problem test. If the three tests are combined into one $60$-problem test, which percent is closest to her overall score?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$40$",
+          "$77$",
+          "$80$",
+          "$83$",
+          "$87$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2008-8",
+      "name": "Problem 8 (2008 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2008_AMC_8_Problems/Problem_8",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Bar Charts",
+        "Averages"
+      ],
+      "statement": "Candy sales from the Boosters Club from January through April are shown. What were the average sales per month in dollars? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$60$",
+          "$70$",
+          "$75$",
+          "$80$",
+          "$85$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2008-10",
+      "name": "Problem 10 (2008 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2008_AMC_8_Problems/Problem_10",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Weighted Average"
+      ],
+      "statement": "The average age of the $6$ people in Room A is $40$. The average age of the $4$ people in Room B is $25$. If the two groups are combined, what is the average age of all the people?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$32.5$",
+          "$33$",
+          "$33.5$",
+          "$34$",
+          "$35$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2008-15",
+      "name": "Problem 15 (2008 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2008_AMC_8_Problems/Problem_15",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Averages",
+        "Diophantine Equations",
+        "Divisibility"
+      ],
+      "statement": "In Theresa's first $8$ basketball games, she scored $7$, $4$, $3$, $6$, $8$, $3$, $1$ and $5$ points. In her ninth game, she scored fewer than $10$ points and her points-per-game average for the nine games was an integer. Similarly in her tenth game, she scored fewer than $10$ points and her points-per-game average for the $10$ games was also an integer. What is the product of the number of points she scored in the ninth and tenth games?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$35$",
+          "$40$",
+          "$48$",
+          "$56$",
+          "$72$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2009-14",
+      "name": "Problem 14 (2009 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2009_AMC_8_Problems/Problem_14",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Average Speed",
+        "Harmonic Mean",
+        "Rate"
+      ],
+      "statement": "Austin and Temple are $50$ miles apart along Interstate $35$. Bonnie drove from Austin to her daughter's house in Temple, averaging $60$ miles per hour. Leaving the car with her daughter, Bonnie rode a bus back to Austin along the same route and averaged $40$ miles per hour on the return trip. What was the average speed for the round trip, in miles per hour?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$46$",
+          "$48$",
+          "$50$",
+          "$52$",
+          "$54$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2010-4",
+      "name": "Problem 4 (2010 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2010_AMC_8_Problems/Problem_4",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Statistics"
+      ],
+      "statement": "What is the sum of the mean, median, and mode of the numbers, $2, 3, 0, 3, 1, 4, 0, 3$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$6.5$",
+          "$7$",
+          "$7.5$",
+          "$8.5$",
+          "$9$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2011-4",
+      "name": "Problem 4 (2011 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2011_AMC_8_Problems/Problem_4",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Statistics",
+        "Data Analysis"
+      ],
+      "statement": "Here is a list of the numbers of fish that Tyler caught in nine outings last summer: $2, 0, 1, 3, 0, 3, 3, 1, 2$. Which statement about the mean, median, and mode is true?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "\\text{median} < \\text{mean} < \\text{mode}",
+          "\\text{mean} < \\text{mode} < \\text{median}",
+          "\\text{mean} < \\text{median} < \\text{mode}",
+          "\\text{median} < \\text{mode} < \\text{mean}",
+          "\\text{mode} < \\text{median} < \\text{mean}"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2011-11",
+      "name": "Problem 11 (2011 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2011_AMC_8_Problems/Problem_11",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Statistics",
+        "Bar Chart Interpretation"
+      ],
+      "statement": "The graph shows the number of minutes studied by both Asha (black bar) and Sasha (grey bar) in one week. On the average, how many more minutes per day did Sasha study than Asha? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "6",
+          "8",
+          "9",
+          "10",
+          "12"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2012-11",
+      "name": "Problem 11 (2012 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2012_AMC_8_Problems/Problem_11",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Statistics"
+      ],
+      "statement": "The mean, median, and unique mode of the positive integers $3$, $4$, $5$, $6$, $6$, $7$, $x$ are all equal. What is the value of $x$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$5$",
+          "$6$",
+          "$7$",
+          "$11$",
+          "$12$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2012-22",
+      "name": "Problem 22 (2012 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2012_AMC_8_Problems/Problem_22",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Statistics",
+        "Median"
+      ],
+      "statement": "Let $R$ be a set of nine distinct integers. Six of the elements are $2$, $3$, $4$, $6$, $9$, and $14$. What is the number of possible values of the median of $R$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$4$",
+          "$5$",
+          "$6$",
+          "$7$",
+          "$8$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2013-5",
+      "name": "Problem 5 (2013 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2013_AMC_8_Problems/Problem_5",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Mean",
+        "Median"
+      ],
+      "statement": "Hammie is in the $6^\\text{th}$ grade and weighs $106$ pounds. His quadruplet sisters are tiny babies and weigh $5$, $5$, $6$, and $8$ pounds. Which is greater, the average (mean) weight of these five children or the median weight, and by how many pounds?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "median, by $60$",
+          "median, by $20$",
+          "average, by $5$",
+          "average, by $15$",
+          "average, by $20$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2014-24",
+      "name": "Problem 24 (2014 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2014_AMC_8_Problems/Problem_24",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Statistics",
+        "Optimization"
+      ],
+      "statement": "One day the Beverage Barn sold $252$ cans of soda to $100$ customers, and every customer bought at least one can of soda. What is the maximum possible median number of cans of soda bought per customer on that day?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$2.5$",
+          "$3.0$",
+          "$3.5$",
+          "$4.0$",
+          "$4.5$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2015-5",
+      "name": "Problem 5 (2015 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2015_AMC_8_Problems/Problem_5",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Statistics"
+      ],
+      "statement": "Billy's basketball team scored the following points over the course of the first $11$ games of the season: $42, 47, 53, 53, 58, 58, 58, 61, 64, 65, 73$. If his team scores $40$ in the $12$th game, which of the following statistics will show an increase?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "\\text{range}",
+          "\\text{median}",
+          "\\text{mean}",
+          "\\text{mode}",
+          "\\text{mid-range}"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2015-13",
+      "name": "Problem 13 (2015 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2015_AMC_8_Problems/Problem_13",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Average",
+        "Set Operations"
+      ],
+      "statement": "How many subsets of $2$ elements can be removed from the set $\\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11\\}$ so that the mean (average) of the remaining numbers is $6$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "1",
+          "2",
+          "3",
+          "5",
+          "6"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2016-3",
+      "name": "Problem 3 (2016 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2016_AMC_8_Problems/Problem_3",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Arithmetic Mean",
+        "Averages"
+      ],
+      "statement": "Four students take an exam. Three of their scores are $70$, $80$, and $90$. If the average of their four scores is $70$, then what is the remaining score?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$40$",
+          "$50$",
+          "$55$",
+          "$60$",
+          "$70$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2016-6",
+      "name": "Problem 6 (2016 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2016_AMC_8_Problems/Problem_6",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Median",
+        "Bar Graph Interpretation"
+      ],
+      "statement": "The following bar graph represents the length (in letters) of the names of $19$ people. What is the median length of these names? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$3$",
+          "$4$",
+          "$5$",
+          "$6$",
+          "$7$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2018-8",
+      "name": "Problem 8 (2018 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2018_AMC_8_Problems/Problem_8",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Weighted Average",
+        "Bar Graph"
+      ],
+      "statement": "Mr. Garcia asked the members of his health class how many days last week they exercised for at least $30$ minutes. The results are summarized in the following bar graph, where the heights of the bars represent the number of students. What was the mean number of days of exercise last week, rounded to the nearest hundredth, reported by the students in Mr. Garcia's class? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$3.50$",
+          "$3.57$",
+          "$4.36$",
+          "$4.50$",
+          "$5.00$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2018-10",
+      "name": "Problem 10 (2018 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2018_AMC_8_Problems/Problem_10",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Harmonic Mean",
+        "Fractions"
+      ],
+      "statement": "The harmonic mean of a set of non-zero numbers is the reciprocal of the average of the reciprocals of the numbers. What is the harmonic mean of $1$, $2$, and $4$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{3}{7}$",
+          "$\\frac{7}{12}$",
+          "$\\frac{12}{7}$",
+          "$\\frac{7}{4}$",
+          "$\\frac{7}{3}$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2018-13",
+      "name": "Problem 13 (2018 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2018_AMC_8_Problems/Problem_13",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Average",
+        "Diophantine Equations"
+      ],
+      "statement": "Laila took five math tests, each worth a maximum of $100$ points. Laila's score on each test was an integer between $0$ and $100$, inclusive. Laila received the same score on the first four tests, and she received a higher score on the last test. Her average score on the five tests was $82$. How many values are possible for Laila's score on the last test?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$4$",
+          "$5$",
+          "$9$",
+          "$10$",
+          "$18$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2019-7",
+      "name": "Problem 7 (2019 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2019_AMC_8_Problems/Problem_7",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Average",
+        "Optimization"
+      ],
+      "statement": "Shauna takes $5$ tests, each worth a maximum of $100$ points. Her scores on the first three tests were $76$, $94$, and $87$. In order to average an $81$ on all five tests, what is the lowest score she could earn on one of the two tests?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$48$",
+          "$52$",
+          "$66$",
+          "$70$",
+          "$74$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2019-10",
+      "name": "Problem 10 (2019 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2019_AMC_8_Problems/Problem_10",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Data Interpretation",
+        "Statistics"
+      ],
+      "statement": "The diagram shows the number of students at soccer practice each weekday during last week. After computing the mean and median values, Coach discovers that there were actually $21$ participants on Wednesday. Which of the following statements describes the change in the mean and median after the correction is made? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "The mean increases by $1$ and the median does not change.",
+          "The mean increases by $1$ and the median increases by $1$.",
+          "The mean increases by $1$ and the median increases by $5$.",
+          "The mean increases by $5$ and the median increases by $1$.",
+          "The mean increases by $5$ and the median increases by $5$."
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2022-19",
+      "name": "Problem 19 (2022 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2022_AMC_8_Problems/Problem_19",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Median",
+        "Data Interpretation",
+        "Dot Plot"
+      ],
+      "statement": "Mr. Ramos gave a test to his class of $20$ students. The dot plot below shows the distribution of test scores. [See figure in original PDF] Later Mr. Ramos discovered that there was a scoring error on one of the questions. He regraded the tests, awarding some of the students $5$ extra points, which increased the median test score to $85$. What is the minimum number of students who received extra points? (Note that the median test score equals the average of the $2$ scores in the middle if the $20$ test scores are arranged in increasing order.)",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$2$",
+          "$3$",
+          "$4$",
+          "$5$",
+          "$6$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2023-20",
+      "name": "Problem 20 (2023 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2023_AMC_8_Problems/Problem_20",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Statistics",
+        "Range",
+        "Optimization"
+      ],
+      "statement": "Two integers are inserted into the list $3, 3, 8, 11, 28$ to double its range. The mode and median remain unchanged. What is the maximum possible sum of the two additional numbers?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$56$",
+          "$57$",
+          "$58$",
+          "$60$",
+          "$61$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2025-9",
+      "name": "Problem 9 (2025 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2025_AMC_8_Problems/Problem_5",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Averages",
+        "Clock"
+      ],
+      "statement": "Nigli looks at the $6$ pairs of numbers directly across from each other on a clock. She takes the average of each pair of numbers. What is the average of the resulting $6$ numbers?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$5$",
+          "$6.5$",
+          "$8$",
+          "$9.5$",
+          "$12$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2025-15",
+      "name": "Problem 15 (2025 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2025_AMC_8_Problems/Problem_10",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Mean",
+        "Median",
+        "Casework"
+      ],
+      "statement": "A number $N$ is inserted into the list $2, 6, 7, 7, 28$. The mean is now twice as great as the median. What is $N$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$7$",
+          "$14$",
+          "$20$",
+          "$28$",
+          "$34$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
     }
   ]
 }

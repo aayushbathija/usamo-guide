@@ -3,7 +3,11 @@ import * as React from 'react';
 export default function DashboardCard(props) {
   return (
     <div
-      className="backdrop-blur-sm rounded-2xl border border-white/30 bg-white/40 p-0 shadow-lg transition hover:shadow-2xl dark:border-slate-700/60 dark:bg-slate-900/40 dark:hover:bg-slate-900/60"
+      className="rounded-2xl p-0 shadow-lg transition hover:shadow-2xl"
+      style={{
+        border: '1px solid rgba(229, 194, 255, 0.12)',
+        background: 'linear-gradient(180deg, rgba(54, 37, 72, 0.9) 0%, rgba(31, 22, 42, 0.94) 100%)',
+      }}
       {...props}
     />
   );

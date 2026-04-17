@@ -1,0 +1,628 @@
+{
+  "exam": "1985 AJHSME",
+  "problems": [
+    {
+      "uniqueId": "ajhsme-1985-1",
+      "name": "Problem 1 (1985 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1985_AJHSME_Problems/Problem_1",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "categorization": "Arithmetic and Number Theory Basics",
+      "tags": [
+        "Fractions",
+        "Cancellation"
+      ],
+      "statement": "$$\\frac{3 \\times 5}{9 \\times 11} \\times \\frac{7 \\times 9 \\times 11}{3 \\times 5 \\times 7} =$$",
+      "answerChoices": [
+        "$1$",
+        "$0$",
+        "$49$",
+        "$\\frac{1}{49}$",
+        "$50$"
+      ],
+      "answer": "A",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1985-2",
+      "name": "Problem 2 (1985 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1985_AJHSME_Problems/Problem_2",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "categorization": "Arithmetic Sequences",
+      "tags": [
+        "Sum of Consecutive Integers",
+        "Addition"
+      ],
+      "statement": "$90 + 91 + 92 + 93 + 94 + 95 + 96 + 97 + 98 + 99 =$",
+      "answerChoices": [
+        "$845$",
+        "$945$",
+        "$1005$",
+        "$1025$",
+        "$1045$"
+      ],
+      "answer": "B",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1985-3",
+      "name": "Problem 3 (1985 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1985_AJHSME_Problems/Problem_3",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "categorization": "Exponent Rules",
+      "tags": [
+        "Powers of 10",
+        "Scientific Notation"
+      ],
+      "statement": "$$\\frac{10^7}{5 \\times 10^4} =$$",
+      "answerChoices": [
+        "$.002$",
+        "$.2$",
+        "$20$",
+        "$200$",
+        "$2000$"
+      ],
+      "answer": "D",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1985-4",
+      "name": "Problem 4 (1985 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1985_AJHSME_Problems/Problem_4",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "categorization": "Geometry Basics",
+      "tags": [
+        "Area",
+        "Polygons"
+      ],
+      "statement": "The area of polygon $ABCDEF$, in square units, is [See figure in original PDF]",
+      "answerChoices": [
+        "$24$",
+        "$30$",
+        "$46$",
+        "$66$",
+        "$74$"
+      ],
+      "answer": "C",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1985-5",
+      "name": "Problem 5 (1985 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1985_AJHSME_Problems/Problem_5",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "categorization": "Word Problems",
+      "tags": [
+        "Bar Graphs",
+        "Fractions"
+      ],
+      "statement": "The bar graph shows the grades in a mathematics class for the last grading period. If $A$, $B$, $C$, and $D$ are satisfactory grades, what fraction of the grades shown in the graph are satisfactory? [See figure in original PDF]",
+      "answerChoices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{3}{4}$",
+        "$\\frac{4}{5}$",
+        "$\\frac{9}{10}$"
+      ],
+      "answer": "C",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1985-6",
+      "name": "Problem 6 (1985 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1985_AJHSME_Problems/Problem_6",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "categorization": "Word Problems",
+      "tags": [
+        "Proportions",
+        "Ratios"
+      ],
+      "statement": "A ream of paper containing $500$ sheets is $5\\text{ cm}$ thick. Approximately how many sheets of this type of paper would there be in a stack $7.5\\text{ cm}$ high?",
+      "answerChoices": [
+        "$250$",
+        "$550$",
+        "$667$",
+        "$750$",
+        "$1250$"
+      ],
+      "answer": "D",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1985-7",
+      "name": "Problem 7 (1985 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1985_AJHSME_Problems/Problem_7",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "categorization": "Arithmetic Sequences",
+      "tags": [
+        "Patterns",
+        "Sequences"
+      ],
+      "statement": "A \"stair-step\" figure is made up of alternating black and white squares in each row. Rows $1$ through $4$ are shown. All rows begin and end with a white square. The number of black squares in the $37$th row is [See figure in original PDF]",
+      "answerChoices": [
+        "$34$",
+        "$35$",
+        "$36$",
+        "$37$",
+        "$38$"
+      ],
+      "answer": "C",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1985-8",
+      "name": "Problem 8 (1985 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1985_AJHSME_Problems/Problem_8",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "categorization": "Algebra Basics",
+      "tags": [
+        "Substitution",
+        "Ordering"
+      ],
+      "statement": "If $a = -2$, the largest number in the set $\\{-3a, 4a, \\frac{24}{a}, a^2, 1\\}$ is",
+      "answerChoices": [
+        "$-3a$",
+        "$4a$",
+        "$\\frac{24}{a}$",
+        "$a^2$",
+        "$1$"
+      ],
+      "answer": "A",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1985-9",
+      "name": "Problem 9 (1985 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1985_AJHSME_Problems/Problem_9",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "categorization": "Telescoping Sums and Products",
+      "tags": [
+        "Fractions",
+        "Cancellation"
+      ],
+      "statement": "The product of the $9$ factors $(1 - \\frac{1}{2})(1 - \\frac{1}{3}) \\dots (1 - \\frac{1}{10}) =$",
+      "answerChoices": [
+        "$\\frac{1}{10}$",
+        "$\\frac{1}{5}$",
+        "$\\frac{1}{9}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{10}{11}$"
+      ],
+      "answer": "A",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1985-10",
+      "name": "Problem 10 (1985 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1985_AJHSME_Problems/Problem_10",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "categorization": "Arithmetic and Number Theory Basics",
+      "tags": [
+        "Fractions",
+        "Number Line",
+        "Averages"
+      ],
+      "statement": "The fraction halfway between $\\frac{1}{5}$ and $\\frac{1}{3}$ (on the number line) is",
+      "answerChoices": [
+        "$\\frac{1}{4}$",
+        "$\\frac{2}{15}$",
+        "$\\frac{4}{15}$",
+        "$\\frac{53}{200}$",
+        "$\\frac{8}{15}$"
+      ],
+      "answer": "C",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1985-11",
+      "name": "Problem 11 (1985 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1985_AJHSME_Problems/Problem_11",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "categorization": "Geometry Basics",
+      "tags": [
+        "3D Geometry",
+        "Nets"
+      ],
+      "statement": "A piece of paper containing six joined squares labeled as shown in the diagram is folded along the edges of the squares to form a cube. The label of the face opposite the face labeled $X$ is: [See figure in original PDF]",
+      "answerChoices": [
+        "$Z$",
+        "$U$",
+        "$V$",
+        "$W$",
+        "$Y$"
+      ],
+      "answer": "E",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1985-12",
+      "name": "Problem 12 (1985 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1985_AJHSME_Problems/Problem_12",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "categorization": "Geometry Basics",
+      "tags": [
+        "Perimeter",
+        "Area",
+        "Squares"
+      ],
+      "statement": "A square and a triangle have equal perimeters. The lengths of the three sides of the triangle are $6.2\\text{ cm}$, $8.3\\text{ cm}$, and $9.5\\text{ cm}$. The area of the square is",
+      "answerChoices": [
+        "$24\\text{ cm}^2$",
+        "$36\\text{ cm}^2$",
+        "$48\\text{ cm}^2$",
+        "$64\\text{ cm}^2$",
+        "$144\\text{ cm}^2$"
+      ],
+      "answer": "B",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1985-13",
+      "name": "Problem 13 (1985 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1985_AJHSME_Problems/Problem_13",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "categorization": "Word Problems",
+      "tags": [
+        "Distance, Rate, Time"
+      ],
+      "statement": "If you walk for $45$ minutes at a rate of $4\\text{ mph}$ and then run for $30$ minutes at a rate of $10\\text{ mph}$, how many miles have you gone at the end of one hour and $15$ minutes?",
+      "answerChoices": [
+        "$3.5\\text{ miles}$",
+        "$8\\text{ miles}$",
+        "$9\\text{ miles}$",
+        "$25\\frac{1}{3}\\text{ miles}$",
+        "$480\\text{ miles}$"
+      ],
+      "answer": "B",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1985-14",
+      "name": "Problem 14 (1985 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1985_AJHSME_Problems/Problem_14",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "categorization": "Word Problems",
+      "tags": [
+        "Percentages"
+      ],
+      "statement": "The difference between a $6.5\\%$ sales tax and a $6\\%$ sales tax on an item priced at $\\$20$ before tax is",
+      "answerChoices": [
+        "$\\$0.01$",
+        "$\\$0.10$",
+        "$\\$0.50$",
+        "$\\$1$",
+        "$\\$10$"
+      ],
+      "answer": "B",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1985-15",
+      "name": "Problem 15 (1985 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1985_AJHSME_Problems/Problem_15",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "categorization": "Counting Fundamentals",
+      "tags": [
+        "Digit Counting",
+        "Casework"
+      ],
+      "statement": "How many whole numbers between $100$ and $400$ contain the digit $2$?",
+      "answerChoices": [
+        "$100$",
+        "$120$",
+        "$138$",
+        "$140$",
+        "$148$"
+      ],
+      "answer": "C",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1985-16",
+      "name": "Problem 16 (1985 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1985_AJHSME_Problems/Problem_16",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "categorization": "Word Problems",
+      "tags": [
+        "Ratios"
+      ],
+      "statement": "The ratio of boys to girls in Mr. Brown's math class is $2: 3$. If there are $30$ students in the class, how many more girls than boys are in the class?",
+      "answerChoices": [
+        "$1$",
+        "$3$",
+        "$5$",
+        "$6$",
+        "$10$"
+      ],
+      "answer": "D",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1985-17",
+      "name": "Problem 17 (1985 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1985_AJHSME_Problems/Problem_17",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "categorization": "Mean, Median, Mode, and Harmonic Mean",
+      "tags": [
+        "Averages",
+        "Sums"
+      ],
+      "statement": "If your average score on your first six mathematics tests was $84$ and your average score on your first seven mathematics tests was $85$, then your score on the seventh test was",
+      "answerChoices": [
+        "$86$",
+        "$88$",
+        "$90$",
+        "$91$",
+        "$92$"
+      ],
+      "answer": "D",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1985-18",
+      "name": "Problem 18 (1985 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1985_AJHSME_Problems/Problem_18",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "categorization": "Inequalities Foundations",
+      "tags": [
+        "Bounding",
+        "Word Problems"
+      ],
+      "statement": "Nine copies of a certain pamphlet cost less than $\\$10.00$ while ten copies of the same pamphlet (at the same price) cost more than $\\$11.00$. How much does one copy of this pamphlet cost?",
+      "answerChoices": [
+        "$\\$1.07$",
+        "$\\$1.08$",
+        "$\\$1.09$",
+        "$\\$1.10$",
+        "$\\$1.11$"
+      ],
+      "answer": "E",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1985-19",
+      "name": "Problem 19 (1985 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1985_AJHSME_Problems/Problem_19",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "categorization": "Geometry Basics",
+      "tags": [
+        "Percentages",
+        "Perimeter"
+      ],
+      "statement": "If the length and width of a rectangle are each increased by $10\\%$, then the perimeter of the rectangle is increased by",
+      "answerChoices": [
+        "$1\\%$",
+        "$10\\%$",
+        "$20\\%$",
+        "$21\\%$",
+        "$40\\%$"
+      ],
+      "answer": "B",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1985-20",
+      "name": "Problem 20 (1985 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1985_AJHSME_Problems/Problem_20",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "categorization": "Word Problems",
+      "tags": [
+        "Calendars",
+        "Modular Arithmetic"
+      ],
+      "statement": "In a certain year, January had exactly four Tuesdays and four Saturdays. On what day did January $1$ fall that year?",
+      "answerChoices": [
+        "$\\text{Monday}$",
+        "$\\text{Tuesday}$",
+        "$\\text{Wednesday}$",
+        "$\\text{Friday}$",
+        "$\\text{Saturday}$"
+      ],
+      "answer": "C",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1985-21",
+      "name": "Problem 21 (1985 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1985_AJHSME_Problems/Problem_21",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "categorization": "Word Problems",
+      "tags": [
+        "Compound Interest",
+        "Percentages"
+      ],
+      "statement": "Mr. Green receives a $10\\%$ raise every year. His salary after four such raises has gone up by what percent?",
+      "answerChoices": [
+        "$\\text{less than } 40\\%$",
+        "$40\\%$",
+        "$44\\%$",
+        "$45\\%$",
+        "$\\text{More than } 45\\%$"
+      ],
+      "answer": "E",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1985-22",
+      "name": "Problem 22 (1985 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1985_AJHSME_Problems/Problem_22",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "categorization": "Introduction to Probability",
+      "tags": [
+        "Counting",
+        "Probability"
+      ],
+      "statement": "Assume every $7$-digit whole number is a possible telephone number except those which begin with $0$ or $1$. What fraction of telephone numbers begin with $9$ and end with $0$?",
+      "answerChoices": [
+        "$\\frac{1}{63}$",
+        "$\\frac{1}{80}$",
+        "$\\frac{1}{81}$",
+        "$\\frac{1}{90}$",
+        "$\\frac{1}{100}$"
+      ],
+      "answer": "B",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1985-23",
+      "name": "Problem 23 (1985 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1985_AJHSME_Problems/Problem_23",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "categorization": "Word Problems",
+      "tags": [
+        "Dimensional Analysis"
+      ],
+      "statement": "King Middle School has $1200$ students. Each student takes $5$ classes a day. Each teacher teaches $4$ classes. Each class has $30$ students and $1$ teacher. How many teachers are there at King Middle School?",
+      "answerChoices": [
+        "$30$",
+        "$32$",
+        "$40$",
+        "$45$",
+        "$50$"
+      ],
+      "answer": "E",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1985-24",
+      "name": "Problem 24 (1985 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1985_AJHSME_Problems/Problem_24",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "categorization": "Word Problems",
+      "tags": [
+        "Magic Figures",
+        "Extremal Principle"
+      ],
+      "statement": "In a magic triangle, each of the six whole numbers $10$ to $15$ is placed in one of the circles so that the sum, $S$, of the three numbers on each side of the triangle is the same. The largest possible value for $S$ is [See figure in original PDF]",
+      "answerChoices": [
+        "$36$",
+        "$37$",
+        "$38$",
+        "$39$",
+        "$40$"
+      ],
+      "answer": "D",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1985-25",
+      "name": "Problem 25 (1985 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1985_AJHSME_Problems/Problem_25",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "categorization": "Word Problems",
+      "tags": [
+        "Logic",
+        "Wason Selection Task"
+      ],
+      "statement": "Five cards are lying on a table as shown. Each card has a letter on one side and a whole number on the other side. Jane said, \"If a vowel is on one side of any card, then an even number is on the other side.\" Mary showed Jane was wrong by turning over one card. Which card did Mary turn over? [See figure in original PDF]",
+      "answerChoices": [
+        "$3$",
+        "$4$",
+        "$6$",
+        "$P$",
+        "$Q$"
+      ],
+      "answer": "A",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    }
+  ]
+}

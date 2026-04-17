@@ -1,0 +1,60 @@
+---
+id: geometric-probability
+title: Geometric Probability
+author: Aaron He
+description: A tool to deal with infinite probability problems using geometry
+prerequisites: [intro-probability]
+---
+
+## Overview
+Geometric probability is a technique that involves using length, area, or volume to calculate probability. We can use this technique not only for problems explicitly involving geometry, but also for probability questions with **continuous** variables.
+
+In a probability question, we want to find the ratio of the set of desired outcomes to the set of total outcomes. In a probability question with discrete variables, both sets have a finite size. However in a probability question with continuous variables, both sets have infinite size, but we need some way to compare their sizes without directly counting. This is where geometric probability can be useful. We can often convert these questions involving probability into questions involving geometry. Then, the sizes of the sets become length, areas, and volumes, which can be easier to deal with.
+
+## Key Ideas
+(To avoid repeating myself, I will simply say **area** instead of "length/area/volume".)
+- In a geometric probability problem, the probability is the ratio of the area of the desired outcomes to the area of the total outcomes
+- These problems essentially have two parts: (1) modelling the problem geometrically (2) calculating the areas
+- As in finite probability, it can be easier to find the probability of the complement (i.e. the probability of the event **NOT** happening)
+
+### Worked Example #1 (2011 AMC 10B #16)
+A dart board is a regular octagon divided into regions as shown. Suppose that a dart thrown at the board is equally likely to land anywhere on the board. What is the probability that the dart lands within the center square?
+
+![](./static/images/geometric-probability-0.png)
+
+#### Solution
+The probability that the dart lands within the center square is simply the ratio of the area of the center square to the area of the dart board. Since we are only concerned with the ratio between the areas, we can set the side length of the octagon to be $\sqrt{2}$ to make the calculations easier.
+
+> Remember, don't be afraid to set lengths in geometry problems to a value that will make calculations easier.
+
+![](./static/images/geometric-probability-1.png)
+
+The side length of the octagon and the side length of the center square are equal. So, the area of the center square is simply $(\sqrt{2})^2 = 2$.
+
+By Pythagoras, the side length of one of the right triangles on the corners of the octagon is $1$. So, the total area of the octagon is $(\sqrt{2})^2 + 4(1 \times \sqrt{2}) + 4(1 \times 1 \times \frac{1}{2}) = 2 + 4\sqrt{2} + 2 = 4 + 4\sqrt{2}$.
+
+Our answer is simply the ratio of these two numbers.
+$$\frac{2}{4+4\sqrt{2}} = \frac{1}{2+2\sqrt{2}} \times \frac{2-2\sqrt{2}}{2-2\sqrt{2}} = \frac{2-2\sqrt{2}}{-4} =  \boxed{\frac{\sqrt{2}-1}{2}}$$
+
+### Worked Example #2 (1998 AIME #9)
+Two mathematicians take a morning coffee break each day.  They arrive at the cafeteria independently, at random times between 9 a.m. and 10 a.m., and stay for exactly $m$ minutes.  The probability that either one arrives while the other is in the cafeteria is $40 \%,$ and $m = a - b\sqrt {c},$ where $a, b,$ and $c$ are positive integers, and $c$ is not divisible by the square of any prime.  Find $a + b + c.$
+
+#### Solution
+The problem statement doesn't directly mention geometry, so we have to make a model of the problem that involves geometry.
+
+Let $x$, $y$ be the times the two mathematicians arrive in terms of minutes past 9 am. The mathematicians meet when $|x-y|<m$. Consider plotting $x, y$ on a coordinate plane. Since the mathematicians arrive between 9 and 10 am, $0<x,y<60$. This means all pairs of arrival times are in a $60\times60$ square. The shaded region contains all pairs of arrival times where the mathematicians meet.
+
+![](./static/images/geometric-probability-2.png)
+
+Thus, the probability of the mathematicians meeting is equal to the ratio of the shaded area to the total area (i.e. the square). Here, it's actually more convenient to calculate the ratio of the unshaded area (two right triangles) to the total area, which is the probability that the mathematicians do not meet (which is 0.6).
+
+$\frac{(60-m)^2}{60^2} = 0.6$
+$(60-m)^2 = 36\cdot 60$
+$60 - m = 12\sqrt{15}$
+$\Rightarrow m = 60-12\sqrt{15}$
+
+So the answer is $60 + 12 + 15 = \boxed{087}$.
+
+## Practice Problems
+
+<Problems problems="practice" />

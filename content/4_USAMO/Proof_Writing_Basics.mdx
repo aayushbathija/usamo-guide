@@ -2,17 +2,22 @@
 
 id: proof-writing-basics
 title: Proof Writing Basics
-author: USAMO Guide Team
+author: Nico Young
 description: Structure, clarity, and rigor for olympiad proofs.
 prerequisites: []
 -----------------
 
 ## Overview
+On this page, we introduce how to write proofs clearly. 
+This article is based on a handout by Evan Chen on proof-writing and mathematical English: https://web.evanchen.cc/handouts/english/english.pdf
 
-USAMO solutions are written proofs. This module focuses on clarity, structure,
-and logically complete arguments.
+### Why learn proof writing?
+The common question that is asked frequently is 
+*"Why do we care so much about proof-writing? 
+Isn't it okay as long as I can get a 7?"*
 
-## Key Ideas
+Evan Chen has a nice answer to this question: 
+see https://web.evanchen.cc/faq-contest.html#C-24
 
 * Clearly state what you are proving and define all variables.
 * Write in complete sentences and justify each step.
@@ -136,6 +141,127 @@ Many otherwise strong solutions lose points due to missing cases. Always verify:
 * Poor structure or unclear organization
 
 ---
+## mathematical argument 
+In this section we talk about mathematical proofs; 
+you can't get a $7$ if you're mathematically wrong. 
+
+### "Find all" type problem is always two-part problem
+
+Some olympiad problems look like this: 
+"Find all $n$ such that the condition holds."
+If you think the answer set is $S$, then 
+we need to prove the following: 
+- For $n\in S$ prove that the condition holds. 
+- For $n\notin S$, prove that $n$ doesn't satisfy the condition. 
+
+Notice that we have to prove **both** of two statements; 
+we need to write it down even if it's trivial! 
+It is a common mistake to forget writing "this clearly works" 
+and losing $1$ point in a contest. 
+Thus, we recommend writing the solution in the following form: 
+1. Start by describing all the solutions you found, which looks like 
+	"The answer is $n\in \{1, 2, 4, 12\}$". 
+2. Show that these solutions you stated works. You **must** write this 
+	even if it's trivial, because it's the part of the problem. 
+3. Prove that those are the only ones that satisfy the condition. 
+	Again, you must write this part even if it's trivial, 
+	since it's a part of the problem. 
+
+Note that sometimes part 2 and 3 can be swapped, though **you must write both**. 
+By skipping the trivial part, the grader cannot tell whether you know it is trivial or whether you do not know the proof and therefore did not write it.
+
+### optimization problem is always two-part problem
+
+Optimization problem works similarly as above; 
+suppose a problem with: "find the minimum/maximum of $m$" 
+and you've got the answer $M$, then we need to prove that: 
+- There **exists** a situation where $m=M$. 
+- For **all** possible configurations we must have that 
+	$M$ is the minimum/maximum of $m$. 
+
+Thus, we recommend writing proofs as follows: 
+1. Describe your answer by writing "The answer is $m=\text{(something)}$"
+2. Show that the bound is achieved: "which is achieved when blah blah". 
+3. Show that we always have $m\le M$ (or $m\ge M$).
+
+### How much do I need to write? 
+
+Answer: Include enough that grader will know that you know the solution. 
+For a general advise: 
+- If you're not sure a lemma you're using is not well known, 
+	it is safer to **write down a complete statement of a lemma and 
+	the outline of a proof of it**. 
+- **Be careful of the definition!** Wrong claims or typo's can be 
+	fixed quite easily by a grader, but if you write a definition wrong 
+	there's no way a grader can fix it. In particular, 
+	**include diagram if you need.**
+
+## style argument 
+
+In this section we talk about styles of writing: 
+make the paper more readable. 
+The advantage of doing this is: 
+- The grader can understand your proof easily, 
+	and prevent misunderstanding. 
+- It's more easier to review your proofs during contests 
+	(or even in practice).
+- Writing formal proof can make you understand a problem and the idea well. 
+
+### Emphasize important claims, lemmas
+Olympiad problems usually have a starting point, 
+and few claims, that will lead to a conclusion. 
+Thus, **emphasizing each claim** is powerful since 
+graders can know outline of a solution 
+before actually reading small sentences
+(If you watch YouTube, it's just like a timestamp on long videos). 
+More precisely: 
+- Isolated claims/proofs should be in new line, 
+	with whitespace before and after. 
+- When you do casework, always split cases 
+	into separate paragraph or bullet points.
+- Write in backwards manner; instead of writing 
+	"blah blah, thus $p=3$", write "claim: $p=3$, proof". 
+- Even sometimes using colors or cover with box, e.g. $\boxed{p=3}$ is helpful. 
+
+### Other general advice
+
+- Display long equation; rather than writing something like :
+	$\measuredangle ARC
+    =\measuredangle ARQ+\measuredangle QRC 
+    =\measuredangle APQ+\measuredangle QXC 
+    =\measuredangle APQ+\measuredangle QAP =\measuredangle AQP=\measuredangle AQD=\measuredangle ACD=\measuredangle ABC$ write 
+	$\measuredangle ARC
+    =\measuredangle ARQ+\measuredangle QRC 
+    =\measuredangle APQ+\measuredangle QXC 
+    =\measuredangle APQ+\measuredangle QAP =\measuredangle AQP=\measuredangle AQD=\measuredangle ACD=\measuredangle ABC $ 
+	% TODO (how to implement align*??)
+- Include more space than you really think. 
+- Include diagrams if you can. 
+- Write more! If a definition of an object you gave was complicated, 
+	consider writing an example. 
+	If you're unsure that the explanation you gave was incomplete, 
+	include more information. There's no reason not to. 
+- It's useful to add sentences like 
+	"The key idea is $X$" or "important claim is $Y$". 
+
+In general, be kind to the readers. 
+
+### During a contest
+
+Here's a short section about writing in the contest. 
+- Before writing a solution, give a short outline to it and 
+	confirm that each step is right. 
+	Also, note what lemmas to state before the proof of a problem. 
+- Write diagrams largely, possibly using the whole one page. 
+- **Leave more space!** In practice with computer-written solution, 
+	you can insert text or copy-paste it anytime. 
+	In hand-written solution, you can't do this, 
+	thus leaving space will help you. 
+
+## Example
+
+TODO 
+
 
 ## Practice Problems
 

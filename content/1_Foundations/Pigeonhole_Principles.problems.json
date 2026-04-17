@@ -13,7 +13,7 @@
         "Remainders",
         "Integer Properties"
       ],
-      "statement":"Six distinct positive integers are randomly chosen between $1$ and $2006$, inclusive. What is the probability that some pair of these integers has a difference that is a multiple of $5$?",
+      "statement": "Six distinct positive integers are randomly chosen between $1$ and $2006$, inclusive. What is the probability that some pair of these integers has a difference that is a multiple of $5$?",
       "solutionMetadata": {
         "kind": "none"
       }
@@ -30,7 +30,7 @@
         "Counting",
         "Sequences"
       ],
-      "statement":"The numbers $1,2,\\dots,9$ are randomly placed into the $9$ squares of a $3 \\times 3$ grid. Each square gets one number, and each of the numbers is used once. What is the probability that the sum of the numbers in each row and each column is odd?",
+      "statement": "The numbers $1,2,\\dots,9$ are randomly placed into the $9$ squares of a $3 \\times 3$ grid. Each square gets one number, and each of the numbers is used once. What is the probability that the sum of the numbers in each row and each column is odd?",
       "solutionMetadata": {
         "kind": "none"
       }
@@ -47,7 +47,59 @@
         "Combinatorics",
         "Casework"
       ],
-      "statement":"Suppose that $S$ is a subset of $\\left\\{ 1, 2, 3, \\ldots , 25 \\right\\}$ such that the sum of any two (not necessarily distinct) elements of $S$ is never an element of $S.$ What is the maximum number of elements $S$ may contain?",
+      "statement": "Suppose that $S$ is a subset of $\\left\\{ 1, 2, 3, \\ldots , 25 \\right\\}$ such that the sum of any two (not necessarily distinct) elements of $S$ is never an element of $S.$ What is the maximum number of elements $S$ may contain?",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1994-21",
+      "name": "Problem 21 (1994 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1994_AJHSME_Problems/Problem_21",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Worst Case Scenario"
+      ],
+      "statement": "A gumball machine contains $9$ red, $7$ white, and $8$ blue gumballs. The least number of gumballs a person must buy to be sure of getting four gumballs of the same color is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$8$",
+          "$9$",
+          "$10$",
+          "$12$",
+          "$18$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2005-16",
+      "name": "Problem 16 (2005 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2005_AMC_8_Problems/Problem_16",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Worst-Case Scenario"
+      ],
+      "statement": "A five-legged Martian has a drawer full of socks, each of which is red, white or blue, and there are at least five socks of each color. The Martian pulls out one sock at a time without looking. How many socks must the Martian remove from the drawer to be certain there will be $5$ socks of the same color?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$6$",
+          "$9$",
+          "$12$",
+          "$13$",
+          "$15$"
+        ],
+        "correctIndex": 3
+      },
       "solutionMetadata": {
         "kind": "none"
       }

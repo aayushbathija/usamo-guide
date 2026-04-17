@@ -1,21 +1,69 @@
 ---
 id: olympiad-geometry
 title: Olympiad Geometry
-author: USAMO Guide Team
-description: Inversion, projective ideas, and proof-based geometry.
+author: Nico Young
+description: The starting point of olympiad geometry
 prerequisites: ["geometry-advanced", "proof-writing-basics"]
 ---
 
 ## Overview
+Olympiad geometry and AIME geometry are quite different. 
+This section will be a short introduction to olympiad geometry, 
+including constructions in geometry. 
 
-USAMO geometry emphasizes constructions and clean arguments. Inversion and
-homography can simplify tough configurations.
+Before diving into explanation, let us introduce famous notation and words first: 
+- Three or more points are **collinear** if it lies on a single line. If $P_1, P_2, \dots , P_n$ are collinear then the line is often denoted as $\overline{P_1P_2\dots P_n}$. 
+- Four or more points are **concyclic** if it lies on a single circle. If $Q_1, Q_2\dots Q_m$ are concyclic then the circle contain those points are often denotes as $(Q_1Q_2\dots Q_m)$. 
+- The intersection of two objects: intersection of $\ell $ and $m$, possibly line or a circle, is denoted as $X=\ell \cap m$. 
+Note that those notations are not so common (though used quite often) so I recommend to define it before using during the contests. 
 
-## Key Ideas
+## About olympiad geometry 
+Olympiad geometrys are roughly divided to three flavors: 
+1. **Synthetic**, which uses only elementary facts about configurations and it doesn't contain heavy computation. This includes, 
+	- Angle chansing, 
+	- Power of a point, 
+	- Homothety, 
+	- Sometimes inversion is notes as synthetic 
+2. **bashing**, which is a heavy calculation to automatically (doesn't mean easy!) finish a problem with a good setup. This includes, 
+	- Coodinates bashing (though rare on olympiad), 
+	- Complex bashing, 
+	- barycentric coordinates. 
+3. **Projective**, which is about cross ratios and harmonic bundles (it's okay you don't understand it for now). This includes, 
+	- Harmonic bundles, 
+	- Projective transformation, 
+	- moving points. 
 
-- Inversion maps lines and circles to lines and circles.
-- Projective transformations preserve cross ratios and collinearity.
-- Auxiliary points often reveal similarity or power of a point.
+It is possible that a single problem have two or more solutions with a different type written above. (In fact every problem is coordinate bashable.) 
+But since you have three problems on 4.5 hours during a contest, 
+it's not a good idea to solve problem with coordinates which have many circles, 
+or complex bash without a poor choice of unit circle, etc. 
+You'll need to find a natural way to prove the statement. 
+
+For more description, read Evan Chen's article: 
+https://web.evanchen.cc/faq-contest.html#C-14
+
+## About constructing diagrams 
+This section is based on: 
+https://web.evanchen.cc/handouts/Constructions/Constructions.pdf
+
+**Constructing diagram** is important for any kind of geometry. 
+The reason it's important is that: 
+- finding key observations. Points $A, B, C$ are collinear, or $W, X, Y, Z$ are concyclic, etc. 
+- Thinking **how to write a diagram** is sometimes part of the problem. We'll cover this in an example problem later. 
+
+tips: 
+- **Buy a good ruler and compass**, with ruler having **perpendicular lines**; this will save so much time while having a clear accurate diagram. 
+- In a triangle geometry (which is the problem that starts from "Let $\triangle{ABC}$ be a triangle) always start writing circle $(ABC)$ first, even if you don't use it at all. It helps you write many point and triangle centers with only using a ruler. 
+- Some students prefer using **colored diagrams**, which highlights important circles and lines well. 
+- Try not using compass as you can. 
+
+### Writing diagrams using computer
+There's two digital system called *Geogebra* and *Asymptote*. 
+We won't dive in deeply but if you're curious read evan's article above. 
+
+## Example problem 
+
+TODO
 
 ## Practice Problems
 

@@ -35,9 +35,13 @@ export const Feature = ({
   return (
     <div
       className={classNames(
-        'ui-card relative overflow-hidden p-5 sm:p-6 md:p-8 h-full transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_0_40px_rgba(251,146,60,0.4)]',
+        'relative overflow-hidden rounded-2xl p-5 sm:p-6 md:p-8 h-full shadow-lg transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_0_40px_rgba(99,84,139,0.4)]',
         className
       )}
+      style={{
+        border: '1px solid rgba(229, 194, 255, 0.12)',
+        background: 'linear-gradient(180deg, rgba(54, 37, 72, 0.9) 0%, rgba(31, 22, 42, 0.94) 100%)',
+      }}
     >
 
       <div
@@ -66,10 +70,10 @@ export const Feature = ({
             />
           </div>
         </div>
-        <h3 className="text-xl font-bold text-gray-900 md:text-3xl dark:text-gray-100">
+        <h3 className="text-xl font-bold md:text-3xl" style={{ color: '#F4EDEA' }}>
           {title}
         </h3>
-        <p className="mt-2 text-gray-600 md:mt-4 md:text-lg dark:text-gray-300">
+        <p className="mt-2 md:mt-4 md:text-lg" style={{ color: 'rgba(244, 237, 234, 0.78)' }}>
           {children}
         </p>
 

@@ -38,25 +38,37 @@ const PhotoCard = ({ text, day, tomorrowMilliseconds, hiddenOnDesktop }) => {
   return (
     <div
       className={
-        'mx-auto mb-8 max-w-[592px]' + (hiddenOnDesktop ? ' lg:hidden' : '')
+        'mb-8 w-full' + (hiddenOnDesktop ? ' lg:hidden' : '')
       }
     >
-      <div className="flex flex-col overflow-hidden bg-white shadow-sm sm:rounded-lg dark:bg-gray-800">
+      <div
+        className="flex flex-col overflow-hidden shadow-lg sm:rounded-2xl"
+        style={{
+          border: '1px solid rgba(229, 194, 255, 0.12)',
+          background: 'linear-gradient(180deg, rgba(54, 37, 72, 0.9) 0%, rgba(31, 22, 42, 0.94) 100%)',
+        }}
+      >
         <div className="px-4 pt-5 pb-4 sm:px-6 sm:pt-6">
-          <h3 className="dark:text-dark-high-emphasis text-lg leading-6 font-medium text-gray-800">
+          <h3 className="text-lg leading-6 font-medium" style={{ color: '#F4EDEA' }}>
             Day {day} Insight
           </h3>
         </div>
         <div className="relative overflow-hidden">
           {tomorrowMilliseconds >= 0 ? (
-            <div className="absolute inset-0 z-10 flex items-center justify-center bg-white/25 p-4 text-center text-base font-medium text-black dark:bg-black/25 dark:text-white">
+            <div className="absolute inset-0 z-10 flex items-center justify-center p-4 text-center text-base font-medium" style={{ background: 'rgba(32, 28, 54, 0.24)', color: '#F4EDEA' }}>
               <ComeBackTimer tomorrowMilliseconds={tomorrowMilliseconds} />
             </div>
           ) : null}
           <div
-            className="flex min-h-[220px] items-center justify-center bg-slate-50 px-6 py-10 text-center text-lg font-semibold text-slate-700 dark:bg-slate-900 dark:text-slate-200"
+            className="flex min-h-[220px] items-center justify-center px-6 py-10 text-center text-lg font-semibold"
             style={
-              tomorrowMilliseconds >= 0 ? { filter: 'blur(6px)' } : undefined
+              tomorrowMilliseconds >= 0
+                ? {
+                    background: 'rgba(244, 237, 234, 0.08)',
+                    color: '#F0C2FF',
+                    filter: 'blur(6px)',
+                  }
+                : { background: 'rgba(244, 237, 234, 0.08)', color: '#F0C2FF' }
             }
           >
             {text}
@@ -120,13 +132,19 @@ export default function DailyStreak({ streak }) {
     if (i == times.length) {
       return (
         <div className="mb-8" key={times.length}>
-          <div className="flex flex-col overflow-hidden bg-white shadow-sm sm:rounded-lg dark:bg-gray-800">
+          <div
+            className="flex flex-col overflow-hidden shadow-lg sm:rounded-2xl"
+            style={{
+              border: '1px solid rgba(240, 194, 255, 0.24)',
+              background: 'rgba(244, 237, 234, 0.08)',
+            }}
+          >
             <div className="px-4 py-5 sm:p-6">
               <div className="text-center">
-                <h3 className="dark:text-dark-high-emphasis text-lg leading-6 font-medium text-gray-900">
+                <h3 className="text-lg leading-6 font-medium" style={{ color: '#F4EDEA' }}>
                   You've ran out of cow photos!
                 </h3>
-                <div className="dark:text-dark-med-emphasis mt-3 space-y-1 text-sm leading-5 text-gray-500">
+                <div className="mt-3 space-y-1 text-sm leading-5" style={{ color: 'rgba(244, 237, 234, 0.72)' }}>
                   You've unlocked all current insights. If you want to help
                   add more, reach out via the Contact Us button.
                 </div>
@@ -169,13 +187,19 @@ export default function DailyStreak({ streak }) {
   };
   return (
     <>
-      <div className="overflow-hidden bg-white shadow-sm sm:rounded-lg lg:col-span-2 dark:bg-gray-800">
+      <div
+        className="overflow-hidden shadow-lg sm:rounded-2xl lg:col-span-2"
+        style={{
+          border: '1px solid rgba(229, 194, 255, 0.12)',
+          background: 'linear-gradient(180deg, rgba(54, 37, 72, 0.9) 0%, rgba(31, 22, 42, 0.94) 100%)',
+        }}
+      >
         <div className="px-4 py-5 sm:p-6">
           <div className="text-center">
-            <h3 className="dark:text-dark-high-emphasis text-lg leading-6 font-medium text-gray-900">
+            <h3 className="text-lg leading-6 font-medium" style={{ color: '#F4EDEA' }}>
               🔥 {streak} Day Streak: Keep it up!
             </h3>
-            <div className="dark:text-dark-med-emphasis mt-3 space-y-1 text-sm leading-5 text-gray-500">
+            <div className="mt-3 space-y-1 text-sm leading-5" style={{ color: 'rgba(244, 237, 234, 0.72)' }}>
               <p>
                 You've visited this guide for {streak} consecutive day
                 {streak !== 1 && 's'}.

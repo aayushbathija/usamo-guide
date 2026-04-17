@@ -1,0 +1,163 @@
+---
+id: introduction-to-function-equations
+title: Introduction to function equations
+author: Nico Young
+description: Introduction for FE beginners
+prerequisites: []
+---
+
+## Overview
+
+Functional Equation, often abbreviated as FE, is a famous topic in math
+olympiads nowadays. This page is for those who have no experience with FEs.
+
+resource: https://web.evanchen.cc/handouts/FuncEq-Intro/FuncEq-Intro.pdf
+
+## What is functional equation?
+
+Let us define what a function means.
+
+_For sets $X$ and $Y$, A **function** is an assignment of a value in $Y$ for
+each $x\in X$; We write it as $f(x)\in Y$_
+
+Almost 90% of the FEs in olympiad goes as follows:
+
+_Let $X$, $Y$ be sets. Find all functions $f\colon X\rightarrow Y$ such that
+(some equation)_
+
+Here $X$ and $Y$ can be anything, but most of the time it's $\mathbb{Z_{>0}}$,
+$\mathbb{Z}$, or $\mathbb{R}$.
+
+### common mistake
+
+Beginners in FE are often surprised how vast this definition is. Note that $f$
+can be **_anything_** as long as it's from $A$ to $B$. Yes, anything. We
+introduce few common pitfalls about the definition of functions:
+
+- $f$ does not need to be a polynomial.
+- $f$ does not need to be differentiable.
+- $f$ does not need to be continuous.
+
+So think $f$ as an arrow rather than a manipulation. And indeed there's some
+problem that have a "strange" solution which seems like it came out of
+nowhere. Let us show some examples: some (real olympiad!) problem have solutions
+with
+
+$$
+f(x)=
+\begin{cases}
+    \text{whatever odd} \qquad \text{ if $x=1$} \\
+    1 \qquad \text{$x>1$ odd} \\
+    2 \qquad \text{$x>1$ even}
+  \end{cases},
+$$
+
+$$
+f(n) =
+  \begin{cases}
+  n+1 & n \text{ even} \\
+  n+5 & n \equiv 1 \pmod 4 \\
+  n-3 & n \equiv 3 \pmod 4.
+  \end{cases},
+$$
+
+$$
+f(x) =
+  \begin{cases}
+    +1 & x\notin S \\
+    -1 & x\in S
+  \end{cases}
+$$
+
+_where $S$ is any subset of $(-\infty, -\frac 23)$._
+
+These are often called as "monster FE", and we'll cover this in another
+module.
+
+Still in other words, $f$ is just an _assignment_. Some examples are:
+
+- Once you get $f(x)=\pm x$ for all $x\in X$, it is possible that a sign changes
+  depending on the value of $x$. It might be $|x|$, or even the third one in the
+  monster example!
+- You get $f(x)=x$ for all $x>1$, but somehow feel stuck from there. It might
+  suddenly be $f(1)=0$ works?
+
+## Common techniques
+
+From this section we introduce some techniques in FE that is used on most of the problem, step by step . 
+
+### Guessing the solution 
+
+When you solve a typical FE problem, 
+**start by guessing the solution**. 
+At least plug in $f(x)=kx+c$ and find all linear solutions that works. 
+By doing that, you can have some conjectures and 
+it will be a nice hint solving a problem. 
+(But always expect a monster!)
+
+### Pin down some values 
+
+After guessing the solution, **try pinning down some values** 
+(e.g. $f(0)=0$). This will help you since classical FE problem 
+has usually two or more variables. 
+
+### Substitution
+
+After that, **inserting some special values** might be helpful. 
+For example, if you have $f(0)=0$ and there's a $f(x+y)$ term in the equation, 
+you might do $y=-x$ to cancel that. 
+
+### injectivity and surjectivity
+
+Let us introduce new words: In what follows, let $f\colon X\rightarrow Y$ be a
+function.
+
+- A function $f$ is called **injective** if $f(a)=f(b)\implies a=b$ for all
+  $a, b\in X$. In other words, $f$ is **one-to-one**.
+- A function $f$ is called **surjective** if for all $y\in Y$ there exist
+  $x\in X$ such that $f(x)=y$. Thus, $f(x)$ passes through every element of $Y$
+  as $x$ moves.
+- A function is called **bijective** if it's both injective and surjective.
+
+To understand this more clearly, consider for an integer $m$ that 
+$X=\{1, 2, \dots, m\}$ and $Y=\{1, 2, 3, 4, 5\}$ for example.
+
+1. Show that if $f$ is injective then $m\le 5$ and for $m=4$ give a _monster_
+   (i.e. random) example of injective $f$.
+2. Show that if $f$ is surjective then $m\ge 5$ and similarly give a monster
+   example of surjective $f$.
+3. Conclude that if $f$ is bijective then $m=5$, thus we must have $|X|=|Y|$!
+   (However note that this is not true for infinity sets $X$ and $Y$ where $|X|$
+   and $|Y|$ are not finite.)
+
+More description about injectivity and surjectivity:
+
+- If $f$ is injective, it means we can take away $f$ covered from both sides,
+  e.g. $$f(f(x)+1)=f(f(x+1)-1)\implies f(x)+1=f(x+1)-1$$.
+- If $f$ is surjective, it is useful to assume that $f(u)=0$ (or $1$ or
+  whateve looks useful) for some $u$. Sometimes it cancels out a lot of things by inserting $u$.
+
+## Example 1 - Involution function
+
+Since FE is quite difficult to get a sense of it, we'll give an easy (but notable!) walkthrough first. 
+
+- A function $f\colon \mathbb R\rightarrow \mathbb R$ satisfies $f(f(x))=x$ for all $x\in \mathbb R$. Show that $f$ is bijective. 
+
+These $f$ are called an *involution* and it sometimes appears in a solution. 
+
+I recommend to solve this (and any example problems) before looking the solution. 
+
+### Solution 1 - Involution function 
+First, we have $f$ injective; assume that $a, b\in \mathbb R$ with $f(a)=f(b)$. Then we have 
+$$
+a=f(f(a))=f(f(b))=b 
+$$ 
+as needed. To show that $f$ is surjective, note that RHS moves over $\mathbb R$ so $f$ does as well. 
+
+## Example 2 
+
+TODO 
+
+## Practice Problems
+
+<Problems problems="practice" />

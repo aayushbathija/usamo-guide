@@ -108,6 +108,15 @@ function answersMatch(user: string, correct: string): boolean {
   return false;
 }
 
+const MIDNIGHT = '#120F24';
+const MIDNIGHT_DEEP = '#0A0818';
+const VANILLA = '#F4EDEA';
+const TEXT_SECONDARY = 'rgba(244, 237, 234, 0.74)';
+const MAUVE = '#F0C2FF';
+const PURPLE = '#70428A';
+const BORDER = 'rgba(240, 194, 255, 0.20)';
+const BORDER_STRONG = 'rgba(240, 194, 255, 0.30)';
+
 export default function ProblemTemplate(
   props: PageProps<ProblemTemplateData, { uniqueId: string }>
 ): JSX.Element {
@@ -166,23 +175,42 @@ export default function ProblemTemplate(
         image={null}
         pathname={props.path}
       />
-      <div className="ui-page min-h-screen">
+      <div
+        data-page-tone="dark"
+        className="ui-page relative min-h-screen overflow-hidden"
+        style={{
+          background: `linear-gradient(180deg, ${MIDNIGHT} 0%, ${MIDNIGHT_DEEP} 100%)`,
+          color: VANILLA,
+        }}
+      >
+        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_82%_16%,rgba(191,128,255,0.10),transparent_36%),radial-gradient(circle_at_18%_84%,rgba(112,66,138,0.12),transparent_36%),linear-gradient(180deg,rgba(10,8,24,0.22),rgba(12,10,28,0.56)_70%,rgba(6,5,16,0.85))]" />
         <TopNavigationBar />
-        <main className="mx-auto max-w-3xl px-4 py-8 sm:px-6 lg:px-8">
-          <nav className="mb-6 text-sm text-gray-500 dark:text-gray-400">
-            <Link to="/problems/" className="hover:text-blue-600 dark:hover:text-blue-400">
+        <main className="relative mx-auto max-w-3xl px-4 py-8 sm:px-6 lg:px-8">
+          <nav className="mb-6 text-sm" style={{ color: TEXT_SECONDARY }}>
+            <Link
+              to="/problems/"
+              className="transition-opacity hover:opacity-85"
+              style={{ color: MAUVE }}
+            >
               Problems
             </Link>
             <span className="mx-2">/</span>
-            <span className="text-gray-800 dark:text-gray-200">{node.name}</span>
+            <span style={{ color: VANILLA }}>{node.name}</span>
           </nav>
 
-          <header className="mb-8 border-b border-gray-200 pb-6 dark:border-gray-700">
-            <h1 className="dark:text-dark-high-emphasis text-2xl font-bold text-gray-900 sm:text-3xl">
+          <header
+            className="mb-8 rounded-2xl pb-6 shadow-lg"
+            style={{
+              border: '1px solid rgba(229, 194, 255, 0.12)',
+              background: 'linear-gradient(180deg, rgba(54, 37, 72, 0.9) 0%, rgba(31, 22, 42, 0.94) 100%)',
+            }}
+          >
+            <div className="px-5 pt-5 sm:px-6 sm:pt-6">
+            <h1 className="text-2xl font-bold sm:text-3xl" style={{ color: VANILLA }}>
               {node.name}
             </h1>
             <div className="mt-3 flex flex-wrap items-center gap-3 text-sm">
-              <span className="font-medium text-blue-700 dark:text-blue-400">
+              <span className="font-medium" style={{ color: MAUVE }}>
                 {sourceTooltip ? (
                   <span title={sourceTooltip}>{node.source}</span>
                 ) : (
@@ -191,8 +219,8 @@ export default function ProblemTemplate(
               </span>
               {node.author ? (
                 <>
-                  <span className="text-gray-400">·</span>
-                  <span className="text-gray-700 dark:text-gray-300">
+                  <span style={{ color: TEXT_SECONDARY }}>·</span>
+                  <span style={{ color: TEXT_SECONDARY }}>
                     {node.author}
                   </span>
                 </>
@@ -202,10 +230,11 @@ export default function ProblemTemplate(
               />
             </div>
             {node.module?.frontmatter?.id && node.module.fields?.division ? (
-              <p className="mt-3 text-sm text-gray-600 dark:text-gray-400">
+              <p className="mt-3 text-sm" style={{ color: TEXT_SECONDARY }}>
                 From module{' '}
                 <Link
-                  className="text-blue-600 hover:underline dark:text-blue-400"
+                  className="hover:underline"
+                  style={{ color: MAUVE }}
                   to={`/${node.module.fields.division}/${node.module.frontmatter.id}/`}
                 >
                   {node.module.frontmatter.title}
@@ -217,12 +246,14 @@ export default function ProblemTemplate(
                 <ProblemStatusCheckbox problem={problem} size="large" />
               </ConfettiProvider>
             </div>
+            </div>
           </header>
 
           <section className="mb-10" aria-labelledby="problem-statement">
             <h2
               id="problem-statement"
-              className="mb-4 text-lg font-semibold text-gray-900 dark:text-gray-100"
+              className="mb-4 text-lg font-semibold"
+              style={{ color: VANILLA }}
             >
               Problem
             </h2>
@@ -234,7 +265,10 @@ export default function ProblemTemplate(
               className="mb-10"
               aria-label="Submit numeric answer"
             >
-              <label className="mb-2 block text-sm font-medium text-gray-700 dark:text-gray-300">
+              <label
+                className="mb-2 block text-sm font-medium"
+                style={{ color: TEXT_SECONDARY }}
+              >
                 Your answer
               </label>
               <div className="flex flex-wrap items-center gap-3">
@@ -246,13 +280,25 @@ export default function ProblemTemplate(
                     setIntegerInput(e.target.value);
                     setCheckResult('idle');
                   }}
-                  className="ui-input max-w-xs rounded-md border border-gray-300 px-3 py-2 dark:border-gray-600 dark:bg-gray-800"
+                  className="ui-input max-w-xs rounded-md px-3 py-2"
+                  style={{
+                    borderColor: BORDER_STRONG,
+                    background: 'rgba(14, 11, 31, 0.72)',
+                    color: VANILLA,
+                  }}
                   placeholder="Enter a number"
                 />
                 <button
                   type="button"
                   onClick={runCheck}
-                  className="rounded-md bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700"
+                  className="purple-motion-effect inline-flex items-center justify-center rounded-full px-6 py-2 font-mono text-sm font-bold leading-tight"
+                  style={{
+                    border: '1px solid rgba(240, 194, 255, 0.34)',
+                    background: 'linear-gradient(135deg, #5A2F87 0%, #C58BFF 100%)',
+                    '--pme-color': '#F4EDEA',
+                    '--pme-hover-color': '#201C36',
+                    '--pme-wipe-bg': '#F0C2FF',
+                  } as React.CSSProperties}
                 >
                   Check
                 </button>
@@ -272,13 +318,19 @@ export default function ProblemTemplate(
 
           {problem.interaction.type === 'mcq' && (
             <section className="mb-10" aria-label="Multiple choice">
-              <p className="mb-3 text-sm font-medium text-gray-700 dark:text-gray-300">
+              <p className="mb-3 text-sm font-medium" style={{ color: TEXT_SECONDARY }}>
                 Select an answer
               </p>
               <ul className="space-y-2">
                 {problem.interaction.choices.map((choice, i) => (
                   <li key={i}>
-                    <label className="flex cursor-pointer items-start gap-2 rounded-md border border-transparent px-2 py-1 hover:bg-gray-50 dark:hover:bg-gray-800/80">
+                    <label
+                      className="flex cursor-pointer items-start gap-2 rounded-2xl px-3 py-2 shadow-lg"
+                      style={{
+                        border: '1px solid rgba(229, 194, 255, 0.12)',
+                        background: 'linear-gradient(180deg, rgba(54, 37, 72, 0.9) 0%, rgba(31, 22, 42, 0.94) 100%)',
+                      }}
+                    >
                       <input
                         type="radio"
                         name="mcq"
@@ -289,7 +341,7 @@ export default function ProblemTemplate(
                         }}
                         className="mt-1"
                       />
-                      <span className="text-gray-800 dark:text-gray-200">
+                      <span style={{ color: VANILLA }}>
                         {choice}
                       </span>
                     </label>
@@ -299,7 +351,12 @@ export default function ProblemTemplate(
               <button
                 type="button"
                 onClick={runCheck}
-                className="mt-4 rounded-md bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700"
+                className="mt-4 rounded-md px-4 py-2 text-sm font-medium transition hover:opacity-95"
+                style={{
+                  backgroundColor: PURPLE,
+                  color: VANILLA,
+                  border: `1px solid ${BORDER_STRONG}`,
+                }}
               >
                 Check
               </button>
@@ -323,7 +380,14 @@ export default function ProblemTemplate(
                 href={problem.solutionReveal.url}
                 target="_blank"
                 rel="nofollow noopener noreferrer"
-                className="inline-flex items-center rounded-md bg-gray-900 px-4 py-2.5 text-sm font-medium text-white hover:bg-gray-800 dark:bg-gray-100 dark:text-gray-900 dark:hover:bg-white"
+                className="purple-motion-effect inline-flex items-center justify-center rounded-full px-6 py-2.5 font-mono text-sm font-bold leading-tight"
+                style={{
+                  border: '1px solid rgba(240, 194, 255, 0.34)',
+                  background: 'linear-gradient(135deg, #5A2F87 0%, #C58BFF 100%)',
+                  '--pme-color': '#F4EDEA',
+                  '--pme-hover-color': '#201C36',
+                  '--pme-wipe-bg': '#F0C2FF',
+                } as React.CSSProperties}
               >
                 Show me the solution
                 <svg
@@ -340,12 +404,25 @@ export default function ProblemTemplate(
                 <button
                   type="button"
                   onClick={() => setSolutionOpen(o => !o)}
-                  className="rounded-md bg-gray-900 px-4 py-2.5 text-sm font-medium text-white hover:bg-gray-800 dark:bg-gray-100 dark:text-gray-900 dark:hover:bg-white"
+                  className="purple-motion-effect inline-flex items-center justify-center rounded-full px-6 py-2.5 font-mono text-sm font-bold leading-tight"
+                  style={{
+                    border: '1px solid rgba(240, 194, 255, 0.34)',
+                    background: 'linear-gradient(135deg, #5A2F87 0%, #C58BFF 100%)',
+                    '--pme-color': '#F4EDEA',
+                    '--pme-hover-color': '#201C36',
+                    '--pme-wipe-bg': '#F0C2FF',
+                  } as React.CSSProperties}
                 >
                   {solutionOpen ? 'Hide solution' : 'Show me the solution'}
                 </button>
                 {solutionOpen && (
-                  <div className="mt-6 rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-700 dark:bg-gray-900">
+                  <div
+                    className="mt-6 rounded-2xl p-4 shadow-lg"
+                    style={{
+                      border: '1px solid rgba(229, 194, 255, 0.12)',
+                      background: 'linear-gradient(180deg, rgba(54, 37, 72, 0.9) 0%, rgba(31, 22, 42, 0.94) 100%)',
+                    }}
+                  >
                     <ProblemStatementMarkdown>
                       {problem.solutionReveal.markdown}
                     </ProblemStatementMarkdown>
@@ -353,14 +430,14 @@ export default function ProblemTemplate(
                 )}
               </>
             ) : (
-              <p className="text-sm text-gray-500 dark:text-gray-400">
+              <p className="text-sm" style={{ color: TEXT_SECONDARY }}>
                 No solution is configured for this problem yet.
               </p>
             )}
           </section>
 
-          <p className="text-sm text-gray-500 dark:text-gray-400">
-            <Link to="/problems/" className="text-blue-600 hover:underline dark:text-blue-400">
+          <p className="text-sm" style={{ color: TEXT_SECONDARY }}>
+            <Link to="/problems/" className="hover:underline" style={{ color: MAUVE }}>
               ← Back to all problems
             </Link>
           </p>

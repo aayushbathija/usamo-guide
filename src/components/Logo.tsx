@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-const logoSrc = '/images/cropped_circle_image.png';
+const logoSrc = '/images/Test_logo.png';
 
 export default function Logo(): JSX.Element {
   return (

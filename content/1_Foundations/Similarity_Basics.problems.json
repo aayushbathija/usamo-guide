@@ -34,6 +34,88 @@
       "solutionMetadata": {
         "kind": "none"
       }
+    },
+    {
+      "uniqueId": "amc8-2016-25",
+      "name": "Problem 25 (2016 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2016_AMC_8_Problems/Problem_25",
+      "source": "AMC 8",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Similar Triangles",
+        "Inscribed Shapes",
+        "Tangent Lines"
+      ],
+      "statement": "A semicircle is inscribed in an isosceles triangle with base $16$ and height $15$ so that the diameter of the semicircle is contained in the base of the triangle as shown. What is the radius of the semicircle? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$4\\sqrt{3}$",
+          "$\\frac{120}{17}$",
+          "$10$",
+          "$\\frac{17\\sqrt{2}}{2}$",
+          "$\\frac{17\\sqrt{3}}{2}$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2018-20",
+      "name": "Problem 20 (2018 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2018_AMC_8_Problems/Problem_20",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Area Ratios",
+        "Parallelograms"
+      ],
+      "statement": "In $\\triangle ABC$, a point $E$ is on $\\overline{AB}$ with $AE=1$ and $EB=2$. Point $D$ is on $\\overline{AC}$ so that $\\overline{DE}\\parallel\\overline{BC}$ and point $F$ is on $\\overline{BC}$ so that $\\overline{EF}\\parallel\\overline{AC}$. What is the ratio of the area of $CDEF$ to the area of $\\triangle ABC$? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{4}{9}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{5}{9}$",
+          "$\\frac{3}{5}$",
+          "$\\frac{2}{3}$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2023-24",
+      "name": "Problem 24 (2023 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2023_AMC_8_Problems/Problem_24",
+      "source": "AMC 8",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Ratios"
+      ],
+      "statement": "Isosceles $\\triangle ABC$ has equal side lengths $AB$ and $BC$. In the figure below, segments are drawn parallel to $\\overline{AC}$ so that the shaded portions of $\\triangle ABC$ have the same area. The heights of the two unshaded portions are $11$ and $5$ units, respectively. What is the height $h$ of $\\triangle ABC$? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$14.6$",
+          "$14.8$",
+          "$15.0$",
+          "$15.2$",
+          "$15.4$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
     }
   ]
 }

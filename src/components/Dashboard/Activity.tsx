@@ -52,7 +52,13 @@ export function ActivityHeatmap({
     (activeDateKey && moduleActivities[activeDateKey]?.length) ?? 0;
   return (
     <div className="mt-4">
-      <div className="bg-white px-4 py-5 shadow-sm transition sm:rounded-lg sm:p-6 dark:bg-gray-800">
+      <div
+        className="px-4 py-5 shadow-lg transition sm:rounded-2xl sm:p-6"
+        style={{
+          border: '1px solid rgba(229, 194, 255, 0.12)',
+          background: 'linear-gradient(180deg, rgba(54, 37, 72, 0.9) 0%, rgba(31, 22, 42, 0.94) 100%)',
+        }}
+      >
         <div className="grid gap-y-4 lg:grid-cols-3 lg:gap-x-6 lg:gap-y-0">
           <div className="col-span-2">
             <div className="overflow-x-auto pt-2 pb-3 px-1">
@@ -96,7 +102,7 @@ export function ActivityHeatmap({
           </div>
           <div className="col-span-1">
             {activeDate ? (
-              <div className="text-gray-800 dark:text-gray-200">
+              <div style={{ color: '#D2D4C8' }}>
                 <b>{activeDate.toString().substring(0, 16)}</b> <br />
                 {activeDateCount === 0 ? (
                   <p>No activity</p>
@@ -111,14 +117,14 @@ export function ActivityHeatmap({
                 )}
               </div>
             ) : (
-              <p className="mt-3 text-sm text-gray-600 dark:text-gray-400">
+              <p className="mt-3 text-sm" style={{ color: 'rgba(244, 237, 234, 0.72)' }}>
                 Hover over a square to view more details!
               </p>
             )}
           </div>
         </div>
 
-        <p className="mt-3 text-sm text-gray-600 dark:text-gray-400">
+        <p className="mt-3 text-sm" style={{ color: 'rgba(244, 237, 234, 0.72)' }}>
           Note that activity calculations are very much in development and will
           change in the near future.
         </p>

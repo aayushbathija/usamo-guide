@@ -11,10 +11,15 @@ export default function TermsOfServicePage(props: PageProps) {
 
       <TopNavigationBar />
 
-      <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-        <h1 className="mt-8 text-4xl font-extrabold">Terms of Service</h1>
+      <div
+        data-page-tone="dark"
+        className="min-h-screen"
+        style={{ background: 'linear-gradient(to bottom, #120F24 0%, #0E0B1F 48%, #0A0818 100%)' }}
+      >
+      <div className="mx-auto max-w-3xl px-4 pb-16 sm:px-6 lg:px-8">
+        <h1 className="mt-8 text-4xl font-extrabold text-[#F4EDEA]">Terms of Service</h1>
 
-        <div className="dark:text-dark-high-emphasis mt-6 space-y-4 text-lg text-gray-900">
+        <div className="mt-6 space-y-4 text-lg text-[rgba(244,237,234,0.80)]">
           <p>Last updated: April 3, 2026</p>
 
           <p>
@@ -22,56 +27,56 @@ export default function TermsOfServicePage(props: PageProps) {
             agree to these Terms of Service.
           </p>
 
-          <h2 className="pt-2 text-2xl font-bold">Use of the Service</h2>
+          <h2 className="pt-2 text-2xl font-bold text-[#F4EDEA]">Use of the Service</h2>
           <p>
             You may use the service for lawful educational purposes. You agree
             not to misuse the platform, attempt unauthorized access, or disrupt
             service availability for others.
           </p>
 
-          <h2 className="pt-2 text-2xl font-bold">Accounts</h2>
+          <h2 className="pt-2 text-2xl font-bold text-[#F4EDEA]">Accounts</h2>
           <p>
             You are responsible for your account activity and for maintaining
             the confidentiality of your login credentials.
           </p>
 
-          <h2 className="pt-2 text-2xl font-bold">Content and License</h2>
+          <h2 className="pt-2 text-2xl font-bold text-[#F4EDEA]">Content and License</h2>
           <p>
             Use of site materials is subject to our license and usage terms.
             For details, see the{' '}
             <Link
               to="/license"
-              className="text-blue-500 underline hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300"
+              className="text-[#F0C2FF] underline hover:text-[#F4EDEA]"
             >
               License and Usage page
             </Link>
             .
           </p>
 
-          <h2 className="pt-2 text-2xl font-bold">Third-Party Services</h2>
+          <h2 className="pt-2 text-2xl font-bold text-[#F4EDEA]">Third-Party Services</h2>
           <p>
             The platform may integrate with third-party services. Your use of
             those services may also be governed by their terms and policies.
           </p>
 
-          <h2 className="pt-2 text-2xl font-bold">Disclaimer</h2>
+          <h2 className="pt-2 text-2xl font-bold text-[#F4EDEA]">Disclaimer</h2>
           <p>
             The service and content are provided on an "as is" basis without
             warranties of any kind, to the extent permitted by law.
           </p>
 
-          <h2 className="pt-2 text-2xl font-bold">Changes to These Terms</h2>
+          <h2 className="pt-2 text-2xl font-bold text-[#F4EDEA]">Changes to These Terms</h2>
           <p>
             We may update these terms over time. Continued use of the service
             after updates means you accept the revised terms.
           </p>
 
-          <h2 className="pt-2 text-2xl font-bold">Contact</h2>
+          <h2 className="pt-2 text-2xl font-bold text-[#F4EDEA]">Contact</h2>
           <p>
             For questions about these terms, contact us at{' '}
             <a
               href="mailto:contact@usamoguide.com"
-              className="text-blue-500 underline hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300"
+              className="text-[#F0C2FF] underline hover:text-[#F4EDEA]"
             >
               contact@usamoguide.com
             </a>
@@ -80,10 +85,11 @@ export default function TermsOfServicePage(props: PageProps) {
 
           <Link
             to="/"
-            className="mb-4 block text-blue-500 underline hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300"
+            className="mb-4 block text-[#F0C2FF] underline hover:text-[#F4EDEA]"
           >
             &larr; Back to Home
           </Link>
+        </div>
         </div>
       </div>
     </Layout>

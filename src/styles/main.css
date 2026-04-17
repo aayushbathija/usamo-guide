@@ -2,12 +2,15 @@
 @import 'tailwindcss';
 @import './theme.css' layer(base);
 
+
 @theme {
-  --color-dark-surface: #121212;
-  --color-dark-high-emphasis: rgba(255, 255, 255, 0.87);
-  --color-dark-med-emphasis: rgba(255, 255, 255, 0.6);
-  --color-dark-disabled-emphasis: rgba(255, 255, 255, 0.38);
+  --color-dark-surface: #201C36; /* palette base */
+  /* replace white-based emphasis with cream-based emphasis */
+  --color-dark-high-emphasis: rgba(244, 237, 234, 0.90);
+  --color-dark-med-emphasis: rgba(244, 237, 234, 0.68);
+  --color-dark-disabled-emphasis: rgba(244, 237, 234, 0.42);
 }
+
 
 @import './generalStyles.css' layer(components);
 @import './components.css' layer(components);
@@ -15,6 +18,7 @@
 @import './link-with-progress.css' layer(components);
 @import './anchor.css' layer(utilities);
 @import './animations.css' layer(utilities);
+
 
 @source "../../src/components";
 @source "../../src/context";
@@ -26,12 +30,15 @@
 @source "../../content";
 @source "../../.storybook/preview.js";
 
+
 @config "../../tailwind.config.js";
+
 
 /*
   The default border color has changed to `currentColor` in Tailwind CSS v4,
   so we've added these compatibility styles to make sure everything still
   looks the same as it did with Tailwind CSS v3.
+
 
   If we ever want to remove these styles, we need to add an explicit border
   color utility to any element that depends on these defaults.
@@ -45,6 +52,7 @@
     border-color: var(--color-gray-200, currentColor);
   }
 
+
   button,
   [role='button'] {
     cursor: pointer;
@@ -53,4 +61,25 @@
   [role='button']:disabled {
     cursor: default;
   }
+
+  ::selection {
+    background: #f5f0fa;
+    color: #171413;
+  }
+
+  ::-moz-selection {
+    background: #f5f0fa;
+    color: #171413;
+  }
+
+  .markdown ::selection {
+    background: #f5f0fa;
+    color: #171413;
+  }
+
+  .markdown ::-moz-selection {
+    background: #f5f0fa;
+    color: #171413;
+  }
 }
+

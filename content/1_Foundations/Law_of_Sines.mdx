@@ -1,21 +1,104 @@
 ---
 id: law-of-sines
 title: Law of Sines
-author: USAMO Guide Team
-description: Relate sides and angles using $\sin$.
+author: apan
+description: Relate sides and angles using sine.
 prerequisites: []
 ---
 
 ## Overview
 
-The Law of Sines is ideal for triangle problems with angles and one side. It
-also connects directly to circumradius.
+The Law of Sines is an important tool for solving non-right triangles. It
+connects side lengths and opposite angles in a clean ratio and is especially
+effective when at least one side-angle opposite pair is known.
+
+For a triangle $\triangle ABC$ with side lengths $a,b,c$ opposite
+$A,B,C$ respectively, the law states:
+
+$$
+\frac{a}{\sin A}=\frac{b}{\sin B}=\frac{c}{\sin C}=2R
+$$
+
+where $R$ is the circumradius.
+
+This topic appears often in olympiad geometry and trigonometric geometry
+because it lets you switch between angle information and length information
+quickly.
 
 ## Key Ideas
 
-- $\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C} = 2R$.
-- Use it when you know a side-angle pair.
-- It pairs well with the triangle angle sum to find a missing angle.
+- Opposite pairs matter: $a \leftrightarrow A$, $b \leftrightarrow B$,
+  $c \leftrightarrow C$.
+- The law is strongest when you know an angle and its opposite side.
+- The circumradius form $a=2R\sin A$ is often the fastest path.
+- Combine with $A+B+C=180^\circ$ to generate missing angles first.
+- In SSA data (two sides and a non-included angle), check for the ambiguous
+  case (0, 1, or 2 triangles).
+
+## Statement and Equivalent Forms
+
+The standard ratio form is:
+
+$$
+\frac{a}{\sin A}=\frac{b}{\sin B}=\frac{c}{\sin C}.
+$$
+
+Equivalent pairwise forms are:
+
+$$
+\frac{a}{b}=\frac{\sin A}{\sin B},\qquad
+\frac{b}{c}=\frac{\sin B}{\sin C},\qquad
+\frac{c}{a}=\frac{\sin C}{\sin A}.
+$$
+
+With circumradius $R$:
+
+$$
+a=2R\sin A,\quad b=2R\sin B,\quad c=2R\sin C.
+$$
+
+These forms are algebraically equivalent; choose the one that isolates the
+unknown most directly.
+
+## Why It Is True (Quick Derivation)
+
+Use area formulas from different bases. Let $K$ be the area of
+$\triangle ABC$.
+
+$$
+K=\frac12 bc\sin A=\frac12 ca\sin B=\frac12 ab\sin C.
+$$
+
+From $\frac12 bc\sin A=\frac12 ca\sin B$, cancel common factors:
+
+$$
+\frac{\sin A}{a}=\frac{\sin B}{b}.
+$$
+
+Similarly,
+
+$$
+\frac{\sin B}{b}=\frac{\sin C}{c}.
+$$
+
+So all are equal, giving the Law of Sines.
+
+To get $\frac{a}{\sin A}=2R$, use the extended chord relation in a
+circle: a side of the triangle is a chord of the circumcircle.
+
+## When to Use Law of Sines vs. Law of Cosines
+
+Use Law of Sines when:
+
+- You know AAS/ASA data (two angles and a side).
+- You know SSA data and want to test possible triangles.
+- You need circumradius or expressions involving $2R$.
+
+Use Law of Cosines when:
+
+- You know SSS (all three sides).
+- You know SAS and need the third side.
+- You need an equation with $\cos$ of an included angle.
 
 ## Core Skills
 
@@ -28,17 +111,63 @@ ratio. This avoids the most common mistake.
 
 If $R$ is known or requested, use $a=2R\sin A$ directly.
 
-### Decide When It Is Appropriate
+### Solve for the Unknown with One Ratio
 
-This law is strongest when you have an angle and its opposite side, or two
-angles and a side. If all three sides are known, the Law of Cosines is cleaner.
+Do not use the full chain unless needed. Set up one proportion containing only
+one unknown and solve cleanly.
+
+### Use Angle Sum Early
+
+If one angle is missing, compute it first using
+
+$$
+A+B+C=180^\circ.
+$$
+
+Then apply Law of Sines with a known opposite pair.
+
+## Ambiguous Case (SSA)
+
+Suppose you know $A$, $a$, and $b$, where $A$ is not included between known
+sides. From
+
+$$
+\frac{a}{\sin A}=\frac{b}{\sin B}
+$$
+
+you get
+
+$$
+\sin B=\frac{b\sin A}{a}
+$$
+
+Now check possibilities:
+
+- If $\frac{b\sin A}{a}\gt 1$, no triangle exists.
+- If $\frac{b\sin A}{a}=1$, exactly one right-triangle case for $B$.
+- If $0\lt\frac{b\sin A}{a}\lt 1$, then potentially two angles:
+  $B_1=\arcsin\!\left(\frac{b\sin A}{a}\right)$ and
+  $B_2=180^\circ-B_1$.
+
+Keep only values where $A+B\lt 180^\circ$.
 
 ## Worked Example
 
 In $\triangle ABC$, $A=30^\circ$, $B=45^\circ$, and $a=10$. Find $b$.
 
-$\frac{10}{\sin 30^\circ} = \frac{b}{\sin 45^\circ}$ gives
-$20 = b\sqrt{2}$, so $b=10\sqrt{2}$.
+$$
+\frac{10}{\sin 30^\circ}=\frac{b}{\sin 45^\circ}
+\quad\Rightarrow\quad
+\frac{10}{1/2}=\frac{b}{\sqrt2/2}.
+$$
+
+So
+
+$$
+20=\frac{2b}{\sqrt2}=b\sqrt2
+\quad\Rightarrow\quad
+b=\frac{20}{\sqrt2}=10\sqrt2.
+$$
 
 ## More Examples
 
@@ -46,27 +175,87 @@ $20 = b\sqrt{2}$, so $b=10\sqrt{2}$.
 
 In $\triangle ABC$, $a=8$, $b=10$, and $A=30^\circ$. Find $B$.
 
-$\frac{8}{\sin 30^\circ} = \frac{10}{\sin B}$ gives $16 = 10/\sin B$,
-so $\sin B = 5/8$.
+$$
+\frac{8}{\sin 30^\circ}=\frac{10}{\sin B}
+\quad\Rightarrow\quad
+\sin B=\frac{10\sin30^\circ}{8}=\frac{5}{8}.
+$$
+
+Thus
+
+$$
+B_1=\arcsin\left(\frac58\right),
+\qquad
+B_2=180^\circ-B_1.
+$$
+
+Both may be valid depending on the remaining data. This is the SSA ambiguous
+case in action.
 
 ### Example 2: Circumradius
 
 If $a=12$ and $A=45^\circ$, find $R$.
 
-$12 = 2R\sin 45^\circ$ gives $R = 12/(\sqrt{2}) = 6\sqrt{2}$.
+$$
+12=2R\sin45^\circ=2R\cdot\frac{\sqrt2}{2}=R\sqrt2
+$$
+
+so
+
+$$
+R=\frac{12}{\sqrt2}=6\sqrt2.
+$$
+
+### Example 3: Find a Side After Angle Sum
+
+Given $A=50^\circ$, $C=60^\circ$, and $c=14$, find $a$.
+
+First,
+
+$$
+B=180^\circ-50^\circ-60^\circ=70^\circ.
+$$
+
+Then apply Law of Sines with known pair $(c,C)$:
+
+$$
+\frac{a}{\sin50^\circ}=\frac{14}{\sin60^\circ}
+\quad\Rightarrow\quad
+a=14\cdot\frac{\sin50^\circ}{\sin60^\circ}.
+$$
 
 ## Strategy Checklist
 
 - Label opposite sides and angles clearly before substituting.
 - Use the triangle angle sum to compute a missing angle first.
-- Keep calculator mode consistent (degrees vs radians).
-- Check whether the Law of Cosines is a better fit.
+- Keep unit of angle measurement consistent (degrees vs radians).
+- Check whether Law of Cosines is a better fit for SSS/SAS.
+- In SSA, explicitly test for 0/1/2 possible triangles.
 
 ## Common Pitfalls
 
 - Using degrees for some angles and radians for others.
 - Swapping which side corresponds to which angle.
-- Forgetting that two angles might lead to an ambiguous case if not careful.
+- Forgetting to test both $\theta$ and $180^\circ-\theta$ in SSA.
+- Rounding too early and losing accuracy in later steps.
+
+## Summary
+
+Law of Sines is a conversion tool between side lengths and opposite angles.
+Its most useful forms are
+
+$$
+\frac{a}{\sin A}=\frac{b}{\sin B}=\frac{c}{\sin C}=2R
+$$
+
+and
+
+$$
+a=2R\sin A.
+$$
+
+Use it by matching opposite pairs carefully, computing missing angles
+early, and checking the SSA case whenever applicable.
 
 ## Practice Problems
 

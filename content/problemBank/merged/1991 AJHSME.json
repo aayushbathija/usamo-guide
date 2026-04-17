@@ -1,0 +1,632 @@
+{
+  "exam": "1991 AJHSME",
+  "problems": [
+    {
+      "uniqueId": "ajhsme-1991-1",
+      "name": "Problem 1 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_1",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "categorization": "Arithmetic and Number Theory Basics",
+      "tags": [
+        "Arithmetic"
+      ],
+      "statement": "$777=$",
+      "answerChoices": [
+        "$222, 222, 222, 222$",
+        "$222, 222, 222, 223$",
+        "$233, 333, 333, 333$",
+        "$322, 222, 222, 223$",
+        "$333, 333, 333, 333$"
+      ],
+      "answer": "B",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-2",
+      "name": "Problem 2 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_2",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "categorization": "Arithmetic and Number Theory Basics",
+      "tags": [
+        "Order of Operations",
+        "Fractions"
+      ],
+      "statement": "$\\frac{16+8}{4-2}=$",
+      "answerChoices": [
+        "$4$",
+        "$8$",
+        "$12$",
+        "$16$",
+        "$20$"
+      ],
+      "answer": "C",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-3",
+      "name": "Problem 3 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_3",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "categorization": "Arithmetic and Number Theory Basics",
+      "tags": [
+        "Large Numbers",
+        "Word to Number Conversion"
+      ],
+      "statement": "Two hundred thousand times two hundred thousand equals",
+      "answerChoices": [
+        "four hundred thousand",
+        "four million",
+        "forty thousand",
+        "four hundred million",
+        "forty billion"
+      ],
+      "answer": "E",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-4",
+      "name": "Problem 4 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_4",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "categorization": "Algebra Basics",
+      "tags": [
+        "Algebraic Manipulation",
+        "Differences"
+      ],
+      "statement": "If $991+993+995+997+999=5000-N$ then $N=$",
+      "answerChoices": [
+        "$5$",
+        "$10$",
+        "$15$",
+        "$20$",
+        "$25$"
+      ],
+      "answer": "E",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-5",
+      "name": "Problem 5 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_5",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "categorization": "Counting Fundamentals",
+      "tags": [
+        "Tiling",
+        "Parity"
+      ],
+      "statement": "A \"domino\" is made up of two small squares: [See figure in original PDF]. Which of the \"checkerboards\" illustrated below CANNOT be covered exactly and completely by a whole number of non-overlapping dominoes?",
+      "answerChoices": [
+        "$3 \\times 4$",
+        "$3 \\times 5$",
+        "$4 \\times 4$",
+        "$4 \\times 5$",
+        "$6 \\times 3$"
+      ],
+      "answer": "B",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-6",
+      "name": "Problem 6 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_6",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "categorization": "Arithmetic and Number Theory Basics",
+      "tags": [
+        "Arrays",
+        "Min-Max"
+      ],
+      "statement": "Which number in the array below is both the largest in its column and the smallest in its row? [See figure in original PDF]",
+      "answerChoices": [
+        "$1$",
+        "$6$",
+        "$7$",
+        "$12$",
+        "$15$"
+      ],
+      "answer": "C",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-7",
+      "name": "Problem 7 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_7",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "categorization": "Arithmetic and Number Theory Basics",
+      "tags": [
+        "Estimation",
+        "Factoring"
+      ],
+      "statement": "The value of $\\frac{(487,000)(12,027,300)+(9,621,001)(487,000)}{(19,367)(0.05)}$ is closest to",
+      "answerChoices": [
+        "$10,000,000$",
+        "$100,000,000$",
+        "$1,000,000,000$",
+        "$10,000,000,000$",
+        "$100,000,000,000$"
+      ],
+      "answer": "D",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-8",
+      "name": "Problem 8 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_8",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "categorization": "Arithmetic and Number Theory Basics",
+      "tags": [
+        "Quotients",
+        "Negative Numbers"
+      ],
+      "statement": "What is the largest quotient that can be formed using two numbers chosen from the set $\\{-24, -3, -2, 1, 2, 8\\}$?",
+      "answerChoices": [
+        "$-24$",
+        "$-3$",
+        "$8$",
+        "$12$",
+        "$24$"
+      ],
+      "answer": "D",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-9",
+      "name": "Problem 9 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_9",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "categorization": "Inclusion-Exclusion",
+      "tags": [
+        "Divisibility",
+        "Venn Diagrams"
+      ],
+      "statement": "How many whole numbers from $1$ through $46$ are divisible by either $3$ or $5$ or both?",
+      "answerChoices": [
+        "$18$",
+        "$21$",
+        "$24$",
+        "$25$",
+        "$27$"
+      ],
+      "answer": "B",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-10",
+      "name": "Problem 10 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_10",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "categorization": "Coordinate Geometry Basics",
+      "tags": [
+        "Area of Parallelogram",
+        "Coordinates"
+      ],
+      "statement": "The area in square units of the region enclosed by parallelogram $ABCD$ is [See figure in original PDF]",
+      "answerChoices": [
+        "$6$",
+        "$8$",
+        "$12$",
+        "$15$",
+        "$18$"
+      ],
+      "answer": "B",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-11",
+      "name": "Problem 11 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_11",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "categorization": "Counting Fundamentals",
+      "tags": [
+        "Combinations",
+        "Sum Constraints"
+      ],
+      "statement": "There are several sets of three different numbers whose sum is $15$ which can be chosen from $\\{1, 2, 3, 4, 5, 6, 7, 8, 9\\}$. How many of these sets contain a $5$?",
+      "answerChoices": [
+        "$3$",
+        "$4$",
+        "$5$",
+        "$6$",
+        "$7$"
+      ],
+      "answer": "B",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-12",
+      "name": "Problem 12 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_12",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "categorization": "Algebra Basics",
+      "tags": [
+        "Proportions",
+        "Averages"
+      ],
+      "statement": "If $\\frac{2+3+4}{3}=\\frac{1990+1991+1992}{N}$ then $N=$",
+      "answerChoices": [
+        "$3$",
+        "$6$",
+        "$1990$",
+        "$1991$",
+        "$1992$"
+      ],
+      "answer": "D",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-13",
+      "name": "Problem 13 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_13",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "categorization": "Arithmetic and Number Theory Basics",
+      "tags": [
+        "Trailing Zeros",
+        "Prime Factorization"
+      ],
+      "statement": "How many zeros are at the end of the product $25 \\times 25 \\times 25 \\times 25 \\times 25 \\times 25 \\times 25 \\times 8 \\times 8$?",
+      "answerChoices": [
+        "$3$",
+        "$6$",
+        "$9$",
+        "$10$",
+        "$12$"
+      ],
+      "answer": "C",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-14",
+      "name": "Problem 14 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_14",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "categorization": "Arithmetic and Number Theory Basics",
+      "tags": [
+        "Optimization",
+        "Worst-Case Scenario"
+      ],
+      "statement": "Several students are competing in a series of three races. A student earns $5$ points for winning a race, $3$ points for finishing second and $1$ point for finishing third. There are no ties. What is the smallest number of points that a student must earn in the three races to be guaranteed of earning more points than any other student?",
+      "answerChoices": [
+        "$9$",
+        "$10$",
+        "$11$",
+        "$13$",
+        "$15$"
+      ],
+      "answer": "D",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-15",
+      "name": "Problem 15 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_15",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "categorization": "Geometry Basics",
+      "tags": [
+        "Surface Area",
+        "3D Geometry"
+      ],
+      "statement": "All six sides of a rectangular solid were rectangles. A one-foot cube was cut out of the rectangular solid as shown. The total number of square feet in the surface of the new solid is how many more or less than that of the original solid? [See figure in original PDF]",
+      "answerChoices": [
+        "$2$ less",
+        "$1$ less",
+        "the same",
+        "$1$ more",
+        "$2$ more"
+      ],
+      "answer": "C",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-16",
+      "name": "Problem 16 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_16",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "categorization": "Geometry Basics",
+      "tags": [
+        "Spatial Reasoning",
+        "Folding"
+      ],
+      "statement": "The $16$ squares on a piece of paper are numbered as shown in the diagram. While lying on a table, the paper is folded in half four times in the following sequence:\n- fold the top half over the bottom half\n- fold the bottom half over the top half\n- fold the right half over the left half\n- fold the left half over the right half.\nWhich numbered square is on top after step 4? [See figure in original PDF]",
+      "answerChoices": [
+        "$1$",
+        "$9$",
+        "$10$",
+        "$14$",
+        "$16$"
+      ],
+      "answer": "B",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-17",
+      "name": "Problem 17 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_17",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "categorization": "Mean, Median, Mode, and Harmonic Mean",
+      "tags": [
+        "Histograms",
+        "Percentages"
+      ],
+      "statement": "The vertical axis indicates the number of employees, but the scale was accidentally omitted from this graph. What percent of the employees at the Gauss company have worked there for $5$ years or more? [See figure in original PDF]",
+      "answerChoices": [
+        "$9\\%$",
+        "$23\\frac{1}{3}\\%$",
+        "$30\\%$",
+        "$42\\frac{6}{7}\\%$",
+        "$50\\%$"
+      ],
+      "answer": "C",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-18",
+      "name": "Problem 18 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_18",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "categorization": "Arithmetic Sequences",
+      "tags": [
+        "Sum of Sequence",
+        "Parity",
+        "Optimization"
+      ],
+      "statement": "An auditorium with $20$ rows of seats has $10$ seats in the first row. Each successive row has one more seat than the previous row. If students taking an exam are permitted to sit in any row, but not next to another student in that row, then the maximum number of students that can be seated for an exam is",
+      "answerChoices": [
+        "$150$",
+        "$180$",
+        "$200$",
+        "$400$",
+        "$460$"
+      ],
+      "answer": "C",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-19",
+      "name": "Problem 19 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_19",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "categorization": "Mean, Median, Mode, and Harmonic Mean",
+      "tags": [
+        "Averages",
+        "Extremal Values"
+      ],
+      "statement": "The average (arithmetic mean) of $10$ different positive whole numbers is $10$. The largest possible value of any of these numbers is",
+      "answerChoices": [
+        "$10$",
+        "$50$",
+        "$55$",
+        "$90$",
+        "$91$"
+      ],
+      "answer": "C",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-20",
+      "name": "Problem 20 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_20",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "categorization": "Arithmetic and Number Theory Basics",
+      "tags": [
+        "Cryptarithm",
+        "Digit Addition"
+      ],
+      "statement": "In the addition problem, each digit has been replaced by a letter. If different letters represent different digits then $C=$ [See figure in original PDF]",
+      "answerChoices": [
+        "$1$",
+        "$3$",
+        "$5$",
+        "$7$",
+        "$9$"
+      ],
+      "answer": "A",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-21",
+      "name": "Problem 21 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_21",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "categorization": "Algebra Basics",
+      "tags": [
+        "Linear Relationships",
+        "Rates"
+      ],
+      "statement": "For every $3^{\\circ}$ rise in temperature, the volume of a certain gas expands by $4$ cubic centimeters. If the volume of the gas is $24$ cubic centimeters when the temperature is $32^{\\circ}$ what was the volume of the gas in cubic centimeters when the temperature was $20^{\\circ}$?",
+      "answerChoices": [
+        "$8$",
+        "$12$",
+        "$15$",
+        "$16$",
+        "$40$"
+      ],
+      "answer": "A",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-22",
+      "name": "Problem 22 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_22",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "categorization": "Introduction to Probability",
+      "tags": [
+        "Independent Events",
+        "Parity"
+      ],
+      "statement": "Each spinner is divided into $3$ equal parts. The results obtained from spinning the two spinners are multiplied. What is the probability that this product is an even number? [See figure in original PDF]",
+      "answerChoices": [
+        "$\\frac{1}{3}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{7}{9}$",
+        "$1$"
+      ],
+      "answer": "D",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-23",
+      "name": "Problem 23 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_23",
+      "source": "AJHSME",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "categorization": "Inclusion-Exclusion",
+      "tags": [
+        "Set Theory",
+        "Venn Diagrams",
+        "Word Problems"
+      ],
+      "statement": "The Pythagoras High School band has $100$ female and $80$ male members. The Pythagoras High School orchestra has $80$ female and $100$ male members. There are $60$ females who are members in both band and orchestra. Altogether, there are $230$ students who are in either band or orchestra or both. The number of males in the band who are NOT in the orchestra is",
+      "answerChoices": [
+        "$10$",
+        "$20$",
+        "$30$",
+        "$50$",
+        "$70$"
+      ],
+      "answer": "A",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-24",
+      "name": "Problem 24 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_24",
+      "source": "AJHSME",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "categorization": "Geometry Basics",
+      "tags": [
+        "Volume",
+        "3D Geometry",
+        "Dissection"
+      ],
+      "statement": "A cube of edge $3$ cm is cut into $N$ smaller cubes, not all the same size. If the edge of each of the smaller cubes is a whole number of centimeters, then $N=$",
+      "answerChoices": [
+        "$4$",
+        "$8$",
+        "$12$",
+        "$16$",
+        "$20$"
+      ],
+      "answer": "E",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-25",
+      "name": "Problem 25 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_25",
+      "source": "AJHSME",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "categorization": "Geometric Sequences",
+      "tags": [
+        "Fractals",
+        "Area Scaling"
+      ],
+      "statement": "An equilateral triangle is originally painted black. Each time the triangle is changed, the middle fourth of each black triangle turns white. After five changes, what fractional part of the original area of the black triangle remains black? [See figure in original PDF]",
+      "answerChoices": [
+        "$\\frac{1}{1024}$",
+        "$\\frac{15}{64}$",
+        "$\\frac{243}{1024}$",
+        "$\\frac{243}{256}$",
+        "$1$"
+      ],
+      "answer": "C",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    }
+  ]
+}

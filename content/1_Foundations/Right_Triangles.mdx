@@ -1,72 +1,219 @@
 ---
-id: right-triangles
-title: Right Triangles and Pythagorean Triples
-author: USAMO Guide Team
-description: Pythagorean theorem and common triples.
+id: right-triangles-pythagorean
+title: Right Triangles & Pythagorean Theorem
+author: Mehul Biala
+description: A complete foundation on right triangles, including the Pythagorean Theorem, primitive triples, and the 30-60-90 and 45-45-90 special right triangles.
 prerequisites: []
 ---
 
 ## Overview
 
-Right triangles are the workhorse of contest geometry. Recognize triples and
-use altitude/area relationships for speed, and lean on the Pythagorean theorem
-for coordinate distance problems.
+Right triangles are the absolute backbone of competition geometry. Because one angle is locked exactly at $90^\circ$, right triangles possess incredibly rigid and predictable structural properties. They are the keys to finding distances, calculating areas, and decomposing complex polygons into solvable pieces. 
 
-## Key Ideas
+Mastering right triangles means moving beyond just knowing the formula; you must learn to instantly recognize patterns (like triples and special angles) to save massive amounts of time on the AMC.
 
-- $a^2 + b^2 = c^2$.
-- Area $= \frac{1}{2}ab$.
-- Common triples: $(3,4,5)$, $(5,12,13)$, $(8,15,17)$.
-- The converse also holds: if $a^2 + b^2 = c^2$, the triangle is right.
+## 1. The Pythagorean Theorem
 
-## Core Skills
+The most famous theorem in mathematics describes the fundamental relationship between the three sides of a right triangle. 
 
-### Identify the Hypotenuse
+If a right triangle has two legs of lengths $a$ and $b$, and a hypotenuse (the longest side, directly opposite the right angle) of length $c$, then:
 
-The hypotenuse is opposite the right angle and is always the longest side.
-Label it before writing equations.
+$$
+a^2 + b^2 = c^2
+$$
 
-### Scale Pythagorean Triples
+<div style={{ display: 'flex', justifyContent: 'center', margin: '2rem 0' }}>
+  <svg viewBox="0 0 300 160" width="100%" height="160" xmlns="http://www.w3.org/2000/svg">
+    <polygon points="60,130 160,130 160,55" fill="rgba(255,255,255,0.05)" stroke="white" strokeWidth="2"/>
+    <rect x="150" y="120" width="10" height="10" fill="none" stroke="white"/>
+    <text x="110" y="148" textAnchor="middle" fontFamily="sans-serif" fontSize="14" fill="white">b (leg)</text>
+    <text x="185" y="95" textAnchor="middle" fontFamily="sans-serif" fontSize="14" fill="white">a (leg)</text>
+    <text x="80" y="70" textAnchor="middle" fontFamily="sans-serif" fontSize="14" fill="#60a5fa">c (hypotenuse)</text>
+    <text x="45" y="135" textAnchor="middle" fontFamily="sans-serif" fill="white">A</text>
+    <text x="175" y="135" textAnchor="middle" fontFamily="sans-serif" fill="white">C</text>
+    <text x="160" y="40" textAnchor="middle" fontFamily="sans-serif" fill="white">B</text>
+  </svg>
+</div>
 
-If $(a,b,c)$ is a triple, then $(ka,kb,kc)$ is also a triple for any $k>0$.
+**Geometric Meaning:** If you physically draw a square originating from each of the two legs, the total area of those two squares will exactly equal the area of a massive square drawn from the hypotenuse. 
 
-### Distance in Coordinates
+## 2. Pythagorean Triples (The Speed Cheat Codes)
 
-If a right triangle is axis-aligned, leg lengths are coordinate differences.
-Use $a^2+b^2=c^2$ without computing slopes.
+While the Pythagorean theorem works for any real numbers, AMC problem writers love to use integers. A **Pythagorean Triple** is a set of three positive integers $(a, b, c)$ that perfectly satisfy $a^2 + b^2 = c^2$. 
 
-## Worked Example
+Memorizing the most common **primitive triples** (triples where the numbers share no common factors) is mandatory for speed. If you recognize two sides of a triple, you can instantly fill in the third without doing any algebra.
 
-A right triangle has legs $9$ and $12$. Find the hypotenuse.
+### The Core Four Primitives:
+1.  **3 - 4 - 5** *(The most common)*
+2.  **5 - 12 - 13**
+3.  **8 - 15 - 17**
+4.  **7 - 24 - 25**
 
-$c = \sqrt{9^2 + 12^2} = \sqrt{81 + 144} = 15$.
+### Scaled Triples:
+If you multiply a triple by any integer constant $k$, the resulting numbers also form a right triangle. 
+For example, multiplying the **3-4-5** triangle by $2$ gives the **6-8-10** triangle. Multiplying it by $10$ gives the **30-40-50** triangle. 
 
-## More Examples
+<div style={{ display: 'flex', justifyContent: 'center', margin: '2rem 0' }}>
+  <svg viewBox="0 0 360 200" width="100%" height="200" xmlns="http://www.w3.org/2000/svg">
+    <polygon points="40,160 100,160 100,80" fill="none" stroke="white" strokeWidth="2"/>
+    <rect x="90" y="150" width="10" height="10" fill="none" stroke="white"/>
+    <text x="70" y="180" textAnchor="middle" fontFamily="sans-serif" fill="white">3</text>
+    <text x="115" y="125" textAnchor="middle" fontFamily="sans-serif" fill="white">4</text>
+    <text x="50" y="105" textAnchor="middle" fontFamily="sans-serif" fill="#60a5fa">5</text>
+    
+    <polygon points="160,160 280,160 280,0" fill="rgba(96, 165, 250, 0.1)" stroke="#60a5fa" strokeWidth="2"/>
+    <rect x="270" y="150" width="10" height="10" fill="none" stroke="#60a5fa"/>
+    <text x="220" y="180" textAnchor="middle" fontFamily="sans-serif" fill="white">6 (3×2)</text>
+    <text x="315" y="85" textAnchor="middle" fontFamily="sans-serif" fill="white">8 (4×2)</text>
+    <text x="185" y="60" textAnchor="middle" fontFamily="sans-serif" fill="#60a5fa">10 (5×2)</text>
+  </svg>
+</div>
 
-### Example 1: Finding a Leg
+**Pro-Tip:** If you see a hypotenuse of $51$ and a leg of $24$, do not calculate $51^2 - 24^2$. Notice that $51 = 17 \times 3$ and $24 = 8 \times 3$. This is an **8-15-17** triangle scaled by 3! The missing leg is simply $15 \times 3 = 45$.
 
-A right triangle has hypotenuse $13$ and one leg $5$. Find the other leg.
+## 3. Special Right Triangles
 
-$b = \sqrt{13^2 - 5^2} = \sqrt{169 - 25} = 12$.
+When the angles of a right triangle are specifically chosen, the side lengths lock into fixed, predictable ratios involving square roots. These appear in almost every competition geometry problem involving hexagons, equilateral triangles, or squares.
 
-### Example 2: Converse Check
+### The 45-45-90 Triangle (Isosceles Right)
+Created by cutting a square in half along its diagonal. Because the two base angles are equal ($45^\circ$), the two legs are equal. 
+* **Ratio:** $x : x : x\sqrt{2}$
+* **Rule:** To get the hypotenuse, multiply the leg by $\sqrt{2}$. To get the leg, divide the hypotenuse by $\sqrt{2}$.
 
-A triangle has sides $7,24,25$. Is it right?
+<div style={{ display: 'flex', justifyContent: 'center', margin: '2rem 0' }}>
+  <svg viewBox="0 0 200 150" width="200" height="150" xmlns="http://www.w3.org/2000/svg">
+    <polygon points="40,120 140,120 140,20" fill="none" stroke="white" strokeWidth="2"/>
+    <rect x="130" y="110" width="10" height="10" fill="none" stroke="white"/>
+    <text x="90" y="140" textAnchor="middle" fontFamily="sans-serif" fill="white">x</text>
+    <text x="155" y="75" textAnchor="middle" fontFamily="sans-serif" fill="white">x</text>
+    <text x="70" y="55" textAnchor="middle" fontFamily="sans-serif" fill="#60a5fa">x√2</text>
+    <path d="M 60 120 A 20 20 0 0 0 54 106" fill="none" stroke="white"/>
+    <text x="75" y="115" fontFamily="sans-serif" fontSize="12" fill="white">45°</text>
+  </svg>
+</div>
 
-$7^2 + 24^2 = 49 + 576 = 625 = 25^2$, so it is right.
+### The 30-60-90 Triangle
+Created by cutting an equilateral triangle exactly in half down its altitude. 
+* **Ratio:** $x : x\sqrt{3} : 2x$
+* **Rule:** The short leg ($x$) is always opposite the $30^\circ$ angle. The hypotenuse is exactly **double** the short leg. The long leg (opposite the $60^\circ$ angle) is the short leg multiplied by $\sqrt{3}$.
 
-## Strategy Checklist
+<div style={{ display: 'flex', justifyContent: 'center', margin: '2rem 0' }}>
+  <svg viewBox="0 0 200 180" width="200" height="180" xmlns="http://www.w3.org/2000/svg">
+    <polygon points="60,140 120,140 120,36" fill="none" stroke="white" strokeWidth="2"/>
+    <rect x="110" y="130" width="10" height="10" fill="none" stroke="white"/>
+    <text x="90" y="160" textAnchor="middle" fontFamily="sans-serif" fill="white">x</text>
+    <text x="145" y="90" textAnchor="middle" fontFamily="sans-serif" fill="white">x√3</text>
+    <text x="65" y="75" textAnchor="middle" fontFamily="sans-serif" fill="#60a5fa">2x</text>
+    <path d="M 75 140 A 15 15 0 0 0 67 127" fill="none" stroke="white"/>
+    <text x="82" y="135" fontFamily="sans-serif" fontSize="10" fill="white">60°</text>
+    <path d="M 120 56 A 20 20 0 0 0 110 53" fill="none" stroke="white"/>
+    <text x="108" y="70" fontFamily="sans-serif" fontSize="10" fill="white">30°</text>
+  </svg>
+</div>
 
-- Mark the right angle and hypotenuse before writing equations.
-- Check for a scaled triple to save time.
-- Use the converse to confirm a right triangle.
-- Square roots are nonnegative; keep lengths positive.
+---
+
+## Worked Examples
+
+### Example 1: Cascading Triangles
+
+<div style={{ display: 'flex', justifyContent: 'center', margin: '2rem 0' }}>
+  <svg viewBox="0 0 300 280" width="100%" height="280" xmlns="http://www.w3.org/2000/svg">
+    <polygon points="20,110 100,110 100,50" fill="rgba(255,255,255,0.05)" stroke="white" strokeWidth="2"/>
+    <polygon points="100,110 90,110 90,100 100,100" fill="none" stroke="white" strokeWidth="1"/>
+    
+    <polygon points="20,110 100,50 244,242" fill="none" stroke="white" strokeWidth="2"/>
+    <polygon points="100,50 92,56 98,64 106,58" fill="none" stroke="white" strokeWidth="1"/>
+    
+    <text x="60" y="125" textAnchor="middle" fontFamily="sans-serif" fill="white">4</text>
+    <text x="115" y="85" textAnchor="middle" fontFamily="sans-serif" fill="white">3</text>
+    <text x="190" y="135" textAnchor="middle" fontFamily="sans-serif" fill="white">12</text>
+    
+    <text x="10" y="115" fontFamily="sans-serif" fill="white">A</text>
+    <text x="110" y="120" fontFamily="sans-serif" fill="white">B</text>
+    <text x="95" y="40" fontFamily="sans-serif" fill="white">C</text>
+    <text x="255" y="255" fontFamily="sans-serif" fill="white">D</text>
+  </svg>
+</div>
+
+**Problem:** In the figure above, $\angle B = 90^\circ$ and $\angle ACD = 90^\circ$. If $AB = 4$, $BC = 3$, and $CD = 12$, what is the length of $AD$?
+
+**Solution:**
+We must solve this in two steps. First, look at $\triangle ABC$. It has legs $3$ and $4$. Recognizing the primitive **3-4-5** Pythagorean triple, we instantly know the hypotenuse $AC = 5$. 
+
+Now, move to $\triangle ACD$. It is a right triangle with legs $AC = 5$ and $CD = 12$. Recognizing another core primitive triple, **5-12-13**, we immediately deduce that the hypotenuse $AD$ must be $13$.
+
+### Example 2: Altitudes of Equilateral Triangles
+
+**Problem:** An equilateral triangle has a side length of $10$. What is its area?
+
+**Solution:**
+To find the area, we need the height (altitude). If we drop an altitude from the top vertex of an equilateral triangle, it splits the base perfectly in half and bisects the $60^\circ$ top angle into two $30^\circ$ angles. 
+
+This creates two **30-60-90** right triangles. 
+The hypotenuse is the original side length: $10$.
+The short leg (half the base) is: $5$.
+Using our 30-60-90 rule ($x : x\sqrt{3} : 2x$), the long leg (the altitude) is the short leg times $\sqrt{3}$, which is $5\sqrt{3}$.
+
+Now, calculate the area of the full equilateral triangle:
+
+$$
+Area = \frac{1}{2} \cdot \text{base} \cdot \text{height}
+$$
+
+$$
+Area = \frac{1}{2} \cdot 10 \cdot 5\sqrt{3}
+$$
+
+$$
+Area = 25\sqrt{3}
+$$
+
+### Example 3: Finding Missing Legs (The Subtraction Trap)
+
+**Problem:**
+A right triangle has a hypotenuse of $17$ and one leg of length $9$. What is the length of the other leg?
+
+**Solution:**
+A common mistake here is to blindly add the squares ($17^2 + 9^2$), forgetting that $17$ is the hypotenuse ($c$). The correct setup is:
+
+$$
+a^2 + b^2 = c^2
+$$
+
+$$
+a^2 + 9^2 = 17^2
+$$
+
+$$
+a^2 + 81 = 289
+$$
+
+$$
+a^2 = 289 - 81
+$$
+
+$$
+a^2 = 208
+$$
+
+$$
+a = \sqrt{208}
+$$
+
+To simplify $\sqrt{208}$, look for perfect square factors. $208 / 16 = 13$. 
+
+$$
+a = \sqrt{16 \cdot 13} = 4\sqrt{13}
+$$
+
+*(Notice: This was NOT an 8-15-17 triple! The hypotenuse was 17, but the leg was 9, not 8 or 15. Always verify the numbers fit the triple exactly before assuming).*
 
 ## Common Pitfalls
 
-- Using the triple when the scale factor is wrong.
-- Forgetting which side is the hypotenuse.
-- Mixing area formula with leg lengths that are not perpendicular.
+- **Adding instead of subtracting:** If you are given the hypotenuse and asked for a leg, you must *subtract* the square of the known leg from the square of the hypotenuse ($a^2 = c^2 - b^2$).
+- **Assuming visual right angles:** Just because a triangle *looks* like a right triangle in a diagram does not mean it is one. You cannot use $a^2 + b^2 = c^2$ unless the problem explicitly states there is a $90^\circ$ angle, or if you can prove it via other geometry rules.
+- **Applying triples to the wrong sides:** For a 3-4-5 triangle, the $5$ **must** be the hypotenuse. If a right triangle has legs of $3$ and $5$, the hypotenuse is $\sqrt{3^2 + 5^2} = \sqrt{34}$, not $4$.
 
 ## Practice Problems
 

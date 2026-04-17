@@ -57,12 +57,14 @@ const ScrollProgressButton = (): JSX.Element | null => {
   return (
     <button
       onClick={scrollToTop}
-      className="fixed bottom-20 right-6 z-40 hidden lg:flex items-center justify-center w-14 h-14 bg-orange-500 hover:bg-orange-600 dark:bg-orange-600 dark:hover:bg-orange-500 rounded-full shadow-md transition-all duration-200 hover:shadow-lg"
+      className="fixed bottom-20 right-6 z-40 hidden lg:flex items-center justify-center w-14 h-14 rounded-full shadow-md transition-all duration-200 hover:shadow-lg"
       style={{
         opacity,
         transform: `scale(${isVisible ? 1 : 0.8})`,
         transition: 'opacity 0.3s ease-in-out, transform 0.3s ease-out',
         pointerEvents: pointerEvents as any,
+        background: 'linear-gradient(135deg, #5A2F87 0%, #C58BFF 100%)',
+        border: '1px solid rgba(240, 194, 255, 0.34)',
       }}
       aria-label="Back to top"
       title="Back to top"
@@ -74,20 +76,19 @@ const ScrollProgressButton = (): JSX.Element | null => {
           cy="28"
           r={radius}
           fill="none"
-          stroke="currentColor"
+          stroke="rgba(240,194,255,0.25)"
           strokeWidth="1.5"
-          className="text-orange-400/30 dark:text-orange-500/20"
         />
         <circle
           cx="28"
           cy="28"
           r={radius}
           fill="none"
-          stroke="currentColor"
+          stroke="rgba(240,194,255,0.85)"
           strokeWidth="1.5"
           strokeDasharray={circumference}
           strokeDashoffset={offset}
-          className="text-white dark:text-yellow-100 transition-all duration-200"
+          className="transition-all duration-200"
           style={{
             transform: 'rotate(-90deg)',
             transformOrigin: '28px 28px',

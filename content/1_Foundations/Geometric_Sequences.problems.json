@@ -1,38 +1,363 @@
 {
   "MODULE_ID": "geometric-sequences",
   "practice": [
-  {
-    "uniqueId": "amc12a-2025-5",
-    "name": "Problem 5 (2025 AMC 12A)",
-    "url": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_12A_Problems/Problem_5",
-    "source": "AMC 12A",
-    "difficulty": "Easy",
-    "isStarred": false,
-    "tags": [
-      "Algebra",
-      "Geometric Sequences"
-    ],
-    "statement": "The first three terms of a geometric sequence are $2^a$, $2^b$, and $2^c$, where $a, b,$ and $c$ are the side lengths of a triangle. Which of the following must be true about the triangle?",
-    "solutionMetadata": {
-      "kind": "none"
+    {
+      "uniqueId": "amc12a-2025-5",
+      "name": "Problem 5 (2025 AMC 12A)",
+      "url": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_12A_Problems/Problem_5",
+      "source": "AMC 12A",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Algebra",
+        "Geometric Sequences"
+      ],
+      "statement": "The first three terms of a geometric sequence are $2^a$, $2^b$, and $2^c$, where $a, b,$ and $c$ are the side lengths of a triangle. Which of the following must be true about the triangle?",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc10a-2025-11",
+      "name": "Problem 11 (2025 AMC 10A)",
+      "url": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_11",
+      "source": "AMC 10A",
+      "difficulty": "Medium-Easy",
+      "isStarred": false,
+      "tags": [
+        "Algebra",
+        "Geometric Sequences",
+        "Logarithms"
+      ],
+      "statement": "Let $a, b, c$ be a geometric sequence of positive real numbers. If $\\log_a b, \\log_b c, \\log_c a$ is an arithmetic sequence, what is the common difference of that arithmetic sequence?",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1990-21",
+      "name": "Problem 21 (1990 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1990_AJHSME_Problems/Problem_21",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Sequences",
+        "Working Backwards"
+      ],
+      "statement": "A list of $8$ numbers is formed by beginning with two given numbers. Each new number in the list is the product of the two previous numbers. Find the first number if the last three are shown:\n$\\dots, 16, 64, 1024$",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{64}$",
+          "$\\frac{1}{4}$",
+          "$1$",
+          "$2$",
+          "$4$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-25",
+      "name": "Problem 25 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_25",
+      "source": "AJHSME",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Fractals",
+        "Area Scaling"
+      ],
+      "statement": "An equilateral triangle is originally painted black. Each time the triangle is changed, the middle fourth of each black triangle turns white. After five changes, what fractional part of the original area of the black triangle remains black? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{1024}$",
+          "$\\frac{15}{64}$",
+          "$\\frac{243}{1024}$",
+          "$\\frac{243}{256}$",
+          "$1$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1996-13",
+      "name": "Problem 13 (1996 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1996_AJHSME_Problems/Problem_13",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Percents",
+        "Growth"
+      ],
+      "statement": "In the fall of $1996$, a total of $800$ students participated in an annual school clean-up day. The organizers of the event expect that in each of the years $1997$, $1998$, and $1999$, participation will increase by $50\\%$ over the previous year. The number of participants the organizers will expect in the fall of $1999$ is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1200$",
+          "$1500$",
+          "$2000$",
+          "$2400$",
+          "$2700$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1998-15",
+      "name": "Problem 15 (1998 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1998_AJHSME_Problems/Problem_15",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Exponential Growth",
+        "Estimation"
+      ],
+      "statement": "Problems 15, 16, and 17 all refer to the following:\n\nIn the very center of the Irenic Sea lie the beautiful Nisos Isles. In $1998$ the number of people on these islands is only $200$, but the population triples every $25$ years. Queen Irene has decreed that there must be at least $1.5$ square miles for every person living in the Isles. The total area of the Nisos Isles is $24,900$ square miles.\n\nEstimate the population of Nisos in the year $2050$.",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$600$",
+          "$800$",
+          "$1000$",
+          "$2000$",
+          "$3000$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1998-16",
+      "name": "Problem 16 (1998 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1998_AJHSME_Problems/Problem_16",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Exponential Growth",
+        "Estimation"
+      ],
+      "statement": "Problems 15, 16, and 17 all refer to the following:\n\nIn the very center of the Irenic Sea lie the beautiful Nisos Isles. In $1998$ the number of people on these islands is only $200$, but the population triples every $25$ years. Queen Irene has decreed that there must be at least $1.5$ square miles for every person living in the Isles. The total area of the Nisos Isles is $24,900$ square miles.\n\nEstimate the year in which the population of Nisos will be approximately $6,000$.",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$2050$",
+          "$2075$",
+          "$2100$",
+          "$2125$",
+          "$2150$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1998-17",
+      "name": "Problem 17 (1998 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1998_AJHSME_Problems/Problem_17",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Exponential Growth",
+        "Carrying Capacity"
+      ],
+      "statement": "Problems 15, 16, and 17 all refer to the following:\n\nIn the very center of the Irenic Sea lie the beautiful Nisos Isles. In $1998$ the number of people on these islands is only $200$, but the population triples every $25$ years. Queen Irene has decreed that there must be at least $1.5$ square miles for every person living in the Isles. The total area of the Nisos Isles is $24,900$ square miles.\n\nIn how many years, approximately, from $1998$ will the population of Nisos be as much as Queen Irene has proclaimed that the islands can support?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$50$ yrs.",
+          "$75$ yrs.",
+          "$100$ yrs.",
+          "$125$ yrs.",
+          "$150$ yrs."
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1998-23",
+      "name": "Problem 23 (1998 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1998_AJHSME_Problems/Problem_23",
+      "source": "AJHSME",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Fractals",
+        "Area",
+        "Iterative Processes"
+      ],
+      "statement": "If the pattern in the diagram continues, what fraction of the interior would be shaded in the eighth triangle? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{3}{8}$",
+          "$\\frac{5}{27}$",
+          "$\\frac{7}{16}$",
+          "$\\frac{9}{16}$",
+          "$\\frac{11}{45}$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-1999-25",
+      "name": "Problem 25 (1999 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1999_AMC_8_Problems/Problem_25",
+      "source": "AMC 8",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Infinite Series",
+        "Similar Triangles",
+        "Area"
+      ],
+      "statement": "Points $B$, $D$, and $J$ are midpoints of the sides of right triangle $ACG$. Points $K$, $E$, $I$ are midpoints of the sides of triangle $JDG$, etc. If the dividing and shading process is done $100$ times (the first three are shown) and $AC=CG=6$, then the total area of the shaded triangles is nearest [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$6$",
+          "$7$",
+          "$8$",
+          "$9$",
+          "$10$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2008-12",
+      "name": "Problem 12 (2008 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2008_AMC_8_Problems/Problem_12",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Exponential Decay"
+      ],
+      "statement": "A ball is dropped from a height of $3$ meters. On its first bounce it rises to a height of $2$ meters. It keeps falling and bouncing to $\\frac{2}{3}$ of the height it reached in the previous bounce. On which bounce will it not rise to a height of $0.5$ meters?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$3$",
+          "$4$",
+          "$5$",
+          "$6$",
+          "$7$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2013-9",
+      "name": "Problem 9 (2013 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2013_AMC_8_Problems/Problem_9",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Powers of 2",
+        "Unit Conversion"
+      ],
+      "statement": "The Incredible Hulk can double the distance he jumps with each succeeding jump. If his first jump is $1$ meter, the second jump is $2$ meters, the third jump is $4$ meters, and so on, then on which jump will he first be able to jump more than $1$ kilometer?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$9^\\text{th}$",
+          "$10^\\text{th}$",
+          "$11^\\text{th}$",
+          "$12^\\text{th}$",
+          "$13^\\text{th}$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2022-9",
+      "name": "Problem 9 (2022 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2022_AMC_8_Problems/Problem_9",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Exponential Decay",
+        "Temperature"
+      ],
+      "statement": "A cup of boiling water ($212^\\circ\\text{F}$) is placed to cool in a room whose temperature remains constant at $68^\\circ\\text{F}$. Suppose the difference between the water temperature and the room temperature is halved every $5$ minutes. What is the water temperature, in degrees Fahrenheit, after $15$ minutes?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$77$",
+          "$86$",
+          "$92$",
+          "$98$",
+          "$104$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2025-21",
+      "name": "Problem 21 (2025 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2025_AMC_8_Problems/Problem_14",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Infinite Geometric Series",
+        "Fractions"
+      ],
+      "statement": "Sarika, Dev, and Rajiv are sharing a large block of cheese. They take turns cutting off half of what remains and eating it: first Sarika eats half of the cheese, then Dev eats half of the remaining half, then Rajiv eats half of what remains, then back to Sarika, and so on. They stop when the cheese is too small to see. About what fraction of the original block of cheese does Sarika eat in total?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{7}$",
+          "$\\frac{2}{7}$",
+          "$\\frac{3}{7}$",
+          "$\\frac{4}{7}$",
+          "$\\frac{5}{7}$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
     }
-  },
-  {
-    "uniqueId": "amc10a-2025-11",
-    "name": "Problem 11 (2025 AMC 10A)",
-    "url": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_11",
-    "source": "AMC 10A",
-    "difficulty": "Medium-Easy",
-    "isStarred": false,
-    "tags": [
-      "Algebra",
-      "Geometric Sequences",
-      "Logarithms"
-    ],
-    "statement": "Let $a, b, c$ be a geometric sequence of positive real numbers. If $\\log_a b, \\log_b c, \\log_c a$ is an arithmetic sequence, what is the common difference of that arithmetic sequence?",
-    "solutionMetadata": {
-      "kind": "none"
-    }
-  }
-]
+  ]
 }

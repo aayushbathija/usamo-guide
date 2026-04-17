@@ -64,12 +64,17 @@ export default function SettingsPage(props) {
     <Layout>
       <SEO title="Settings" image={null} pathname={props.path} />
 
-      <TopNavigationBar />
+      <div
+        data-page-tone="dark"
+        className="min-h-screen"
+        style={{ background: 'linear-gradient(to bottom, #120F24 0%, #0E0B1F 48%, #0A0818 100%)' }}
+      >
+        <TopNavigationBar />
 
-      <main className="ui-page min-h-screen">
-        <div className="relative mx-auto max-w-xl md:px-8 xl:px-0">
+        <main className="min-h-screen">
+          <div className="relative mx-auto max-w-xl md:px-8 xl:px-0">
           <button
-            className="btn mx-4 mt-8 sm:mx-6 md:mx-0"
+            className="mx-4 mt-8 inline-flex items-center rounded-lg border border-[rgba(240,194,255,0.25)] bg-[rgba(112,66,138,0.20)] px-4 py-2 text-sm font-medium text-[#F4EDEA] hover:bg-[rgba(112,66,138,0.35)] transition-colors sm:mx-6 md:mx-0"
             onClick={() => navigate(-1)}
           >
             <svg
@@ -88,10 +93,10 @@ export default function SettingsPage(props) {
           </button>
           <div className="pt-4 pb-16 sm:pt-6">
             <div className="px-4 sm:px-6 md:px-0">
-              <h1 className="text-3xl font-extrabold text-gray-900 dark:text-gray-100">
+              <h1 className="text-3xl font-extrabold text-[#F4EDEA]">
                 Settings
               </h1>
-              <p className="mt-2 text-gray-500 dark:text-gray-400">
+              <p className="mt-2 text-[rgba(244,237,234,0.65)]">
                 If you're signed in, settings sync across devices.
               </p>
             </div>
@@ -143,8 +148,9 @@ export default function SettingsPage(props) {
               </div>
             </div>
           </div>
-        </div>
-      </main>
+          </div>
+        </main>
+      </div>
     </Layout>
   );
 }

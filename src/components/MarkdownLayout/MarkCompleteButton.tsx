@@ -104,9 +104,14 @@ const MarkCompleteButton = ({
             <MenuButton
               type="button"
               id={menuId}
-              className={`inline-flex w-full justify-center rounded-md border border-gray-300 pr-4 shadow-sm dark:border-gray-800 ${
+              className={`inline-flex w-full justify-center rounded-full pr-4 shadow-sm ${
                 state === 'Not Started' ? 'pl-4' : 'pl-3'
-              } dark:focus:ring-offset-dark-surface bg-white py-2 text-sm leading-5 font-medium text-gray-700 hover:text-gray-500 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:outline-hidden dark:bg-gray-900 dark:text-gray-200 dark:hover:bg-gray-800 dark:hover:text-gray-100`}
+              } py-2 text-sm leading-5 font-mono font-bold focus:outline-hidden`}
+              style={{
+                background: 'linear-gradient(135deg, #5A2F87 0%, #C58BFF 100%)',
+                border: '1px solid rgba(240, 194, 255, 0.34)',
+                color: '#F4EDEA',
+              }}
             >
               {moduleProgressToIcon(state as ModuleProgress)}
               <span
@@ -138,7 +143,11 @@ const MarkCompleteButton = ({
                 dropdownAbove
                   ? 'bottom-0 mb-12 origin-bottom-right'
                   : 'origin-top-right'
-              } absolute right-0 z-10 mt-2 w-36 rounded-md bg-white shadow-lg ring-1 ring-black/5 focus:outline-hidden dark:bg-gray-800`}
+              } absolute right-0 z-10 mt-2 w-36 rounded-xl shadow-lg focus:outline-hidden`}
+              style={{
+                background: 'linear-gradient(180deg, rgba(54,37,72,0.97) 0%, rgba(31,22,42,0.99) 100%)',
+                border: '1px solid rgba(229,194,255,0.18)',
+              }}
             >
               <div className="py-1">
                 {ModuleProgressOptions.map(option => (
@@ -147,10 +156,10 @@ const MarkCompleteButton = ({
                       <button
                         onClick={() => onChange(option)}
                         className={classNames(
-                          'flex w-full items-center px-3 py-2 text-left text-sm',
+                          'flex w-full items-center px-3 py-2 text-left text-sm font-mono',
                           active
-                            ? 'bg-gray-100 text-gray-900 dark:bg-gray-700 dark:text-gray-100'
-                            : 'text-gray-700 dark:text-gray-200'
+                            ? 'bg-white/10 text-[#F4EDEA]'
+                            : 'text-[rgba(244,237,234,0.8)]'
                         )}
                         role="menuitem"
                       >

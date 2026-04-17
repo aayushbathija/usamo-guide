@@ -100,6 +100,251 @@
       "solutionMetadata": {
         "kind": "none"
       }
+    },
+    {
+      "uniqueId": "ajhsme-1991-9",
+      "name": "Problem 9 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_9",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Divisibility",
+        "Venn Diagrams"
+      ],
+      "statement": "How many whole numbers from $1$ through $46$ are divisible by either $3$ or $5$ or both?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$18$",
+          "$21$",
+          "$24$",
+          "$25$",
+          "$27$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-23",
+      "name": "Problem 23 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_23",
+      "source": "AJHSME",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Set Theory",
+        "Venn Diagrams",
+        "Word Problems"
+      ],
+      "statement": "The Pythagoras High School band has $100$ female and $80$ male members. The Pythagoras High School orchestra has $80$ female and $100$ male members. There are $60$ females who are members in both band and orchestra. Altogether, there are $230$ students who are in either band or orchestra or both. The number of males in the band who are NOT in the orchestra is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$10$",
+          "$20$",
+          "$30$",
+          "$50$",
+          "$70$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-1999-9",
+      "name": "Problem 9 (1999 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1999_AMC_8_Problems/Problem_9",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Venn Diagrams",
+        "Set Theory"
+      ],
+      "statement": "Three flower beds overlap as shown. Bed A has $500$ plants, bed B has $450$ plants, and bed C has $350$ plants. Beds A and B share $50$ plants, while beds A and C share $100$. The total number of plants is [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$850$",
+          "$1000$",
+          "$1150$",
+          "$1300$",
+          "$1450$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2007-13",
+      "name": "Problem 13 (2007 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2007_AMC_8_Problems/Problem_13",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Venn Diagrams",
+        "Set Theory"
+      ],
+      "statement": "Sets $A$ and $B$, shown in the Venn diagram, have the same number of elements. Their union has $2007$ elements and their intersection has $1001$ elements. Find the number of elements in $A$. [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$503$",
+          "$1006$",
+          "$1504$",
+          "$1507$",
+          "$1510$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2010-20",
+      "name": "Problem 20 (2010 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2010_AMC_8_Problems/Problem_20",
+      "source": "AMC 8",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Fractions",
+        "Min-Max"
+      ],
+      "statement": "In a room, $2/5$ of the people are wearing gloves, and $3/4$ of the people are wearing hats. What is the minimum number of people in the room wearing both a hat and a glove?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$3$",
+          "$5$",
+          "$8$",
+          "$15$",
+          "$20$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2011-6",
+      "name": "Problem 6 (2011 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2011_AMC_8_Problems/Problem_6",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Sets",
+        "Venn Diagrams"
+      ],
+      "statement": "In a town of $351$ adults, every adult owns a car, motorcycle, or both. If $331$ adults own cars and $45$ adults own motorcycles, how many of the car owners do not own a motorcycle?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "20",
+          "25",
+          "45",
+          "306",
+          "351"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2015-15",
+      "name": "Problem 15 (2015 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2015_AMC_8_Problems/Problem_15",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Venn Diagrams",
+        "Set Theory"
+      ],
+      "statement": "At Euler Middle School, $198$ students voted on $2$ issues in a school referendum with the following results: $149$ voted in favor of the first issue and $119$ voted in favor of the second issue. If there were exactly $29$ students who voted against both issues, how many students voted in favor of both issues?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "49",
+          "70",
+          "79",
+          "99",
+          "149"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2019-11",
+      "name": "Problem 11 (2019 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2019_AMC_8_Problems/Problem_11",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Venn Diagrams",
+        "Set Theory"
+      ],
+      "statement": "The eighth grade class at Lincoln Middle School has $93$ students. Each student takes a math class or a foreign language class or both. There are $70$ eighth graders taking a math class, and there are $54$ eighth graders taking a foreign language class. How many eighth graders take only a math class and not a foreign language class?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$16$",
+          "$23$",
+          "$31$",
+          "$39$",
+          "$70$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2020-23",
+      "name": "Problem 23 (2020 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2020_AMC_8_Problems/Problem_23",
+      "source": "AMC 8",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Stirling Numbers",
+        "Distinguishability",
+        "Casework"
+      ],
+      "statement": "Five different awards are to be given to three students. Each student will receive at least one award. In how many ways can the awards be distributed?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$120$",
+          "$150$",
+          "$180$",
+          "$210$",
+          "$240$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
     }
   ]
 }

@@ -2,7 +2,7 @@
 id: complex-basics
 title: Complex Basics
 author: USAMO Guide Team
-description: Definitions, $i$ powers, and the rectangular form.
+description: Definitions, $i$ powers, the rectangular form, algebra with linear equations, and conjugates.
 prerequisites: []
 ---
 
@@ -11,11 +11,23 @@ prerequisites: []
 Complex numbers extend the real line to a plane. Most AMC/AIME problems start
 with algebraic manipulation and then switch to geometry when convenient.
 
+Algebra with complex numbers is the same as real algebra, except you keep
+$i^2 = -1$ and collect real and imaginary parts.
+
+Conjugates turn complex expressions into real numbers and are essential for
+solving equations and simplifying fractions.
+
 ## Key Ideas
 
 - $z = a + bi$ with $i^2 = -1$.
 - Powers of $i$ repeat every $4$.
 - Real part is $a$, imaginary part is $b$.
+- $(a+bi) \pm (c+di) = (a\pm c) + (b\pm d)i$.
+- $(a+bi)(c+di) = (ac-bd) + (ad+bc)i$.
+- Solve equations by isolating $z$ and rationalizing with conjugates.
+- If $z = a+bi$, then $\overline{z} = a-bi$.
+- $z\overline{z} = a^2 + b^2 = |z|^2$.
+- Use conjugates to rationalize denominators.
 
 ## Core Skills
 
@@ -25,18 +37,56 @@ Write $z=a+bi$ and equate real and imaginary parts to solve equations.
 
 ### Use $i^2=-1$ Early
 
-Simplify powers of $i$ before multiplying out to avoid sign mistakes.
+Simplify powers of $i$ before multiplying out to avoid sign mistakes. Especially when using FOIL.
 
 ### Convert Between Forms
 
 Switch between algebraic and geometric interpretations when helpful.
 
-## Worked Example
+### Solve Linear Equations
+
+Isolate $z$ and use conjugates to rationalize denominators.
+
+### Equate Parts
+
+If $z=w$, then real and imaginary parts must match separately.
+
+### Rationalize Denominators
+
+Multiply by the conjugate to remove $i$ from denominators.
+
+### Convert to Real Equations
+
+Use $z+\overline{z}=2\Re(z)$ and $z\overline{z}=|z|^2$ to switch to real
+variables.
+
+### Use Modulus Identities
+
+If $|z|$ is fixed, relate $a$ and $b$ via $a^2+b^2$.
+
+## Worked Examples
+
+### Example 1
 
 Compute $i^{2023}$.
 
 Powers of $i$ cycle with period $4$. Since $2023 \equiv 3 \pmod 4$,
 $i^{2023} = i^3 = -i$.
+
+### Example 2
+
+If $z + 6i = iz$, find $z$.
+
+Rearrange: $z - iz = -6i$, so $z(1-i) = -6i$.
+Then
+$z = \frac{-6i}{1-i} = \frac{-6i(1+i)}{(1-i)(1+i)} = \frac{6-6i}{2} = 3-3i$.
+
+### Example 3
+
+Let $z + \overline{z} = 6$ and $z\overline{z} = 13$. Find $z$.
+
+Write $z = a+bi$. Then $2a=6$ so $a=3$. Also $a^2+b^2=13$ so $b^2=4$ and
+$b=\pm 2$. Thus $z = 3 \pm 2i$.
 
 ## More Examples
 
@@ -58,17 +108,60 @@ Compute $i^{58}$.
 
 $58\equiv 2\pmod 4$, so $i^{58}=-1$.
 
+### Example 4: Multiply
+
+Compute $(1+2i)(3-5i)$.
+
+$3-5i+6i-10i^2 = 13+i$.
+
+### Example 5: Solve for $z$
+
+Solve $(2-i)z = 5+7i$.
+
+$z = \frac{5+7i}{2-i} = \frac{(5+7i)(2+i)}{5} = \frac{3+19i}{5}$.
+
+### Example 6: Match Real/Imag
+
+If $(a+bi)(1-i)=4+2i$, find $a$ and $b$.
+
+Expand: $(a+b) + (b-a)i = 4+2i$, so $a+b=4$ and $b-a=2$. Thus $a=1$, $b=3$.
+
+### Example 7: Rationalize
+
+Simplify $\frac{3+2i}{1-4i}$.
+
+Multiply by $1+4i$: $\frac{(3+2i)(1+4i)}{1+16} = \frac{ -5+14i}{17}$.
+
+### Example 8: Modulus
+
+If $|z|=5$ and $\Re(z)=3$, find $\Im(z)$.
+
+$a^2+b^2=25$ gives $b=\pm 4$.
+
+### Example 9: Real Product
+
+If $z=2-3i$, compute $z\overline{z}$.
+
+
 ## Strategy Checklist
 
 - Reduce powers of $i$ modulo $4$.
-- Keep real and imaginary parts separate.
-- Check arithmetic with $i^2=-1$.
+- Keep real and imaginary parts separate and equate real and imaginary parts when solving equations.
+- Check arithmetic with $i^2=-1$. Especially when using FOIL.
+- Rationalize denominators, use the conjugate to eliminate $i$ in denominators.
+- Replace $z$ with $a+bi$ to solve real equations.
+- Use $|z|^2$ to relate real and imaginary parts.
 
 ## Common Pitfalls
 
 - Forgetting the period $4$ for powers of $i$.
 - Treating the imaginary part as $bi$ instead of $b$.
 - Dropping the $i^2=-1$ sign change.
+- Forgetting to rationalize the denominator.
+- Mixing real and imaginary parts after expansion.
+- Mixing up $z+\overline{z}$ with $2|z|$.
+- Forgetting that $\overline{z}$ changes the sign of the imaginary part only.
+- Dropping the denominator after multiplying by the conjugate.
 
 ## Practice Problems
 

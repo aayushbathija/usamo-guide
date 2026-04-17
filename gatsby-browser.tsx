@@ -13,6 +13,26 @@ import 'katex/dist/katex.min.css';
 
 export const wrapRootElement = wrap;
 
+const PAGE_LOADING_EVENT = 'usamoguide:page-loading';
+
+function dispatchPageLoading(loading: boolean) {
+  if (typeof window === 'undefined') {
+    return;
+  }
+
+  window.dispatchEvent(
+    new CustomEvent(PAGE_LOADING_EVENT, { detail: { loading } })
+  );
+}
+
+export const onPreRouteUpdate = () => {
+  dispatchPageLoading(true);
+};
+
+export const onRouteUpdate = () => {
+  dispatchPageLoading(false);
+};
+
 export const onClientEntry = () => {
   // Source (modified): https://github.com/KaTeX/KaTeX/blob/master/contrib/copy-tex/copy-tex.js
 

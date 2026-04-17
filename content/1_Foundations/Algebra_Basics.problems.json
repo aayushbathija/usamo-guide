@@ -4,11 +4,14 @@
     {
       "uniqueId": "amc8-2017-12",
       "name": "Problem 12 (2017 AMC 8)",
-      "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_12",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2017_AMC_8_Problems/Problem_12",
       "source": "AMC 8",
       "difficulty": "Easy",
       "isStarred": true,
-      "tags": ["Linear Equations", "Simplification"],
+      "tags": [
+        "Linear Equations",
+        "Simplification"
+      ],
       "statement": "The smallest positive integer greater than 1 that leaves a remainder of 1 when divided by 4, 5, and 6 lies between which of the following pairs of numbers?",
       "solutionMetadata": {
         "kind": "none"
@@ -21,34 +24,11 @@
       "source": "AMC 10",
       "difficulty": "Easy",
       "isStarred": false,
-      "tags": ["Factoring", "Substitution"],
+      "tags": [
+        "Factoring",
+        "Substitution"
+      ],
       "statement": "The figure below shows a square and four equilateral triangles, with each triangle having a side lying on a side of the square, such that each triangle has side length $2$ and the third vertices of the triangles meet at the center of the square. The region inside the square but outside the triangles is shaded. What is the area of the shaded region?",
-      "solutionMetadata": {
-        "kind": "none"
-      }
-    },
-    {
-      "uniqueId": "amc8-2025-9",
-      "name": "Problem 9 (2025 AMC 8)",
-      "url": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_8_Problems/Problem_9?srsltid=AfmBOopSxVAkbJ8NIlLV_fbFrW8gdHqpByFpVEEca2Q5rH6sGggVPI9Z",
-      "source": "AMC 8",
-      "difficulty": "Easy",
-      "isStarred": false,
-      "tags": ["Brute Force"],
-      "statement": "Ningli looks at the $6$ pairs of numbers directly across from each other on a clock. She takes the average of each pair of numbers. What is the average of the resulting $6$ numbers?",
-      "solutionMetadata": {
-        "kind": "none"
-      }
-    },
-    {
-      "uniqueId": "amc8-2023-8",
-      "name": "Problem 5 (2023 AMC 8)",
-      "url": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_5?srsltid=AfmBOopoqq00IDsH9Mr80t2W16Iy_DJ2Vn6t4rKAAF0pRFRHdbQyRVey",
-      "source": "AMC 8",
-      "difficulty": "Easy",
-      "isStarred": false,
-      "tags": ["Brute Force"],
-      "statement": "A lake contains $250$ trout, along with a variety of other fish. When a marine biologist catches and releases a sample of $180$ fish from the lake, $30$ are identified as trout. Assume that the ratio of trout to the total number of fish is the same in both the sample and the lake. How many fish are there in the lake?",
       "solutionMetadata": {
         "kind": "none"
       }
@@ -60,7 +40,10 @@
       "source": "Custom",
       "difficulty": "Very Easy",
       "isStarred": false,
-      "tags": ["Testing", "Inline Solution"],
+      "tags": [
+        "Testing",
+        "Inline Solution"
+      ],
       "statement": "If $2x + 5 = 13$, what is the value of $x$?\n\n**Note:** This is a test problem to verify inline solution display.",
       "interaction": {
         "type": "integer",
@@ -81,7 +64,10 @@
       "source": "Custom",
       "difficulty": "Easy",
       "isStarred": false,
-      "tags": ["Testing", "Inline Solution"],
+      "tags": [
+        "Testing",
+        "Inline Solution"
+      ],
       "statement": "Which of the following is equivalent to $(x+2)(x-3)$?\n\n**Note:** This is a test problem to verify inline MCQ solution display.",
       "interaction": {
         "type": "mcq",
@@ -108,7 +94,10 @@
       "source": "Custom",
       "difficulty": "Normal",
       "isStarred": false,
-      "tags": ["Testing", "Inline Solution"],
+      "tags": [
+        "Testing",
+        "Inline Solution"
+      ],
       "statement": "Prove that for any real numbers $a$ and $b$, we have $a^2 + b^2 \\geq 2ab$.\n\n**Note:** This is a test problem with no answer interface to verify inline solution display for proof problems.",
       "interaction": {
         "type": "none"
@@ -116,6 +105,1171 @@
       "solutionReveal": {
         "mode": "inline",
         "markdown": "## Solution\n\nWe want to prove that $a^2 + b^2 \\geq 2ab$ for any real numbers $a$ and $b$.\n\n**Proof:**\n\nConsider the expression $(a - b)^2$. Since any real number squared is non-negative, we have:\n$$(a-b)^2 \\geq 0$$\n\nExpanding the left side:\n$$a^2 - 2ab + b^2 \\geq 0$$\n\nRearranging:\n$$a^2 + b^2 \\geq 2ab$$\n\nwhich is exactly what we wanted to prove. ∎\n\n**Note:** This is equivalent to the **AM-GM inequality** for two numbers, which states that the arithmetic mean is at least the geometric mean."
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1985-8",
+      "name": "Problem 8 (1985 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1985_AJHSME_Problems/Problem_8",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Substitution",
+        "Ordering"
+      ],
+      "statement": "If $a = -2$, the largest number in the set $\\{-3a, 4a, \\frac{24}{a}, a^2, 1\\}$ is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$-3a$",
+          "$4a$",
+          "$\\frac{24}{a}$",
+          "$a^2$",
+          "$1$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1987-10",
+      "name": "Problem 10 (1987 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1987_AJHSME_Problems/Problem_10",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Distributive Property"
+      ],
+      "statement": "$4(299)+3(299)+2(299)+298=$",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$2889$",
+          "$2989$",
+          "$2991$",
+          "$2999$",
+          "$3009$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1987-15",
+      "name": "Problem 15 (1987 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1987_AJHSME_Problems/Problem_15",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Linear Equations",
+        "Word Problem"
+      ],
+      "statement": "The sale ad read: \"Buy three tires at the regular price and get the fourth tire for $\\$3$.\" Sam paid $\\$240$ for a set of four tires at the sale. What was the regular price of one tire?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\$59.25$",
+          "$\\$60$",
+          "$\\$70$",
+          "$\\$79$",
+          "$\\$80$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1987-18",
+      "name": "Problem 18 (1987 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1987_AJHSME_Problems/Problem_18",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Working Backwards",
+        "Fractions"
+      ],
+      "statement": "Half the people in a room left. One third of those remaining started to dance. There were then $12$ people who were not dancing. The original number of people in the room was",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$24$",
+          "$30$",
+          "$36$",
+          "$42$",
+          "$72$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1989-6",
+      "name": "Problem 6 (1989 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1989_AJHSME_Problems/Problem_6",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Number Line",
+        "Distance"
+      ],
+      "statement": "If the markings on the number line are equally spaced, what is the number $y$? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$3$",
+          "$10$",
+          "$12$",
+          "$15$",
+          "$16$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1989-18",
+      "name": "Problem 18 (1989 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1989_AJHSME_Problems/Problem_18",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Reciprocals",
+        "Inverses"
+      ],
+      "statement": "Many calculators have a reciprocal key $\\frac{1}{x}$ that replaces the current number displayed with its reciprocal. For example, if the display is $00004$ and the key is depressed, then the display becomes $000.25$. If $00032$ is currently displayed, what is the fewest number of times you must depress the $\\frac{1}{x}$ key so the display again reads $00032$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1$",
+          "$2$",
+          "$3$",
+          "$4$",
+          "$5$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-4",
+      "name": "Problem 4 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_4",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Algebraic Manipulation",
+        "Differences"
+      ],
+      "statement": "If $991+993+995+997+999=5000-N$ then $N=$",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$5$",
+          "$10$",
+          "$15$",
+          "$20$",
+          "$25$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-12",
+      "name": "Problem 12 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_12",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Proportions",
+        "Averages"
+      ],
+      "statement": "If $\\frac{2+3+4}{3}=\\frac{1990+1991+1992}{N}$ then $N=$",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$3$",
+          "$6$",
+          "$1990$",
+          "$1991$",
+          "$1992$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-21",
+      "name": "Problem 21 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_21",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Linear Relationships",
+        "Rates"
+      ],
+      "statement": "For every $3^{\\circ}$ rise in temperature, the volume of a certain gas expands by $4$ cubic centimeters. If the volume of the gas is $24$ cubic centimeters when the temperature is $32^{\\circ}$ what was the volume of the gas in cubic centimeters when the temperature was $20^{\\circ}$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$8$",
+          "$12$",
+          "$15$",
+          "$16$",
+          "$40$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1992-6",
+      "name": "Problem 6 (1992 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1992_AJHSME_Problems/Problem_6",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Custom Operations",
+        "Evaluation"
+      ],
+      "statement": "Suppose that a table with $a$ and $b$ in the first row and $c$ in the second row means $a+b-c$. For example, a table with $5$ and $4$ in the first row and $6$ in the second row is $5+4-6=3$. Then the value of a table with $1$ and $2$ in the first row and $3$ in the second row is:",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$-2$",
+          "$-1$",
+          "$0$",
+          "$1$",
+          "$2$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1993-9",
+      "name": "Problem 9 (1993 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1993_AJHSME_Problems/Problem_9",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Custom Operations",
+        "Tables"
+      ],
+      "statement": "Consider the operation $*$ defined by the following table:\n$$\\begin{matrix}*&1&2&3&4\\\\ 1&1&2&3&4\\\\ 2&2&4&1&3\\\\ 3&3&4&4&2\\\\ 4&3&2&1\\end{matrix}$$\nFor example, $3 * 2 = 1$. Then $(2 * 4) * (1 * 3) =$ [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1$",
+          "$2$",
+          "$3$",
+          "$4$",
+          "$5$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1996-4",
+      "name": "Problem 4 (1996 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1996_AJHSME_Problems/Problem_4",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Number Line",
+        "Signs"
+      ],
+      "statement": "The letters $P$, $Q$, $R$, $S$, and $T$ represent numbers located on the number line as shown. [See figure in original PDF]\nWhich of the following expressions represents a negative number?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$P-Q$",
+          "$P\\cdot Q$",
+          "$\\frac{S}{Q}\\cdot P$",
+          "$\\frac{R}{P\\cdot Q}$",
+          "$\\frac{S+T}{R}$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1996-9",
+      "name": "Problem 9 (1996 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1996_AJHSME_Problems/Problem_9",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Reciprocals",
+        "Linear Equations"
+      ],
+      "statement": "If $5$ times a number is $2$, then $100$ times the reciprocal of the number is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$2.5$",
+          "$40$",
+          "$50$",
+          "$250$",
+          "$500$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1996-11",
+      "name": "Problem 11 (1996 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1996_AJHSME_Problems/Problem_11",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Decimals",
+        "Comparing Expressions"
+      ],
+      "statement": "Let $x$ be the number $0.0000...00001$, where there are $1996$ zeros after the decimal point. Which of the following expressions represents the largest number?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$3+x$",
+          "$3-x$",
+          "$3\\cdot x$",
+          "$\\frac{3}{x}$",
+          "$\\frac{x}{3}$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1996-20",
+      "name": "Problem 20 (1996 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1996_AJHSME_Problems/Problem_20",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Functions",
+        "Periodic Sequence"
+      ],
+      "statement": "Suppose there is a special key on a calculator that replaces the number currently displayed with the number given by the formula $\\frac{1}{1-x}$. For example, if the calculator is displaying $2$ and the special key is pressed, then the calculator will display $-1$ since $\\frac{1}{1-2}=-1$. Now suppose that the calculator is displaying $5$. After the special key is pressed $100$ times in a row, the calculator will display",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$0.25$",
+          "$0$",
+          "$0.8$",
+          "$1.25$",
+          "$5$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1998-2",
+      "name": "Problem 2 (1998 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1998_AJHSME_Problems/Problem_2",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Custom Operations",
+        "Fractions"
+      ],
+      "statement": "If $\\frac{a/b}{c/d} = a \\cdot d - b \\cdot c$, what is the value of $\\frac{3/4}{1/2}$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$-2$",
+          "$-1$",
+          "$0$",
+          "$1$",
+          "$2$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1998-10",
+      "name": "Problem 10 (1998 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1998_AJHSME_Problems/Problem_10",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Logic",
+        "Fractions",
+        "Digit Manipulation"
+      ],
+      "statement": "Each of the letters $W$, $X$, $Y$, and $Z$ represents a different integer in the set $\\{1, 2, 3, 4\\}$, but not necessarily in that order. If $\\frac{W}{X} - \\frac{Y}{Z} = 1$, then the sum of $W$ and $Y$ is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$3$",
+          "$4$",
+          "$5$",
+          "$6$",
+          "$7$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-1999-22",
+      "name": "Problem 22 (1999 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1999_AMC_8_Problems/Problem_22",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Proportions",
+        "Systems of Equations"
+      ],
+      "statement": "In a far-off land three fish can be traded for two loaves of bread and a loaf of bread can be traded for four bags of rice. How many bags of rice is one fish worth?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{3}{8}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{3}{4}$",
+          "$2\\frac{2}{3}$",
+          "$3\\frac{1}{3}$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2000-17",
+      "name": "Problem 17 (2000 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2000_AMC_8_Problems/Problem_17",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Custom Operations",
+        "Fractions"
+      ],
+      "statement": "The operation $\\otimes$ is defined for all nonzero numbers by $a\\otimes b=\\frac{a^{2}}{b}$. Determine $[(1\\otimes 2)\\otimes 3]-[1\\otimes (2\\otimes 3)]$.",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$-\\frac{2}{3}$",
+          "$-\\frac{1}{4}$",
+          "$0$",
+          "$\\frac{1}{4}$",
+          "$\\frac{2}{3}$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2001-2",
+      "name": "Problem 2 (2001 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2001_AMC_8_Problems/Problem_2",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Factoring",
+        "Systems of Equations"
+      ],
+      "statement": "I'm thinking of two whole numbers. Their product is $24$ and their sum is $11$. What is the larger number?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$3$",
+          "$4$",
+          "$6$",
+          "$8$",
+          "$12$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2001-12",
+      "name": "Problem 12 (2001 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2001_AMC_8_Problems/Problem_12",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Custom Operations",
+        "Fractions"
+      ],
+      "statement": "If $a \\otimes b = \\frac{a+b}{a-b}$, then $(6 \\otimes 4) \\otimes 3 =$",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$4$",
+          "$13$",
+          "$15$",
+          "$30$",
+          "$72$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2007-19",
+      "name": "Problem 19 (2007 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2007_AMC_8_Problems/Problem_19",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Difference of Squares",
+        "Consecutive Integers"
+      ],
+      "statement": "Pick two consecutive positive integers whose sum is less than $100$. Square both of those integers and then find the difference of the squares. Which of the following could be the difference?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$2$",
+          "$64$",
+          "$79$",
+          "$96$",
+          "$131$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2008-7",
+      "name": "Problem 7 (2008 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2008_AMC_8_Problems/Problem_7",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Proportions",
+        "Fractions"
+      ],
+      "statement": "If $\\frac{3}{5}=\\frac{M}{45}=\\frac{60}{N}$ what is $M+N$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$27$",
+          "$29$",
+          "$45$",
+          "$105$",
+          "$127$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2009-21",
+      "name": "Problem 21 (2009 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2009_AMC_8_Problems/Problem_21",
+      "source": "AMC 8",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Summation",
+        "Averages",
+        "Algebraic Manipulation"
+      ],
+      "statement": "Andy and Bethany have a rectangular array of numbers with $40$ rows and $75$ columns. Andy adds the numbers in each row. The average of his $40$ sums is $A$. Bethany adds the numbers in each column. The average of her $75$ sums is $B$. What is the value of $\\frac{A}{B}$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{64}{225}$",
+          "$\\frac{8}{15}$",
+          "$1$",
+          "$\\frac{15}{8}$",
+          "$\\frac{225}{64}$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2010-2",
+      "name": "Problem 2 (2010 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2010_AMC_8_Problems/Problem_2",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Custom Operations",
+        "Fractions"
+      ],
+      "statement": "If $a @ b = \\frac{a \\times b}{a + b}$ for $a, b$ positive integers, then what is $5 @ 10$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{3}{10}$",
+          "$1$",
+          "$2$",
+          "$\\frac{10}{3}$",
+          "$50$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2013-6",
+      "name": "Problem 6 (2013 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2013_AMC_8_Problems/Problem_6",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Working Backwards",
+        "Multiplication"
+      ],
+      "statement": "The number in each box below is the product of the numbers in the two boxes that touch it in the row above. For example, $30=6 \\times 5$. What is the missing number in the top row? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$2$",
+          "$3$",
+          "$4$",
+          "$5$",
+          "$6$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2013-15",
+      "name": "Problem 15 (2013 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2013_AMC_8_Problems/Problem_15",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Exponents",
+        "Solving Equations"
+      ],
+      "statement": "If $3^p + 3^4 = 90$, $2^r + 44 = 76$, and $5^3 + 6^s = 1421$, what is the product of $p$, $r$, and $s$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$27$",
+          "$40$",
+          "$50$",
+          "$70$",
+          "$90$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2013-17",
+      "name": "Problem 17 (2013 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2013_AMC_8_Problems/Problem_17",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Consecutive Integers",
+        "Averages"
+      ],
+      "statement": "The sum of six consecutive positive integers is $2013$. What is the largest of these six integers?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$335$",
+          "$338$",
+          "$340$",
+          "$345$",
+          "$350$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2014-22",
+      "name": "Problem 22 (2014 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2014_AMC_8_Problems/Problem_22",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Digit Manipulation",
+        "Number Theory"
+      ],
+      "statement": "A $2$-digit number is such that the product of the digits plus the sum of the digits is equal to the number. What is the units digit of the number?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1$",
+          "$3$",
+          "$5$",
+          "$7$",
+          "$9$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2016-10",
+      "name": "Problem 10 (2016 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2016_AMC_8_Problems/Problem_10",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Custom Operations",
+        "Linear Equations"
+      ],
+      "statement": "Suppose that $a*b$ means $3a - b$. What is the value of $x$ if $2*(5*x)=1$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{10}$",
+          "$2$",
+          "$\\frac{10}{3}$",
+          "$10$",
+          "$14$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2017-21",
+      "name": "Problem 21 (2017 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2017_AMC_8_Problems/Problem_21",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Absolute Value",
+        "Sign Analysis",
+        "Symmetry"
+      ],
+      "statement": "Suppose $a$, $b$, and $c$ are nonzero real numbers, and $a+b+c=0$. What are the possible value(s) for $\\frac{a}{|a|}+\\frac{b}{|b|}+\\frac{c}{|c|}+\\frac{abc}{|abc|}$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$0$",
+          "$1$ and $-1$",
+          "$2$ and $-2$",
+          "$0, 2,$ and $-2$",
+          "$0, 1,$ and $-1$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2018-25",
+      "name": "Problem 25 (2018 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2018_AMC_8_Problems/Problem_25",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Inequalities",
+        "Exponents"
+      ],
+      "statement": "How many perfect cubes lie between $2^8+1$ and $2^{18}+1$ inclusive?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$4$",
+          "$9$",
+          "$10$",
+          "$57$",
+          "$58$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2019-20",
+      "name": "Problem 20 (2019 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2019_AMC_8_Problems/Problem_20",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Solving Equations",
+        "Quadratics"
+      ],
+      "statement": "How many different real numbers satisfy the equation $(x^2-5)^2=16$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$0$",
+          "$1$",
+          "$2$",
+          "$4$",
+          "$8$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2020-12",
+      "name": "Problem 12 (2020 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2020_AMC_8_Problems/Problem_12",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Factorials",
+        "Simplification"
+      ],
+      "statement": "For a positive integer $n$, the factorial notation $n!$ represents the product of the integers from $n$ to $1$. (For example, $6!=6\\cdot5\\cdot4\\cdot3\\cdot2\\cdot1$.) What value of $N$ satisfies the following equation? $$5!\\cdot9!=12\\cdot N!$$",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$10$",
+          "$11$",
+          "$12$",
+          "$13$",
+          "$14$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2020-15",
+      "name": "Problem 15 (2020 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2020_AMC_8_Problems/Problem_15",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Percentages",
+        "Algebraic Setup"
+      ],
+      "statement": "Suppose $15\\%$ of $x$ equals $20\\%$ of $y$. What percentage of $x$ is $y$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$5$",
+          "$35$",
+          "$75$",
+          "$133\\frac{1}{3}$",
+          "$300$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2020-22",
+      "name": "Problem 22 (2020 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2020_AMC_8_Problems/Problem_22",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Functions",
+        "Sequences",
+        "Working Backwards"
+      ],
+      "statement": "When a positive integer $N$ is fed into a machine, the output is a number calculated according to the rule shown below.\nIf $N$ is even: $\\frac{N}{2}$\nIf $N$ is odd: $3N+1$\nFor example, starting with an input of $N=7$ the machine will output $3\\cdot7+1=22.$ Then if the output is repeatedly inserted into the machine five more times, the final output is $26$.\n$$7\\rightarrow22\\rightarrow11\\rightarrow34\\rightarrow17\\rightarrow52\\rightarrow26$$\nWhen the same $6$-step process is applied to a different starting value of $N$, the final output is $1$. What is the sum of all such integers $N$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$73$",
+          "$74$",
+          "$75$",
+          "$82$",
+          "$83$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2020-24",
+      "name": "Problem 24 (2020 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2020_AMC_8_Problems/Problem_24",
+      "source": "AMC 8",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Geometry and Algebra",
+        "Proportions"
+      ],
+      "statement": "A large square region is paved with $n^2$ gray square tiles, each measuring $s$ inches on a side. A border $d$ inches wide surrounds each tile. The figure below shows the case for $n=3$. When $n=24$ the $576$ gray tiles cover $64\\%$ of the area of the large square region. What is the ratio $\\frac{d}{s}$ for this larger value of $n$? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{6}{25}$",
+          "$\\frac{1}{4}$",
+          "$\\frac{9}{25}$",
+          "$\\frac{7}{16}$",
+          "$\\frac{9}{16}$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2022-2",
+      "name": "Problem 2 (2022 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2022_AMC_8_Problems/Problem_2",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Custom Operations",
+        "Order of Operations"
+      ],
+      "statement": "Consider these two operations:\n$$a \\bullet b = a^2 - b^2$$\n$$a * b = (a - b)^2$$\nWhat is the value of $(5 + 3) * 6$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$-20$",
+          "$4$",
+          "$16$",
+          "$100$",
+          "$220$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2022-16",
+      "name": "Problem 16 (2022 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2022_AMC_8_Problems/Problem_16",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Averages",
+        "System of Equations"
+      ],
+      "statement": "Four numbers are written in a row. The average of the first two is $21$, the average of the middle two is $26$, and the average of the last two is $30$. What is the average of the first and last of the numbers?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$24$",
+          "$25$",
+          "$26$",
+          "$27$",
+          "$28$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2022-20",
+      "name": "Problem 20 (2022 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2022_AMC_8_Problems/Problem_20",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Magic Square",
+        "Linear Equations",
+        "Inequalities"
+      ],
+      "statement": "The grid below is to be filled with integers in such a way that the sum of the numbers in each row and the sum of the numbers in each column are the same. Four numbers are missing. The number $x$ in the lower left corner is larger than the other three missing numbers. What is the smallest possible value of $x$? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$-1$",
+          "$5$",
+          "$6$",
+          "$8$",
+          "$9$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2023-22",
+      "name": "Problem 22 (2023 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2023_AMC_8_Problems/Problem_22",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Sequences",
+        "Factoring"
+      ],
+      "statement": "In a sequence of positive integers, each term after the second is the product of the previous two terms. The sixth term in the sequence is $4000$. What is the first term?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1$",
+          "$2$",
+          "$4$",
+          "$5$",
+          "$10$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2024-9",
+      "name": "Problem 9 (2024 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2024_AMC_8_Problems/Problem_9",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Ratios",
+        "Multiples"
+      ],
+      "statement": "All the marbles in Maria's collection are red, green, or blue. Maria has half as many red marbles as green marbles and twice as many blue marbles as green marbles. Which of the following could be the total number of marbles in Maria's collection?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$24$",
+          "$25$",
+          "$26$",
+          "$27$",
+          "$28$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2024-21",
+      "name": "Problem 21 (2024 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2024_AMC_8_Problems/Problem_21",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Ratios",
+        "Systems of Equations"
+      ],
+      "statement": "A group of frogs (called an army) is living in a tree. A frog turns green when in the shade and yellow when in the sun. Initially the ratio of green to yellow frogs was $3:1$. Then $3$ green frogs moved to the sunny side and $5$ yellow frogs moved to the shady side. Now the ratio is $4:1$. What is the difference between the number of green frogs and yellow frogs now?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$10$",
+          "$12$",
+          "$16$",
+          "$20$",
+          "$24$"
+        ],
+        "correctIndex": 4
       },
       "solutionMetadata": {
         "kind": "none"

@@ -1,6 +1,10 @@
 import clsx from 'clsx';
 import { Link } from 'gatsby';
 import * as React from 'react';
+import ReactMarkdown from 'react-markdown';
+import rehypeKatex from 'rehype-katex';
+import remarkMath from 'remark-math';
+import 'katex/dist/katex.min.css';
 import { useUserProgressOnModules } from '../../context/UserDataContext/properties/userProgress';
 import { ModuleLinkInfo } from '../../models/module';
 import { FrequencyLabels } from '../Frequency';
@@ -8,19 +12,19 @@ import ModuleFrequencyDots from '../MarkdownLayout/ModuleFrequencyDots';
 import Tooltip from '../Tooltip/Tooltip';
 
 const FrequencyCircleColors = [
-  'group-hover:text-orange-500 dark:group-hover:text-orange-400',
-  'group-hover:text-amber-500 dark:group-hover:text-amber-400',
-  'group-hover:text-yellow-500 dark:group-hover:text-yellow-400',
-  'group-hover:text-sky-500 dark:group-hover:text-sky-400',
-  'group-hover:text-blue-500 dark:group-hover:text-blue-400',
+  'group-hover:text-[#D8B4E8]',
+  'group-hover:text-[#C79CDA]',
+  'group-hover:text-[#B98CD1]',
+  'group-hover:text-[#AA79C4]',
+  'group-hover:text-[#F0C2FF]',
 ];
 
 const FrequencyTextColors = [
-  'group-hover:text-orange-700 dark:group-hover:text-orange-400',
-  'group-hover:text-amber-700 dark:group-hover:text-amber-400',
-  'group-hover:text-yellow-700 dark:group-hover:text-yellow-400',
-  'group-hover:text-sky-700 dark:group-hover:text-sky-400',
-  'group-hover:text-blue-700 dark:group-hover:text-blue-400',
+  'group-hover:text-[#D8B4E8]',
+  'group-hover:text-[#C79CDA]',
+  'group-hover:text-[#B98CD1]',
+  'group-hover:text-[#AA79C4]',
+  'group-hover:text-[#F0C2FF]',
 ];
 
 // https://stackoverflow.com/questions/3177836/how-to-format-time-since-xxx-e-g-4-minutes-ago-similar-to-stack-exchange-site
@@ -112,7 +116,7 @@ const ModuleLink = ({ link }: { link: ModuleLinkInfo }): JSX.Element => {
               progress === 'Ignored'
                 ? 'text-gray-400 dark:text-gray-600'
                 : 'text-gray-700 dark:text-gray-400'
-            } dark:group-hover:text-dark-high-emphasis mb-1 flex items-center transition group-hover:text-orange-700`}
+            } dark:group-hover:text-dark-high-emphasis mb-1 flex items-center transition group-hover:text-[#F0C2FF]`}
           >
             <span className="mr-2 inline-flex items-end">
               {link.title}{' '}
@@ -123,7 +127,7 @@ const ModuleLink = ({ link }: { link: ModuleLinkInfo }): JSX.Element => {
                   }
                 >
                   <svg
-                    className="ml-1.5 h-5 w-5 text-gray-300 transition duration-150 ease-in-out group-hover:text-yellow-300"
+                    className="ml-1.5 h-5 w-5 text-gray-300 transition duration-150 ease-in-out group-hover:text-[#F0C2FF]"
                     viewBox="0 0 20 20"
                     fill="currentColor"
                   >
@@ -158,14 +162,20 @@ const ModuleLink = ({ link }: { link: ModuleLinkInfo }): JSX.Element => {
             </p>
           )}
           {/* https://stackoverflow.com/questions/9229213/convert-iso-date-to-milliseconds-in-javascript */}
-          <p className="dark:group-hover:text-dark-high-emphasis block text-sm leading-5 text-gray-400 transition group-hover:text-sky-700">
-            {link.description}
+          <div className="dark:group-hover:text-dark-high-emphasis block text-sm leading-5 text-gray-400 transition group-hover:text-[#D8B4E8]">
+            <ReactMarkdown
+              remarkPlugins={[remarkMath] as any}
+              rehypePlugins={[rehypeKatex]}
+              components={{ p: ({ children }) => <span>{children}</span> }}
+            >
+              {link.description}
+            </ReactMarkdown>
 
             <i>
               <br />
               {timeAgoString(link.gitAuthorTime)}
             </i>
-          </p>
+          </div>
         </div>
       </Link>
     </span>

@@ -59,19 +59,30 @@ function ProblemHit({ hit }: ProblemHitProps) {
           openProblemInNewTab();
         }
       }}
-      className="problem-card relative rounded-xl border border-white/20 bg-white/40 p-4 ring-1 ring-white/30 backdrop-blur-sm transition hover:-translate-y-0.5 hover:shadow-2xl hover:bg-white/50 dark:border-slate-700/80 dark:bg-slate-900/40 dark:ring-white/10 dark:hover:bg-slate-900/60"
+      className="group relative cursor-pointer overflow-hidden rounded-2xl p-4 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_16px_40px_rgba(101,86,141,0.28)]"
+      style={{
+        border: '1px solid rgba(229, 194, 255, 0.12)',
+        background: 'linear-gradient(180deg, rgba(54, 37, 72, 0.9) 0%, rgba(31, 22, 42, 0.94) 100%)',
+      }}
     >
-      <div className="flex w-full flex-row justify-between">
+      <div
+        className="pointer-events-none absolute inset-0 rounded-2xl opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+        style={{
+          background:
+            'linear-gradient(180deg, rgba(101, 86, 141, 0.16) 0%, rgba(101, 86, 141, 0.05) 32%, transparent 100%)',
+        }}
+      />
+      <div className="relative flex w-full flex-row justify-between">
         <span>
-          <span className="text-sm font-medium text-blue-700 dark:text-blue-400">
+          <span className="text-sm font-medium text-[#B88BD0]">
             {hit.source}
           </span>
-          <p className="mt-1 mb-2 text-xl leading-6 font-semibold text-slate-900 dark:text-white">
+          <p className="mt-1 mb-2 text-xl leading-6 font-semibold text-[#F4EDEA]">
             <Highlight hit={hit} attribute="name" />
           </p>
           {hit.isStarred && (
             <svg
-              className="ml-2 inline-block h-6 w-4 pb-1 text-blue-400"
+              className="ml-2 inline-block h-6 w-4 pb-1 text-[#F0C2FF]"
               fill="currentColor"
               viewBox="0 0 20 20"
             >
@@ -110,7 +121,7 @@ function ProblemHit({ hit }: ProblemHitProps) {
           href={solutionLink.url}
           target="_blank"
           rel="noreferrer"
-          className="dark:text-dark-med-emphasis text-sm text-gray-500"
+          className="text-sm text-[#D2D4C8] hover:text-[#F0C2FF]"
         >
           View Solution
             <svg
@@ -125,7 +136,7 @@ function ProblemHit({ hit }: ProblemHitProps) {
         )}
       {!hideModules && !isBlindMode && (
         <>
-          <p className="dark:text-dark-med-emphasis mt-2 text-sm text-gray-500">
+          <p className="mt-2 text-sm text-[#D2D4C8]">
             Appears In:
           </p>
           <ul className="ml-6 list-disc">
@@ -135,12 +146,12 @@ function ProblemHit({ hit }: ProblemHitProps) {
                   <Link
                     onClick={e => e.stopPropagation()}
                     to={`/${section}/${moduleID}/#problem-${hit.objectID}`}
-                    className="text-sm text-blue-600 dark:text-blue-400"
+                    className="text-sm text-[#8BC2FF] hover:text-[#B8DCFF]"
                   >
                     {moduleLabel}
                   </Link>
                 ) : (
-                  <span className="text-sm text-gray-500 dark:text-gray-400">
+                  <span className="text-sm text-[#D2D4C8]">
                     {moduleLabel}
                   </span>
                 )}

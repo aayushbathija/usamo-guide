@@ -1,6 +1,5 @@
 import { Link } from 'gatsby';
 import * as React from 'react';
-import { difficultyClasses } from '../DifficultyBox';
 import DashboardCard from './DashboardCard';
 
 type ActiveItemStatus =
@@ -18,14 +17,14 @@ export type ActiveItem = {
 };
 
 const statusClasses: { [key in ActiveItemStatus]: string } = {
-  Skipped: difficultyClasses.Normal,
-  Ignored: 'bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-100',
+  Skipped: 'bg-[#2A2547] text-[#D2D4C8] border border-[#F0C2FF33]',
+  Ignored: 'bg-[#3D3564] text-[#D2D4C8] border border-[#F0C2FF22]',
   Reading:
-    'bg-yellow-100 text-yellow-800 dark:bg-yellow-800 dark:text-yellow-100',
-  Practicing: difficultyClasses.Easy,
+    'bg-[#F0C2FF33] text-[#F0C2FF] border border-[#F0C2FF55]',
+  Practicing: 'bg-[#E085FF2E] text-[#F0C2FF] border border-[#E085FF55]',
   Solving:
-    'bg-yellow-100 text-yellow-800 dark:bg-yellow-800 dark:text-yellow-100',
-  Reviewing: difficultyClasses.Insane,
+    'bg-[#F0C2FF33] text-[#F0C2FF] border border-[#F0C2FF55]',
+  Reviewing: 'bg-[#FF7CC833] text-[#FFB3D9] border border-[#FF7CC855]',
 };
 
 export default function ActiveItems({
@@ -72,15 +71,16 @@ export default function ActiveItems({
   return (
     <DashboardCard>
       <div className="px-4 py-5 sm:p-6">
-        <h3 className="dark:text-dark-high-emphasis text-lg leading-6 font-medium text-gray-800">
+        <h3 className="text-lg leading-6 font-medium" style={{ color: '#F4EDEA' }}>
           Active {type === 'problems' ? 'Problems' : 'Modules'}
         </h3>
-        <div className="mt-4 text-gray-500">
+        <div className="mt-4" style={{ color: 'rgba(244, 237, 234, 0.72)' }}>
           {items.map((item, idx) => (
             <p className={idx === 0 ? '' : 'mt-2'} key={item.url}>
               <Link
                 to={item.url}
-                className="font-medium text-blue-600 transition duration-150 ease-in-out hover:text-blue-500 dark:text-blue-300 dark:hover:text-blue-200"
+                className="font-medium transition duration-150 ease-in-out"
+                style={{ color: '#F0C2FF' }}
               >
                 {item.label}
                 <span

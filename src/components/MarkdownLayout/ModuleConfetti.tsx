@@ -6,6 +6,7 @@ import {
   useRef,
   useState,
 } from 'react';
+import { createPortal } from 'react-dom';
 import useWindowDimensions from '../../hooks/useWindowDimensions';
 import Confetti from '../Confetti';
 
@@ -42,7 +43,7 @@ const ModuleConfetti = (props, ref) => {
 
   if (!show) return null;
 
-  return (
+  const confetti = (
     <div className="pointer-events-none fixed inset-0 z-20">
       <Confetti
         width={width}
@@ -62,6 +63,12 @@ const ModuleConfetti = (props, ref) => {
       />
     </div>
   );
+
+  if (typeof document === 'undefined') {
+    return confetti;
+  }
+
+  return createPortal(confetti, document.body);
 };
 
 export default forwardRef(ModuleConfetti);

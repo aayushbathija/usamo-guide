@@ -1,7 +1,7 @@
 {
   "MODULE_ID": "systems-equations",
-   "practice": [
-     {
+  "practice": [
+    {
       "uniqueId": "2026-amc8-19",
       "name": "Problem 19 (2026 AMC 8)",
       "url": "https://artofproblemsolving.com/wiki/index.php?title=2026_AMC_8_Problems/Problem_19",
@@ -36,6 +36,247 @@
       "isStarred": false,
       "tags": [],
       "statement": "The number of distinct points in the $xy$-plane common to the graphs of $(x+y-5)(2x-3y+5)=0$ and $(x-y+1)(3x+2y-12)=0$ is",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1990-24",
+      "name": "Problem 24 (1990 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1990_AJHSME_Problems/Problem_24",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Substitution",
+        "Visual Algebra"
+      ],
+      "statement": "Three $\\triangle$'s and a $\\bigcirc$ will balance nine $\\square$'s. One $\\triangle$ will balance a $\\square$ and a $\\bigcirc$. How many $\\square$'s will balance the two $\\bigcirc$'s in this balance?\n\n[See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1$",
+          "$2$",
+          "$3$",
+          "$4$",
+          "$5$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2002-17",
+      "name": "Problem 17 (2002 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2002_AMC_8_Problems/Problem_17",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Scoring Systems",
+        "Linear Equations"
+      ],
+      "statement": "In a mathematics contest with ten problems, a student gains $5$ points for a correct answer and loses $2$ points for an incorrect answer. If Olivia answered every problem and her score was $29$, how many correct answers did she have?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$5$",
+          "$6$",
+          "$7$",
+          "$8$",
+          "$9$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2003-4",
+      "name": "Problem 4 (2003 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2003_AMC_8_Problems/Problem_4",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Word Problem",
+        "Linear Equations"
+      ],
+      "statement": "A group of children riding on bicycles and tricycles rode past Billy Bob's house. Billy Bob counted $7$ children and $19$ wheels. How many tricycles were there?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$2$",
+          "$4$",
+          "$5$",
+          "$6$",
+          "$7$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2008-13",
+      "name": "Problem 13 (2008 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2008_AMC_8_Problems/Problem_13",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Symmetric Equations",
+        "Summation"
+      ],
+      "statement": "Mr. Harman needs to know the combined weight in pounds of three boxes he wants to mail. However, the only available scale is not accurate for weights less than $100$ pounds or more than $150$ pounds. So the boxes are weighed in pairs in every possible way. The results are $122$, $125$ and $127$ pounds. What is the combined weight in pounds of the three boxes?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$160$",
+          "$170$",
+          "$187$",
+          "$195$",
+          "$354$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2009-23",
+      "name": "Problem 23 (2009 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2009_AMC_8_Problems/Problem_23",
+      "source": "AMC 8",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Word Problem",
+        "Squares"
+      ],
+      "statement": "On the last day of school, Mrs. Wonderful gave jelly beans to her class. She gave each boy as many jelly beans as there were boys in the class. She gave each girl as many jelly beans as there were girls in the class. She brought $400$ jelly beans, and when she finished, she had six jelly beans left. There were two more boys than girls in her class. How many students were in her class?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$26$",
+          "$28$",
+          "$30$",
+          "$32$",
+          "$34$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2012-9",
+      "name": "Problem 9 (2012 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2012_AMC_8_Problems/Problem_9",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Word Problems"
+      ],
+      "statement": "The Fort Worth Zoo has a number of two-legged birds and a number of four-legged mammals. On one visit to the zoo, Margie counted $200$ heads and $522$ legs. How many of the animals that Margie counted were two-legged birds?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$61$",
+          "$122$",
+          "$139$",
+          "$150$",
+          "$161$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2012-19",
+      "name": "Problem 19 (2012 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2012_AMC_8_Problems/Problem_19",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Word Problems"
+      ],
+      "statement": "In a jar of red, green, and blue marbles, all but $6$ are red marbles, all but $8$ are green, and all but $4$ are blue. How many marbles are in the jar?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$6$",
+          "$8$",
+          "$9$",
+          "$10$",
+          "$12$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2017-17",
+      "name": "Problem 17 (2017 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2017_AMC_8_Problems/Problem_17",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Word Problem",
+        "Linear Equations"
+      ],
+      "statement": "Starting with some gold coins and some empty treasure chests, I tried to put $9$ gold coins in each treasure chest, but that left $2$ treasure chests empty. So instead I put $6$ gold coins in each treasure chest, but then I had $3$ gold coins left over. How many gold coins did I have?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$9$",
+          "$27$",
+          "$45$",
+          "$63$",
+          "$81$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2020-25",
+      "name": "Problem 25 (2020 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2020_AMC_8_Problems/Problem_25",
+      "source": "AMC 8",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Geometry",
+        "Variable Setup"
+      ],
+      "statement": "Rectangles $R_1$ and $R_2$ and squares $S_1$, $S_2$, and $S_3$, shown below, combine to form a rectangle that is $3322$ units wide and $2020$ units high. What is the side length of $S_2$ in units? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$651$",
+          "$655$",
+          "$656$",
+          "$662$",
+          "$666$"
+        ],
+        "correctIndex": 0
+      },
       "solutionMetadata": {
         "kind": "none"
       }

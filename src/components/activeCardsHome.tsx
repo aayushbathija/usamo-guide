@@ -3,33 +3,42 @@ import classNames from 'classnames';
 import React, { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion';
 import { CalendarCheck } from 'lucide-react';
-import ContestWidget from './ContestWidget';
+
+const MIDNIGHT = '#201C36';
+const MIDNIGHT_DEEP = '#14112A';
+const VANILLA = '#F4EDEA';
+const MAUVE = '#F0C2FF';
+const PURPLE = '#70428A';
+const BORDER_STRONG = 'rgba(240, 194, 255, 0.26)';
+const TEXT_SECONDARY = 'rgba(244, 237, 234, 0.78)';
 
 const headerClasses =
-  'text-4xl md:text-5xl 2xl:text-6xl font-black text-gray-900 dark:text-white';
+  'text-4xl md:text-5xl 2xl:text-6xl font-black tracking-tight text-center';
 const subtextClasses =
-  'text-lg md:text-xl 2xl:text-2xl font-medium max-w-4xl leading-relaxed text-gray-700 dark:text-orange-100/80';
+  'text-lg md:text-xl 2xl:text-2xl font-medium max-w-4xl leading-relaxed text-center';
 
 const projects = [
   {
     title: "Weekly Mock Contests",
     icon: CalendarCheck,
-    color: "from-fuchsia-500 to-purple-600",
+    imageSrc: '/images/weekly_mock_contests.jpg',
+    color: "from-[#C79CDA] via-[#9A6BB7] to-[#70428A]",
     desc: "Join guided sessions focused on problem solving, solution writing, and proof critique. Led by top performers to help you master competition-level rigor.",
     url: "https://contests.usamoguide.com/",
-    widget: <ContestWidget/>
   },
   {
     title: "Study Groups",
     icon: UserGroupIcon, // Swapped to UserGroup for better context
-    color: "from-green-400 to-cyan-500",
+    imageSrc: '/images/aops_comm.jpg',
+    color: "from-[#D8B4E8] via-[#AA79C4] to-[#7B4B99]",
     desc: "A custom-built learning management system designed specifically for math clubs, classes, and competitive teams to track progress together. (Coming Soon!)",
     url: "/groups"
   },
   {
     title: "Mentorship",
     icon: CogIcon,
-    color: "from-yellow-400 to-orange-500",
+    imageSrc: '/images/mentorship.jpg',
+    color: "from-[#F0C2FF] via-[#B98CD1] to-[#70428A]",
     desc: "Get paired with experienced mentors for direct feedback on your solutions, personalized study plans, and guidance through the contest circuit. (Coming Soon!)",
     url: "/groups"
   }
@@ -39,46 +48,87 @@ const ActiveCardsHome = () => {
     const [activeCard, setActiveCard] = useState(0);
 
   return (
-    <div className="relative overflow-x-hidden bg-gradient-to-b from-orange-50 via-amber-50 to-white transition-colors duration-500 dark:bg-[linear-gradient(to_bottom,#2d170c_0%,#26170d_18%,#21150e_48%,#1b140f_100%)]">
-          <div className="pointer-events-none absolute inset-x-0 top-0 h-32 bg-linear-to-b from-[#3a1d10]/60 via-[#2d170c]/35 to-transparent blur-3xl dark:block" />
+    <div
+      className="relative overflow-x-hidden transition-colors duration-500"
+      style={{
+        background: `linear-gradient(180deg, ${MIDNIGHT} 0%, ${MIDNIGHT_DEEP} 100%)`,
+        color: VANILLA,
+      }}
+    >
+          <div
+            className="pointer-events-none absolute inset-x-0 top-0 h-32 blur-3xl"
+            style={{
+              background:
+                'linear-gradient(to bottom, rgba(112, 66, 138, 0.32), rgba(32, 28, 54, 0.18), transparent)',
+            }}
+          />
           <div className="h-16 md:h-20 2xl:h-36"></div>
             <div className="px-4 sm:px-6 lg:px-8 2xl:px-16">
-              <h2 className={classNames(headerClasses, 'md:text-center')}>
+              <h2 className={headerClasses} style={{ color: VANILLA }}>
                 Built by the USAMO Guide community.
               </h2>
               <div className="h-2 md:h-8"></div>
-              <p className={classNames(subtextClasses, 'mx-auto md:text-center')}>
+              <p className={classNames(subtextClasses, 'mx-auto')} style={{ color: TEXT_SECONDARY }}>
                 Here are a few resources and study tools that pair well with the
                 guide.
               </p>
 
-              <div className="2xl:24 h-12 md:h-16"></div>
+              <div className="h-12 md:h-16 2xl:h-24"></div>
 
             <div className='flex flex-col gap-4 md:flex-row items-start overflow-x-hidden'>
               <div className="flex flex-col w-full md:w-2/6 flex-shrink-0">
                 {projects.map((project,id)=> (
-                <div key={id} onClick={()=> setActiveCard(id)} className={classNames('group relative cursor-pointer border transition-all duration-300 p-1',
-                  "border-x border-t border-orange-200/70 dark:border-white/10",
-                        id===0? "rounded-t-2xl":"",
-                  id===projects.length-1 ? "border-b rounded-b-2xl": "border-b-0",
-                        activeCard ===id 
-                  ? "border-orange-400/60 bg-white shadow-[0_0_20px_rgba(251,146,60,0.1)] dark:border-orange-400/50 dark:bg-white/10" 
-                  : "border-orange-200/60 bg-white/70 hover:border-orange-300/80 dark:border-white/5 dark:bg-transparent dark:hover:border-white/[0.03]"
-                    )}>
+                <div
+                  key={id}
+                  onClick={() => setActiveCard(id)}
+                  className={classNames(
+                    'group relative cursor-pointer border p-1 transition-all duration-300',
+                    'border-x border-t',
+                    id === 0 ? 'rounded-t-xl' : '',
+                    id === projects.length - 1 ? 'rounded-b-xl border-b' : 'border-b-0',
+                    activeCard === id
+                      ? 'shadow-[0_0_24px_rgba(112,66,138,0.16)]'
+                      : 'hover:border-white/15'
+                  )}
+                  style={{
+                    borderColor: activeCard === id ? 'rgba(229, 194, 255, 0.3)' : 'rgba(229, 194, 255, 0.12)',
+                    background: activeCard === id
+                      ? 'linear-gradient(180deg, rgba(60, 40, 90, 0.95) 0%, rgba(40, 25, 60, 0.97) 100%)'
+                      : 'linear-gradient(180deg, rgba(54, 37, 72, 0.9) 0%, rgba(31, 22, 42, 0.94) 100%)',
+                  }}
+                >
                         {activeCard===id && (
-                    <div className='absolute left-0 top-2 bottom-2 w-1 bg-orange-500 rounded-full'/>
+                    <div className='absolute left-0 top-2 bottom-2 w-1 rounded-full' style={{ backgroundColor: PURPLE }}/>
                         )}
                         <div className='p-4 flex items-center justify-between'>
                             <div className='flex items-center gap-4'>
-                                <div className={classNames("p-2 rounded-lg", project.color)}>
-                                    <project.icon className='size-6'/>
+                                <div
+                                  className={classNames(
+                                    'flex h-10 w-10 items-center justify-center overflow-hidden rounded-2xl',
+                                    project.imageSrc
+                                      ? 'bg-transparent p-0'
+                                      : 'bg-linear-to-br p-2',
+                                    !project.imageSrc && project.color
+                                  )}
+                                >
+                                    {project.imageSrc ? (
+                                      <img
+                                        src={project.imageSrc}
+                                        alt=""
+                                        aria-hidden="true"
+                                        className='h-full w-full object-contain'
+                                      />
+                                    ) : (
+                                      <project.icon className='size-6 text-[#201C36]'/>
+                                    )}
                                 </div>
-                                <span className='text-lg font-bold text-gray-900 dark:text-white'>{project.title}</span>
+                                <span className='text-lg font-bold' style={{ color: VANILLA }}>{project.title}</span>
                             </div>
                             <ChevronRightIcon
-                                className={classNames('h-5 w-5 text-gray-400 transition-transform duration-300 dark:text-white/30',
-                                  activeCard===id?"rotate-90 text-orange-500 dark:text-orange-400": ''
+                                className={classNames('h-5 w-5 transition-transform duration-300',
+                                  activeCard===id?"rotate-90": ''
                                 )}
+                                style={{ color: activeCard === id ? MAUVE : 'rgba(244, 237, 234, 0.38)' }}
                             />
                         </div>
                         <AnimatePresence>
@@ -89,7 +139,7 @@ const ActiveCardsHome = () => {
                                     exit={{height:0, opacity:0}}
                                     className="overflow-hidden"
                                 >
-                                    <p className='line-clamp-3 px-6 pb-6 text-sm leading-relaxed text-orange-900/80 dark:text-orange-100/60'>
+                                    <p className='line-clamp-3 px-6 pb-6 text-sm leading-relaxed' style={{ color: TEXT_SECONDARY }}>
                                         {project.desc}
                                     </p>
                                 </motion.div>
@@ -102,44 +152,51 @@ const ActiveCardsHome = () => {
               <div className="hidden md:block relative flex-grow min-w-0">
 
                 <div className="sticky top-24 h-fit min-h-[600px]">
-                <div className={classNames(
-                    "relative h-full w-full max-w-full", 
-                    "overflow-hidden rounded-3xl border border-gray-200 bg-white/50 p-12 shadow-sm backdrop-blur-sm dark:border-white/10 dark:bg-white/5 md:p-10"
-                )}>
-                    
+                <div
+                  className={classNames(
+                    'relative h-full w-full max-w-full overflow-hidden rounded-2xl p-12 shadow-sm backdrop-blur-sm md:p-10'
+                  )}
+                  style={{
+                    border: '1px solid rgba(229, 194, 255, 0.12)',
+                    background: 'linear-gradient(180deg, rgba(54, 37, 72, 0.9) 0%, rgba(31, 22, 42, 0.94) 100%)',
+                  }}
+                >
                     <div className="max-w-2xl relative z-10">
-                    <div className={classNames("inline-block rounded-xl my-4 shadow-2xl from-orange-300 to-orange-700")}>
-                            {React.createElement(projects[activeCard].icon, { className: "w-8 h-8 text-white" })}
-                        
-                    </div>
+                    {projects[activeCard].imageSrc ? (
+                      <div className="my-4 inline-flex h-14 w-14 items-center justify-center overflow-hidden rounded-2xl">
+                        <img
+                          src={projects[activeCard].imageSrc}
+                          alt=""
+                          aria-hidden="true"
+                          className="h-full w-full object-contain"
+                        />
+                      </div>
+                    ) : (
+                      <div className={classNames("inline-block rounded-xl my-4 bg-linear-to-br p-3 shadow-2xl", projects[activeCard].color)}>
+                        {React.createElement(projects[activeCard].icon, { className: "w-8 h-8 text-[#201C36]" })}
+                      </div>
+                    )}
                     
-                    <h3 className="text-4xl font-extrabold tracking-tighter leading-none text-gray-900 dark:text-white">
+                  <h3 className="text-4xl font-extrabold tracking-tighter leading-none" style={{ color: VANILLA }}>
                         {projects[activeCard].title}
                     </h3>
                     
-                    <div className="h-1 w-20 bg-orange-500/30 my-4 rounded-full" />
+                  <div className="my-4 h-1 w-20 rounded-full" style={{ backgroundColor: 'rgba(240, 194, 255, 0.34)' }} />
                     
-                    <p className="w-full text-xl font-medium text-gray-700 dark:text-orange-50/70">
+                  <p className="w-full text-xl font-medium" style={{ color: TEXT_SECONDARY }}>
                         {projects[activeCard].desc}
                     </p>
-
-                    <div className="flex-grow flex items-center justify-center py-10">
-                        <div className="w-full">
-                        {projects[activeCard].widget}
-                        </div>
-                    </div>
 
                     </div>
 
                     {/* Deep Ambient Glow in the bottom right of the panel */}
-                    <div className="absolute -bottom-20 -right-20 w-80 h-80 bg-orange-600/10 blur-[100px] rounded-full pointer-events-none" />
+                    <div className="absolute -bottom-20 -right-20 h-80 w-80 rounded-full blur-[100px] pointer-events-none" style={{ backgroundColor: 'rgba(112, 66, 138, 0.20)' }} />
                 </div>
                 </div>
               </div>
             </div>
 
         </div>
-        <div className="h-16 md:h-36"></div>
     </div>
   )
 }

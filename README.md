@@ -1,4 +1,4 @@
-![USAMO Guide](./src/assets/banner-image-big.png)
+![USAMO Guide](./src/assets/social-media-image.jpg)
 
 # USAMO Guide
 

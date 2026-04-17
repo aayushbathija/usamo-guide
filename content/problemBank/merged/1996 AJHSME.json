@@ -1,0 +1,627 @@
+{
+  "exam": "1996 AJHSME",
+  "problems": [
+    {
+      "uniqueId": "ajhsme-1996-1",
+      "name": "Problem 1 (1996 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1996_AJHSME_Problems/Problem_1",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "categorization": "Arithmetic and Number Theory Basics",
+      "tags": [
+        "Factors",
+        "Multiples"
+      ],
+      "statement": "How many positive factors of $36$ are also multiples of $4$?",
+      "answerChoices": [
+        "$2$",
+        "$3$",
+        "$4$",
+        "$5$",
+        "$6$"
+      ],
+      "answer": "B",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1996-2",
+      "name": "Problem 2 (1996 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1996_AJHSME_Problems/Problem_2",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "categorization": "Word Problems",
+      "tags": [
+        "Order of Operations"
+      ],
+      "statement": "Jose, Thuy, and Kareem each start with the number $10$. Jose subtracts $1$ from the number $10$, doubles his answer, and then adds $2$. Thuy doubles the number $10$, subtracts $1$ from her answer, and then adds $2$. Kareem subtracts $1$ from the number $10$, adds $2$ to his number, and then doubles the result. Who gets the largest final answer?",
+      "answerChoices": [
+        "Jose",
+        "Thuy",
+        "Kareem",
+        "Jose and Thuy",
+        "Thuy and Kareem"
+      ],
+      "answer": "C",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1996-3",
+      "name": "Problem 3 (1996 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1996_AJHSME_Problems/Problem_3",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "categorization": "Arithmetic Sequences",
+      "tags": [
+        "Factoring",
+        "Sum of Sequence"
+      ],
+      "statement": "$$\\frac{2+4+6+\\cdot\\cdot\\cdot+34}{3+6+9+\\cdot\\cdot\\cdot+51}=$$",
+      "answerChoices": [
+        "$\\frac{1}{3}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{3}{2}$",
+        "$\\frac{17}{3}$",
+        "$\\frac{34}{3}$"
+      ],
+      "answer": "A",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1996-4",
+      "name": "Problem 4 (1996 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1996_AJHSME_Problems/Problem_4",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "categorization": "Algebra Basics",
+      "tags": [
+        "Number Line",
+        "Signs"
+      ],
+      "statement": "The letters $P$, $Q$, $R$, $S$, and $T$ represent numbers located on the number line as shown. [See figure in original PDF]\nWhich of the following expressions represents a negative number?",
+      "answerChoices": [
+        "$P-Q$",
+        "$P\\cdot Q$",
+        "$\\frac{S}{Q}\\cdot P$",
+        "$\\frac{R}{P\\cdot Q}$",
+        "$\\frac{S+T}{R}$"
+      ],
+      "answer": "B",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1996-5",
+      "name": "Problem 5 (1996 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1996_AJHSME_Problems/Problem_5",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "categorization": "Arithmetic and Number Theory Basics",
+      "tags": [
+        "Grid",
+        "Corner Sum"
+      ],
+      "statement": "The $64$ whole numbers from $1$ through $64$ are written, one per square, on a checkerboard (an $8$ by $8$ array of $64$ squares). The first $8$ numbers are written in order across the first row, the next $8$ across the second row, and so on. After all $64$ numbers are written, the sum of the numbers in the four corners will be",
+      "answerChoices": [
+        "$130$",
+        "$131$",
+        "$132$",
+        "$133$",
+        "$134$"
+      ],
+      "answer": "A",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1996-6",
+      "name": "Problem 6 (1996 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1996_AJHSME_Problems/Problem_6",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "categorization": "Arithmetic and Number Theory Basics",
+      "tags": [
+        "Minimization"
+      ],
+      "statement": "What is the smallest result that can be obtained from the following process?\nChoose three different numbers from the set $\\{3, 5, 7, 11, 13, 17\\}$.\nAdd two of these numbers.\nMultiply their sum by the third number.",
+      "answerChoices": [
+        "$15$",
+        "$30$",
+        "$36$",
+        "$50$",
+        "$56$"
+      ],
+      "answer": "C",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1996-7",
+      "name": "Problem 7 (1996 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1996_AJHSME_Problems/Problem_7",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "categorization": "Word Problems",
+      "tags": [
+        "Exponential Growth",
+        "Setting up an equation"
+      ],
+      "statement": "Brent has goldfish that quadruple (become four times as many) every month, and Gretel has goldfish that double every month. If Brent has $4$ goldfish at the same time that Gretel has $128$ goldfish, then in how many months from that time will they have the same number of goldfish?",
+      "answerChoices": [
+        "$4$",
+        "$5$",
+        "$6$",
+        "$7$",
+        "$8$"
+      ],
+      "answer": "B",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1996-8",
+      "name": "Problem 8 (1996 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1996_AJHSME_Problems/Problem_8",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "categorization": "Geometry Basics",
+      "tags": [
+        "Distances",
+        "Collinear Points"
+      ],
+      "statement": "Points $A$ and $B$ are $10$ units apart. Points $B$ and $C$ are $4$ units apart. Points $C$ and $D$ are $3$ units apart. If $A$ and $D$ are as close as possible, then the number of units between them is",
+      "answerChoices": [
+        "$0$",
+        "$3$",
+        "$9$",
+        "$11$",
+        "$17$"
+      ],
+      "answer": "B",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1996-9",
+      "name": "Problem 9 (1996 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1996_AJHSME_Problems/Problem_9",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "categorization": "Algebra Basics",
+      "tags": [
+        "Reciprocals",
+        "Linear Equations"
+      ],
+      "statement": "If $5$ times a number is $2$, then $100$ times the reciprocal of the number is",
+      "answerChoices": [
+        "$2.5$",
+        "$40$",
+        "$50$",
+        "$250$",
+        "$500$"
+      ],
+      "answer": "D",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1996-10",
+      "name": "Problem 10 (1996 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1996_AJHSME_Problems/Problem_10",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "categorization": "Word Problems",
+      "tags": [
+        "Fractions",
+        "Proportions"
+      ],
+      "statement": "When Walter drove up to the gasoline pump, he noticed that his gasoline tank was $\\frac{1}{8}$ full. He purchased $7.5$ gallons of gasoline for $\\$10$. With this additional gasoline, his gasoline tank was then $\\frac{5}{8}$ full. The number of gallons of gasoline his tank holds when it is full is",
+      "answerChoices": [
+        "$8.75$",
+        "$10$",
+        "$11.5$",
+        "$15$",
+        "$22.5$"
+      ],
+      "answer": "D",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1996-11",
+      "name": "Problem 11 (1996 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1996_AJHSME_Problems/Problem_11",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "categorization": "Algebra Basics",
+      "tags": [
+        "Decimals",
+        "Comparing Expressions"
+      ],
+      "statement": "Let $x$ be the number $0.0000...00001$, where there are $1996$ zeros after the decimal point. Which of the following expressions represents the largest number?",
+      "answerChoices": [
+        "$3+x$",
+        "$3-x$",
+        "$3\\cdot x$",
+        "$\\frac{3}{x}$",
+        "$\\frac{x}{3}$"
+      ],
+      "answer": "D",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1996-12",
+      "name": "Problem 12 (1996 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1996_AJHSME_Problems/Problem_12",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "categorization": "Mean, Median, Mode, and Harmonic Mean",
+      "tags": [
+        "Average",
+        "Sum of Sequence"
+      ],
+      "statement": "What number should be removed from the list $1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11$ so that the average of the remaining numbers is $6.1$?",
+      "answerChoices": [
+        "$4$",
+        "$5$",
+        "$6$",
+        "$7$",
+        "$8$"
+      ],
+      "answer": "B",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1996-13",
+      "name": "Problem 13 (1996 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1996_AJHSME_Problems/Problem_13",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "categorization": "Geometric Sequences",
+      "tags": [
+        "Percents",
+        "Growth"
+      ],
+      "statement": "In the fall of $1996$, a total of $800$ students participated in an annual school clean-up day. The organizers of the event expect that in each of the years $1997$, $1998$, and $1999$, participation will increase by $50\\%$ over the previous year. The number of participants the organizers will expect in the fall of $1999$ is",
+      "answerChoices": [
+        "$1200$",
+        "$1500$",
+        "$2000$",
+        "$2400$",
+        "$2700$"
+      ],
+      "answer": "E",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1996-14",
+      "name": "Problem 14 (1996 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1996_AJHSME_Problems/Problem_14",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "categorization": "Arithmetic and Number Theory Basics",
+      "tags": [
+        "Cross Sum",
+        "Digit Placement"
+      ],
+      "statement": "Six different digits from the set $\\{1,2,3,4,5,6,7,8,9\\}$ are placed in the squares in the figure shown so that the sum of the entries in the vertical column is $23$ and the sum of the entries in the horizontal row is $12$. The sum of the six digits used is [See figure in original PDF]",
+      "answerChoices": [
+        "$27$",
+        "$29$",
+        "$31$",
+        "$33$",
+        "$35$"
+      ],
+      "answer": "B",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1996-15",
+      "name": "Problem 15 (1996 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1996_AJHSME_Problems/Problem_15",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "categorization": "Arithmetic and Number Theory Basics",
+      "tags": [
+        "Modular Arithmetic",
+        "Units Digit"
+      ],
+      "statement": "The remainder when the product $1492 \\cdot 1776 \\cdot 1812 \\cdot 1996$ is divided by $5$ is",
+      "answerChoices": [
+        "$0$",
+        "$1$",
+        "$2$",
+        "$3$",
+        "$4$"
+      ],
+      "answer": "E",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1996-16",
+      "name": "Problem 16 (1996 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1996_AJHSME_Problems/Problem_16",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "categorization": "Arithmetic Sequences",
+      "tags": [
+        "Sum of Sequence",
+        "Pattern Recognition"
+      ],
+      "statement": "$1-2-3+4+5-6-7+8+9-10-11+\\cdot\\cdot\\cdot+1992+1993-1994-1995+1996=$",
+      "answerChoices": [
+        "$-998$",
+        "$-1$",
+        "$0$",
+        "$1$",
+        "$998$"
+      ],
+      "answer": "C",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1996-17",
+      "name": "Problem 17 (1996 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1996_AJHSME_Problems/Problem_17",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "categorization": "Coordinate Geometry Basics",
+      "tags": [
+        "Area of a Triangle",
+        "Square Area"
+      ],
+      "statement": "Figure $OPQR$ is a square. Point $O$ is the origin, and point $Q$ has coordinates $(2, 2)$. What are the coordinates for $T$ so that the area of triangle $PQT$ equals the area of square $OPQR$? [See figure in original PDF]",
+      "answerChoices": [
+        "$(-6,0)$",
+        "$(-4,0)$",
+        "$(-2,0)$",
+        "$(2,0)$",
+        "$(4,0)$"
+      ],
+      "answer": "C",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1996-18",
+      "name": "Problem 18 (1996 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1996_AJHSME_Problems/Problem_18",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "categorization": "Word Problems",
+      "tags": [
+        "Percents",
+        "Sequential Changes"
+      ],
+      "statement": "Ana's monthly salary was $\\$2000$ in May. In June she received a $20\\%$ raise. In July she received a $20\\%$ pay cut. After the two changes in June and July, Ana's monthly salary was",
+      "answerChoices": [
+        "$1920$ dollars",
+        "$1980$ dollars",
+        "$2000$ dollars",
+        "$2020$ dollars",
+        "$2040$ dollars"
+      ],
+      "answer": "A",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1996-19",
+      "name": "Problem 19 (1996 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1996_AJHSME_Problems/Problem_19",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "categorization": "Word Problems",
+      "tags": [
+        "Percents",
+        "Weighted Average",
+        "Pie Chart"
+      ],
+      "statement": "The pie charts below indicate the percent of students who prefer golf, bowling, or tennis at East Junior High School and West Middle School. The total number of students at East is $2000$ and at West, $2500$. In the two schools combined, the percent of students who prefer tennis is [See figure in original PDF]",
+      "answerChoices": [
+        "$30\\%$",
+        "$31\\%$",
+        "$32\\%$",
+        "$33\\%$",
+        "$34\\%$"
+      ],
+      "answer": "C",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1996-20",
+      "name": "Problem 20 (1996 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1996_AJHSME_Problems/Problem_20",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "categorization": "Algebra Basics",
+      "tags": [
+        "Functions",
+        "Periodic Sequence"
+      ],
+      "statement": "Suppose there is a special key on a calculator that replaces the number currently displayed with the number given by the formula $\\frac{1}{1-x}$. For example, if the calculator is displaying $2$ and the special key is pressed, then the calculator will display $-1$ since $\\frac{1}{1-2}=-1$. Now suppose that the calculator is displaying $5$. After the special key is pressed $100$ times in a row, the calculator will display",
+      "answerChoices": [
+        "$0.25$",
+        "$0$",
+        "$0.8$",
+        "$1.25$",
+        "$5$"
+      ],
+      "answer": "A",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1996-21",
+      "name": "Problem 21 (1996 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1996_AJHSME_Problems/Problem_21",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "categorization": "Counting Fundamentals",
+      "tags": [
+        "Parity",
+        "Combinations"
+      ],
+      "statement": "How many subsets containing three different numbers can be selected from the set $\\{89, 95, 99, 132, 166, 173\\}$ so that the sum of the three numbers is even?",
+      "answerChoices": [
+        "$6$",
+        "$8$",
+        "$10$",
+        "$12$",
+        "$24$"
+      ],
+      "answer": "D",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1996-22",
+      "name": "Problem 22 (1996 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1996_AJHSME_Problems/Problem_22",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "categorization": "Geometry Basics",
+      "tags": [
+        "Pick's Theorem",
+        "Area on a Grid"
+      ],
+      "statement": "The horizontal and vertical distances between adjacent points equal $1$ unit. The area of triangle $ABC$ is [See figure in original PDF]",
+      "answerChoices": [
+        "$\\frac{1}{4}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{3}{4}$",
+        "$1$",
+        "$\\frac{5}{4}$"
+      ],
+      "answer": "B",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1996-23",
+      "name": "Problem 23 (1996 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1996_AJHSME_Problems/Problem_23",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "categorization": "Word Problems",
+      "tags": [
+        "System of Equations"
+      ],
+      "statement": "The manager of a company planned to distribute a $\\$50$ bonus to each employee from the company fund, but the fund contained $\\$5$ less than what was needed. Instead the manager gave each employee a $\\$45$ bonus and kept the remaining $\\$95$ in the company fund. The amount of money in the company fund before any bonuses were paid was",
+      "answerChoices": [
+        "$945$ dollars",
+        "$950$ dollars",
+        "$955$ dollars",
+        "$990$ dollars",
+        "$995$ dollars"
+      ],
+      "answer": "E",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1996-24",
+      "name": "Problem 24 (1996 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1996_AJHSME_Problems/Problem_24",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "categorization": "Triangle Angle Sum",
+      "tags": [
+        "Angle Bisectors"
+      ],
+      "statement": "The measure of angle $ABC$ is $50^{\\circ}$. $\\overline{AD}$ bisects angle $BAC$, and $\\overline{DC}$ bisects angle $BCA$. The measure of angle $ADC$ is [See figure in original PDF]",
+      "answerChoices": [
+        "$90^{\\circ}$",
+        "$100^{\\circ}$",
+        "$115^{\\circ}$",
+        "$122.5^{\\circ}$",
+        "$125^{\\circ}$"
+      ],
+      "answer": "C",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1996-25",
+      "name": "Problem 25 (1996 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1996_AJHSME_Problems/Problem_25",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "categorization": "Introduction to Probability",
+      "tags": [
+        "Geometric Probability",
+        "Area"
+      ],
+      "statement": "A point is chosen at random from within a circular region. What is the probability that the point is closer to the center of the region than it is to the boundary of the region?",
+      "answerChoices": [
+        "$\\frac{1}{4}$",
+        "$\\frac{1}{3}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{3}{4}$"
+      ],
+      "answer": "A",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "uniqueId": "amc8-2005-23",
+    "name": "Problem 23 (2005 AMC 8)",
+    "url": "https://artofproblemsolving.com/wiki/index.php?title=2005_AMC_8_Problems/Problem_23",
+    "source": "AMC 8",
+    "difficulty": "Normal",
+    "isStarred": false,
+    "categorization": "Special Right Triangles",
+    "tags": [
+      "Inscribed Circle",
+      "Area"
+    ],
+    "statement": "Isosceles right triangle $ABC$ encloses a semicircle of area $2\\pi$. The circle has its center $O$ on hypotenuse $AB$ and is tangent to sides $\\overline{AC}$ and $\\overline{BC}$. What is the area of triangle $ABC$? [See figure in original PDF]",
+    "answerChoices": [
+      "$6$",
+      "$8$",
+      "$3\\pi$",
+      "$10$",
+      "$4\\pi$"
+    ],
+    "answer": "B",
+    "solutionMetadata": {
+      "kind": "none"
+    }
+  }
+]

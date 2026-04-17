@@ -1,7 +1,13 @@
 import React from 'react'
 
 const ContestWidget = () => (
-  <div className="bg-zinc-900/50 rounded-2xl p-6 border border-white/10 shadow-2xl animate-in zoom-in-95">
+  <div
+    className="rounded-2xl p-6 shadow-lg animate-in zoom-in-95"
+    style={{
+      border: '1px solid rgba(229, 194, 255, 0.12)',
+      background: 'linear-gradient(180deg, rgba(54, 37, 72, 0.9) 0%, rgba(31, 22, 42, 0.94) 100%)',
+    }}
+  >
     <img
       src="/images/Contests.jpg"
       alt="Contest widget"

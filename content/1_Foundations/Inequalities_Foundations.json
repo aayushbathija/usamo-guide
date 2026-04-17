@@ -1,85 +1,296 @@
 {
-    "MODULE_ID": "inequalities-foundations",
-    "practice": [
-      {
-        "uniqueId": "amc8-2018-16",
-        "name": "Problem 16 (2018 AMC 8)",
-        "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_8_Problems/Problem_16",
-        "source": "AMC 8",
-        "difficulty": "Normal",
-        "isStarred": false,
-        "tags": ["Algebra", "Inequalities", "Intervals"],
-        "solutionMetadata": { "kind": "none" }
-      },
-      {
-        "uniqueId": "amc10-2019a-14",
-        "name": "Problem 14 (2019 AMC 10A)",
-        "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_14",
-        "source": "AMC 10",
-        "difficulty": "Normal",
-        "isStarred": true,
-        "tags": ["Algebra", "Absolute Value", "Distance"],
-        "solutionMetadata": { "kind": "none" }
-      },
-      {
-        "uniqueId": "amc10-2017a-8",
-        "name": "Problem 8 (2017 AMC 10A)",
-        "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_8",
-        "source": "AMC 10",
-        "difficulty": "Normal",
-        "isStarred": false,
-        "tags": ["Algebra", "Bounding", "Inequalities"],
-        "solutionMetadata": { "kind": "none" }
-      },
-      {
-        "uniqueId": "amc12-2002b-8",
-        "name": "Problem 8 (2002 AMC 12B)",
-        "url": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_12B_Problems/Problem_8",
-        "source": "AMC 12",
-        "difficulty": "Normal",
-        "isStarred": false,
-        "tags": ["Algebra", "Optimization", "Trivial Inequality"],
-        "solutionMetadata": { "kind": "none" }
-      },
-      {
-        "uniqueId": "amc10-2020a-9",
-        "name": "Problem 9 (2020 AMC 10A)",
-        "url": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_9",
-        "source": "AMC 10",
-        "difficulty": "Normal",
-        "isStarred": true,
-        "tags": ["Algebra", "Systems of Inequalities", "Absolute Value"],
-        "solutionMetadata": { "kind": "none" }
-      },
-      {
-        "uniqueId": "amc10-2021fall-16",
-        "name": "Problem 16 (2021 Fall AMC 10A)",
-        "url": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10A_Problems/Problem_16",
-        "source": "AMC 10",
-        "difficulty": "Hard",
-        "isStarred": false,
-        "tags": ["Algebra", "Quadratics", "Vertex Formulation"],
-        "solutionMetadata": { "kind": "none" }
-      },
-      {
-        "uniqueId": "amc10-2015a-15",
-        "name": "Problem 15 (2015 AMC 10A)",
-        "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_15",
-        "source": "AMC 10",
-        "difficulty": "Hard",
-        "isStarred": true,
-        "tags": ["Algebra", "Symmetry", "Equalization"],
-        "solutionMetadata": { "kind": "none" }
-      },
-      {
-        "uniqueId": "amc12-2019a-18",
-        "name": "Problem 18 (2019 AMC 12A)",
-        "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_12A_Problems/Problem_18",
-        "source": "AMC 12",
-        "difficulty": "Hard",
-        "isStarred": false,
-        "tags": ["Algebra", "AM-GM", "Optimization"],
-        "solutionMetadata": { "kind": "none" }
+  "MODULE_ID": "inequalities-foundations",
+  "practice": [
+    {
+      "uniqueId": "amc8-2018-16",
+      "name": "Problem 16 (2018 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_8_Problems/Problem_16",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Algebra",
+        "Inequalities",
+        "Intervals"
+      ],
+      "solutionMetadata": {
+        "kind": "none"
       }
-    ]
-  }
+    },
+    {
+      "uniqueId": "amc10-2019a-14",
+      "name": "Problem 14 (2019 AMC 10A)",
+      "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_14",
+      "source": "AMC 10",
+      "difficulty": "Normal",
+      "isStarred": true,
+      "tags": [
+        "Algebra",
+        "Absolute Value",
+        "Distance"
+      ],
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc10-2017a-8",
+      "name": "Problem 8 (2017 AMC 10A)",
+      "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_8",
+      "source": "AMC 10",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Algebra",
+        "Bounding",
+        "Inequalities"
+      ],
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc12-2002b-8",
+      "name": "Problem 8 (2002 AMC 12B)",
+      "url": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_12B_Problems/Problem_8",
+      "source": "AMC 12",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Algebra",
+        "Optimization",
+        "Trivial Inequality"
+      ],
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc10-2020a-9",
+      "name": "Problem 9 (2020 AMC 10A)",
+      "url": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_9",
+      "source": "AMC 10",
+      "difficulty": "Normal",
+      "isStarred": true,
+      "tags": [
+        "Algebra",
+        "Systems of Inequalities",
+        "Absolute Value"
+      ],
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc10-2021fall-16",
+      "name": "Problem 16 (2021 Fall AMC 10A)",
+      "url": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10A_Problems/Problem_16",
+      "source": "AMC 10",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Algebra",
+        "Quadratics",
+        "Vertex Formulation"
+      ],
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc10-2015a-15",
+      "name": "Problem 15 (2015 AMC 10A)",
+      "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_15",
+      "source": "AMC 10",
+      "difficulty": "Hard",
+      "isStarred": true,
+      "tags": [
+        "Algebra",
+        "Symmetry",
+        "Equalization"
+      ],
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc12-2019a-18",
+      "name": "Problem 18 (2019 AMC 12A)",
+      "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_12A_Problems/Problem_18",
+      "source": "AMC 12",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Algebra",
+        "AM-GM",
+        "Optimization"
+      ],
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1985-18",
+      "name": "Problem 18 (1985 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1985_AJHSME_Problems/Problem_18",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Bounding",
+        "Word Problems"
+      ],
+      "statement": "Nine copies of a certain pamphlet cost less than $\\$10.00$ while ten copies of the same pamphlet (at the same price) cost more than $\\$11.00$. How much does one copy of this pamphlet cost?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\$1.07$",
+          "$\\$1.08$",
+          "$\\$1.09$",
+          "$\\$1.10$",
+          "$\\$1.11$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1992-19",
+      "name": "Problem 19 (1992 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1992_AJHSME_Problems/Problem_19",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Extremal Principle",
+        "Maximization"
+      ],
+      "statement": "The distance between the $5^{\\text{th}}$ and $26^{\\text{th}}$ exits on an interstate highway is $118$ miles. If any two exits are at least $5$ miles apart, then what is the largest number of miles there can be between two consecutive exits that are between the $5^{\\text{th}}$ and $26^{\\text{th}}$ exits?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$8$",
+          "$13$",
+          "$18$",
+          "$47$",
+          "$98$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1985-18",
+      "name": "Problem 18 (1985 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1985_AJHSME_Problems/Problem_18",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Bounding",
+        "Word Problems"
+      ],
+      "statement": "Nine copies of a certain pamphlet cost less than $\\$10.00$ while ten copies of the same pamphlet (at the same price) cost more than $\\$11.00$. How much does one copy of this pamphlet cost?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\$1.07$",
+          "$\\$1.08$",
+          "$\\$1.09$",
+          "$\\$1.10$",
+          "$\\$1.11$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1992-19",
+      "name": "Problem 19 (1992 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1992_AJHSME_Problems/Problem_19",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Extremal Principle",
+        "Maximization"
+      ],
+      "statement": "The distance between the $5^{\\text{th}}$ and $26^{\\text{th}}$ exits on an interstate highway is $118$ miles. If any two exits are at least $5$ miles apart, then what is the largest number of miles there can be between two consecutive exits that are between the $5^{\\text{th}}$ and $26^{\\text{th}}$ exits?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$8$",
+          "$13$",
+          "$18$",
+          "$47$",
+          "$98$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2007-15",
+      "name": "Problem 15 (2007 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2007_AMC_8_Problems/Problem_15",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Algebraic Inequalities",
+        "Bounds"
+      ],
+      "statement": "Let $a$, $b$ and $c$ be numbers with $0<a<b<c$. Which of the following is impossible?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$a+c<b$",
+          "$a\\cdot b<c$",
+          "$a+b<c$",
+          "$a\\cdot c<b$",
+          "$\\frac{b}{c}=a$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2008-22",
+      "name": "Problem 22 (2008 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2008_AMC_8_Problems/Problem_22",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Bounds",
+        "Divisibility",
+        "Integers"
+      ],
+      "statement": "For how many positive integer values of $n$ are both $\\frac{n}{3}$ and $3n$ three-digit whole numbers?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$12$",
+          "$21$",
+          "$27$",
+          "$33$",
+          "$34$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    }
+  ]
+}

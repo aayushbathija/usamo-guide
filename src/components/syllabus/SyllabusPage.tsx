@@ -21,10 +21,10 @@ import ModuleLink from './ModuleLink';
 import TopNavigationBar from '../TopNavigationBar/TopNavigationBar';
 
 const HeroAccentColor: { [key in SectionID]: string } = {
-  foundations: 'from-sky-500 to-orange-500',
-  intermediate: 'from-orange-500 to-sky-500',
-  advanced: 'from-sky-500 to-orange-500',
-  usamo: 'from-orange-500 to-sky-500',
+  foundations: 'from-[#09050D] to-[#160E1F]',
+  intermediate: 'from-[#0A0510] to-[#170F22]',
+  advanced: 'from-[#08040E] to-[#140C1C]',
+  usamo: 'from-[#07030C] to-[#120B19]',
 };
 
 const SECTION_DESCRIPTION: { [key in SectionID]: React.ReactNode } = {
@@ -129,7 +129,7 @@ export default function SyllabusPage({
         image={null}
         pathname={path}
       />
-      <div className="relative min-h-screen overflow-hidden bg-gradient-to-b from-orange-50 via-blue-50 to-white dark:from-[#1b120a] dark:via-[#0a192f] dark:to-[#0d1321]">
+      <div className="relative min-h-screen overflow-hidden bg-gradient-to-b from-[#050308] via-[#090611] to-[#120A18]">
         <div className="pointer-events-none absolute inset-0">
           <div className="absolute inset-0 opacity-30 [mask-image:radial-gradient(ellipse_at_center,white_30%,transparent_75%)]">
             <svg className="h-full w-full" xmlns="http://www.w3.org/2000/svg">
@@ -145,7 +145,7 @@ export default function SyllabusPage({
                     fill="none"
                     stroke="currentColor"
                     strokeWidth="1"
-                    className="text-orange-300/80 dark:text-sky-400/40"
+                    className="text-[#F0C2FF]/30"
                   />
                 </pattern>
               </defs>
@@ -157,23 +157,23 @@ export default function SyllabusPage({
         <TopNavigationBar />
 
         <main>
-          <div className="relative py-12 sm:py-16">
+            <div className="relative py-12 sm:py-16">
             <div
               className={`absolute inset-x-0 top-0 h-full bg-gradient-to-br ${HeroAccentColor[division]} opacity-90`}
             />
-            <div className="pointer-events-none absolute inset-x-0 top-0 h-full bg-[radial-gradient(circle_at_80%_20%,rgba(14,165,233,0.2),transparent_35%),radial-gradient(circle_at_20%_80%,rgba(249,115,22,0.2),transparent_35%)]" />
+            <div className="pointer-events-none absolute inset-x-0 top-0 h-full bg-[radial-gradient(circle_at_80%_20%,rgba(201,140,171,0.08),transparent_28%),radial-gradient(circle_at_20%_80%,rgba(112,66,138,0.16),transparent_34%)]" />
 
             <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-              <h1 className="mb-6 text-center text-5xl leading-10 font-black tracking-tight text-white sm:leading-none md:text-6xl">
+              <h1 className="mb-6 text-center text-5xl leading-10 font-black tracking-tight text-[#F4EDEA] sm:leading-none md:text-6xl">
                 {SECTION_LABELS[division]}
               </h1>
-              <p className="mx-auto mb-8 max-w-4xl text-center text-orange-50 sm:mb-10">
+              <p className="mx-auto mb-8 max-w-4xl text-center text-[#F4EDEA]/90 sm:mb-10">
                 {SECTION_DESCRIPTION[division]}
               </p>
 
               {!isFoundations && (
-                <div className="mx-auto mb-8 max-w-4xl rounded-2xl border border-amber-200/80 bg-amber-50/90 px-6 py-4 text-center shadow-sm dark:border-amber-500/40 dark:bg-amber-900/20">
-                  <p className="text-sm font-semibold text-amber-900 dark:text-amber-100 sm:text-base">
+                <div className="mx-auto mb-8 max-w-4xl rounded-2xl border border-[#F0C2FF44] bg-[#171228]/76 px-6 py-4 text-center shadow-sm">
+                  <p className="text-sm font-semibold text-[#F0C2FF] sm:text-base">
                     This section is currently under development. The content you see here is filler for now.
                   </p>
                 </div>
@@ -182,24 +182,40 @@ export default function SyllabusPage({
               <div className="mb-8 flex flex-wrap items-center justify-center gap-4">
                 <Link
                   to="/dashboard"
-                  className="inline-block rounded-full border-orange-600 bg-linear-to-br from-orange-300 to-orange-500 px-7 py-3 text-sm font-bold text-white transition-all duration-300 hover:scale-105 hover:shadow-[0_0_20px_rgba(251,146,60,0.45)]"
+                  className="purple-motion-effect inline-flex items-center justify-center rounded-full px-6 py-3 md:px-8 md:py-3 font-mono text-lg font-bold leading-tight"
+                  style={{
+                    border: '1px solid rgba(240, 194, 255, 0.34)',
+                    background: 'linear-gradient(135deg, #5A2F87 0%, #C58BFF 100%)',
+                    boxShadow: 'none',
+                    '--pme-color': '#F4EDEA',
+                    '--pme-hover-color': '#201C36',
+                    '--pme-wipe-bg': '#F0C2FF',
+                  } as React.CSSProperties}
                 >
-                  Continue Learning {'>'}
+                  Continue Learning &gt;
                 </Link>
                 <a
                   href="https://discord.gg/X2zx6u53XH"
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-block rounded-full border border-white/60 bg-white/90 px-7 py-3 text-sm font-bold text-slate-900 transition hover:border-orange-200 hover:text-orange-700"
+                  className="purple-motion-effect inline-flex items-center justify-center rounded-full px-6 py-3 md:px-8 md:py-3 font-mono text-lg font-bold leading-tight"
+                  style={{
+                    border: '1px solid rgba(240, 194, 255, 0.34)',
+                    background: 'linear-gradient(135deg, #FFF8FF 0%, #F3E7FF 38%, #D7B2FF 100%)',
+                    boxShadow: 'none',
+                    '--pme-color': '#2C1842',
+                    '--pme-hover-color': '#201C36',
+                    '--pme-wipe-bg': '#F0C2FF',
+                  } as React.CSSProperties}
                 >
                   Join Community
                 </a>
               </div>
 
               <div className="mx-auto grid max-w-2xl gap-8 lg:max-w-full lg:grid-cols-2">
-                <div className="rounded-xl border border-orange-200/60 bg-white/90 shadow-[0_10px_35px_rgba(249,115,22,0.18)] backdrop-blur sm:rounded-2xl dark:border-sky-500/30 dark:bg-[#0f172a]/80">
+                <div className="rounded-xl border border-[#F0C2FF33] bg-[#171228]/68 shadow-[0_10px_35px_rgba(17,10,29,0.36)] backdrop-blur sm:rounded-2xl">
                   <div className="px-4 py-5 sm:p-6">
-                    <h3 className="text-lg leading-6 font-semibold text-slate-900 dark:text-slate-100">
+                    <h3 className="text-lg leading-6 font-semibold text-[#F4EDEA]">
                       Modules Progress
                     </h3>
                     <div className="mt-6">
@@ -210,9 +226,9 @@ export default function SyllabusPage({
                     </div>
                   </div>
                 </div>
-                <div className="rounded-xl border border-sky-200/70 bg-white/90 shadow-[0_10px_35px_rgba(14,165,233,0.18)] backdrop-blur sm:rounded-2xl dark:border-orange-500/30 dark:bg-[#0f172a]/80">
+                <div className="rounded-xl border border-[#F0C2FF33] bg-[#171228]/68 shadow-[0_10px_35px_rgba(17,10,29,0.36)] backdrop-blur sm:rounded-2xl">
                   <div className="px-4 py-5 sm:p-6">
-                    <h3 className="text-lg leading-6 font-semibold text-slate-900 dark:text-slate-100">
+                    <h3 className="text-lg leading-6 font-semibold text-[#F4EDEA]">
                       Problems Progress
                     </h3>
                     <div className="mt-6">
@@ -231,17 +247,17 @@ export default function SyllabusPage({
             {section.map(category => (
               <div
                 key={category.name}
-                className="group/category flex flex-col rounded-2xl border border-orange-100/70 bg-white/70 p-4 shadow-sm transition hover:border-orange-200 md:flex-row dark:border-white/10 dark:bg-white/5"
+                className="group/category flex flex-col rounded-2xl border border-[#F0C2FF2E] bg-[#171228]/58 p-4 shadow-sm transition hover:border-[#F0C2FF55] md:flex-row"
               >
                 <div className="flex flex-1 flex-col items-center justify-center pr-0 text-center md:pr-12">
-                  <h2 className="py-3 text-2xl leading-tight font-bold tracking-tight text-slate-700 transition group-hover/category:text-slate-900 md:text-3xl dark:text-slate-200 dark:group-hover/category:text-white">
+                  <h2 className="py-3 text-2xl leading-tight font-bold tracking-tight text-[#F4EDEA] transition group-hover/category:text-[#F0C2FF] md:text-3xl">
                     {category.name}
                   </h2>
-                  <div className="py-2 leading-6 text-slate-500 transition group-hover/category:text-slate-800 dark:text-slate-400 dark:group-hover/category:text-slate-200">
+                  <div className="py-2 leading-6 text-[#D2D4C8] transition group-hover/category:text-[#F4EDEA]">
                     {/* eslint-disable-next-line react-hooks/rules-of-hooks */}
                     {useProgressBarForCategory(category)}
                   </div>
-                  <p className="max-w-sm text-sm text-slate-500 transition group-hover/category:text-slate-700 dark:text-slate-400 dark:group-hover/category:text-slate-200">
+                  <p className="max-w-sm text-sm text-[#D2D4C8] transition group-hover/category:text-[#F4EDEA]">
                     {category.description}
                   </p>
                 </div>

@@ -1,58 +1,85 @@
 {
   "MODULE_ID": "special-quadrilaterals",
   "practice": [
- 
-  {
-    "uniqueId": "amc10a-2019-6",
-    "name": "Problem 6 (2019 AMC 10A)",
-    "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_6",
-    "source": "AMC 10A",
-    "difficulty": "Easy",
-    "isStarred": false,
-    "tags": [
-      "Geometry",
-      "Special Quadrilaterals",
-      "Circumcircle"
-    ],
-    "statement": "For how many of the following types of quadrilaterals does there exist a point in the plane that is equidistant from all four vertices? a square, a rectangle (not square), a rhombus (not square), a parallelogram (not rectangle/rhombus), an isosceles trapezoid (not parallelogram)",
-    "solutionMetadata": {
-      "kind": "none"
+    {
+      "uniqueId": "amc10a-2019-6",
+      "name": "Problem 6 (2019 AMC 10A)",
+      "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_6",
+      "source": "AMC 10A",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Geometry",
+        "Special Quadrilaterals",
+        "Circumcircle"
+      ],
+      "statement": "For how many of the following types of quadrilaterals does there exist a point in the plane that is equidistant from all four vertices? a square, a rectangle (not square), a rhombus (not square), a parallelogram (not rectangle/rhombus), an isosceles trapezoid (not parallelogram)",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "aime-1991-12",
+      "name": "Problem 12 (1991 AIME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php/1991_AIME_Problems/Problem_12",
+      "source": "AIME",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Geometry",
+        "Special Quadrilaterals",
+        "Rhombus"
+      ],
+      "statement": "A rhombus is inscribed in a rectangle with side lengths 7 and 24 so that the vertices are interior points on each side. The longer diagonal is parallel to the longer side. If the perimeter is m√n, find m + n.",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2019-4",
+      "name": "Problem 4 (2019 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_4",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Geometry",
+        "Special Quadrilaterals",
+        "Rhombus",
+        "Area"
+      ],
+      "statement": "Quadrilateral ABCD is a rhombus with perimeter 52 meters. The length of diagonal AC is 24 meters. What is the area, in square meters, of rhombus ABCD?",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2003-21",
+      "name": "Problem 21 (2003 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2003_AMC_8_Problems/Problem_21",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Trapezoids",
+        "Area",
+        "Right Triangles"
+      ],
+      "statement": "The area of trapezoid $ABCD$ is $164\\text{ cm}^2$. The altitude is $8\\text{ cm}$, $AB$ is $10\\text{ cm}$, and $CD$ is $17\\text{ cm}$. What is $BC$, in centimeters? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$9$",
+          "$10$",
+          "$12$",
+          "$15$",
+          "$20$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
     }
-  },
-  {
-    "uniqueId": "aime-1991-12",
-    "name": "Problem 12 (1991 AIME)",
-    "url": "https://artofproblemsolving.com/wiki/index.php/1991_AIME_Problems/Problem_12",
-    "source": "AIME",
-    "difficulty": "Hard",
-    "isStarred": false,
-    "tags": [
-      "Geometry",
-      "Special Quadrilaterals",
-      "Rhombus"
-    ],
-    "statement": "A rhombus is inscribed in a rectangle with side lengths 7 and 24 so that the vertices are interior points on each side. The longer diagonal is parallel to the longer side. If the perimeter is m√n, find m + n.",
-    "solutionMetadata": {
-      "kind": "none"
-    }
-  },
-  {
-    "uniqueId": "amc8-2019-4",
-    "name": "Problem 4 (2019 AMC 8)",
-    "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_4",
-    "source": "AMC 8",
-    "difficulty": "Easy",
-    "isStarred": false,
-    "tags": [
-      "Geometry",
-      "Special Quadrilaterals",
-      "Rhombus",
-      "Area"
-    ],
-    "statement": "Quadrilateral ABCD is a rhombus with perimeter 52 meters. The length of diagonal AC is 24 meters. What is the area, in square meters, of rhombus ABCD?",
-    "solutionMetadata": {
-      "kind": "none"
-    }
-  }
-]
+  ]
 }

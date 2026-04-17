@@ -19,23 +19,6 @@
       }
     },
     {
-      "uniqueId": "amc8-2016-22",
-      "name": "Problem 22 (2016 AMC 8)",
-      "url": "https://artofproblemsolving.com/wiki/index.php?title=2016_AMC_8_Problems/Problem_22",
-      "source": "AMC 8",
-      "difficulty": "Medium",
-      "isStarred": false,
-      "tags": [
-        "Geometry Basics",
-        "Circles",
-        "Angles"
-      ],
-      "statement": "Two congruent circles centered at points $A$ and $B$ each pass through the other circle's center. The line containing both $A$ and $B$ is extended to intersect the circles at points $C$ and $D$. The circles intersect at two points, one of which is $E$. What is the degree measure of $\\angle CED$?",
-      "solutionMetadata": {
-        "kind": "none"
-      }
-    },
-    {
       "uniqueId": "amc10a-2017-9",
       "name": "Problem 9 (2017 AMC 10A)",
       "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_9",
@@ -55,7 +38,7 @@
     {
       "uniqueId": "amc8-2016-14",
       "name": "Problem 14 (2016 AMC 8)",
-      "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_8_Problems/Problem_14",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2016_AMC_8_Problems/Problem_14",
       "source": "AMC 8",
       "difficulty": "Medium",
       "isStarred": false,
@@ -66,6 +49,4971 @@
         "Triangles"
       ],
       "statement": "Rectangle $DEFA$ below is a $3 \\times 4$ rectangle with $DC = CB = BA = 1$. What is the area of the shaded region (the \"bat wings\")?",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1985-4",
+      "name": "Problem 4 (1985 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1985_AJHSME_Problems/Problem_4",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Polygons"
+      ],
+      "statement": "The area of polygon $ABCDEF$, in square units, is [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$24$",
+          "$30$",
+          "$46$",
+          "$66$",
+          "$74$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1985-11",
+      "name": "Problem 11 (1985 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1985_AJHSME_Problems/Problem_11",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "3D Geometry",
+        "Nets"
+      ],
+      "statement": "A piece of paper containing six joined squares labeled as shown in the diagram is folded along the edges of the squares to form a cube. The label of the face opposite the face labeled $X$ is: [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$Z$",
+          "$U$",
+          "$V$",
+          "$W$",
+          "$Y$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1985-12",
+      "name": "Problem 12 (1985 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1985_AJHSME_Problems/Problem_12",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Perimeter",
+        "Area",
+        "Squares"
+      ],
+      "statement": "A square and a triangle have equal perimeters. The lengths of the three sides of the triangle are $6.2\\text{ cm}$, $8.3\\text{ cm}$, and $9.5\\text{ cm}$. The area of the square is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$24\\text{ cm}^2$",
+          "$36\\text{ cm}^2$",
+          "$48\\text{ cm}^2$",
+          "$64\\text{ cm}^2$",
+          "$144\\text{ cm}^2$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1985-19",
+      "name": "Problem 19 (1985 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1985_AJHSME_Problems/Problem_19",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Percentages",
+        "Perimeter"
+      ],
+      "statement": "If the length and width of a rectangle are each increased by $10\\%$, then the perimeter of the rectangle is increased by",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1\\%$",
+          "$10\\%$",
+          "$20\\%$",
+          "$21\\%$",
+          "$40\\%$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1986-13",
+      "name": "Problem 13 (1986 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1986_AJHSME_Problems/Problem_13",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Perimeter",
+        "Rectilinear Polygons"
+      ],
+      "statement": "Given that all angles shown are right angles, the perimeter of the polygon shown is [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$14$",
+          "$20$",
+          "$28$",
+          "$48$",
+          "cannot be determined"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1986-21",
+      "name": "Problem 21 (1986 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1986_AJHSME_Problems/Problem_21",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Nets of Cubes",
+        "Spatial Visualization"
+      ],
+      "statement": "Suppose one of the eight lettered identical squares is included with the four squares in the T-shaped figure outlined. How many of the resulting figures can be folded into a topless cubical box? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$2$",
+          "$3$",
+          "$4$",
+          "$5$",
+          "$6$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1986-23",
+      "name": "Problem 23 (1986 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1986_AJHSME_Problems/Problem_23",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Area of a Circle",
+        "Ratios"
+      ],
+      "statement": "The large circle has diameter $\\overline{AC}$. The two small circles have their centers on $\\overline{AC}$ and just touch at $O$, the center of the large circle. If each small circle has radius $1$, what is the value of the ratio of the area of the shaded region to the area of one of the small circles? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "between $\\frac{1}{2}$ and $1$",
+          "$1$",
+          "between $1$ and $\\frac{3}{2}$",
+          "between $\\frac{3}{2}$ and $2$",
+          "cannot be determined"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1987-5",
+      "name": "Problem 5 (1987 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1987_AJHSME_Problems/Problem_5",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Area of a Rectangle",
+        "Decimals"
+      ],
+      "statement": "The area of the rectangular region is [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$.088\\text{ m}^2$",
+          "$.62\\text{ m}^2$",
+          "$.88\\text{ m}^2$",
+          "$1.24\\text{ m}^2$",
+          "$4.22\\text{ m}^2$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1987-7",
+      "name": "Problem 7 (1987 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1987_AJHSME_Problems/Problem_7",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "3D Geometry",
+        "Cubes",
+        "Counting"
+      ],
+      "statement": "The large cube shown is made up of $27$ identical sized smaller cubes. For each face of the large cube, the opposite face is shaded the same way. The total number of smaller cubes that must have at least one face shaded is [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$10$",
+          "$16$",
+          "$20$",
+          "$22$",
+          "$24$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1987-12",
+      "name": "Problem 12 (1987 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1987_AJHSME_Problems/Problem_12",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Fractions"
+      ],
+      "statement": "What fraction of the large $12$ by $18$ rectangular region is shaded? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{108}$",
+          "$\\frac{1}{18}$",
+          "$\\frac{1}{12}$",
+          "$\\frac{2}{9}$",
+          "$\\frac{1}{3}$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1987-22",
+      "name": "Problem 22 (1987 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1987_AJHSME_Problems/Problem_22",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Area of a Circle",
+        "Area of a Rectangle",
+        "Pythagorean Theorem"
+      ],
+      "statement": "$ABCD$ is a rectangle, $D$ is the center of the circle, and $B$ is on the circle. If $AD=4$ and $CD=3$, then the area of the shaded region is between [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$4 \\text{ and } 5$",
+          "$5 \\text{ and } 6$",
+          "$6 \\text{ and } 7$",
+          "$7 \\text{ and } 8$",
+          "$8 \\text{ and } 9$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1988-5",
+      "name": "Problem 5 (1988 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1988_AJHSME_Problems/Problem_5",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Angle Measurement",
+        "Protractor"
+      ],
+      "statement": "If $\\angle CBD$ is a right angle, then this protractor indicates that the measure of $\\angle ABC$ is approximately [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$20^{\\circ}$",
+          "$40^{\\circ}$",
+          "$50^{\\circ}$",
+          "$70^{\\circ}$",
+          "$120^{\\circ}$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1988-9",
+      "name": "Problem 9 (1988 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1988_AJHSME_Problems/Problem_9",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Isosceles Triangles",
+        "Grid Geometry"
+      ],
+      "statement": "An isosceles triangle is a triangle with two sides of equal length. How many of the five triangles on the square grid below are isosceles? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1$",
+          "$2$",
+          "$3$",
+          "$4$",
+          "$5$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1988-13",
+      "name": "Problem 13 (1988 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1988_AJHSME_Problems/Problem_13",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Circumference",
+        "Circles",
+        "Estimation"
+      ],
+      "statement": "If rose bushes are spaced about $1$ foot apart, approximately how many bushes are needed to surround a circular patio whose radius is $12$ feet?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$12$",
+          "$38$",
+          "$48$",
+          "$75$",
+          "$450$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1988-17",
+      "name": "Problem 17 (1988 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1988_AJHSME_Problems/Problem_17",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Rectangles",
+        "Overlap"
+      ],
+      "statement": "The shaded region formed by the two intersecting perpendicular rectangles, in square units, is [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$23$",
+          "$38$",
+          "$44$",
+          "$46$",
+          "unable to be determined from the information given"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1988-24",
+      "name": "Problem 24 (1988 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1988_AJHSME_Problems/Problem_24",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Spatial Reasoning",
+        "Rotations"
+      ],
+      "statement": "The square in the first diagram \"rolls\" clockwise around the fixed regular hexagon until it reaches the bottom. In which position will the solid triangle be in diagram $4$? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "[Diagram A]",
+          "[Diagram B]",
+          "[Diagram C]",
+          "[Diagram D]",
+          "[Diagram E]"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1989-10",
+      "name": "Problem 10 (1989 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1989_AJHSME_Problems/Problem_10",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Clocks",
+        "Angles"
+      ],
+      "statement": "What is the number of degrees in the smaller angle between the hour hand and the minute hand on a clock that reads seven o'clock?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$50^{\\circ}$",
+          "$120^{\\circ}$",
+          "$135^{\\circ}$",
+          "$150^{\\circ}$",
+          "$165^{\\circ}$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1989-11",
+      "name": "Problem 11 (1989 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1989_AJHSME_Problems/Problem_11",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Symmetry",
+        "Transformations"
+      ],
+      "statement": "Which of the five \"T-like shapes\" would be symmetric to the one shown with respect to the dashed line? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "[Figure A]",
+          "[Figure B]",
+          "[Figure C]",
+          "[Figure D]",
+          "[Figure E]"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1989-15",
+      "name": "Problem 15 (1989 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1989_AJHSME_Problems/Problem_15",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Parallelogram",
+        "Triangles"
+      ],
+      "statement": "The area of the shaded region $BEDC$ in parallelogram $ABCD$ is [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$24$",
+          "$48$",
+          "$60$",
+          "$64$",
+          "$80$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1989-20",
+      "name": "Problem 20 (1989 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1989_AJHSME_Problems/Problem_20",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Spatial Reasoning",
+        "Nets"
+      ],
+      "statement": "The figure may be folded along the lines shown to form a number cube. Three number faces come together at each corner of the cube. What is the largest sum of three numbers whose faces come together at a corner? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$11$",
+          "$12$",
+          "$13$",
+          "$14$",
+          "$15$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1989-23",
+      "name": "Problem 23 (1989 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1989_AJHSME_Problems/Problem_23",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Surface Area",
+        "3D Geometry"
+      ],
+      "statement": "An artist has $14$ cubes, each with an edge of $1$ meter. She stands them on the ground to form a sculpture as shown. She then paints the exposed surface of the sculpture. How many square meters does she paint? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$21$",
+          "$24$",
+          "$33$",
+          "$37$",
+          "$42$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1989-24",
+      "name": "Problem 24 (1989 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1989_AJHSME_Problems/Problem_24",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Perimeter",
+        "Paper Folding"
+      ],
+      "statement": "Suppose a square piece of paper is folded in half vertically. The folded paper is then cut in half along the dashed line. Three rectangles are formedâ€”a large one and two small ones. What is the ratio of the perimeter of one of the small rectangles to the perimeter of the large rectangle? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{2}$",
+          "$\\frac{2}{3}$",
+          "$\\frac{3}{4}$",
+          "$\\frac{4}{5}$",
+          "$\\frac{5}{6}$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1990-3",
+      "name": "Problem 3 (1990 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1990_AJHSME_Problems/Problem_3",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Fractions",
+        "Visual Geometry"
+      ],
+      "statement": "What fraction of the square is shaded? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{3}$",
+          "$\\frac{2}{5}$",
+          "$\\frac{5}{12}$",
+          "$\\frac{3}{7}$",
+          "$\\frac{1}{2}$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1990-15",
+      "name": "Problem 15 (1990 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1990_AJHSME_Problems/Problem_15",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Perimeter"
+      ],
+      "statement": "The area of this figure is $100 \\text{ cm}^2$. Its perimeter is\n\n[See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$20 \\text{ cm}$",
+          "$25 \\text{ cm}$",
+          "$30 \\text{ cm}$",
+          "$40 \\text{ cm}$",
+          "$50 \\text{ cm}$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1990-17",
+      "name": "Problem 17 (1990 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1990_AJHSME_Problems/Problem_17",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Volume",
+        "Unit Conversion"
+      ],
+      "statement": "A straight concrete sidewalk is to be $3$ feet wide, $60$ feet long, and $3$ inches thick. How many cubic yards of concrete must a contractor order for the sidewalk if concrete must be ordered in a whole number of cubic yards?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$2$",
+          "$5$",
+          "$12$",
+          "$20$",
+          "$\\text{more than } 20$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1990-18",
+      "name": "Problem 18 (1990 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1990_AJHSME_Problems/Problem_18",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "3D Geometry",
+        "Polyhedra",
+        "Euler's Formula"
+      ],
+      "statement": "Each corner of a rectangular prism is cut off. Two (of the eight) cuts are shown. How many edges does the new figure have? Assume that the planes cutting the prism do not intersect anywhere in or on the prism.\n\n[See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$24$",
+          "$30$",
+          "$36$",
+          "$42$",
+          "$48$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-15",
+      "name": "Problem 15 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_15",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Surface Area",
+        "3D Geometry"
+      ],
+      "statement": "All six sides of a rectangular solid were rectangles. A one-foot cube was cut out of the rectangular solid as shown. The total number of square feet in the surface of the new solid is how many more or less than that of the original solid? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$2$ less",
+          "$1$ less",
+          "the same",
+          "$1$ more",
+          "$2$ more"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-16",
+      "name": "Problem 16 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_16",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Spatial Reasoning",
+        "Folding"
+      ],
+      "statement": "The $16$ squares on a piece of paper are numbered as shown in the diagram. While lying on a table, the paper is folded in half four times in the following sequence:\n- fold the top half over the bottom half\n- fold the bottom half over the top half\n- fold the right half over the left half\n- fold the left half over the right half.\nWhich numbered square is on top after step 4? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1$",
+          "$9$",
+          "$10$",
+          "$14$",
+          "$16$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-24",
+      "name": "Problem 24 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_24",
+      "source": "AJHSME",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Volume",
+        "3D Geometry",
+        "Dissection"
+      ],
+      "statement": "A cube of edge $3$ cm is cut into $N$ smaller cubes, not all the same size. If the edge of each of the smaller cubes is a whole number of centimeters, then $N=$",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$4$",
+          "$8$",
+          "$12$",
+          "$16$",
+          "$20$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1992-5",
+      "name": "Problem 5 (1992 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1992_AJHSME_Problems/Problem_5",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Circles",
+        "Estimation"
+      ],
+      "statement": "A circle of diameter $1$ is removed from a $2 \\times 3$ rectangle, as shown. Which whole number is closest to the area of the shaded region? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1$",
+          "$2$",
+          "$3$",
+          "$4$",
+          "$5$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1992-10",
+      "name": "Problem 10 (1992 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1992_AJHSME_Problems/Problem_10",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Triangles",
+        "Symmetry"
+      ],
+      "statement": "An isosceles right triangle with legs of length $8$ is partitioned into $16$ congruent triangles as shown. The shaded area is: [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$10$",
+          "$20$",
+          "$32$",
+          "$40$",
+          "$64$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1992-16",
+      "name": "Problem 16 (1992 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1992_AJHSME_Problems/Problem_16",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Volume",
+        "Cylinders"
+      ],
+      "statement": "A cylinder has a radius of $10$ and a height of $5$. Which cylinder has twice the volume of the cylinder shown? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\text{Cylinder A}$",
+          "$\\text{Cylinder B}$",
+          "$\\text{Cylinder C}$",
+          "$\\text{Cylinder D}$",
+          "$\\text{None of the above}$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1992-17",
+      "name": "Problem 17 (1992 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1992_AJHSME_Problems/Problem_17",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Triangle Inequality"
+      ],
+      "statement": "The sides of a triangle have lengths $6.5$, $10$, and $s$, where $s$ is a whole number. What is the smallest possible value of $s$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$3$",
+          "$4$",
+          "$5$",
+          "$6$",
+          "$7$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1992-20",
+      "name": "Problem 20 (1992 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1992_AJHSME_Problems/Problem_20",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Spatial Reasoning",
+        "Nets"
+      ],
+      "statement": "Which pattern of identical squares could NOT be folded along the lines shown to form a cube? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\text{Pattern A}$",
+          "$\\text{Pattern B}$",
+          "$\\text{Pattern C}$",
+          "$\\text{Pattern D}$",
+          "$\\text{Pattern E}$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1992-22",
+      "name": "Problem 22 (1992 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1992_AJHSME_Problems/Problem_22",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Perimeter",
+        "Grid Polygons"
+      ],
+      "statement": "Eight $1 \\times 1$ square tiles are arranged as shown so their outside edges form a polygon with a perimeter of $14$ units. Two additional tiles of the same size are added to the figure so that at least one side of each tile is shared with a side of one of the squares in the original figure. Which of the following could be the perimeter of the new figure? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$15$",
+          "$17$",
+          "$18$",
+          "$19$",
+          "$20$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1992-24",
+      "name": "Problem 24 (1992 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1992_AJHSME_Problems/Problem_24",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Circles",
+        "Squares"
+      ],
+      "statement": "Four circles of radius $3$ are arranged as shown. Their centers are the vertices of a square. The area of the shaded region is closest to: [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$7.7$",
+          "$12.1$",
+          "$17.2$",
+          "$18$",
+          "$27$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1993-13",
+      "name": "Problem 13 (1993 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1993_AJHSME_Problems/Problem_13",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Composite Shapes"
+      ],
+      "statement": "The word \"HELP\" in block letters is painted in black with strokes $1$ unit wide on a $5$ by $15$ rectangular white sign with dimensions as shown. The area of the white portion of the sign, in square units, is [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$30$",
+          "$32$",
+          "$34$",
+          "$36$",
+          "$38$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1993-17",
+      "name": "Problem 17 (1993 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1993_AJHSME_Problems/Problem_17",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "3D Geometry",
+        "Surface Area",
+        "Nets"
+      ],
+      "statement": "Square corners, $5$ units on a side, are removed from a $20$ unit by $30$ unit rectangular sheet of cardboard. The sides are then folded to form an open box. The surface area, in square units, of the interior of the box is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$300$",
+          "$500$",
+          "$550$",
+          "$600$",
+          "$1000$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1993-25",
+      "name": "Problem 25 (1993 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1993_AJHSME_Problems/Problem_25",
+      "source": "AJHSME",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Covering",
+        "Maximum and Minimum",
+        "Grid Geometry"
+      ],
+      "statement": "A checkerboard consists of one-inch squares. A square card, $1.5$ inches on a side, is placed on the board so that it covers part or all of the area of each of $n$ squares. The maximum possible value of $n$ is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$4 \\text{ or } 5$",
+          "$6 \\text{ or } 7$",
+          "$8 \\text{ or } 9$",
+          "$10 \\text{ or } 11$",
+          "$12 \\text{ or more}$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1994-4",
+      "name": "Problem 4 (1994 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1994_AJHSME_Problems/Problem_4",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Rotations",
+        "Symmetry"
+      ],
+      "statement": "Which of the following represents the result when the figure shown below is rotated clockwise $120^{\\circ}$ about its center? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "[See figure in original PDF]",
+          "[See figure in original PDF]",
+          "[See figure in original PDF]",
+          "[See figure in original PDF]",
+          "[See figure in original PDF]"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1994-7",
+      "name": "Problem 7 (1994 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1994_AJHSME_Problems/Problem_7",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Angles",
+        "Triangles"
+      ],
+      "statement": "If $\\angle A=60^{\\circ}$, $\\angle E=40^{\\circ}$ and $\\angle C=30^{\\circ}$, then $\\angle BDC=$ [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$40^{\\circ}$",
+          "$50^{\\circ}$",
+          "$60^{\\circ}$",
+          "$70^{\\circ}$",
+          "$80^{\\circ}$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1994-12",
+      "name": "Problem 12 (1994 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1994_AJHSME_Problems/Problem_12",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Fractions"
+      ],
+      "statement": "Each of the three large squares shown below is the same size. Segments that intersect the sides of the squares intersect at the midpoints of the sides. How do the shaded areas of these squares compare? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "The shaded areas in all three are equal.",
+          "Only the shaded areas of I and II are equal.",
+          "Only the shaded areas of I and III are equal.",
+          "Only the shaded areas of II and III are equal.",
+          "The shaded areas of I, II and III are all different."
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1994-16",
+      "name": "Problem 16 (1994 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1994_AJHSME_Problems/Problem_16",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Similar Figures",
+        "Area Ratio"
+      ],
+      "statement": "The perimeter of one square is $3$ times the perimeter of another square. The area of the larger square is how many times the area of the smaller square?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$2$",
+          "$3$",
+          "$4$",
+          "$6$",
+          "$9$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1994-19",
+      "name": "Problem 19 (1994 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1994_AJHSME_Problems/Problem_19",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Circles",
+        "Area"
+      ],
+      "statement": "Around the outside of a $4$ by $4$ square, construct four semicircles (as shown in the figure) with the four sides of the square as their diameters. Another square, $ABCD$, has its sides parallel to the corresponding sides of the original square, and each side of $ABCD$ is tangent to one of the semicircles. The area of the square $ABCD$ is [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$16$",
+          "$32$",
+          "$36$",
+          "$48$",
+          "$64$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1995-6",
+      "name": "Problem 6 (1995 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1995_AJHSME_Problems/Problem_6",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Perimeter",
+        "Squares"
+      ],
+      "statement": "Figures I, II, and III are squares. The perimeter of I is $12$ and the perimeter of II is $24$. The perimeter of III is [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$9$",
+          "$18$",
+          "$36$",
+          "$72$",
+          "$81$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1995-9",
+      "name": "Problem 9 (1995 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1995_AJHSME_Problems/Problem_9",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Circles",
+        "Area of a Rectangle"
+      ],
+      "statement": "Three congruent circles with centers $P$, $Q$, and $R$ are tangent to the sides of rectangle $ABCD$ as shown. The circle centered at $Q$ has diameter $4$ and passes through points $P$ and $R$. The area of the rectangle is [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$16$",
+          "$24$",
+          "$32$",
+          "$64$",
+          "$128$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1995-13",
+      "name": "Problem 13 (1995 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1995_AJHSME_Problems/Problem_13",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Angle Chasing",
+        "Right Triangles"
+      ],
+      "statement": "In the figure, $\\angle A$, $\\angle B$ and $\\angle C$ are right angles. If $\\angle AEB=40^{\\circ}$ and $\\angle BED=\\angle BDE$, then $\\angle CDE=$ [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$75^{\\circ}$",
+          "$80^{\\circ}$",
+          "$85^{\\circ}$",
+          "$90^{\\circ}$",
+          "$95^{\\circ}$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1995-18",
+      "name": "Problem 18 (1995 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1995_AJHSME_Problems/Problem_18",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Squares"
+      ],
+      "statement": "The area of each of the four congruent L-shaped regions of this $100$-inch by $100$-inch square is $\\frac{3}{16}$ of the total area. How many inches long is the side of the center square? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$25$",
+          "$44$",
+          "$50$",
+          "$62$",
+          "$75$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1995-21",
+      "name": "Problem 21 (1995 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1995_AJHSME_Problems/Problem_21",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "3D Geometry",
+        "Spatial Reasoning"
+      ],
+      "statement": "A plastic snap-together cube has a protruding snap on one side and receptacle holes on the other five sides as shown. What is the smallest number of these cubes that can be snapped together so that only receptacle holes are showing? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$3$",
+          "$4$",
+          "$5$",
+          "$6$",
+          "$8$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1995-24",
+      "name": "Problem 24 (1995 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1995_AJHSME_Problems/Problem_24",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Area of a Parallelogram",
+        "Similar Triangles"
+      ],
+      "statement": "In parallelogram $ABCD$, $DE$ is the altitude to the base $AB$ and $DF$ is the altitude to the base $BC$. (Note: Both pictures represent the same parallelogram.) If $DC=12$, $EB=4$, and $DE=6$, then $DF=$ [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$6.4$",
+          "$7$",
+          "$7.2$",
+          "$8$",
+          "$10$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1996-8",
+      "name": "Problem 8 (1996 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1996_AJHSME_Problems/Problem_8",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Distances",
+        "Collinear Points"
+      ],
+      "statement": "Points $A$ and $B$ are $10$ units apart. Points $B$ and $C$ are $4$ units apart. Points $C$ and $D$ are $3$ units apart. If $A$ and $D$ are as close as possible, then the number of units between them is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$0$",
+          "$3$",
+          "$9$",
+          "$11$",
+          "$17$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1996-22",
+      "name": "Problem 22 (1996 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1996_AJHSME_Problems/Problem_22",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Pick's Theorem",
+        "Area on a Grid"
+      ],
+      "statement": "The horizontal and vertical distances between adjacent points equal $1$ unit. The area of triangle $ABC$ is [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{4}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{3}{4}$",
+          "$1$",
+          "$\\frac{5}{4}$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1997-7",
+      "name": "Problem 7 (1997 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1997_AJHSME_Problems/Problem_7",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Circle",
+        "Square",
+        "Area"
+      ],
+      "statement": "The area of the smallest square that will contain a circle of radius $4$ is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$8$",
+          "$16$",
+          "$32$",
+          "$64$",
+          "$128$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1997-10",
+      "name": "Problem 10 (1997 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1997_AJHSME_Problems/Problem_10",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Fractions",
+        "Visual Geometry"
+      ],
+      "statement": "What fraction of this square region is shaded? Stripes are equal in width, and the figure is drawn to scale. [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{5}{12}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{7}{12}$",
+          "$\\frac{2}{3}$",
+          "$\\frac{5}{6}$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1997-15",
+      "name": "Problem 15 (1997 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1997_AJHSME_Problems/Problem_15",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Areas",
+        "Squares",
+        "Ratios"
+      ],
+      "statement": "Each side of the large square in the figure is trisected (divided into three equal parts). The corners of an inscribed square are at these trisection points, as shown. The ratio of the area of the inscribed square to the area of the large square is [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{\\sqrt{3}}{3}$",
+          "$\\frac{5}{9}$",
+          "$\\frac{2}{3}$",
+          "$\\frac{\\sqrt{5}}{3}$",
+          "$\\frac{7}{9}$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1997-21",
+      "name": "Problem 21 (1997 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1997_AJHSME_Problems/Problem_21",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "3D Geometry",
+        "Surface Area"
+      ],
+      "statement": "Each corner cube is removed from this $3\\text{ cm} \\times 3\\text{ cm} \\times 3\\text{ cm}$ cube. The surface area of the remaining figure is [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$19\\text{ sq. cm}$",
+          "$24\\text{ sq. cm}$",
+          "$30\\text{ sq. cm}$",
+          "$54\\text{ sq. cm}$",
+          "$72\\text{ sq. cm}$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1997-23",
+      "name": "Problem 23 (1997 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1997_AJHSME_Problems/Problem_23",
+      "source": "AJHSME",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Areas",
+        "Circles",
+        "Ratios"
+      ],
+      "statement": "Diameter $ACE$ is divided at $C$ in the ratio $2:3$. The two semicircles, $ABC$ and $CDE$, divide the circular region into an upper (shaded) region and a lower region. The ratio of the area of the upper region to that of the lower region is [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$2:3$",
+          "$1:1$",
+          "$3:2$",
+          "$9:4$",
+          "$5:2$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1998-6",
+      "name": "Problem 6 (1998 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1998_AJHSME_Problems/Problem_6",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Pick's Theorem",
+        "Polygons"
+      ],
+      "statement": "Dots are spaced one unit apart, horizontally and vertically. The number of square units enclosed by the polygon is [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$5$",
+          "$6$",
+          "$7$",
+          "$8$",
+          "$9$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1998-13",
+      "name": "Problem 13 (1998 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1998_AJHSME_Problems/Problem_13",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Area Ratio",
+        "Tangram",
+        "Visual Puzzles"
+      ],
+      "statement": "What is the ratio of the area of the shaded square to the area of the large square? (The figure is drawn to scale) [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{6}$",
+          "$\\frac{1}{7}$",
+          "$\\frac{1}{8}$",
+          "$\\frac{1}{12}$",
+          "$\\frac{1}{16}$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1998-18",
+      "name": "Problem 18 (1998 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1998_AJHSME_Problems/Problem_18",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Spatial Reasoning",
+        "Paper Folding"
+      ],
+      "statement": "As indicated by the diagram below, a rectangular piece of paper is folded bottom to top, then left to right, and finally, a hole is punched at $X$. What does the paper look like when unfolded? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "[See figure A in original PDF]",
+          "[See figure B in original PDF]",
+          "[See figure C in original PDF]",
+          "[See figure D in original PDF]",
+          "[See figure E in original PDF]"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1998-20",
+      "name": "Problem 20 (1998 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1998_AJHSME_Problems/Problem_20",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Paper Folding",
+        "Perimeter"
+      ],
+      "statement": "Let $PQRS$ be a square piece of paper. $P$ is folded onto $R$ and then $Q$ is folded onto $S$. The area of the resulting figure is $9$ square inches. Find the perimeter of square $PQRS$.",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$9$",
+          "$16$",
+          "$18$",
+          "$24$",
+          "$36$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1998-21",
+      "name": "Problem 21 (1998 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1998_AJHSME_Problems/Problem_21",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "3D Geometry",
+        "Cubes",
+        "Counting Shapes"
+      ],
+      "statement": "A $4 \\times 4 \\times 4$ cubical box contains $64$ identical small cubes that exactly fill the box. How many of these small cubes touch a side or the bottom of the box?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$48$",
+          "$52$",
+          "$60$",
+          "$64$",
+          "$80$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-1999-2",
+      "name": "Problem 2 (1999 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1999_AMC_8_Problems/Problem_2",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Clock Angles"
+      ],
+      "statement": "What is the degree measure of the smaller angle formed by the hands of a clock at $10$ o'clock?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$30$",
+          "$45$",
+          "$60$",
+          "$75$",
+          "$90$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-1999-5",
+      "name": "Problem 5 (1999 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1999_AMC_8_Problems/Problem_5",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Perimeter",
+        "Rectangles"
+      ],
+      "statement": "A rectangular garden $50$ feet long and $10$ feet wide is enclosed by a fence. To make the garden larger, while using the same fence, its shape is changed to a square. By how many square feet does this enlarge the garden?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$100$",
+          "$200$",
+          "$300$",
+          "$400$",
+          "$500$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-1999-8",
+      "name": "Problem 8 (1999 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1999_AMC_8_Problems/Problem_8",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "3D Geometry",
+        "Nets of Cubes",
+        "Spatial Reasoning"
+      ],
+      "statement": "Six squares are colored, front and back, ($R=$ red, $B=$ blue, $O=$ orange, $Y=$ yellow, $G=$ green, and $W=$ white). They are hinged together as shown, then folded to form a cube. The face opposite the white face is [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\text{B}$",
+          "$\\text{G}$",
+          "$\\text{O}$",
+          "$\\text{R}$",
+          "$\\text{Y}$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-1999-14",
+      "name": "Problem 14 (1999 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1999_AMC_8_Problems/Problem_14",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Trapezoids",
+        "Pythagorean Theorem",
+        "Perimeter"
+      ],
+      "statement": "In trapezoid $ABCD$, the sides $AB$ and $CD$ are equal. The perimeter of $ABCD$ is [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$27$",
+          "$30$",
+          "$32$",
+          "$34$",
+          "$48$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-1999-20",
+      "name": "Problem 20 (1999 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1999_AMC_8_Problems/Problem_20",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "3D Geometry",
+        "Projections",
+        "Spatial Reasoning"
+      ],
+      "statement": "Figure 1 is called a \"stack map.\" The numbers tell how many cubes are stacked in each position. Fig. 2 shows these cubes, and Fig. 3 shows the view of the stacked cubes as seen from the front. Which of the following is the front view for the stack map in Fig. 4? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\text{[Image A]}$",
+          "$\\text{[Image B]}$",
+          "$\\text{[Image C]}$",
+          "$\\text{[Image D]}$",
+          "$\\text{[Image E]}$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2000-6",
+      "name": "Problem 6 (2000 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2000_AMC_8_Problems/Problem_6",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Squares"
+      ],
+      "statement": "Figure $ABCD$ is a square. Inside this square three smaller squares are drawn with the side lengths as labeled. The area of the shaded L-shaped region is [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$7$",
+          "$10$",
+          "$12.5$",
+          "$14$",
+          "$15$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2000-15",
+      "name": "Problem 15 (2000 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2000_AMC_8_Problems/Problem_15",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Equilateral Triangles",
+        "Perimeter"
+      ],
+      "statement": "Triangles $ABC$, $ADE$, and $EFG$ are all equilateral. Points $D$ and $G$ are midpoints of $\\overline{AC}$ and $\\overline{AE}$, respectively. If $AB=4$, what is the perimeter of figure $ABCDEFG$? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$12$",
+          "$13$",
+          "$15$",
+          "$18$",
+          "$21$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2000-16",
+      "name": "Problem 16 (2000 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2000_AMC_8_Problems/Problem_16",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Perimeter",
+        "Area",
+        "Rectangles"
+      ],
+      "statement": "In order for Mateen to walk a kilometer ($1000$ m) in his rectangular backyard, he must walk the length $25$ times or walk its perimeter $10$ times. What is the area of Mateen's backyard in square meters?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$40$",
+          "$200$",
+          "$400$",
+          "$500$",
+          "$1000$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2000-18",
+      "name": "Problem 18 (2000 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2000_AMC_8_Problems/Problem_18",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Pick's Theorem",
+        "Area",
+        "Perimeter"
+      ],
+      "statement": "Consider these two geoboard quadrilaterals. Which of the following statements is true? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "The area of quadrilateral I is more than the area of quadrilateral II.",
+          "The area of quadrilateral I is less than the area of quadrilateral II.",
+          "The quadrilaterals have the same area and the same perimeter.",
+          "The quadrilaterals have the same area, but the perimeter of I is more than the perimeter of II.",
+          "The quadrilaterals have the same area, but the perimeter of I is less than the perimeter of II."
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2000-19",
+      "name": "Problem 19 (2000 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2000_AMC_8_Problems/Problem_19",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Circular Segments",
+        "Area"
+      ],
+      "statement": "Three circular arcs of radius $5$ units bound the region shown. Arcs $AB$ and $AD$ are quarter-circles, and arc $BCD$ is a semicircle. What is the area, in square units, of the region? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$25$",
+          "$10+5\\pi$",
+          "$50$",
+          "$50+5\\pi$",
+          "$25\\pi$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2000-22",
+      "name": "Problem 22 (2000 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2000_AMC_8_Problems/Problem_22",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Surface Area",
+        "Cubes",
+        "Percentages"
+      ],
+      "statement": "A cube has edge length $2$. Suppose that we glue a cube of edge length $1$ on top of the big cube so that one of its faces rests entirely on the top face of the larger cube. The percent increase in the surface area (sides, top, and bottom) from the original cube to the new solid formed is closest to [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$10$",
+          "$15$",
+          "$17$",
+          "$21$",
+          "$25$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2000-24",
+      "name": "Problem 24 (2000 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2000_AMC_8_Problems/Problem_24",
+      "source": "AMC 8",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Angle Chasing",
+        "Triangles"
+      ],
+      "statement": "If $\\angle A=20^{\\circ}$ and $\\angle AFG=\\angle AGF$, then $\\angle B+\\angle D=$ [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$48^{\\circ}$",
+          "$60^{\\circ}$",
+          "$72^{\\circ}$",
+          "$80^{\\circ}$",
+          "$90^{\\circ}$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2000-25",
+      "name": "Problem 25 (2000 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2000_AMC_8_Problems/Problem_25",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Area Subtraction",
+        "Rectangles"
+      ],
+      "statement": "The area of rectangle $ABCD$ is $72$. If point $A$ and the midpoints of $\\overline{BC}$ and $\\overline{CD}$ are joined to form a triangle, the area of that triangle is [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$21$",
+          "$27$",
+          "$30$",
+          "$36$",
+          "$40$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2001-7",
+      "name": "Problem 7 (2001 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2001_AMC_8_Problems/Problem_7",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Grid Geometry"
+      ],
+      "statement": "Problems 7, 8 and 9 are about these kites. To promote her school's annual Kite Olympics, Genevieve makes a small kite and a large kite for a bulletin board display. The kites look like the one in the diagram. For her small kite Genevieve draws the kite on a one-inch grid. For the large kite she triples both the height and width of the entire grid. What is the number of square inches in the area of the small kite? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$21$",
+          "$22$",
+          "$23$",
+          "$24$",
+          "$25$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2001-8",
+      "name": "Problem 8 (2001 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2001_AMC_8_Problems/Problem_8",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Similarity",
+        "Lengths"
+      ],
+      "statement": "Problems 7, 8 and 9 are about these kites. Genevieve puts bracing on her large kite in the form of a cross connecting opposite corners of the kite. How many inches of bracing material does she need? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$30$",
+          "$32$",
+          "$35$",
+          "$38$",
+          "$39$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2001-9",
+      "name": "Problem 9 (2001 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2001_AMC_8_Problems/Problem_9",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Scaling"
+      ],
+      "statement": "Problems 7, 8 and 9 are about these kites. The large kite is covered with gold foil. The foil is cut from a rectangular piece that just covers the entire grid. How many square inches of waste material are cut off from the four corners? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$63$",
+          "$72$",
+          "$180$",
+          "$189$",
+          "$264$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2001-16",
+      "name": "Problem 16 (2001 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2001_AMC_8_Problems/Problem_16",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Perimeter",
+        "Paper Folding"
+      ],
+      "statement": "A square piece of paper, $4$ inches on a side, is folded in half vertically. Both layers are then cut in half parallel to the fold. Three new rectangles are formed, a large one and two small ones. What is the ratio of the perimeter of one of the small rectangles to the perimeter of the large rectangle?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{3}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{3}{4}$",
+          "$\\frac{4}{5}$",
+          "$\\frac{5}{6}$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2001-23",
+      "name": "Problem 23 (2001 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2001_AMC_8_Problems/Problem_23",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Congruence",
+        "Counting"
+      ],
+      "statement": "Points $R$, $S$ and $T$ are vertices of an equilateral triangle, and points $X$, $Y$ and $Z$ are midpoints of its sides. How many noncongruent triangles can be drawn using any three of these six points as vertices? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1$",
+          "$2$",
+          "$3$",
+          "$4$",
+          "$20$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2002-1",
+      "name": "Problem 1 (2002 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2002_AMC_8_Problems/Problem_1",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Intersections",
+        "Lines and Circles"
+      ],
+      "statement": "A circle and two distinct lines are drawn on a sheet of paper. What is the largest possible number of points of intersection of these figures?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$2$",
+          "$3$",
+          "$4$",
+          "$5$",
+          "$6$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2002-13",
+      "name": "Problem 13 (2002 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2002_AMC_8_Problems/Problem_13",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Volume scaling",
+        "3D Geometry"
+      ],
+      "statement": "For his birthday, Bert gets a box that holds $125$ jellybeans when filled to capacity. A few weeks later, Carrie gets a larger box full of jellybeans. Her box is twice as high, twice as wide and twice as long as Bert's. Approximately, how many jellybeans did Carrie get?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$250$",
+          "$500$",
+          "$625$",
+          "$750$",
+          "$1000$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2002-15",
+      "name": "Problem 15 (2002 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2002_AMC_8_Problems/Problem_15",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Area Comparison",
+        "Grid Geometry"
+      ],
+      "statement": "Which of the following polygons has the largest area?\n[See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$A$",
+          "$B$",
+          "$C$",
+          "$D$",
+          "$E$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2002-22",
+      "name": "Problem 22 (2002 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2002_AMC_8_Problems/Problem_22",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Surface Area",
+        "3D Geometry"
+      ],
+      "statement": "Six cubes, each an inch on an edge, are fastened together, as shown. Find the total surface area in square inches. Include the top, bottom and sides.\n[See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$18$",
+          "$24$",
+          "$26$",
+          "$30$",
+          "$36$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2002-23",
+      "name": "Problem 23 (2002 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2002_AMC_8_Problems/Problem_23",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Tessellations",
+        "Area Ratios"
+      ],
+      "statement": "A portion of a corner of a tiled floor is shown. If the entire floor is tiled in this way and each of the four corners looks like this one, then what fraction of the tiled floor is made of darker tiles?\n[See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{3}$",
+          "$\\frac{4}{9}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{5}{9}$",
+          "$\\frac{5}{8}$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2003-1",
+      "name": "Problem 1 (2003 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2003_AMC_8_Problems/Problem_1",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "3D Figures",
+        "Euler's Formula",
+        "Counting"
+      ],
+      "statement": "Jamie counted the number of edges of a cube, Jimmy counted the number of corners, and Judy counted the number of faces. They then added the three numbers. What was the resulting sum?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$12$",
+          "$16$",
+          "$20$",
+          "$22$",
+          "$26$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2003-8",
+      "name": "Problem 8 (2003 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2003_AMC_8_Problems/Problem_8",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "2D Figures"
+      ],
+      "statement": "Four friends, Art, Roger, Paul and Trisha, bake cookies, and all cookies have the same thickness. The shapes of the cookies differ, as shown: Art's cookies are trapezoids, Roger's cookies are rectangles, Paul's cookies are parallelograms, and Trisha's cookies are triangles. [See figure in original PDF]\n\nEach friend uses the same amount of dough, and Art makes exactly $12$ cookies. Who gets the fewest cookies from one batch of cookie dough?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "Art",
+          "Roger",
+          "Paul",
+          "Trisha",
+          "There is a tie for fewest."
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2003-13",
+      "name": "Problem 13 (2003 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2003_AMC_8_Problems/Problem_13",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "3D Geometry",
+        "Surface Area",
+        "Visualization"
+      ],
+      "statement": "Fourteen white cubes are put together to form the figure on the right. The complete surface of the figure, including the bottom, is painted red. The figure is then separated into individual cubes. How many of the individual cubes have exactly four red faces? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$4$",
+          "$6$",
+          "$8$",
+          "$10$",
+          "$12$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2003-15",
+      "name": "Problem 15 (2003 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2003_AMC_8_Problems/Problem_15",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "3D Geometry",
+        "Projections"
+      ],
+      "statement": "A figure is constructed from unit cubes. Each cube shares at least one face with another cube. What is the minimum number of cubes needed to build a figure with the front and side views shown? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$3$",
+          "$4$",
+          "$5$",
+          "$6$",
+          "$7$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2003-20",
+      "name": "Problem 20 (2003 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2003_AMC_8_Problems/Problem_20",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Clock Angles",
+        "Geometry"
+      ],
+      "statement": "What is the measure of the acute angle formed by the hands of the clock at 4:20 PM?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$0^\\circ$",
+          "$5^\\circ$",
+          "$8^\\circ$",
+          "$10^\\circ$",
+          "$12^\\circ$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2003-22",
+      "name": "Problem 22 (2003 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2003_AMC_8_Problems/Problem_22",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Area of a Circle",
+        "Area of a Square"
+      ],
+      "statement": "The following figures are composed of squares and circles. Which figure has a shaded region with largest area? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "A only",
+          "B only",
+          "C only",
+          "both A and B",
+          "all are equal"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2003-25",
+      "name": "Problem 25 (2003 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2003_AMC_8_Problems/Problem_25",
+      "source": "AMC 8",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Triangles",
+        "Folding"
+      ],
+      "statement": "In the figure, the area of square $WXYZ$ is $25\\text{ cm}^2$. The four smaller squares have sides $1\\text{ cm}$ long, either parallel to or coinciding with the sides of the large square. In $\\Delta ABC$, $AB=AC$ and when $\\Delta ABC$ is folded over side $BC$, point $A$ coincides with $O$, the center of square $WXYZ$. What is the area of $\\Delta ABC$, in square centimeters? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{15}{4}$",
+          "$\\frac{21}{4}$",
+          "$\\frac{27}{4}$",
+          "$\\frac{21}{2}$",
+          "$\\frac{27}{2}$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2004-14",
+      "name": "Problem 14 (2004 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2004_AMC_8_Problems/Problem_14",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Pick's Theorem",
+        "Grid"
+      ],
+      "statement": "What is the area enclosed by the geoboard quadrilateral below? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$15$",
+          "$18$",
+          "$22$",
+          "$27$",
+          "$41$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2004-15",
+      "name": "Problem 15 (2004 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2004_AMC_8_Problems/Problem_15",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Tessellations",
+        "Counting",
+        "Patterns"
+      ],
+      "statement": "Thirteen black and six white hexagonal tiles were used to create the figure below. If a new figure is created by attaching a border of white tiles with the same size and shape as the others, what will be the difference between the total number of white tiles and the total number of black tiles in the new figure? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$5$",
+          "$7$",
+          "$11$",
+          "$12$",
+          "$18$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2004-24",
+      "name": "Problem 24 (2004 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2004_AMC_8_Problems/Problem_24",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Parallelograms",
+        "Pythagorean Theorem"
+      ],
+      "statement": "In the figure, $ABCD$ is a rectangle and $EFGH$ is a parallelogram. Using the measurements given in the figure, what is the length $d$ of the segment that is perpendicular to $HE$ and $FG$? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$6.8$",
+          "$7.1$",
+          "$7.6$",
+          "$7.8$",
+          "$8.1$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2004-25",
+      "name": "Problem 25 (2004 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2004_AMC_8_Problems/Problem_25",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Intersecting Figures",
+        "Circles"
+      ],
+      "statement": "Two $4\\times4$ squares intersect at right angles, bisecting their intersecting sides, as shown. The circle's diameter is the segment between the two points of intersection. What is the area of the shaded region created by removing the circle from the squares? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$16 - 4\\pi$",
+          "$16 - 2\\pi$",
+          "$28 - 4\\pi$",
+          "$28 - 2\\pi$",
+          "$32 - 2\\pi$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2005-3",
+      "name": "Problem 3 (2005 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2005_AMC_8_Problems/Problem_3",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Symmetry",
+        "Grid"
+      ],
+      "statement": "What is the minimum number of small squares that must be colored black so that a line of symmetry lies on the diagonal $\\overline{BD}$ of square $ABCD$? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1$",
+          "$2$",
+          "$3$",
+          "$4$",
+          "$5$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2005-4",
+      "name": "Problem 4 (2005 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2005_AMC_8_Problems/Problem_4",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Perimeter",
+        "Area",
+        "Square"
+      ],
+      "statement": "A square and a triangle have equal perimeters. The lengths of the three sides of the triangle are $6.1\\text{ cm}$, $8.2\\text{ cm}$ and $9.7\\text{ cm}$. What is the area of the square in square centimeters?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$24$",
+          "$25$",
+          "$36$",
+          "$48$",
+          "$64$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2005-13",
+      "name": "Problem 13 (2005 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2005_AMC_8_Problems/Problem_13",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Polygon Subdivisions"
+      ],
+      "statement": "The area of polygon $ABCDEF$ is $52$ with $AB=8$, $BC=9$ and $FA=5$. What is $DE+EF$? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$7$",
+          "$8$",
+          "$9$",
+          "$10$",
+          "$11$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2005-15",
+      "name": "Problem 15 (2005 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2005_AMC_8_Problems/Problem_15",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Triangle Inequality",
+        "Diophantine Equations"
+      ],
+      "statement": "How many different isosceles triangles have integer side lengths and perimeter $23$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$2$",
+          "$4$",
+          "$6$",
+          "$9$",
+          "$11$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2005-19",
+      "name": "Problem 19 (2005 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2005_AMC_8_Problems/Problem_19",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Trapezoid",
+        "Pythagorean Theorem"
+      ],
+      "statement": "What is the perimeter of trapezoid $ABCD$? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$180$",
+          "$188$",
+          "$196$",
+          "$200$",
+          "$204$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2005-25",
+      "name": "Problem 25 (2005 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2005_AMC_8_Problems/Problem_25",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Circle",
+        "Square"
+      ],
+      "statement": "A square with side length $2$ and a circle share the same center. The total area of the regions that are inside the circle and outside the square is equal to the total area of the regions that are outside the circle and inside the square. What is the radius of the circle?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{2}{\\sqrt{\\pi}}$",
+          "$\\frac{1+\\sqrt{2}}{2}$",
+          "$\\frac{3}{2}$",
+          "$\\sqrt{3}$",
+          "$\\sqrt{\\pi}$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2006-5",
+      "name": "Problem 5 (2006 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2006_AMC_8_Problems/Problem_5",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Squares",
+        "Midpoints"
+      ],
+      "statement": "Points $A$, $B$, $C$ and $D$ are midpoints of the sides of the larger square. If the larger square has area $60$, what is the area of the smaller square? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$15$",
+          "$20$",
+          "$24$",
+          "$30$",
+          "$40$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2006-6",
+      "name": "Problem 6 (2006 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2006_AMC_8_Problems/Problem_6",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Perimeter",
+        "Rectangles"
+      ],
+      "statement": "The letter T is formed by placing two $2\\times4$ inch rectangles next to each other, as shown. What is the perimeter of the T, in inches? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$12$",
+          "$16$",
+          "$20$",
+          "$22$",
+          "$24$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2006-7",
+      "name": "Problem 7 (2006 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2006_AMC_8_Problems/Problem_7",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Circles",
+        "Radius",
+        "Area and Circumference"
+      ],
+      "statement": "Circle $X$ has a radius of $\\pi$. Circle $Y$ has a circumference of $8\\pi$. Circle $Z$ has an area of $9\\pi$. List the circles in order from smallest to largest radius.",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$X, Y, Z$",
+          "$Z, X, Y$",
+          "$Y, X, Z$",
+          "$Z, Y, X$",
+          "$X, Z, Y$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2006-18",
+      "name": "Problem 18 (2006 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2006_AMC_8_Problems/Problem_18",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Surface Area",
+        "Cubes",
+        "3D Geometry"
+      ],
+      "statement": "A cube with $3$-inch edges is made using $27$ cubes with $1$-inch edges. Nineteen of the smaller cubes are white and eight are black. If the eight black cubes are placed at the corners of the larger cube, what fraction of the surface area of the larger cube is white?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{9}$",
+          "$\\frac{1}{4}$",
+          "$\\frac{4}{9}$",
+          "$\\frac{5}{9}$",
+          "$\\frac{19}{27}$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2006-19",
+      "name": "Problem 19 (2006 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2006_AMC_8_Problems/Problem_19",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Congruence",
+        "Isosceles Triangles",
+        "Midpoints"
+      ],
+      "statement": "Triangle $ABC$ is an isosceles triangle with $\\overline{AB}=\\overline{BC}$. Point $D$ is the midpoint of both $\\overline{BC}$ and $\\overline{AE}$, and $\\overline{CE}$ is $11$ units long. Triangle $ABD$ is congruent to triangle $ECD$. What is the length of $\\overline{BD}$? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$4$",
+          "$4.5$",
+          "$5$",
+          "$5.5$",
+          "$6$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2006-21",
+      "name": "Problem 21 (2006 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2006_AMC_8_Problems/Problem_21",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Volume",
+        "3D Geometry",
+        "Displacement"
+      ],
+      "statement": "An aquarium has a rectangular base that measures $100\\text{ cm}$ by $40\\text{ cm}$ and has a height of $50\\text{ cm}$. The aquarium is filled with water to a depth of $37\\text{ cm}$. A rock with volume $1000\\text{ cm}^3$ is then placed in the aquarium and completely submerged. By how many centimeters does the water level rise?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$0.25$",
+          "$0.5$",
+          "$1$",
+          "$1.25$",
+          "$2.5$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2007-12",
+      "name": "Problem 12 (2007 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2007_AMC_8_Problems/Problem_12",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Hexagons",
+        "Equilateral Triangles",
+        "Area Ratio"
+      ],
+      "statement": "A unit hexagon is composed of a regular hexagon of side length $1$ and its equilateral triangular extensions, as shown in the diagram. What is the ratio of the area of the extensions to the area of the original hexagon? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1:1$",
+          "$6:5$",
+          "$3:2$",
+          "$2:1$",
+          "$3:1$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2007-16",
+      "name": "Problem 16 (2007 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2007_AMC_8_Problems/Problem_16",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Circles",
+        "Graphing",
+        "Relationships"
+      ],
+      "statement": "Amanda Reckonwith draws five circles with radii $1$, $2$, $3$, $4$ and $5$. Then for each circle she plots the point $(C, A)$, where $C$ is its circumference and $A$ is its area. Which of the following could be her graph? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "Graph A",
+          "Graph B",
+          "Graph C",
+          "Graph D",
+          "Graph E"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2007-22",
+      "name": "Problem 22 (2007 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2007_AMC_8_Problems/Problem_22",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Invariance",
+        "Coordinate Geometry",
+        "Distance"
+      ],
+      "statement": "A lemming sits at a corner of a square with side length $10$ meters. The lemming runs $6.2$ meters along a diagonal toward the opposite corner. It stops, makes a $90^{\\circ}$ right turn and runs $2$ more meters. A scientist measures the shortest distance between the lemming and each side of the square. What is the average of these four distances in meters?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$2$",
+          "$4.5$",
+          "$5$",
+          "$6.2$",
+          "$7$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2007-23",
+      "name": "Problem 23 (2007 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2007_AMC_8_Problems/Problem_23",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Area Subtraction",
+        "Grid Geometry"
+      ],
+      "statement": "What is the area of the shaded pinwheel shown in the $5 \\times 5$ grid? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$4$",
+          "$6$",
+          "$8$",
+          "$10$",
+          "$12$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2008-4",
+      "name": "Problem 4 (2008 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2008_AMC_8_Problems/Problem_4",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Symmetry"
+      ],
+      "statement": "In the figure, the outer equilateral triangle has area $16$, the inner equilateral triangle has area $1$, and the three trapezoids are congruent. What is the area of one of the trapezoids? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$3$",
+          "$4$",
+          "$5$",
+          "$6$",
+          "$7$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2008-6",
+      "name": "Problem 6 (2008 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2008_AMC_8_Problems/Problem_6",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Ratio"
+      ],
+      "statement": "In the figure, what is the ratio of the area of the gray squares to the area of the white squares? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$3:10$",
+          "$3:8$",
+          "$3:7$",
+          "$3:5$",
+          "$1:1$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2008-16",
+      "name": "Problem 16 (2008 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2008_AMC_8_Problems/Problem_16",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Volume",
+        "Surface Area",
+        "3D Geometry"
+      ],
+      "statement": "A shape is created by joining seven unit cubes, as shown. What is the ratio of the volume in cubic units to the surface area in square units? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1:6$",
+          "$7:36$",
+          "$1:5$",
+          "$7:30$",
+          "$6:25$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2008-17",
+      "name": "Problem 17 (2008 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2008_AMC_8_Problems/Problem_17",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Optimization",
+        "Area",
+        "Perimeter"
+      ],
+      "statement": "Ms. Osborne asks each student in her class to draw a rectangle with integer side lengths and a perimeter of $50$ units. All of her students calculate the area of the rectangle they draw. What is the difference between the largest and smallest possible areas of the rectangles?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$76$",
+          "$120$",
+          "$128$",
+          "$132$",
+          "$136$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2008-18",
+      "name": "Problem 18 (2008 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2008_AMC_8_Problems/Problem_18",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Circles",
+        "Arc Length",
+        "Perimeter"
+      ],
+      "statement": "Two circles that share the same center have radii $10$ meters and $20$ meters. An aardvark runs along the path shown, starting at A and ending at K. How many meters does the aardvark run? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$10\\pi+20$",
+          "$10\\pi+30$",
+          "$10\\pi+40$",
+          "$20\\pi+20$",
+          "$20\\pi+40$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2008-21",
+      "name": "Problem 21 (2008 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2008_AMC_8_Problems/Problem_21",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Volume",
+        "Cylinders",
+        "Estimation"
+      ],
+      "statement": "Jerry cuts a wedge from a $6\\text{-cm}$ cylinder of bologna as shown by the dashed curve. Which answer choice is closest to the volume of his wedge in cubic centimeters? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$48$",
+          "$75$",
+          "$151$",
+          "$192$",
+          "$603$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2008-25",
+      "name": "Problem 25 (2008 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2008_AMC_8_Problems/Problem_25",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Area of Circles",
+        "Percentages",
+        "Estimation"
+      ],
+      "statement": "Margie's winning art design is shown. The smallest circle has radius $2$ inches, with each successive circle's radius increasing by $2$ inches. Approximately what percent of the design is black? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$42$",
+          "$44$",
+          "$45$",
+          "$46$",
+          "$48$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2009-4",
+      "name": "Problem 4 (2009 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2009_AMC_8_Problems/Problem_4",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Spatial Reasoning",
+        "Puzzles"
+      ],
+      "statement": "The five pieces shown below can be arranged to form four of the five figures shown in the choices. Which figure cannot be formed? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "Figure A",
+          "Figure B",
+          "Figure C",
+          "Figure D",
+          "Figure E"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2009-9",
+      "name": "Problem 9 (2009 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2009_AMC_8_Problems/Problem_9",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Polygons",
+        "Perimeter"
+      ],
+      "statement": "Construct a square on one side of an equilateral triangle. On one non-adjacent side of the square, construct a regular pentagon, as shown. On a non-adjacent side of the pentagon, construct a hexagon. Continue to construct regular polygons in the same way, until you construct an octagon. How many sides does the resulting polygon have? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$21$",
+          "$23$",
+          "$25$",
+          "$27$",
+          "$29$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2009-25",
+      "name": "Problem 25 (2009 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2009_AMC_8_Problems/Problem_25",
+      "source": "AMC 8",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Surface Area",
+        "3D Geometry"
+      ],
+      "statement": "A one-cubic-foot cube is cut into four pieces by three cuts parallel to the top face of the cube. The first cut is $\\frac{1}{2}$ foot from the top face. The second cut is $\\frac{1}{3}$ foot below the first cut, and the third cut is $\\frac{1}{17}$ foot below the second cut. From the top to the bottom the pieces are labeled $A$, $B$, $C$, and $D$. The pieces are then glued together end to end as shown in the second diagram. What is the total surface area of this solid in square feet? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$6$",
+          "$7$",
+          "$\\frac{419}{51}$",
+          "$\\frac{158}{17}$",
+          "$11$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2010-6",
+      "name": "Problem 6 (2010 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2010_AMC_8_Problems/Problem_6",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Symmetry",
+        "Polygons"
+      ],
+      "statement": "Which of the following has the greatest number of lines of symmetry?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "Equilateral Triangle",
+          "Non-square rhombus",
+          "Non-square rectangle",
+          "Isosceles Triangle",
+          "Square"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2010-10",
+      "name": "Problem 10 (2010 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2010_AMC_8_Problems/Problem_10",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Area of a Circle",
+        "Ratios"
+      ],
+      "statement": "$6$ pepperoni circles will exactly fit across the diameter of a $12$-inch pizza when placed. If a total of $24$ circles of pepperoni are placed on this pizza without overlap, what fraction of the pizza is covered with pepperoni?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{2}$",
+          "$\\frac{2}{3}$",
+          "$\\frac{3}{4}$",
+          "$\\frac{5}{6}$",
+          "$\\frac{7}{8}$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2010-16",
+      "name": "Problem 16 (2010 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2010_AMC_8_Problems/Problem_16",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Ratios"
+      ],
+      "statement": "A square and a circle have the same area. What is the ratio of the side length of the square to the radius of the circle?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{\\sqrt{\\pi}}{2}$",
+          "$\\sqrt{\\pi}$",
+          "$\\pi$",
+          "$2\\pi$",
+          "$\\pi^{2}$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2010-17",
+      "name": "Problem 17 (2010 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2010_AMC_8_Problems/Problem_17",
+      "source": "AMC 8",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Coordinate Geometry",
+        "Similar Triangles"
+      ],
+      "statement": "The diagram shows an octagon consisting of $10$ unit squares. The portion below $\\overline{PQ}$ is a unit square and a triangle with base $5$. If $PQ$ bisects the area of the octagon, what is the ratio $\\frac{XQ}{QY}$? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{2}{5}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{3}{5}$",
+          "$\\frac{2}{3}$",
+          "$\\frac{3}{4}$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2010-18",
+      "name": "Problem 18 (2010 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2010_AMC_8_Problems/Problem_18",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Area of a Circle",
+        "Area of a Rectangle"
+      ],
+      "statement": "A decorative window is made up of a rectangle with semicircles at either end. The ratio of $AD$ to $AB$ is $3:2$. And $AB$ is $30$ inches. What is the ratio of the area of the rectangle to the combined area of the semicircles? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$2:3$",
+          "$3:2$",
+          "$6:\\pi$",
+          "$9:\\pi$",
+          "$30:\\pi$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2010-23",
+      "name": "Problem 23 (2010 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2010_AMC_8_Problems/Problem_23",
+      "source": "AMC 8",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Area of a Circle",
+        "Coordinate Geometry"
+      ],
+      "statement": "Semicircles $POQ$ and $ROS$ pass through the center of circle $O$. What is the ratio of the combined areas of the two semicircles to the area of circle $O$? $P(-1,1), Q(1,1), R(-1,-1), S(1,-1)$ [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{\\sqrt{2}}{4}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{2}{\\pi}$",
+          "$\\frac{2}{3}$",
+          "$\\frac{\\sqrt{2}}{2}$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2011-2",
+      "name": "Problem 2 (2011 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2011_AMC_8_Problems/Problem_2",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Area of Rectangle",
+        "Comparisons"
+      ],
+      "statement": "Karl's rectangular vegetable garden is $20$ by $45$ feet, and Makenna's is $25$ by $40$ feet. Which garden is larger in area?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "\\text{Karl's garden is larger by } 100 \\text{ square feet.}",
+          "\\text{Karl's garden is larger by } 25 \\text{ square feet.}",
+          "\\text{The gardens are the same size.}",
+          "\\text{Makenna's garden is larger by } 25 \\text{ square feet.}",
+          "\\text{Makenna's garden is larger by } 100 \\text{ square feet.}"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2011-7",
+      "name": "Problem 7 (2011 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2011_AMC_8_Problems/Problem_7",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Fractions",
+        "Percentages"
+      ],
+      "statement": "Each of the following four large congruent squares is subdivided into combinations of congruent triangles or rectangles and is partially bolded. What percent of the total area is partially bolded? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "12",
+          "20",
+          "25",
+          "33",
+          "37"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2011-13",
+      "name": "Problem 13 (2011 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2011_AMC_8_Problems/Problem_13",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Percentages"
+      ],
+      "statement": "Two congruent squares, $ABCD$ and $PQRS$, have side length $15$. They overlap to form the $15$ by $25$ rectangle $AQRD$ shown. What percent of the area of rectangle $AQRD$ is shaded? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "15",
+          "18",
+          "20",
+          "24",
+          "25"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2011-20",
+      "name": "Problem 20 (2011 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2011_AMC_8_Problems/Problem_20",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Area of Trapezoid",
+        "Pythagorean Theorem"
+      ],
+      "statement": "Quadrilateral $ABCD$ is a trapezoid, $AD=15$, $AB=50$, $BC=20$, and the altitude is $12$. What is the area of the trapezoid? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "600",
+          "650",
+          "700",
+          "750",
+          "800"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2011-25",
+      "name": "Problem 25 (2011 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2011_AMC_8_Problems/Problem_25",
+      "source": "AMC 8",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Circles",
+        "Squares",
+        "Area"
+      ],
+      "statement": "A circle with radius $1$ is inscribed in a square and circumscribed about another square as shown. Which fraction is closest to the ratio of the circle's shaded area to the area between the two squares? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "\\frac{1}{2}",
+          "1",
+          "\\frac{3}{2}",
+          "2",
+          "\\frac{5}{2}"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2012-5",
+      "name": "Problem 5 (2012 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2012_AMC_8_Problems/Problem_5",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Perimeter",
+        "Segments"
+      ],
+      "statement": "In the diagram, all angles are right angles and the lengths of the sides are given in centimeters. Note the diagram is not drawn to scale. What is $X$, in centimeters? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1$",
+          "$2$",
+          "$3$",
+          "$4$",
+          "$5$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2012-6",
+      "name": "Problem 6 (2012 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2012_AMC_8_Problems/Problem_6",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Rectangles"
+      ],
+      "statement": "A rectangular photograph is placed in a frame that forms a border two inches wide on all sides of the photograph. The photograph measures $8$ inches high and $10$ inches wide. What is the area of the border, in square inches?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$36$",
+          "$40$",
+          "$64$",
+          "$72$",
+          "$88$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2012-17",
+      "name": "Problem 17 (2012 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2012_AMC_8_Problems/Problem_17",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Tiling",
+        "Number Theory"
+      ],
+      "statement": "A square with integer side length is cut into $10$ squares, all of which have integer side length and at least $8$ of which have area $1$. What is the smallest possible value of the length of the side of the original square?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$3$",
+          "$4$",
+          "$5$",
+          "$6$",
+          "$7$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2012-21",
+      "name": "Problem 21 (2012 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2012_AMC_8_Problems/Problem_21",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Surface Area",
+        "Cubes"
+      ],
+      "statement": "Marla has a large white cube that has an edge of $10$ feet. She also has enough green paint to cover $300$ square feet. Marla uses all the paint to create a white square centered on each face, surrounded by a green border. What is the area of one of the white squares, in square feet?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$5\\sqrt{2}$",
+          "$10$",
+          "$10\\sqrt{2}$",
+          "$50$",
+          "$50\\sqrt{2}$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2012-23",
+      "name": "Problem 23 (2012 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2012_AMC_8_Problems/Problem_23",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Equilateral Triangles",
+        "Regular Hexagons"
+      ],
+      "statement": "An equilateral triangle and a regular hexagon have equal perimeters. If the area of the triangle is $4$, what is the area of the hexagon?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$4$",
+          "$5$",
+          "$6$",
+          "$4\\sqrt{3}$",
+          "$6\\sqrt{3}$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2012-24",
+      "name": "Problem 24 (2012 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2012_AMC_8_Problems/Problem_24",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Circles"
+      ],
+      "statement": "A circle of radius $2$ is cut into four congruent arcs. The four arcs are joined to form the star figure shown. What is the ratio of the area of the star figure to the area of the original circle? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{4-\\pi}{\\pi}$",
+          "$\\frac{1}{\\pi}$",
+          "$\\frac{\\sqrt{2}}{\\pi}$",
+          "$\\frac{\\pi-1}{\\pi}$",
+          "$\\frac{3}{\\pi}$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2012-25",
+      "name": "Problem 25 (2012 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2012_AMC_8_Problems/Problem_25",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Squares",
+        "Right Triangles"
+      ],
+      "statement": "A square with area $4$ is inscribed in a square with area $5$, with one vertex of the smaller square on each side of the larger square. A vertex of the smaller square divides a side of the larger square into two segments, one of length $a$, and the other of length $b$. What is the value of $ab$? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{5}$",
+          "$\\frac{2}{5}$",
+          "$\\frac{1}{2}$",
+          "$1$",
+          "$4$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2013-18",
+      "name": "Problem 18 (2013 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2013_AMC_8_Problems/Problem_18",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "3D Geometry",
+        "Volume",
+        "Counting"
+      ],
+      "statement": "Isabella uses one-foot cubical blocks to build a rectangular fort that is $12$ feet long, $10$ feet wide, and $5$ feet high. The floor and the four walls are all one foot thick. How many blocks does the fort contain? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$204$",
+          "$280$",
+          "$320$",
+          "$340$",
+          "$600$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2013-20",
+      "name": "Problem 20 (2013 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2013_AMC_8_Problems/Problem_20",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Circles",
+        "Pythagorean Theorem",
+        "Inscribed Figures"
+      ],
+      "statement": "A $1 \\times 2$ rectangle is inscribed in a semicircle with longer side on the diameter. What is the area of the semicircle?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{\\pi}{2}$",
+          "$\\frac{2\\pi}{3}$",
+          "$\\pi$",
+          "$\\frac{4\\pi}{3}$",
+          "$\\frac{5\\pi}{4}$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2013-24",
+      "name": "Problem 24 (2013 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2013_AMC_8_Problems/Problem_24",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Area Ratio",
+        "Squares",
+        "Triangles"
+      ],
+      "statement": "Squares $ABCD$, $EFGH$, and $GHIJ$ are equal in area. Points $C$ and $D$ are the midpoints of sides $IH$ and $HE$, respectively. What is the ratio of the area of the shaded pentagon $AJICB$ to the sum of the areas of the three squares? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{4}$",
+          "$\\frac{7}{24}$",
+          "$\\frac{1}{3}$",
+          "$\\frac{3}{8}$",
+          "$\\frac{5}{12}$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2013-25",
+      "name": "Problem 25 (2013 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2013_AMC_8_Problems/Problem_25",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Circles",
+        "Locus",
+        "Arc Length"
+      ],
+      "statement": "A ball with diameter $4$ inches starts at point $A$ to roll along the track shown. The track is comprised of $3$ semicircular arcs whose radii are $R_1 = 100$ inches, $R_2 = 60$ inches, and $R_3 = 80$ inches, respectively. The ball always remains in contact with the track and does not slip. What is the distance the center of the ball travels over the course from $A$ to $B$? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$238\\pi$",
+          "$240\\pi$",
+          "$260\\pi$",
+          "$280\\pi$",
+          "$500\\pi$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2014-6",
+      "name": "Problem 6 (2014 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2014_AMC_8_Problems/Problem_6",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Sum of Squares"
+      ],
+      "statement": "Six rectangles each with a common base width of $2$ have lengths of $1, 4, 9, 16, 25,$ and $36$. What is the sum of the areas of the six rectangles?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$91$",
+          "$93$",
+          "$162$",
+          "$182$",
+          "$202$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2014-14",
+      "name": "Problem 14 (2014 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2014_AMC_8_Problems/Problem_14",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Pythagorean Theorem"
+      ],
+      "statement": "Rectangle $ABCD$ and right triangle $DCE$ have the same area. They are joined to form a trapezoid, as shown. What is $DE$? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$12$",
+          "$13$",
+          "$14$",
+          "$15$",
+          "$16$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2014-15",
+      "name": "Problem 15 (2014 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2014_AMC_8_Problems/Problem_15",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Circles",
+        "Inscribed Angles"
+      ],
+      "statement": "The circumference of the circle with center $O$ is divided into $12$ equal arcs, marked the letters $A$ through $L$ as seen below. What is the number of degrees in the sum of the angles $x$ and $y$? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$75$",
+          "$80$",
+          "$90$",
+          "$120$",
+          "$150$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2014-19",
+      "name": "Problem 19 (2014 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2014_AMC_8_Problems/Problem_19",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "3D Geometry",
+        "Surface Area",
+        "Optimization"
+      ],
+      "statement": "A cube with $3$-inch edges is to be constructed from $27$ smaller cubes with $1$-inch edges. Twenty-one of the cubes are colored red and $6$ are colored white. If the $3$-inch cube is constructed to have the smallest possible white surface area showing, what fraction of the surface area is white?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{5}{54}$",
+          "$\\frac{1}{9}$",
+          "$\\frac{5}{27}$",
+          "$\\frac{2}{9}$",
+          "$\\frac{1}{3}$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2014-20",
+      "name": "Problem 20 (2014 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2014_AMC_8_Problems/Problem_20",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Circles"
+      ],
+      "statement": "Rectangle $ABCD$ has sides $CD=3$ and $DA=5$. A circle of radius $1$ is centered at $A$, a circle of radius $2$ is centered at $B$, and a circle of radius $3$ is centered at $C$. Which of the following is closest to the area of the region inside the rectangle but outside all three circles? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$3.5$",
+          "$4.0$",
+          "$4.5$",
+          "$5.0$",
+          "$5.5$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2015-2",
+      "name": "Problem 2 (2015 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2015_AMC_8_Problems/Problem_2",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Polygons"
+      ],
+      "statement": "Point $O$ is the center of the regular octagon $ABCDEFGH$, and $X$ is the midpoint of the side $\\overline{AB}$. What fraction of the area of the octagon is shaded? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "\\frac{11}{32}",
+          "\\frac{3}{8}",
+          "\\frac{13}{32}",
+          "\\frac{7}{16}",
+          "\\frac{15}{32}"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2015-8",
+      "name": "Problem 8 (2015 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2015_AMC_8_Problems/Problem_8",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Triangle Inequality",
+        "Perimeter"
+      ],
+      "statement": "What is the smallest whole number larger than the perimeter of any triangle with a side of length $5$ and a side of length $19$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "24",
+          "29",
+          "43",
+          "48",
+          "57"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2015-21",
+      "name": "Problem 21 (2015 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2015_AMC_8_Problems/Problem_21",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Polygons",
+        "Area",
+        "Equilateral Triangles"
+      ],
+      "statement": "In the given figure, hexagon $ABCDEF$ is equiangular, $ABJI$ and $FEHG$ are squares with areas $18$ and $32$ respectively, $\\triangle JBK$ is equilateral and $FE=BC$. What is the area of $\\triangle KBC$? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "6\\sqrt{2}",
+          "9",
+          "12",
+          "9\\sqrt{2}",
+          "32"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2015-25",
+      "name": "Problem 25 (2015 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2015_AMC_8_Problems/Problem_25",
+      "source": "AMC 8",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Optimization",
+        "Area",
+        "Squares"
+      ],
+      "statement": "One-inch squares are cut from the corners of this $5$-inch square. What is the area in square inches of the largest square that can be fitted into the remaining space? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "9",
+          "12\\frac{1}{2}",
+          "15",
+          "15\\frac{1}{2}",
+          "17"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2016-23",
+      "name": "Problem 23 (2016 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2016_AMC_8_Problems/Problem_23",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Equilateral Triangles",
+        "Inscribed Angles",
+        "Circle Properties"
+      ],
+      "statement": "Two congruent circles centered at points $A$ and $B$ each pass through the other circle's center. The line containing both $A$ and $B$ is extended to intersect the circles at points $C$ and $D$. The circles intersect at two points, one of which is $E$. What is the degree measure of $\\angle CED$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$90$",
+          "$105$",
+          "$120$",
+          "$135$",
+          "$150$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2017-25",
+      "name": "Problem 25 (2017 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2017_AMC_8_Problems/Problem_25",
+      "source": "AMC 8",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Circular Segments",
+        "Equilateral Triangles",
+        "Area Subtraction"
+      ],
+      "statement": "In the figure shown, $\\overline{US}$ and $\\overline{UT}$ are line segments each of length $2$, and $m\\angle TUS = 60^\\circ$. Arcs $TR$ and $SR$ are each one-sixth of a circle with radius $2$. What is the area of the region shown? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$3\\sqrt{3}-\\pi$",
+          "$4\\sqrt{3}-\\frac{4\\pi}{3}$",
+          "$2\\sqrt{3}$",
+          "$4\\sqrt{3}-\\frac{2\\pi}{3}$",
+          "$4+\\frac{4\\pi}{3}$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2018-4",
+      "name": "Problem 4 (2018 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2018_AMC_8_Problems/Problem_4",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Pick's Theorem",
+        "Grid Geometry"
+      ],
+      "statement": "The twelve-sided figure shown has been drawn on $1 \\text{ cm} \\times 1 \\text{ cm}$ graph paper. What is the area of the figure in $\\text{cm}^2$? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$12$",
+          "$12.5$",
+          "$13$",
+          "$13.5$",
+          "$14$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2018-15",
+      "name": "Problem 15 (2018 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2018_AMC_8_Problems/Problem_15",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Area of Circles"
+      ],
+      "statement": "In the diagram below, a diameter of each of the two smaller circles is a radius of the larger circle. If the two smaller circles have a combined area of $1$ square unit, then what is the area of the shaded region, in square units? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{4}$",
+          "$\\frac{1}{3}$",
+          "$\\frac{1}{2}$",
+          "$1$",
+          "$\\frac{\\pi}{2}$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2018-22",
+      "name": "Problem 22 (2018 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2018_AMC_8_Problems/Problem_22",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Similar Triangles",
+        "Area"
+      ],
+      "statement": "Point $E$ is the midpoint of side $\\overline{CD}$ in square $ABCD$, and $\\overline{BE}$ meets diagonal $\\overline{AC}$ at $F$. The area of quadrilateral $AFED$ is $45$. What is the area of $ABCD$? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$100$",
+          "$108$",
+          "$120$",
+          "$135$",
+          "$144$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2018-24",
+      "name": "Problem 24 (2018 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2018_AMC_8_Problems/Problem_24",
+      "source": "AMC 8",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "3D Geometry",
+        "Cross Sections",
+        "Pythagorean Theorem"
+      ],
+      "statement": "In the cube $ABCDEFGH$ with opposite vertices $C$ and $E$, $J$ and $I$ are the midpoints of edges $\\overline{FB}$ and $\\overline{HD}$ respectively. Let $R$ be the ratio of the area of the cross-section $EJCI$ to the area of one of the faces of the cube. What is $R^2$? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{5}{4}$",
+          "$\\frac{4}{3}$",
+          "$\\frac{3}{2}$",
+          "$\\frac{25}{16}$",
+          "$\\frac{9}{4}$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2019-2",
+      "name": "Problem 2 (2019 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2019_AMC_8_Problems/Problem_2",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Rectangle Area",
+        "Spatial Reasoning"
+      ],
+      "statement": "Three identical rectangles are put together to form rectangle $ABCD$, as shown in the figure below. Given that the length of the shorter side of each of the smaller rectangles is $5$ feet, what is the area in square feet of rectangle $ABCD$? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$45$",
+          "$75$",
+          "$100$",
+          "$125$",
+          "$150$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2019-9",
+      "name": "Problem 9 (2019 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2019_AMC_8_Problems/Problem_9",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Cylinder Volume",
+        "Ratios"
+      ],
+      "statement": "Alex and Felicia each have cats as pets. Alex buys cat food in cylindrical cans that are $6\\text{ cm}$ in diameter and $12\\text{ cm}$ high. Felicia buys cat food in cylindrical cans that are $12\\text{ cm}$ in diameter and $6\\text{ cm}$ high. What is the ratio of the volume of one of Alex's cans to the volume of one of Felicia's cans?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1:4$",
+          "$1:2$",
+          "$1:1$",
+          "$2:1$",
+          "$4:1$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2019-12",
+      "name": "Problem 12 (2019 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2019_AMC_8_Problems/Problem_12",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Spatial Reasoning",
+        "Cube Nets"
+      ],
+      "statement": "The faces of a cube are painted in six different colors: red ($R$), white ($W$), green ($G$), brown ($B$), aqua ($A$), and purple ($P$). Three views of the cube are shown below. What is the color of the face opposite the aqua face? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "red",
+          "white",
+          "green",
+          "brown",
+          "purple"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2019-24",
+      "name": "Problem 24 (2019 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2019_AMC_8_Problems/Problem_24",
+      "source": "AMC 8",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Mass Points",
+        "Area Ratios",
+        "Cevians"
+      ],
+      "statement": "In triangle $ABC$, point $D$ divides side $\\overline{AC}$ so that $AD:DC=1:2$. Let $E$ be the midpoint of $\\overline{BD}$ and let $F$ be the point of intersection of line $BC$ and line $AE$. Given that the area of $\\triangle ABC$ is $360$, what is the area of $\\triangle EBF$? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$24$",
+          "$30$",
+          "$32$",
+          "$36$",
+          "$40$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2020-9",
+      "name": "Problem 9 (2020 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2020_AMC_8_Problems/Problem_9",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "3D Geometry",
+        "Visualization",
+        "Surface Area"
+      ],
+      "statement": "Akash's birthday cake is in the form of a $4\\times4\\times4$ inch cube. The cake has icing on the top and the four side faces, and no icing on the bottom. Suppose the cake is cut into $64$ smaller cubes, each measuring $1\\times1\\times1$ inch, as shown below. How many of the small pieces will have icing on exactly two sides? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$12$",
+          "$16$",
+          "$18$",
+          "$20$",
+          "$24$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2020-18",
+      "name": "Problem 18 (2020 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2020_AMC_8_Problems/Problem_18",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Circles",
+        "Rectangles",
+        "Pythagorean Theorem"
+      ],
+      "statement": "Rectangle $ABCD$ is inscribed in a semicircle with diameter $\\overline{FE}$, as shown in the figure. Let $DA=16$ and let $FD=AE=9$. What is the area of $ABCD$? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$240$",
+          "$248$",
+          "$256$",
+          "$264$",
+          "$272$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2022-1",
+      "name": "Problem 1 (2022 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2022_AMC_8_Problems/Problem_1",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Grid"
+      ],
+      "statement": "The Math Team designed a logo shaped like a multiplication symbol, shown below on a grid of $1$-inch squares. What is the area of the logo in square inches? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$10$",
+          "$12$",
+          "$13$",
+          "$14$",
+          "$15$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2022-4",
+      "name": "Problem 4 (2022 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2022_AMC_8_Problems/Problem_4",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Reflections",
+        "Transformations"
+      ],
+      "statement": "The letter M in the figure below is first reflected over the line $q$ and then reflected over the line $p$. What is the resulting image? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "[See figure in original PDF]",
+          "[See figure in original PDF]",
+          "[See figure in original PDF]",
+          "[See figure in original PDF]",
+          "[See figure in original PDF]"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2022-24",
+      "name": "Problem 24 (2022 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2022_AMC_8_Problems/Problem_24",
+      "source": "AMC 8",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "3D Geometry",
+        "Volume",
+        "Nets"
+      ],
+      "statement": "The figure below shows a polygon $ABCDEFGH$, consisting of rectangles and right triangles. When cut out and folded on the dotted lines, the polygon forms a triangular prism. Suppose that $AH = EF = 8$ and $GH = 14$. What is the volume of the prism? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$112$",
+          "$128$",
+          "$192$",
+          "$240$",
+          "$288$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2023-2",
+      "name": "Problem 2 (2023 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2023_AMC_8_Problems/Problem_2",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Spatial Reasoning",
+        "Paper Folding"
+      ],
+      "statement": "A square piece of paper is folded twice into four equal quarters, as shown below, then cut along the dashed line. When unfolded, the paper will match which of the following figures? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "[Figure A]",
+          "[Figure B]",
+          "[Figure C]",
+          "[Figure D]",
+          "[Figure E]"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2023-12",
+      "name": "Problem 12 (2023 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2023_AMC_8_Problems/Problem_12",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Circles"
+      ],
+      "statement": "The figure below shows a large white circle with a number of smaller white and shaded circles in its interior. What fraction of the interior of the large white circle is shaded? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{4}$",
+          "$\\frac{11}{36}$",
+          "$\\frac{1}{3}$",
+          "$\\frac{19}{36}$",
+          "$\\frac{5}{9}$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2023-17",
+      "name": "Problem 17 (2023 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2023_AMC_8_Problems/Problem_17",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Spatial Reasoning",
+        "Nets"
+      ],
+      "statement": "A regular octahedron has eight equilateral triangle faces with four faces meeting at each vertex. Jun will make the regular octahedron shown on the right by folding the piece of paper shown on the left. Which numbered face will end up to the right of Q? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1$",
+          "$2$",
+          "$3$",
+          "$4$",
+          "$5$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2024-3",
+      "name": "Problem 3 (2024 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2024_AMC_8_Problems/Problem_3",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Squares",
+        "Inclusion-Exclusion Geometry"
+      ],
+      "statement": "Four squares of side length $4$, $7$, $9$, and $10$ are arranged in increasing size order so that their left edges and bottom edges align. The squares alternate in color white-gray-white-gray, respectively, as shown in the figure. What is the area of the visible gray region in square units? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$42$",
+          "$45$",
+          "$49$",
+          "$50$",
+          "$52$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2024-7",
+      "name": "Problem 7 (2024 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2024_AMC_8_Problems/Problem_7",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Tiling",
+        "Optimization"
+      ],
+      "statement": "A $3 \\times 7$ grid is covered without overlap by $3$ shapes of tiles: $2 \\times 2$, $1 \\times 4$, and $1 \\times 1$, shown below. What is the minimum possible number of $1 \\times 1$ tiles used? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1$",
+          "$2$",
+          "$3$",
+          "$4$",
+          "$5$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2024-18",
+      "name": "Problem 18 (2024 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2024_AMC_8_Problems/Problem_18",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Area of Sectors",
+        "Circles",
+        "Equations"
+      ],
+      "statement": "Three concentric circles centered at $O$ have radii of $1$, $2$, and $3$. Points $B$ and $C$ lie on the largest circle. The region between the two smaller circles is shaded, as is the portion of the region between the two larger circles bounded by central angle $BOC$, as shown in the figure below. Suppose the shaded and unshaded regions are equal in area. What is the measure of $\\angle BOC$ in degrees? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$108^\\circ$",
+          "$120^\\circ$",
+          "$135^\\circ$",
+          "$144^\\circ$",
+          "$150^\\circ$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2024-20",
+      "name": "Problem 20 (2024 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2024_AMC_8_Problems/Problem_20",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "3D Geometry",
+        "Cubes",
+        "Equilateral Triangles"
+      ],
+      "statement": "Any three vertices of the cube $PQRSTUVW$, shown in the figure below, can be connected to form a triangle. (For example, vertices $P$, $Q$, and $R$ can be connected to form $\\triangle PQR$.) How many of these triangles are equilateral and contain $P$ as a vertex? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$0$",
+          "$1$",
+          "$2$",
+          "$3$",
+          "$6$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2024-22",
+      "name": "Problem 22 (2024 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2024_AMC_8_Problems/Problem_22",
+      "source": "AMC 8",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Circles",
+        "Volume Equivalent"
+      ],
+      "statement": "A roll of tape is $4$ inches in diameter and is wrapped around a ring that is $2$ inches in diameter. A cross section of the tape is shown in the figure below. The tape is $0.015$ inches thick. If the tape is completely unrolled, approximately how long would it be? Round your answer to the nearest $100$ inches. [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$300$",
+          "$600$",
+          "$1200$",
+          "$1500$",
+          "$1800$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2024-24",
+      "name": "Problem 24 (2024 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2024_AMC_8_Problems/Problem_24",
+      "source": "AMC 8",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Right Triangles",
+        "Area",
+        "Coordinate Geometry"
+      ],
+      "statement": "Jean made a piece of stained glass art in the shape of two mountains, as shown in the figure below. One mountain peak is $8$ feet high and the other peak is $12$ feet high. Each peak forms a $90^\\circ$ angle, and the straight sides of the mountains form $45^\\circ$ with the ground. The artwork has an area of $183$ square feet. The sides of the mountains meet at an intersection point near the center of the artwork, $h$ feet above the ground. What is the value of $h$? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$4$",
+          "$5$",
+          "$4\\sqrt{2}$",
+          "$6$",
+          "$5\\sqrt{2}$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2025-1",
+      "name": "Problem 1 (2025 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2025_AMC_8_Problems/Problem_1",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Grid",
+        "Percentages"
+      ],
+      "statement": "The eight pointed star is a popular quilting pattern. What percent of the entire $4 \times 4$ grid is covered by the star? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$40$",
+          "$50$",
+          "$60$",
+          "$75$",
+          "$80$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2025-10",
+      "name": "Problem 10 (2025 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2025_AMC_8_Problems/Problem_6",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Area",
+        "Overlapping Regions",
+        "Rotations"
+      ],
+      "statement": "In the figure below, $ABCD$ is a rectangle with sides of length $AB=5$ inches and $AD=3$ inches. Rectangle $ABCD$ is rotated $90^{\\circ}$ clockwise about the midpoint of side $DC$ to give a second rectangle. What is the total area, in square inches, covered by the two overlapping rectangles? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$21$",
+          "$22.25$",
+          "$23$",
+          "$23.75$",
+          "$25$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2025-11",
+      "name": "Problem 11 (2025 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2025_AMC_8_Problems/Problem_7",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Tiling",
+        "Tetrominoes",
+        "Spatial Reasoning"
+      ],
+      "statement": "A tetromino consists of four squares connected along their edges. There are five possible tetromino shapes, $I$, $O$, $L$, $T$, $S$, shown below, which can be rotated or flipped over. Three tetrominos are used to completely cover a $3 \\times 4$ rectangle. At least one of the tiles is an $S$ tile. What are the other two tiles? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$I$ and $L$",
+          "$I$ and $T$",
+          "$L$ and $L$",
+          "$L$ and $S$",
+          "$O$ and $T$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2025-13",
+      "name": "Problem 13 (2025 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2025_AMC_8_Problems/Problem_8",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Circles",
+        "Inscribed Figures",
+        "Optimization"
+      ],
+      "statement": "The region shown below consists of $24$ squares, each with side length $1$ centimeter. What is the area, in square centimeters, of the largest circle that can fit inside the region, possibly touching the boundaries? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$3\\pi$",
+          "$4\\pi$",
+          "$5\\pi$",
+          "$6\\pi$",
+          "$8\\pi$"
+        ],
+        "correctIndex": 0
+      },
       "solutionMetadata": {
         "kind": "none"
       }

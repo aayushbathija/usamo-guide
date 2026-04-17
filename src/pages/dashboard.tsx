@@ -25,6 +25,11 @@ import {
   useProblemsProgressInfo,
 } from '../utils/getProgressInfo';
 
+const VANILLA = '#F4EDEA';
+const TEXT_SECONDARY = 'rgba(244, 237, 234, 0.72)';
+const MIDNIGHT_GRADIENT =
+  'linear-gradient(to bottom, #120F24 0%, #0E0B1F 48%, #0A0818 100%)';
+
 export default function DashboardPage(props: PageProps) {
   const { modules, problems } = props.data as any;
   const moduleInfoById = modules.edges.reduce((acc, cur) => {
@@ -155,18 +160,18 @@ export default function DashboardPage(props: PageProps) {
         <div className="px-4 py-5 sm:p-6">
           <div className="flex flex-wrap items-start justify-between gap-4">
             <div>
-              <h3 className="dark:text-dark-high-emphasis text-lg leading-6 font-medium text-gray-900">
+              <h3 className="text-lg leading-6 font-medium" style={{ color: VANILLA }}>
                 {title}
               </h3>
-              <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">
+              <p className="mt-1 text-sm" style={{ color: TEXT_SECONDARY }}>
                 {total} total
               </p>
             </div>
-            <div className="rounded-lg bg-gray-100 px-4 py-3 text-center dark:bg-gray-700">
-              <div className="text-2xl font-semibold text-gray-900 dark:text-gray-100">
+            <div className="rounded-lg px-4 py-3 text-center" style={{ background: 'rgba(244, 237, 234, 0.10)' }}>
+              <div className="text-2xl font-semibold" style={{ color: VANILLA }}>
                 {percentComplete}%
               </div>
-              <div className="text-xs font-medium uppercase text-gray-500 dark:text-gray-300">
+              <div className="text-xs font-medium uppercase" style={{ color: TEXT_SECONDARY }}>
                 Complete
               </div>
             </div>
@@ -174,60 +179,63 @@ export default function DashboardPage(props: PageProps) {
 
           <div className="mt-4 space-y-3">
             <div className="flex items-center justify-between text-sm">
-              <span className="flex items-center gap-2 text-gray-600 dark:text-gray-300">
-                <span className="h-2.5 w-2.5 rounded-full bg-green-500 dark:bg-green-700" />
+              <span className="flex items-center gap-2" style={{ color: TEXT_SECONDARY }}>
+                <span className="h-2.5 w-2.5 rounded-full" style={{ backgroundColor: '#70428A' }} />
                 Completed
               </span>
-              <span className="font-medium text-gray-900 dark:text-gray-100">
+              <span className="font-medium" style={{ color: VANILLA }}>
                 {counts.completed}
               </span>
             </div>
             <div className="flex items-center justify-between text-sm">
-              <span className="flex items-center gap-2 text-gray-600 dark:text-gray-300">
-                <span className="h-2.5 w-2.5 rounded-full bg-yellow-400 dark:bg-yellow-700" />
+              <span className="flex items-center gap-2" style={{ color: TEXT_SECONDARY }}>
+                <span className="h-2.5 w-2.5 rounded-full" style={{ backgroundColor: '#E085FF' }} />
                 In progress
               </span>
-              <span className="font-medium text-gray-900 dark:text-gray-100">
+              <span className="font-medium" style={{ color: VANILLA }}>
                 {counts.inProgress}
               </span>
             </div>
             <div className="flex items-center justify-between text-sm">
-              <span className="flex items-center gap-2 text-gray-600 dark:text-gray-300">
-                <span className="h-2.5 w-2.5 rounded-full bg-blue-500 dark:bg-blue-700" />
+              <span className="flex items-center gap-2" style={{ color: TEXT_SECONDARY }}>
+                <span className="h-2.5 w-2.5 rounded-full" style={{ backgroundColor: '#F0C2FF' }} />
                 Skipped
               </span>
-              <span className="font-medium text-gray-900 dark:text-gray-100">
+              <span className="font-medium" style={{ color: VANILLA }}>
                 {counts.skipped}
               </span>
             </div>
             <div className="flex items-center justify-between text-sm">
-              <span className="flex items-center gap-2 text-gray-600 dark:text-gray-300">
-                <span className="h-2.5 w-2.5 rounded-full bg-gray-300 dark:bg-gray-600" />
+              <span className="flex items-center gap-2" style={{ color: TEXT_SECONDARY }}>
+                <span className="h-2.5 w-2.5 rounded-full" style={{ backgroundColor: 'rgba(210, 212, 200, 0.6)' }} />
                 Not started
               </span>
-              <span className="font-medium text-gray-900 dark:text-gray-100">
+              <span className="font-medium" style={{ color: VANILLA }}>
                 {counts.notStarted}
               </span>
             </div>
           </div>
 
           <div className="mt-5">
-            <div className="flex h-2 overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700">
+            <div className="flex h-2 overflow-hidden rounded-full" style={{ background: 'rgba(244, 237, 234, 0.16)' }}>
               <div
-                style={{ width: `${segment(counts.completed)}%` }}
-                className="h-2 bg-green-500 dark:bg-green-700"
+                style={{ width: `${segment(counts.completed)}%`, background: '#70428A' }}
+                className="h-2"
               />
               <div
-                style={{ width: `${segment(counts.inProgress)}%` }}
-                className="h-2 bg-yellow-400 dark:bg-yellow-700"
+                style={{ width: `${segment(counts.inProgress)}%`, background: '#E085FF' }}
+                className="h-2"
               />
               <div
-                style={{ width: `${segment(counts.skipped)}%` }}
-                className="h-2 bg-blue-500 dark:bg-blue-700"
+                style={{ width: `${segment(counts.skipped)}%`, background: '#F0C2FF' }}
+                className="h-2"
               />
               <div
-                style={{ width: `${segment(counts.notStarted)}%` }}
-                className="h-2 bg-gray-300 dark:bg-gray-600"
+                style={{
+                  width: `${segment(counts.notStarted)}%`,
+                  background: 'rgba(210, 212, 200, 0.6)',
+                }}
+                className="h-2"
               />
             </div>
           </div>
@@ -241,9 +249,11 @@ export default function DashboardPage(props: PageProps) {
       <SEO title="Dashboard" image={null} pathname={props.path} />
 
       <div
-        className="ui-page min-h-screen bg-gradient-to-b from-gray-50 via-orange-50 to-blue-50 px-0 text-gray-900 dark:bg-gradient-to-b dark:from-[#1b120a] dark:via-[#0a192f] dark:to-[#0d1321] dark:text-white"
+        data-page-tone="dark"
+        className="ui-page min-h-screen px-0"
         style={{
-          '--ui-page-bg-image': 'url(/images/math-doodles.png)',
+          backgroundImage: MIDNIGHT_GRADIENT,
+          color: VANILLA,
         } as React.CSSProperties}
       >
         <TopNavigationBar linkLogoToIndex={true} redirectToDashboard={false} />
@@ -259,19 +269,48 @@ export default function DashboardPage(props: PageProps) {
                         Signed in as <i>{currentUser.email}</i>.
                       </>
                     ) : (
-                      <span>
-                        Not signed in.{' '}
-                        <a
-                          href="#"
-                          onClick={e => {
-                            e.preventDefault();
-                            signIn();
-                          }}
-                          className="text-blue-600 underline dark:text-blue-300"
-                        >
-                          Sign in now!
-                        </a>{' '}
-                      </span>
+                      <div
+                        className="w-full rounded-2xl border px-5 py-5 text-center shadow-[0_18px_40px_rgba(0,0,0,0.18)]"
+                        style={{
+                          borderColor: 'rgba(112, 66, 138, 0.28)',
+                          background:
+                            'linear-gradient(135deg, rgba(244, 237, 234, 0.92) 0%, rgba(240, 194, 255, 0.84) 100%)',
+                          color: '#120F24',
+                        }}
+                      >
+                        <div className="flex w-full flex-col items-center gap-4 sm:flex-row sm:justify-center sm:gap-6 lg:justify-between">
+                          <div className="max-w-2xl text-center lg:text-left">
+                            <div className="text-xl font-semibold sm:text-2xl">
+                              You&apos;re not signed in!
+                            </div>
+                            <div
+                              className="mt-1 text-sm"
+                              style={{ color: 'rgba(18, 15, 36, 0.8)' }}
+                            >
+                              Track progress, unlock problem sets, and sync across devices.
+                            </div>
+                            <button
+                              type="button"
+                              onClick={() => signIn()}
+                              className="purple-motion-effect mt-4 inline-flex items-center justify-center rounded-full px-6 py-2 font-mono text-sm font-bold leading-tight"
+                              style={{
+                                border: '1px solid rgba(240, 194, 255, 0.34)',
+                                background: 'linear-gradient(135deg, #5A2F87 0%, #C58BFF 100%)',
+                                '--pme-color': '#F4EDEA',
+                                '--pme-hover-color': '#201C36',
+                                '--pme-wipe-bg': '#F0C2FF',
+                              } as React.CSSProperties}
+                            >
+                              Save Progress
+                            </button>
+                          </div>
+                          <img
+                            src="/images/cryingmascot.png"
+                            alt="Crying mascot"
+                            className="h-24 w-auto shrink-0 object-contain sm:h-28"
+                          />
+                        </div>
+                      </div>
                     )}
                   </div>
                 </div>
@@ -280,13 +319,13 @@ export default function DashboardPage(props: PageProps) {
             <div className="mx-auto mb-8 max-w-screen-2xl px-4 sm:px-6 lg:px-4">
               <div className="grid gap-8 lg:grid-cols-3">
                 <section className="lg:col-span-2">
-                  <h1 className="dark:text-dark-high-emphasis text-3xl leading-tight font-bold text-gray-900">
+                  <h1 className="text-3xl leading-tight font-bold" style={{ color: VANILLA }}>
                     Activity
                   </h1>
                   <Activity />
                 </section>
                 <section className="lg:col-span-1">
-                  <h2 className="dark:text-dark-high-emphasis text-2xl leading-tight font-bold text-gray-900">
+                  <h2 className="text-2xl leading-tight font-bold" style={{ color: VANILLA }}>
                     Active items
                   </h2>
                   <div className="mt-4 space-y-6">
@@ -298,7 +337,7 @@ export default function DashboardPage(props: PageProps) {
                     )}
                     {activeProblems.length === 0 && activeModules.length === 0 && (
                       <Card>
-                        <div className="px-4 py-5 text-sm text-gray-600 sm:p-6 dark:text-gray-400">
+                        <div className="px-4 py-5 text-sm sm:p-6" style={{ color: TEXT_SECONDARY }}>
                           No active problems or modules yet.
                         </div>
                       </Card>
@@ -308,7 +347,14 @@ export default function DashboardPage(props: PageProps) {
               </div>
               <div className="mt-6 flex">
                 <Link
-                  className="inline-flex w-full items-center justify-center rounded-md bg-blue-800 px-5 py-3 text-base font-medium text-white transition hover:bg-blue-600 dark:hover:bg-blue-700"
+                  className="purple-motion-effect inline-flex w-full items-center justify-center rounded-full px-5 py-3 font-mono text-base font-bold leading-tight"
+                  style={{
+                    border: '1px solid rgba(240, 194, 255, 0.34)',
+                    background: 'linear-gradient(135deg, #5A2F87 0%, #C58BFF 100%)',
+                    '--pme-color': '#F4EDEA',
+                    '--pme-hover-color': '#201C36',
+                    '--pme-wipe-bg': '#F0C2FF',
+                  } as React.CSSProperties}
                   to={
                     lastViewedModuleURL ||
                     '/foundations/arithmetic-nt-basics'
@@ -321,14 +367,14 @@ export default function DashboardPage(props: PageProps) {
               </div>
             </div>
             <header>
-              <div className="mx-auto max-w-screen-2xl px-4 sm:px-6 lg:px-4">
-                <h1 className="dark:text-dark-high-emphasis text-3xl leading-tight font-bold text-gray-900">
+              <div className="mx-auto max-w-screen-2xl px-8">
+                <h1 className="text-3xl leading-tight font-bold" style={{ color: VANILLA }}>
                   Statistics
                 </h1>
               </div>
             </header>
             <div className="mx-auto max-w-screen-2xl">
-              <div className="space-y-8 py-4 sm:px-6 lg:grid lg:grid-cols-2 lg:gap-8 lg:space-y-0 lg:px-4">
+              <div className="space-y-8 py-4 px-8 lg:grid lg:grid-cols-2 lg:gap-8 lg:space-y-0 lg:px-8">
                 <div className="space-y-8">
                   {renderStatsTile(
                     `Modules Progress - ${SECTION_LABELS[lastViewedSection]}`,

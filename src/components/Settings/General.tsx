@@ -45,16 +45,16 @@ export default function General(): JSX.Element {
   return (
     <div>
       <div className="space-y-1">
-        <h3 className="text-lg leading-6 font-medium text-gray-900 dark:text-gray-100">
+        <h3 className="text-lg leading-6 font-medium text-[#F4EDEA]">
           Options
         </h3>
       </div>
       <div>
-        <ul className="divide-y divide-gray-200 dark:divide-gray-700">
+        <ul className="divide-y divide-[rgba(240,194,255,0.12)]">
           <li className="flex items-center justify-between py-4">
             <div className="flex flex-col">
               <p
-                className="text-sm font-medium text-gray-500 dark:text-gray-300"
+                className="text-sm font-medium text-[rgba(244,237,234,0.72)]"
                 id="privacy-option-1-label"
               >
                 Problem Lists and Search: Show Tags
@@ -65,7 +65,7 @@ export default function General(): JSX.Element {
           <li className="flex items-center justify-between py-4">
             <div className="flex flex-col">
               <p
-                className="text-sm font-medium text-gray-500 dark:text-gray-300"
+                className="text-sm font-medium text-[rgba(244,237,234,0.72)]"
                 id="privacy-option-1-label"
               >
                 Problem Lists and Search: Hide Difficulty
@@ -79,7 +79,7 @@ export default function General(): JSX.Element {
           <li className="flex items-center justify-between py-4">
             <div className="flex flex-col">
               <p
-                className="text-sm font-medium text-gray-500 dark:text-gray-300"
+                className="text-sm font-medium text-[rgba(244,237,234,0.72)]"
                 id="privacy-option-1-label"
               >
                 Problem Search: Hide Modules
@@ -90,7 +90,7 @@ export default function General(): JSX.Element {
           <li className="flex items-center justify-between py-4">
             <div className="flex flex-col">
               <p
-                className="text-sm font-medium text-gray-500 dark:text-gray-300"
+                className="text-sm font-medium text-[rgba(244,237,234,0.72)]"
                 id="privacy-option-2-label"
               >
                 Dashboard: Show Ignored Problems & Modules
@@ -101,7 +101,7 @@ export default function General(): JSX.Element {
           <li className="flex items-center justify-between py-4">
             <div className="flex flex-col">
               <p
-                className="text-sm font-medium text-gray-500 dark:text-gray-300"
+                className="text-sm font-medium text-[rgba(244,237,234,0.72)]"
                 id="privacy-option-2-label"
               >
                 Use Long Polling (Close and reopen tab after toggling) -{' '}

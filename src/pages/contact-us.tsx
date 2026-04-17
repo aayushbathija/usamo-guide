@@ -20,7 +20,7 @@ const Field = ({
     <div className="space-y-1">
       <label
         htmlFor={id}
-        className="dark:text-dark-high-emphasis block text-sm leading-5 font-medium text-gray-900"
+        className="block text-sm leading-5 font-medium text-[rgba(244,237,234,0.78)]"
       >
         {label}
       </label>
@@ -29,10 +29,8 @@ const Field = ({
           type="text"
           id={id}
           className={
-            'input' +
-            (errorMsg
-              ? ' border-red-300 pr-10 text-red-900 placeholder-red-300 focus:border-red-300 focus:ring-red-300 dark:border-red-300 dark:text-red-300 dark:focus:border-red-300 dark:focus:ring-red-300'
-              : '')
+            'w-full rounded-md border border-[rgba(240,194,255,0.25)] bg-[rgba(10,8,24,0.60)] px-3 py-2 text-sm text-[#F4EDEA] placeholder-[rgba(244,237,234,0.35)] focus:border-[#70428A] focus:outline-none focus:ring-1 focus:ring-[#70428A]' +
+            (errorMsg ? ' border-red-400 focus:border-red-400 focus:ring-red-400' : '')
           }
           value={value}
           onChange={onChange}
@@ -54,7 +52,7 @@ const Field = ({
         )}
       </div>
       {errorMsg && (
-        <p className="mt-2 text-sm text-red-600 dark:text-red-400">
+        <p className="mt-2 text-sm text-red-400">
           {errorMsg}
         </p>
       )}
@@ -150,28 +148,32 @@ export default function ContactUsPage(props: PageProps) {
   return (
     <Layout>
       <SEO title="Contact Us" pathname={props.path} />
-      <div className="dark:bg-dark-surface min-h-screen bg-gray-100">
+      <div
+        data-page-tone="dark"
+        className="min-h-screen"
+        style={{ background: 'linear-gradient(to bottom, #120F24 0%, #0E0B1F 48%, #0A0818 100%)' }}
+      >
         <TopNavigationBar linkLogoToIndex={true} redirectToDashboard={false} />
         <main className="mx-auto max-w-4xl px-4 py-10 sm:px-6 lg:px-8">
           <div className="mb-6">
-            <h1 className="dark:text-dark-high-emphasis text-3xl leading-tight font-bold text-gray-900">
+            <h1 className="text-3xl leading-tight font-bold text-[#F4EDEA]">
               Contact Us
             </h1>
-            <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">
+            <p className="mt-2 text-sm text-[rgba(244,237,234,0.65)]">
               Contact us about anything: suggestions, bugs, assistance, and more!
               This will be submitted as a public{' '}
               <a
                 href="https://github.com/usamoguide/usamo-guide/issues"
                 target="_blank"
                 rel="noreferrer"
-                className="underline"
+                className="text-[#F0C2FF] underline hover:text-[#F4EDEA]"
               >
                 Github issue
               </a>
               .
             </p>
           </div>
-          <Card>
+          <div className="rounded-xl border border-[rgba(240,194,255,0.20)] bg-[rgba(18,15,36,0.75)] shadow-lg">
             <form className="px-4 py-5 sm:p-6" onSubmit={handleSubmit}>
               {showSuccess && (
                 <div className="rounded-md bg-green-50 p-4 dark:bg-green-800">
@@ -190,10 +192,10 @@ export default function ContactUsPage(props: PageProps) {
                       </svg>
                     </div>
                     <div className="ml-3">
-                      <h3 className="dark:text-dark-high-emphasis text-sm leading-5 font-medium text-green-800">
+                      <h3 className="text-sm leading-5 font-medium text-green-300">
                         Message received!
                       </h3>
-                      <div className="dark:text-dark-high-emphasis mt-2 text-sm leading-5 text-green-700">
+                      <div className="mt-2 text-sm leading-5 text-green-400">
                         <p>
                           Your message has been submitted as an issue in our GitHub
                           repository. You can track the issue here:{' '}
@@ -215,7 +217,7 @@ export default function ContactUsPage(props: PageProps) {
               {!showSuccess && (
                 <div className="space-y-6">
                   {!currentUser && (
-                    <p className="mt-2 text-sm text-red-600 dark:text-red-400">
+                    <p className="mt-2 text-sm text-red-400">
                       You must be logged in to submit the contact form!
                     </p>
                   )}
@@ -252,10 +254,10 @@ export default function ContactUsPage(props: PageProps) {
                     onChange={e => setLocation(e.target.value)}
                   />
                   <fieldset className="space-y-2">
-                    <legend className="dark:text-dark-high-emphasis text-sm leading-5 font-medium text-gray-900">
+                    <legend className="text-sm leading-5 font-medium text-[rgba(244,237,234,0.78)]">
                       Topic
                     </legend>
-                    <div className="text-sm">
+                    <div className="text-sm text-[rgba(244,237,234,0.65)]">
                       The USAMO Guide is a community project and is not affiliated
                       with the MAA, AMC, AIME, USAMO, or AoPS. If your question is
                       about those organizations, please contact them directly.
@@ -269,7 +271,7 @@ export default function ContactUsPage(props: PageProps) {
                                 id={`contact_topic_${idx}`}
                                 type="radio"
                                 name="type"
-                                className="form-radio dark:focus:ring-offset-dark-surface h-4 w-4 text-blue-600 dark:bg-gray-600"
+                                className="form-radio h-4 w-4 accent-[#70428A] bg-[rgba(18,15,36,0.80)] border-[rgba(240,194,255,0.30)]"
                                 checked={topic === t[0]}
                                 onChange={() => setTopic(t[0])}
                               />
@@ -277,7 +279,7 @@ export default function ContactUsPage(props: PageProps) {
                             <div className="pl-7 text-sm leading-5">
                               <label
                                 htmlFor={`contact_topic_${idx}`}
-                                className="dark:text-dark-high-emphasis font-medium text-gray-900"
+                                className="font-medium text-[rgba(244,237,234,0.85)]"
                               >
                                 {t[0]} {t.length > 1 ? `(e.g., ${t[1]})` : ''}
                               </label>
@@ -285,7 +287,7 @@ export default function ContactUsPage(props: PageProps) {
                                 <div>
                                   Submitting a pull request{' '}
                                   <a
-                                    className="text-blue-600 hover:underline dark:text-blue-300"
+                                    className="text-[#F0C2FF] hover:underline"
                                     target="_blank"
                                     rel="noreferrer"
                                     href="https://github.com/usamoguide/usamo-guide/pulls"
@@ -330,7 +332,7 @@ export default function ContactUsPage(props: PageProps) {
                         </div>
                       ))}
                       {showErrors && topic === '' && (
-                        <p className="mt-2 text-sm text-red-600 dark:text-red-400">
+                        <p className="mt-2 text-sm text-red-400">
                           This field is required.
                         </p>
                       )}
@@ -339,12 +341,12 @@ export default function ContactUsPage(props: PageProps) {
                   <div className="space-y-1">
                     <label
                       htmlFor="contact_message"
-                      className="dark:text-dark-high-emphasis block text-sm leading-5 font-medium text-gray-900"
+                      className="block text-sm leading-5 font-medium text-[rgba(244,237,234,0.78)]"
                     >
                       Message (markdown is supported)
                     </label>
                     {showErrors && !currentUser && (
-                      <p className="mt-2 text-sm text-red-600 dark:text-red-400">
+                      <p className="mt-2 text-sm text-red-400">
                         You must be logged in to submit the contact form!
                       </p>
                     )}
@@ -353,9 +355,9 @@ export default function ContactUsPage(props: PageProps) {
                         id="contact_message"
                         rows={5}
                         className={
-                          'textarea ' +
+                          'w-full rounded-md border border-[rgba(240,194,255,0.25)] bg-[rgba(10,8,24,0.60)] px-3 py-2 text-sm text-[#F4EDEA] placeholder-[rgba(244,237,234,0.35)] focus:border-[#70428A] focus:outline-none focus:ring-1 focus:ring-[#70428A] ' +
                           (showErrors && message.length < 10
-                            ? 'border-red-300 text-red-900 placeholder-red-300 focus:border-red-300 focus:ring-red-300 dark:border-red-300 dark:text-red-300 dark:focus:border-red-300 dark:focus:ring-red-300'
+                            ? 'border-red-400 focus:border-red-400 focus:ring-red-400'
                             : '')
                         }
                         value={message}
@@ -378,7 +380,7 @@ export default function ContactUsPage(props: PageProps) {
                       )}
                     </div>
                     {showErrors && message.length < 10 && (
-                      <p className="mt-2 text-sm text-red-600 dark:text-red-400">
+                      <p className="mt-2 text-sm text-red-400">
                         Message must be at least 10 chars.
                       </p>
                     )}
@@ -387,7 +389,7 @@ export default function ContactUsPage(props: PageProps) {
                     <button
                       type="submit"
                       disabled={!submitEnabled}
-                      className="btn-primary"
+                      className="rounded-lg bg-[#70428A] px-5 py-2 text-sm font-semibold text-[#F4EDEA] hover:bg-[#8A52AA] transition-colors disabled:opacity-50"
                     >
                       Contact Us
                     </button>
@@ -395,7 +397,7 @@ export default function ContactUsPage(props: PageProps) {
                 </div>
               )}
             </form>
-          </Card>
+          </div>
         </main>
       </div>
     </Layout>

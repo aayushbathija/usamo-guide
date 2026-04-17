@@ -8,8 +8,8 @@ prerequisites: ["counting-fundamentals"]
 
 ## Overview
 
-Intermediate counting problems demand structure. Learn to avoid overcounting
-by using systematic cases and complementary counting.
+Intermediate counting problems demand structure. Learn to avoid overcounting by
+using systematic cases and complementary counting.
 
 This module adds high-yield techniques: stars and bars with constraints,
 inclusion-exclusion, derangements, and bijective counting.
@@ -30,19 +30,18 @@ Turn constraints into $x_1+\cdots+x_k=n$ and adjust for lower bounds.
 
 ### Use Inclusion-Exclusion
 
-When constraints overlap, compute total minus overlaps instead of case-by-case.
+Count all possibilities, subtract those violating each constraint, then add back overlaps that were subtracted multiple times.
 
 ### Build Bijections
 
-Match objects to a known set (binomial coefficients, lattice paths) to avoid
-overcounting.
+Create a one-to-one mapping to a set with a known count (e.g., binomial coefficients or lattice paths) to avoid overcounting.
 
 ## Worked Example
 
 How many nonnegative solutions to $x+y+z=10$ with $x\ge2$?
 
-Let $x'=x-2$. Then $x'+y+z=8$ with nonnegative variables.
-The answer is $\binom{8+3-1}{3-1}=\binom{10}{2}=45$.
+Let $x'=x-2$. Then $x'+y+z=8$ with nonnegative variables. The answer is
+$\binom{8+3-1}{3-1}=\binom{10}{2}=45$.
 
 ## Word Rearrangements
 
@@ -52,9 +51,8 @@ $\frac{6!}{3!2!1!}=60$ arrangements.
 
 ## Stars and Bars with Constraints
 
-To solve $x_1+\cdots+x_k=n$ with $x_i\ge m_i$, pre-allocate the minimum:
-let $y_i=x_i-m_i$, then count nonnegative solutions to
-$y_1+\cdots+y_k=n-\sum m_i$.
+To solve $x_1+\cdots+x_k=n$ with $x_i\ge m_i$, pre-allocate the minimum: let
+$y_i=x_i-m_i$, then count nonnegative solutions to $y_1+\cdots+y_k=n-\sum m_i$.
 
 If you also have upper bounds, use inclusion-exclusion on the violated boxes.
 
@@ -64,7 +62,13 @@ For sets $A_1,\ldots,A_n$:
 
 $$|\cup A_i| = \sum |A_i| - \sum |A_i\cap A_j| + \sum |A_i\cap A_j\cap A_k| - \cdots.$$
 
-PIE is essential for derangements and multi-constraint counting.
+When we add the sizes of all sets, elements in multiple sets get counted more
+than once. This problem is fixed by PIE through subtracting pairwise overlaps,
+adding back triple overlapss, then subtracting again for quadrule overlaps, and
+so on.
+
+This is helpful for counting objects that satisfy at least one of several
+conditions, which brings us to derangements.
 
 ## Derangements
 

@@ -8,7 +8,11 @@
       "source": "Custom",
       "difficulty": "Very Easy",
       "isStarred": true,
-      "tags": ["Testing", "Inline Solution", "Pythagorean Theorem"],
+      "tags": [
+        "Testing",
+        "Inline Solution",
+        "Pythagorean Theorem"
+      ],
       "statement": "A right triangle has legs of length 3 and 4. What is the length of the hypotenuse?\n\n**Note:** Enter your answer as a decimal or whole number.",
       "interaction": {
         "type": "integer",
@@ -29,7 +33,11 @@
       "source": "Custom",
       "difficulty": "Easy",
       "isStarred": false,
-      "tags": ["Testing", "Inline Solution", "Special Right Triangles"],
+      "tags": [
+        "Testing",
+        "Inline Solution",
+        "Special Right Triangles"
+      ],
       "statement": "In a 45-45-90 triangle, if each leg has length 5, what is the length of the hypotenuse?\n\n**Hint:** Think about the side ratios in a 45-45-90 triangle.",
       "interaction": {
         "type": "mcq",
@@ -49,58 +57,246 @@
         "kind": "none"
       }
     },
-  {
-    "uniqueId": "amc10b-2021-15",
-    "name": "Problem 15 (2021 Fall AMC 10B)",
-    "url": "https://artofproblemsolving.com/wiki/index.php?title=2021_AMC_10B_Problems/Problem_15",
-    "source": "AMC 10B",
-    "difficulty": "Hard",
-    "isStarred": false,
-    "tags": [
-      "Algebra",
-      "Right Triangles",
-      "Trigonometry"
-    ],
-    "statement": "The real number x satisfies the equation x + 1/x = 2cos(2π/7). What is the value of x^7 + 1/x^7?",
-    "solutionMetadata": {
-      "kind": "none"
+    {
+      "uniqueId": "amc10b-2021-15",
+      "name": "Problem 15 (2021 Fall AMC 10B)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2021_AMC_10B_Problems/Problem_15",
+      "source": "AMC 10B",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Algebra",
+        "Right Triangles",
+        "Trigonometry"
+      ],
+      "statement": "The real number x satisfies the equation x + 1/x = 2cos(2π/7). What is the value of x^7 + 1/x^7?",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc10a-2025-15",
+      "name": "Problem 15 (2025 AMC 10A)",
+      "url": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_15",
+      "source": "AMC 10A",
+      "difficulty": "Medium",
+      "isStarred": false,
+      "tags": [
+        "Geometry",
+        "Right Triangles",
+        "Octagon"
+      ],
+      "statement": "A regular octagon with sides of length 1 has 20 diagonals. Compute the sum of the squares of the lengths of these diagonals.",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "cemc-cayley-2009-5",
+      "name": "Problem 5 (2009 CEMC Cayley)",
+      "url": "https://artofproblemsolving.com/wiki/index.php/2009_CEMC_Cayley_Problems/Problem_5",
+      "source": "CEMC Cayley",
+      "difficulty": "Medium",
+      "isStarred": false,
+      "tags": [
+        "Geometry",
+        "Right Triangles"
+      ],
+      "statement": "Problem statement available at the Art of Problem Solving wiki.",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2002-16",
+      "name": "Problem 16 (2002 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2002_AMC_8_Problems/Problem_16",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Area of a Triangle",
+        "Similar Figures"
+      ],
+      "statement": "Right isosceles triangles are constructed on the sides of a $3$-$4$-$5$ right triangle, as shown. A capital letter represents the area of each triangle. Which one of the following is true?\n[See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$X+Z=W+Y$",
+          "$W+X=Z$",
+          "$3X+4Y=5Z$",
+          "$X+W=\\frac{1}{2}(Y+Z)$",
+          "$X+Y=Z$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2003-6",
+      "name": "Problem 6 (2003 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2003_AMC_8_Problems/Problem_6",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Area of a Triangle",
+        "Squares"
+      ],
+      "statement": "Given the areas of the three squares in the figure, what is the area of the interior triangle? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$13$",
+          "$30$",
+          "$60$",
+          "$300$",
+          "$1800$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2005-7",
+      "name": "Problem 7 (2005 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2005_AMC_8_Problems/Problem_7",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Distance",
+        "Pythagorean Theorem"
+      ],
+      "statement": "Bill walks $\\frac{1}{2}$ mile south, then $\\frac{3}{4}$ mile east, and finally $\\frac{1}{2}$ mile south. How many miles is he, in a direct line, from his starting point?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1$",
+          "$1\\frac{1}{4}$",
+          "$1\\frac{1}{2}$",
+          "$1\\frac{3}{4}$",
+          "$2$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2010-19",
+      "name": "Problem 19 (2010 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2010_AMC_8_Problems/Problem_19",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Pythagorean Theorem",
+        "Area of an Annulus"
+      ],
+      "statement": "The two circles pictured have the same center $C$. Chord $\\overline{AD}$ is tangent to the inner circle at $B$, $AC$ is $10$, and chord $\\overline{AD}$ has length $16$. What is the area between the two circles? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$36\\pi$",
+          "$49\\pi$",
+          "$64\\pi$",
+          "$81\\pi$",
+          "$100\\pi$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2013-23",
+      "name": "Problem 23 (2013 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2013_AMC_8_Problems/Problem_23",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Semicircles",
+        "Arc Length",
+        "Area"
+      ],
+      "statement": "Angle $ABC$ of $\\triangle ABC$ is a right angle. The sides of $\\triangle ABC$ are the diameters of semicircles as shown. The area of the semicircle on $\\overline{AB}$ equals $8\\pi$ and the arc of the semicircle on $\\overline{AC}$ has length $8.5\\pi$. What is the radius of the semicircle on $\\overline{BC}$? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$7$",
+          "$7.5$",
+          "$8$",
+          "$8.5$",
+          "$9$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2017-16",
+      "name": "Problem 16 (2017 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2017_AMC_8_Problems/Problem_16",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Perimeter",
+        "Area Ratio",
+        "Cevian"
+      ],
+      "statement": "In the figure below, choose point $D$ on $\\overline{BC}$ so that $\\triangle ACD$ and $\\triangle ABD$ have equal perimeters. What is the area of $\\triangle ABD$? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{3}{4}$",
+          "$\\frac{3}{2}$",
+          "$2$",
+          "$\\frac{12}{5}$",
+          "$\\frac{5}{2}$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2017-18",
+      "name": "Problem 18 (2017 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2017_AMC_8_Problems/Problem_18",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Area Addition",
+        "Pythagorean Theorem"
+      ],
+      "statement": "In the non-convex quadrilateral $ABCD$ shown below, $\\angle BCD$ is a right angle, $AB=12$, $BC=4$, $CD=3$, and $AD=13$. What is the area of quadrilateral $ABCD$? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$12$",
+          "$24$",
+          "$26$",
+          "$30$",
+          "$36$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
     }
-  },
-  {
-    "uniqueId": "amc10a-2025-15",
-    "name": "Problem 15 (2025 AMC 10A)",
-    "url": "https://artofproblemsolving.com/wiki/index.php/2025_AMC_10A_Problems/Problem_15",
-    "source": "AMC 10A",
-    "difficulty": "Medium",
-    "isStarred": false,
-    "tags": [
-      "Geometry",
-      "Right Triangles",
-      "Octagon"
-    ],
-    "statement": "A regular octagon with sides of length 1 has 20 diagonals. Compute the sum of the squares of the lengths of these diagonals.",
-    "solutionMetadata": {
-      "kind": "none"
-    }
-  },
-  {
-    "uniqueId": "cemc-cayley-2009-5",
-    "name": "Problem 5 (2009 CEMC Cayley)",
-    "url": "https://artofproblemsolving.com/wiki/index.php/2009_CEMC_Cayley_Problems/Problem_5",
-    "source": "CEMC Cayley",
-    "difficulty": "Medium",
-    "isStarred": false,
-    "tags": [
-      "Geometry",
-      "Right Triangles"
-    ],
-    "statement": "Problem statement available at the Art of Problem Solving wiki.",
-    "solutionMetadata": {
-      "kind": "none"
-    }
-  }
-  
-]
-    
-  
+  ]
 }

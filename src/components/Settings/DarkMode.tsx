@@ -12,10 +12,10 @@ export default function DarkMode() {
   return (
     <div>
       <div className="space-y-1">
-        <h3 className="text-lg leading-6 font-medium text-gray-900 dark:text-gray-100">
+        <h3 className="text-lg leading-6 font-medium text-[#F4EDEA]">
           Theme
         </h3>
-        <p className="text-sm text-gray-500 dark:text-gray-400">
+        <p className="text-sm text-[rgba(244,237,234,0.65)]">
           We don't support a seperate Light Mode; the interface is styled for dark mode
           only. "System" uses your OS prefs but results in dark theming.
         </p>

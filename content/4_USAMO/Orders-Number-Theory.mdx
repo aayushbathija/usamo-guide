@@ -1,0 +1,48 @@
+---
+id: orders-number-theory
+title: orders
+author: Nico Young
+description: Orders 
+prerequisites: ["number-theory-advanced", "proof-writing-basics"]
+---
+
+resource: evan's handout, MONT, etc. 
+
+## Overview
+
+This is a module about orders, which deals with exponents in NT. 
+
+## Definition 
+
+Let's define orders first. 
+
+*The **order** of $a\pmod p$, sometimes written as $\text{ord}_p (a)$, is the **smallest** positive integer $m$ such that $a^m\equiv 1\pmod p$.* 
+
+The idea is quite similar to the logarithm function, but in NT. 
+
+## minimality 
+
+The power of orders is its minimality. To be more precise: 
+
+*Theorem 1. If $m=\text{ord}_p (a)$, and $k$ is a nonnegative integer such that $a^k\equiv 1\pmod p$, then $m\mid k$.*
+
+*proof: The useful idea in orders is that you can take modulo on exponents. 
+Suppose $k=mq+r$ where $0<r<m$, then we have $a^k\equiv 1\pmod p\iff a^r\equiv 1\pmod p$, which contradicts the minimality of $m$, as needed.*
+
+Some students might also notice that: 
+
+*problem: Prove that $\text{ord}_p (a)\mid \phi (p)$. In particular, if $p$ is a prime then $\text{ord}_p (a)\mid p-1$. (Hint: use Euler's theorem directly.)*
+
+Thus the minimality of orders can be powerful if you know other exponents $k$ with $a^k\equiv 1\pmod p$. 
+
+## primitive roots 
+
+The converse also holds for a prime: There **exists** an integer $a$ such that $\text{ord}_p (a)=p-1$. For example: 
+
+**problem**: Check that $2$ is a primitive root both $\pmod {11}$ and $\pmod {13}$. 
+
+Primitive root always **exists** for a prime $p$, often denoted as $g$, but it's not always true that we know the exact value of $g$. 
+
+## Practice Problems
+
+<Problems problems="practice" />

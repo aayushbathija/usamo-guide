@@ -1,0 +1,83 @@
+{
+  "MODULE_ID": "introduction-to-function-equations",
+  "practice": [
+    {
+      "uniqueId": "imo-2019-1",
+      "name": "IMO 2019/1",
+      "url": "https://aops.com/community/c6h1876068p12744859",
+      "source": "IMO",
+      "difficulty": "easy",
+      "isStarred": true,
+      "tags": ["FE"],
+      "statement": "Let $\\mathbb{Z}$ be the set of integers. Determine all functions $f: \\mathbb{Z} \\rightarrow \\mathbb{Z}$ such that, for all integers $a$ and $b$, $$ f(2a)+2f(b)=f(f(a+b)). $$", 
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    }, 
+    {
+      "uniqueId": "japan-2012-2",
+      "name": "Japan Finals 2012/2",
+      "url": "https://artofproblemsolving.com/community/search?q=Japan%20Finals%202012%2F2",
+      "source": "Japan",
+      "difficulty": "easy",
+      "isStarred": false,
+      "tags": ["FE"],
+      "statement": "Find all functions $f\\colon \\mathbb R\\rightarrow \\mathbb R$ such that $$f(f(x+y)f(x-y))=x^2-yf(y).$$", 
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    }, 
+    {
+      "uniqueId": "canada-2015-1",
+      "name": "Canada 2015/1",
+      "url": "https://aops.com/community/c71018_2015_canada_national_olympiad",
+      "source": "Canada",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": ["FE"],
+      "statement": "Let $\\mathbb{N} = \\{1, 2, 3, \\ldots\\}$ be the set of positive integers. Find all functions $f$, defined on $\\mathbb{N}$ and taking values in $\\mathbb{N}$, such that $(n-1)^2< f(n)f(f(n)) < n^2+n$ for every positive integer $n$", 
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    }, 
+    {
+      "uniqueId": "Benelux-2025-1",
+      "name": "Benelux 2025/1",
+      "url": "https://aops.com/community/c4305548_2025_benelux",
+      "source": "Benelux",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": ["FE"],
+      "statement": "Does there exist a function $f:\\mathbb{R}\to \\mathbb{R}$ such that $$f(x^2+f(y))=f(x)^2-y$$ for all $x, y\\in \\mathbb{R}$?", 
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    }, 
+    {
+      "uniqueId": "pagmo-2024-5",
+      "name": "PAGMO 2024/5",
+      "url": "https://aops.com/community/c6h3451998p33317639",
+      "source": "PAGMO",
+      "difficulty": "hard",
+      "isStarred": false,
+      "tags": ["FE"],
+      "statement": "Find all functions $f: \\mathbb{R} \\to \\mathbb{R}$ such that $f(f(x+y) - f(x)) + f(x)f(y) = f(x^2) - f(x+y),$ for all real numbers $x, y$.", 
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    }, 
+    {
+      "uniqueId": "isl-2015-C2",
+      "name": "ISL 2015 C2",
+      "url": "https://aops.com/community/c111148_2015_imo_shortlist",
+      "source": "IMO shortlist",
+      "difficulty": "hard",
+      "isStarred": false,
+      "tags": ["FE"],
+      "statement": "Determine all functions $f:\\mathbb{Z}\\rightarrow\\mathbb{Z}$ with the property that $$f(x-f(y))=f(f(x))-f(y)-1$$ holds for all $x,y\\in\\mathbb{Z}$.", 
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    }
+  ]
+}

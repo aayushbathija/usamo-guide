@@ -1,0 +1,248 @@
+[
+  {
+    "title": "1985 AJHSME",
+    "pdf": "./amc_exams\\pdfs\\1985 AJHSME.pdf",
+    "answer_key": "./amc_exams\\answer_keys\\1985 AJHSME_answers.txt",
+    "errors": []
+  },
+  {
+    "title": "1986 AJHSME",
+    "pdf": "./amc_exams\\pdfs\\1986 AJHSME.pdf",
+    "answer_key": "./amc_exams\\answer_keys\\1986 AJHSME_answers.txt",
+    "errors": []
+  },
+  {
+    "title": "1987 AJHSME",
+    "pdf": "./amc_exams\\pdfs\\1987 AJHSME.pdf",
+    "answer_key": "./amc_exams\\answer_keys\\1987 AJHSME_answers.txt",
+    "errors": []
+  },
+  {
+    "title": "1988 AJHSME",
+    "pdf": "./amc_exams\\pdfs\\1988 AJHSME.pdf",
+    "answer_key": "./amc_exams\\answer_keys\\1988 AJHSME_answers.txt",
+    "errors": []
+  },
+  {
+    "title": "1989 AJHSME",
+    "pdf": "./amc_exams\\pdfs\\1989 AJHSME.pdf",
+    "answer_key": "./amc_exams\\answer_keys\\1989 AJHSME_answers.txt",
+    "errors": []
+  },
+  {
+    "title": "1990 AJHSME",
+    "pdf": "./amc_exams\\pdfs\\1990 AJHSME.pdf",
+    "answer_key": "./amc_exams\\answer_keys\\1990 AJHSME_answers.txt",
+    "errors": []
+  },
+  {
+    "title": "1991 AJHSME",
+    "pdf": "./amc_exams\\pdfs\\1991 AJHSME.pdf",
+    "answer_key": "./amc_exams\\answer_keys\\1991 AJHSME_answers.txt",
+    "errors": []
+  },
+  {
+    "title": "1992 AJHSME",
+    "pdf": "./amc_exams\\pdfs\\1992 AJHSME.pdf",
+    "answer_key": "./amc_exams\\answer_keys\\1992 AJHSME_answers.txt",
+    "errors": []
+  },
+  {
+    "title": "1993 AJHSME",
+    "pdf": "./amc_exams\\pdfs\\1993 AJHSME.pdf",
+    "answer_key": "./amc_exams\\answer_keys\\1993 AJHSME_answers.txt",
+    "errors": []
+  },
+  {
+    "title": "1994 AJHSME",
+    "pdf": "./amc_exams\\pdfs\\1994 AJHSME.pdf",
+    "answer_key": "./amc_exams\\answer_keys\\1994 AJHSME_answers.txt",
+    "errors": []
+  },
+  {
+    "title": "1995 AJHSME",
+    "pdf": "./amc_exams\\pdfs\\1995 AJHSME.pdf",
+    "answer_key": "./amc_exams\\answer_keys\\1995 AJHSME_answers.txt",
+    "errors": []
+  },
+  {
+    "title": "1996 AJHSME",
+    "pdf": "./amc_exams\\pdfs\\1996 AJHSME.pdf",
+    "answer_key": "./amc_exams\\answer_keys\\1996 AJHSME_answers.txt",
+    "errors": []
+  },
+  {
+    "title": "1997 AJHSME",
+    "pdf": "./amc_exams\\pdfs\\1997 AJHSME.pdf",
+    "answer_key": "./amc_exams\\answer_keys\\1997 AJHSME_answers.txt",
+    "errors": []
+  },
+  {
+    "title": "1998 AJHSME",
+    "pdf": "./amc_exams\\pdfs\\1998 AJHSME.pdf",
+    "answer_key": "./amc_exams\\answer_keys\\1998 AJHSME_answers.txt",
+    "errors": []
+  },
+  {
+    "title": "1999 AMC 8",
+    "pdf": "./amc_exams\\pdfs\\1999 AMC 8.pdf",
+    "answer_key": "./amc_exams\\answer_keys\\1999 AMC 8_answers.txt",
+    "errors": []
+  },
+  {
+    "title": "2000 AMC 8",
+    "pdf": "./amc_exams\\pdfs\\2000 AMC 8.pdf",
+    "answer_key": "./amc_exams\\answer_keys\\2000 AMC 8_answers.txt",
+    "errors": []
+  },
+  {
+    "title": "2001 AMC 8",
+    "pdf": "./amc_exams\\pdfs\\2001 AMC 8.pdf",
+    "answer_key": "./amc_exams\\answer_keys\\2001 AMC 8_answers.txt",
+    "errors": []
+  },
+  {
+    "title": "2002 AMC 8",
+    "pdf": "./amc_exams\\pdfs\\2002 AMC 8.pdf",
+    "answer_key": "./amc_exams\\answer_keys\\2002 AMC 8_answers.txt",
+    "errors": []
+  },
+  {
+    "title": "2003 AMC 8",
+    "pdf": "./amc_exams\\pdfs\\2003 AMC 8.pdf",
+    "answer_key": "./amc_exams\\answer_keys\\2003 AMC 8_answers.txt",
+    "errors": []
+  },
+  {
+    "title": "2004 AMC 8",
+    "pdf": "./amc_exams\\pdfs\\2004 AMC 8.pdf",
+    "answer_key": "./amc_exams\\answer_keys\\2004 AMC 8_answers.txt",
+    "errors": []
+  },
+  {
+    "title": "2005 AMC 8",
+    "pdf": "./amc_exams\\pdfs\\2005 AMC 8.pdf",
+    "answer_key": "./amc_exams\\answer_keys\\2005 AMC 8_answers.txt",
+    "errors": []
+  },
+  {
+    "title": "2006 AMC 8",
+    "pdf": "./amc_exams\\pdfs\\2006 AMC 8.pdf",
+    "answer_key": "./amc_exams\\answer_keys\\2006 AMC 8_answers.txt",
+    "errors": []
+  },
+  {
+    "title": "2007 AMC 8",
+    "pdf": "./amc_exams\\pdfs\\2007 AMC 8.pdf",
+    "answer_key": "./amc_exams\\answer_keys\\2007 AMC 8_answers.txt",
+    "errors": []
+  },
+  {
+    "title": "2008 AMC 8",
+    "pdf": "./amc_exams\\pdfs\\2008 AMC 8.pdf",
+    "answer_key": "./amc_exams\\answer_keys\\2008 AMC 8_answers.txt",
+    "errors": []
+  },
+  {
+    "title": "2009 AMC 8",
+    "pdf": "./amc_exams\\pdfs\\2009 AMC 8.pdf",
+    "answer_key": "./amc_exams\\answer_keys\\2009 AMC 8_answers.txt",
+    "errors": []
+  },
+  {
+    "title": "2010 AMC 8",
+    "pdf": "./amc_exams\\pdfs\\2010 AMC 8.pdf",
+    "answer_key": "./amc_exams\\answer_keys\\2010 AMC 8_answers.txt",
+    "errors": []
+  },
+  {
+    "title": "2011 AMC 8",
+    "pdf": "./amc_exams\\pdfs\\2011 AMC 8.pdf",
+    "answer_key": "./amc_exams\\answer_keys\\2011 AMC 8_answers.txt",
+    "errors": []
+  },
+  {
+    "title": "2012 AMC 8",
+    "pdf": "./amc_exams\\pdfs\\2012 AMC 8.pdf",
+    "answer_key": "./amc_exams\\answer_keys\\2012 AMC 8_answers.txt",
+    "errors": []
+  },
+  {
+    "title": "2013 AMC 8",
+    "pdf": "./amc_exams\\pdfs\\2013 AMC 8.pdf",
+    "answer_key": "./amc_exams\\answer_keys\\2013 AMC 8_answers.txt",
+    "errors": []
+  },
+  {
+    "title": "2014 AMC 8",
+    "pdf": "./amc_exams\\pdfs\\2014 AMC 8.pdf",
+    "answer_key": "./amc_exams\\answer_keys\\2014 AMC 8_answers.txt",
+    "errors": []
+  },
+  {
+    "title": "2015 AMC 8",
+    "pdf": "./amc_exams\\pdfs\\2015 AMC 8.pdf",
+    "answer_key": "./amc_exams\\answer_keys\\2015 AMC 8_answers.txt",
+    "errors": []
+  },
+  {
+    "title": "2016 AMC 8",
+    "pdf": "./amc_exams\\pdfs\\2016 AMC 8.pdf",
+    "answer_key": "./amc_exams\\answer_keys\\2016 AMC 8_answers.txt",
+    "errors": []
+  },
+  {
+    "title": "2017 AMC 8",
+    "pdf": "./amc_exams\\pdfs\\2017 AMC 8.pdf",
+    "answer_key": "./amc_exams\\answer_keys\\2017 AMC 8_answers.txt",
+    "errors": []
+  },
+  {
+    "title": "2018 AMC 8",
+    "pdf": "./amc_exams\\pdfs\\2018 AMC 8.pdf",
+    "answer_key": "./amc_exams\\answer_keys\\2018 AMC 8_answers.txt",
+    "errors": []
+  },
+  {
+    "title": "2019 AMC 8",
+    "pdf": "./amc_exams\\pdfs\\2019 AMC 8.pdf",
+    "answer_key": "./amc_exams\\answer_keys\\2019 AMC 8_answers.txt",
+    "errors": []
+  },
+  {
+    "title": "2020 AMC 8",
+    "pdf": "./amc_exams\\pdfs\\2020 AMC 8.pdf",
+    "answer_key": "./amc_exams\\answer_keys\\2020 AMC 8_answers.txt",
+    "errors": []
+  },
+  {
+    "title": "2022 AMC 8",
+    "pdf": "./amc_exams\\pdfs\\2022 AMC 8.pdf",
+    "answer_key": "./amc_exams\\answer_keys\\2022 AMC 8_answers.txt",
+    "errors": []
+  },
+  {
+    "title": "2023 AMC 8",
+    "pdf": "./amc_exams\\pdfs\\2023 AMC 8.pdf",
+    "answer_key": "./amc_exams\\answer_keys\\2023 AMC 8_answers.txt",
+    "errors": []
+  },
+  {
+    "title": "2024 AMC 8",
+    "pdf": "./amc_exams\\pdfs\\2024 AMC 8.pdf",
+    "answer_key": "./amc_exams\\answer_keys\\2024 AMC 8_answers.txt",
+    "errors": []
+  },
+  {
+    "title": "2025 AMC 8",
+    "pdf": "./amc_exams\\pdfs\\2025 AMC 8.pdf",
+    "answer_key": "./amc_exams\\answer_keys\\2025 AMC 8_answers.txt",
+    "errors": []
+  },
+  {
+    "title": "2026 AMC 8",
+    "pdf": "./amc_exams\\pdfs\\2026 AMC 8.pdf",
+    "answer_key": "./amc_exams\\answer_keys\\2026 AMC 8_answers.txt",
+    "errors": []
+  }
+]

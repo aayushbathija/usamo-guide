@@ -4,7 +4,7 @@
     {
       "uniqueId": "amc8-2019-6",
       "name": "Problem 6 (2019 AMC 8)",
-      "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_6",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2019_AMC_8_Problems/Problem_6",
       "source": "AMC 8",
       "difficulty": "Easy",
       "isStarred": true,
@@ -29,6 +29,5899 @@
         "Prime Factorization"
       ],
       "statement": "How many ways can a student schedule $3$ mathematics courses -- algebra, geometry, and number theory -- in a $6$-period day if no two mathematics courses can be taken in consecutive periods? (What courses the student takes during the other $3$ periods is of no concern here.)",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1985-1",
+      "name": "Problem 1 (1985 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1985_AJHSME_Problems/Problem_1",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Fractions",
+        "Cancellation"
+      ],
+      "statement": "$$\\frac{3 \\times 5}{9 \\times 11} \\times \\frac{7 \\times 9 \\times 11}{3 \\times 5 \\times 7} =$$",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1$",
+          "$0$",
+          "$49$",
+          "$\\frac{1}{49}$",
+          "$50$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1985-10",
+      "name": "Problem 10 (1985 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1985_AJHSME_Problems/Problem_10",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Fractions",
+        "Number Line",
+        "Averages"
+      ],
+      "statement": "The fraction halfway between $\\frac{1}{5}$ and $\\frac{1}{3}$ (on the number line) is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{4}$",
+          "$\\frac{2}{15}$",
+          "$\\frac{4}{15}$",
+          "$\\frac{53}{200}$",
+          "$\\frac{8}{15}$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1986-1",
+      "name": "Problem 1 (1986 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1986_AJHSME_Problems/Problem_1",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Rates",
+        "Unit Conversion"
+      ],
+      "statement": "In July $1861$, $366$ inches of rain fell in Cherrapunji, India. What was the average rainfall in inches per hour during that month?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{366}{31 \\times 24}$",
+          "$\\frac{366 \\times 31}{24}$",
+          "$\\frac{366 \\times 24}{31}$",
+          "$\\frac{31 \\times 24}{366}$",
+          "$366 \\times 31 \\times 24$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1986-2",
+      "name": "Problem 2 (1986 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1986_AJHSME_Problems/Problem_2",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Reciprocals",
+        "Comparing Fractions"
+      ],
+      "statement": "Which of the following numbers has the largest reciprocal?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{3}$",
+          "$\\frac{2}{5}$",
+          "$1$",
+          "$5$",
+          "$1986$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1986-3",
+      "name": "Problem 3 (1986 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1986_AJHSME_Problems/Problem_3",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Negative Numbers",
+        "Optimization"
+      ],
+      "statement": "The smallest sum one could get by adding three different numbers from the set $\\{7, 25, -1, 12, -3\\}$ is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$-3$",
+          "$-1$",
+          "$3$",
+          "$8$",
+          "$21$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1986-4",
+      "name": "Problem 4 (1986 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1986_AJHSME_Problems/Problem_4",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Estimation",
+        "Decimals"
+      ],
+      "statement": "The product $(1.8)(40.3 + 0.07)$ is closest to",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$7$",
+          "$42$",
+          "$74$",
+          "$84$",
+          "$737$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1986-5",
+      "name": "Problem 5 (1986 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1986_AJHSME_Problems/Problem_5",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Time Calculation",
+        "Unit Conversion"
+      ],
+      "statement": "A contest began at noon one day and ended $1000$ minutes later. At what time did the contest end?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$10:00$ p.m.",
+          "midnight",
+          "$4:40$ a.m.",
+          "$6:40$ a.m.",
+          "$2:40$ a.m."
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1986-6",
+      "name": "Problem 6 (1986 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1986_AJHSME_Problems/Problem_6",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Complex Fractions"
+      ],
+      "statement": "The value of $\\frac{2}{1 - \\frac{2}{3}}$ is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$-3$",
+          "$-\\frac{4}{3}$",
+          "$\\frac{2}{3}$",
+          "$2$",
+          "$6$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1986-7",
+      "name": "Problem 7 (1986 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1986_AJHSME_Problems/Problem_7",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Square Roots",
+        "Estimating Irrationals"
+      ],
+      "statement": "How many whole numbers are between $\\sqrt{8}$ and $\\sqrt{80}$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$5$",
+          "$6$",
+          "$7$",
+          "$8$",
+          "$9$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1986-8",
+      "name": "Problem 8 (1986 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1986_AJHSME_Problems/Problem_8",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Digit Manipulation",
+        "Cryptarithmetic"
+      ],
+      "statement": "In the product $B2 \\times 7B = 6396$, $B$ is a digit. The value of $B$ is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$3$",
+          "$5$",
+          "$6$",
+          "$7$",
+          "$8$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1986-10",
+      "name": "Problem 10 (1986 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1986_AJHSME_Problems/Problem_10",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Linear Measurement",
+        "Symmetry"
+      ],
+      "statement": "A picture $3$ feet across is hung in the center of a wall that is $19$ feet wide. How many feet from the end of the wall is the nearest edge of the picture?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1 \\frac{1}{2}$",
+          "$8$",
+          "$9 \\frac{1}{2}$",
+          "$16$",
+          "$22$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1986-11",
+      "name": "Problem 11 (1986 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1986_AJHSME_Problems/Problem_11",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Custom Operations"
+      ],
+      "statement": "If $A * B$ means $\\frac{A + B}{2}$, then $(3 * 5) * 8$ is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$6$",
+          "$8$",
+          "$12$",
+          "$16$",
+          "$30$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1986-12",
+      "name": "Problem 12 (1986 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1986_AJHSME_Problems/Problem_12",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Data Interpretation",
+        "Percentages"
+      ],
+      "statement": "The table displays the grade distribution of the $30$ students in a mathematics class on the last two tests. For example, exactly one student received a \"D\" on Test $1$ and a \"C\" on Test $2$. What percent of the students received the same grade on both tests? [See table in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$12\\%$",
+          "$25\\%$",
+          "$33 \\frac{1}{3}\\%$",
+          "$40\\%$",
+          "$50\\%$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1986-14",
+      "name": "Problem 14 (1986 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1986_AJHSME_Problems/Problem_14",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Optimization",
+        "Fractions"
+      ],
+      "statement": "If $200 \\leq a \\leq 400$ and $600 \\leq b \\leq 1200$, then the largest value of the quotient $\\frac{b}{a}$ is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{3}{2}$",
+          "$3$",
+          "$6$",
+          "$300$",
+          "$600$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1986-15",
+      "name": "Problem 15 (1986 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1986_AJHSME_Problems/Problem_15",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Percent Discount",
+        "Sequential Discounts"
+      ],
+      "statement": "Sale prices at the Ajax Outlet Store are $50\\%$ below original prices. On Saturdays an additional discount of $20\\%$ off the sale price is given. What is the Saturday price of a coat whose original price is $\\$180$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\$54$",
+          "$\\$72$",
+          "$\\$90$",
+          "$\\$108$",
+          "$\\$110$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1986-16",
+      "name": "Problem 16 (1986 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1986_AJHSME_Problems/Problem_16",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Data Interpretation",
+        "Percentages"
+      ],
+      "statement": "A bar graph shows the number of hamburgers sold by a fast food chain each season. However, the bar indicating the number sold during the winter is covered by a smudge. If exactly $25\\%$ of the chain's hamburgers are sold in the fall, how many million hamburgers are sold in the winter? [See graph in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$2.5$",
+          "$3$",
+          "$3.5$",
+          "$4$",
+          "$4.5$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1986-17",
+      "name": "Problem 17 (1986 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1986_AJHSME_Problems/Problem_17",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Parity",
+        "Polynomial Expressions"
+      ],
+      "statement": "Let $o$ be an odd whole number and let $n$ be any whole number. Which of the following statements about the whole number $(o^2 + no)$ is always true?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "it is always odd",
+          "it is always even",
+          "it is even only if $n$ is even",
+          "it is odd only if $n$ is odd",
+          "it is odd only if $n$ is even"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1986-18",
+      "name": "Problem 18 (1986 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1986_AJHSME_Problems/Problem_18",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Fencing Problem",
+        "Spacing Posts"
+      ],
+      "statement": "A rectangular grazing area is to be fenced off on three sides using part of a $100$ meter rock wall as the fourth side. Fence posts are to be placed every $12$ meters along the fence including the two posts where the fence meets the rock wall. What is the fewest number of posts required to fence an area $36$ m by $60$ m?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$11$",
+          "$12$",
+          "$13$",
+          "$14$",
+          "$16$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1986-19",
+      "name": "Problem 19 (1986 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1986_AJHSME_Problems/Problem_19",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Average Rate",
+        "Miles Per Gallon"
+      ],
+      "statement": "At the beginning of a trip, the mileage odometer read $56200$ miles. During the trip, the driver filled his tank again with $12$ gallons of gasoline when the odometer read $56560$. At the end of the trip, the driver filled the tank again with $20$ gallons of gasoline. The odometer read $57060$. To the nearest tenth, what was the car's average miles-per-gallon for the entire trip? (Note: The first fill-up of $6$ gallons was to start the trip full).",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$22.5$",
+          "$22.6$",
+          "$24.0$",
+          "$26.9$",
+          "$27.5$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1986-20",
+      "name": "Problem 20 (1986 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1986_AJHSME_Problems/Problem_20",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Estimation",
+        "Exponents"
+      ],
+      "statement": "The value of the expression $\\frac{(304)^5}{(29.7)(399)^4}$ is closest to",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$0.003$",
+          "$0.03$",
+          "$0.3$",
+          "$3$",
+          "$30$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1986-22",
+      "name": "Problem 22 (1986 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1986_AJHSME_Problems/Problem_22",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Logical Reasoning",
+        "Implications"
+      ],
+      "statement": "Alan, Beth, Carlos, and Diana were discussing their possible grades in mathematics class. Alan said, \"If I get an A, then Beth will get an A.\" Beth said, \"If I get an A, then Carlos will get an A.\" Carlos said, \"If I get an A, then Diana will get an A.\" All of these statements were true, but only two of the students received an A. Which two received A's?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "Alan, Beth",
+          "Beth, Carlos",
+          "Carlos, Diana",
+          "Alan, Diana",
+          "Beth, Diana"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1987-1",
+      "name": "Problem 1 (1987 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1987_AJHSME_Problems/Problem_1",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Decimal Addition"
+      ],
+      "statement": "$0.4+0.02+0.006=$",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$.012$",
+          "$.066$",
+          "$.12$",
+          "$.24$",
+          "$.426$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1987-2",
+      "name": "Problem 2 (1987 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1987_AJHSME_Problems/Problem_2",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Fraction to Decimal"
+      ],
+      "statement": "$\\frac{2}{25}=$",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$.008$",
+          "$.08$",
+          "$.8$",
+          "$1.25$",
+          "$12.5$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1987-6",
+      "name": "Problem 6 (1987 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1987_AJHSME_Problems/Problem_6",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Negative Numbers",
+        "Products"
+      ],
+      "statement": "The smallest product one could obtain by multiplying two numbers in the set $\\{-7, -5, -1, 1, 3\\}$ is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$-35$",
+          "$-21$",
+          "$-15$",
+          "$-1$",
+          "$3$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1987-8",
+      "name": "Problem 8 (1987 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1987_AJHSME_Problems/Problem_8",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Addition",
+        "Digit Bounds"
+      ],
+      "statement": "If $A$ and $B$ are nonzero digits, then the number of digits (not necessarily different) in the sum of the three whole numbers $9876$, $A32$, and $B1$ is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$4$",
+          "$5$",
+          "$6$",
+          "$9$",
+          "$\\text{depends on the values of } A \\text{ and } B$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1987-9",
+      "name": "Problem 9 (1987 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1987_AJHSME_Problems/Problem_9",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Least Common Multiple",
+        "Fractions"
+      ],
+      "statement": "When finding the sum $\\frac{1}{2}+\\frac{1}{3}+\\frac{1}{4}+\\frac{1}{5}+\\frac{1}{6}+\\frac{1}{7}$, the least common denominator used is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$120$",
+          "$210$",
+          "$420$",
+          "$840$",
+          "$5040$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1987-11",
+      "name": "Problem 11 (1987 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1987_AJHSME_Problems/Problem_11",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Estimation",
+        "Fractions"
+      ],
+      "statement": "The sum $2\\frac{1}{7}+3\\frac{1}{2}+5\\frac{1}{19}$ is between",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$10 \\text{ and } 10\\frac{1}{2}$",
+          "$10\\frac{1}{2} \\text{ and } 11$",
+          "$11 \\text{ and } 11\\frac{1}{2}$",
+          "$11\\frac{1}{2} \\text{ and } 12$",
+          "$12 \\text{ and } 12\\frac{1}{2}$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1987-13",
+      "name": "Problem 13 (1987 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1987_AJHSME_Problems/Problem_13",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Comparing Fractions"
+      ],
+      "statement": "Which of the following fractions has the largest value?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{3}{7}$",
+          "$\\frac{4}{9}$",
+          "$\\frac{17}{35}$",
+          "$\\frac{100}{201}$",
+          "$\\frac{151}{301}$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1987-20",
+      "name": "Problem 20 (1987 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1987_AJHSME_Problems/Problem_20",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Logic",
+        "Counterexample",
+        "Prime Numbers"
+      ],
+      "statement": "\"If a whole number $n$ is not prime, then the whole number $n-2$ is not prime.\" A value of $n$ which shows this statement to be false is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$9$",
+          "$12$",
+          "$13$",
+          "$16$",
+          "$23$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1987-21",
+      "name": "Problem 21 (1987 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1987_AJHSME_Problems/Problem_21",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Custom Operations",
+        "Fractions"
+      ],
+      "statement": "Suppose $n^*$ means $\\frac{1}{n}$, the reciprocal of $n$. For example, $5^*=\\frac{1}{5}$. How many of the following statements are true? i) $3^*+6^*=9^*$ ii) $6^*-4^*=2^*$ iii) $2^* \\cdot 6^*=12^*$ iv) $10^* \\div 2^*=5^*$",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$0$",
+          "$1$",
+          "$2$",
+          "$3$",
+          "$4$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1988-1",
+      "name": "Problem 1 (1988 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1988_AJHSME_Problems/Problem_1",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Reading a Scale",
+        "Decimals"
+      ],
+      "statement": "The diagram shows part of a scale of a measuring device. The arrow indicates an approximate reading of [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$10.05$",
+          "$10.15$",
+          "$10.25$",
+          "$10.3$",
+          "$10.6$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1988-2",
+      "name": "Problem 2 (1988 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1988_AJHSME_Problems/Problem_2",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Decimal Multiplication",
+        "Fractions"
+      ],
+      "statement": "The product $8 \\times .25 \\times 2 \\times .125 =$",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{8}$",
+          "$\\frac{1}{4}$",
+          "$\\frac{1}{2}$",
+          "$1$",
+          "$2$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1988-3",
+      "name": "Problem 3 (1988 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1988_AJHSME_Problems/Problem_3",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Fractions",
+        "Simplifying Fractions",
+        "Decimals"
+      ],
+      "statement": "$\\frac{1}{10} + \\frac{2}{20} + \\frac{3}{30} =$",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$.1$",
+          "$.123$",
+          "$.2$",
+          "$.3$",
+          "$.6$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1988-6",
+      "name": "Problem 6 (1988 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1988_AJHSME_Problems/Problem_6",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Decimals",
+        "Exponents"
+      ],
+      "statement": "$\\frac{(.2)^3}{(.02)^2} =$",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$.2$",
+          "$2$",
+          "$10$",
+          "$15$",
+          "$20$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1988-7",
+      "name": "Problem 7 (1988 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1988_AJHSME_Problems/Problem_7",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Estimation",
+        "Decimals"
+      ],
+      "statement": "$2.46 \\times 8.163 \\times (5.17 + 4.829)$ is closest to:",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$100$",
+          "$200$",
+          "$300$",
+          "$400$",
+          "$500$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1988-8",
+      "name": "Problem 8 (1988 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1988_AJHSME_Problems/Problem_8",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Decimals",
+        "Decimal Placement"
+      ],
+      "statement": "Betty used a calculator to find the product $0.075 \\times 2.56$. She forgot to enter the decimal points. The calculator showed $19200$. If Betty had entered the decimal points correctly, the answer would have been",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$.0192$",
+          "$.192$",
+          "$1.92$",
+          "$19.2$",
+          "$192$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1988-10",
+      "name": "Problem 10 (1988 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1988_AJHSME_Problems/Problem_10",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Modulo Arithmetic",
+        "Calendars"
+      ],
+      "statement": "Chris' birthday is on a Thursday this year. What day of the week will it be $60$ days after her birthday?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "Monday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1988-11",
+      "name": "Problem 11 (1988 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1988_AJHSME_Problems/Problem_11",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Square Roots",
+        "Estimation"
+      ],
+      "statement": "$\\sqrt{164}$ is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$42$",
+          "less than $10$",
+          "between $10$ and $11$",
+          "between $11$ and $12$",
+          "between $12$ and $13$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1988-14",
+      "name": "Problem 14 (1988 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1988_AJHSME_Problems/Problem_14",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Factors",
+        "Maximization"
+      ],
+      "statement": "$\\diamond$ and $\\Delta$ are whole numbers and $\\diamond \\times \\Delta = 36$. The largest possible value of $\\diamond + \\Delta$ is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$12$",
+          "$13$",
+          "$15$",
+          "$20$",
+          "$37$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1988-15",
+      "name": "Problem 15 (1988 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1988_AJHSME_Problems/Problem_15",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Fractions",
+        "Reciprocals"
+      ],
+      "statement": "The reciprocal of $(\\frac{1}{2} + \\frac{1}{3})$ is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{6}$",
+          "$\\frac{2}{5}$",
+          "$\\frac{6}{5}$",
+          "$\\frac{5}{2}$",
+          "$5$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1989-1",
+      "name": "Problem 1 (1989 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1989_AJHSME_Problems/Problem_1",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Addition",
+        "Grouping"
+      ],
+      "statement": "$(1+11+21+31+41)+(9+19+29+39+49)=$",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$150$",
+          "$199$",
+          "$200$",
+          "$249$",
+          "$250$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1989-2",
+      "name": "Problem 2 (1989 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1989_AJHSME_Problems/Problem_2",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Fractions",
+        "Decimals"
+      ],
+      "statement": "$\\frac{2}{10}+\\frac{4}{100}+\\frac{6}{1000}=$",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$.012$",
+          "$.0246$",
+          "$.12$",
+          "$.246$",
+          "$246$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1989-3",
+      "name": "Problem 3 (1989 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1989_AJHSME_Problems/Problem_3",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Decimals",
+        "Comparing Numbers"
+      ],
+      "statement": "Which of the following numbers is the largest?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$.99$",
+          "$.9099$",
+          "$.9$",
+          "$.909$",
+          "$.9009$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1989-4",
+      "name": "Problem 4 (1989 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1989_AJHSME_Problems/Problem_4",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Estimation",
+        "Fractions"
+      ],
+      "statement": "Estimate to determine which of the following numbers is closest to $\\frac{401}{205}.$",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$.2$",
+          "$2$",
+          "$20$",
+          "$200$",
+          "$2000$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1989-5",
+      "name": "Problem 5 (1989 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1989_AJHSME_Problems/Problem_5",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Order of Operations"
+      ],
+      "statement": "$-15+9\\times(6\\div3)=$",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$-48$",
+          "$-12$",
+          "$-3$",
+          "$3$",
+          "$12$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1989-8",
+      "name": "Problem 8 (1989 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1989_AJHSME_Problems/Problem_8",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Fractions",
+        "Distributive Property"
+      ],
+      "statement": "$(2\\times3\\times4)(\\frac{1}{2}+\\frac{1}{3 à¦Ÿà§‡à¦²à¦¿à¦­à¦¿à¦¶à¦¨+\\frac{1}{4})=$",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1$",
+          "$3$",
+          "$9$",
+          "$24$",
+          "$26$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1989-12",
+      "name": "Problem 12 (1989 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1989_AJHSME_Problems/Problem_12",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Fractions",
+        "Complex Fractions"
+      ],
+      "statement": "$\\frac{1-\\frac{1}{3}}{1-\\frac{1}{2}}=$",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{3}$",
+          "$\\frac{2}{3}$",
+          "$\\frac{3}{4}$",
+          "$\\frac{3}{2}$",
+          "$\\frac{4}{3}$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1989-13",
+      "name": "Problem 13 (1989 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1989_AJHSME_Problems/Problem_13",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Fractions",
+        "Decimals"
+      ],
+      "statement": "$\\frac{9}{7\\times53}=$",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{.9}{.7\\times53}$",
+          "$\\frac{.9}{7\\times.53}$",
+          "$\\frac{.9}{.7\\times5.3}$",
+          "$\\frac{.9}{7\\times.53}$",
+          "$\\frac{.09}{.07\\times.53}$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1989-16",
+      "name": "Problem 16 (1989 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1989_AJHSME_Problems/Problem_16",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Primes",
+        "Sum of Primes"
+      ],
+      "statement": "In how many ways can $47$ be written as the sum of two primes?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$0$",
+          "$1$",
+          "$2$",
+          "$3$",
+          "more than $3$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1989-22",
+      "name": "Problem 22 (1989 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1989_AJHSME_Problems/Problem_22",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Cycles",
+        "Least Common Multiple"
+      ],
+      "statement": "The letters A, J, H, S, M, E and the digits $1, 9, 8, 9$ are \"cycled\" separately as follows and put together in a numbered list:\n$1$. JHSMEA $9891$\n$2$. HSMEAJ $8919$\n$3$. SMEAJH $9198$\nWhat is the number of the line on which AJHSME $1989$ will appear for the first time?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$6$",
+          "$10$",
+          "$12$",
+          "$18$",
+          "$24$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1990-1",
+      "name": "Problem 1 (1990 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1990_AJHSME_Problems/Problem_1",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Place Value",
+        "Optimization",
+        "Addition"
+      ],
+      "statement": "What is the smallest sum of two $3$-digit numbers that can be obtained by placing each of the six digits $4, 5, 6, 7, 8, 9$ in one of the six boxes in this addition problem?\n\n+\n$\\Box\\ \\Box\\ \\Box$\n$\\Box\\ \\Box\\ \\Box$",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$947$",
+          "$1037$",
+          "$1047$",
+          "$1056$",
+          "$1245$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1990-2",
+      "name": "Problem 2 (1990 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1990_AJHSME_Problems/Problem_2",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Place Value",
+        "Decimals"
+      ],
+      "statement": "Which digit of $0.12345$, when changed to $9$, gives the largest number?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1$",
+          "$2$",
+          "$3$",
+          "$4$",
+          "$5$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1990-4",
+      "name": "Problem 4 (1990 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1990_AJHSME_Problems/Problem_4",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Units Digit",
+        "Perfect Squares"
+      ],
+      "statement": "Which of the following could not be the unit's digit [one's digit] of the square of a whole number?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1$",
+          "$4$",
+          "$5$",
+          "$6$",
+          "$8$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1990-5",
+      "name": "Problem 5 (1990 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1990_AJHSME_Problems/Problem_5",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Estimation",
+        "Decimals"
+      ],
+      "statement": "Which of the following is closest to the product $(0.48017)(0.48017)(0.48017)$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$0.011$",
+          "$0.110$",
+          "$1.10$",
+          "$11.0$",
+          "$110$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1990-6",
+      "name": "Problem 6 (1990 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1990_AJHSME_Problems/Problem_6",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Fractions",
+        "Operations",
+        "Estimation"
+      ],
+      "statement": "Which of these five numbers is the largest?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$13579+\\frac{1}{2468}$",
+          "$13579-\\frac{1}{2468}$",
+          "$13579\\times\\frac{1}{2468}$",
+          "$13579\\div\\frac{1}{2468}$",
+          "$13579.2468$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1990-7",
+      "name": "Problem 7 (1990 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1990_AJHSME_Problems/Problem_7",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Optimization",
+        "Negative Numbers"
+      ],
+      "statement": "When three different numbers from the set $\\{-3, -2, -1, 4, 5\\}$ are multiplied, the largest possible product is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$10$",
+          "$20$",
+          "$30$",
+          "$40$",
+          "$60$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1990-11",
+      "name": "Problem 11 (1990 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1990_AJHSME_Problems/Problem_11",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Spatial Reasoning",
+        "Logic"
+      ],
+      "statement": "The numbers on the faces of this cube are consecutive whole numbers. The sums of the two numbers on each of the three pairs of opposite faces are equal. The sum of the six numbers on this cube is\n\n[See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$75$",
+          "$76$",
+          "$78$",
+          "$80$",
+          "$81$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1990-22",
+      "name": "Problem 22 (1990 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1990_AJHSME_Problems/Problem_22",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Modulo Arithmetic",
+        "Division"
+      ],
+      "statement": "Several students are seated at a large circular table. They pass around a bag containing $100$ pieces of candy. Each person receives the bag, takes one piece of candy and then passes the bag to the next person. If Chris takes the first and last piece of candy, then the number of students at the table could be",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$10$",
+          "$11$",
+          "$19$",
+          "$20$",
+          "$25$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-1",
+      "name": "Problem 1 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_1",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Arithmetic"
+      ],
+      "statement": "$777=$",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$222, 222, 222, 222$",
+          "$222, 222, 222, 223$",
+          "$233, 333, 333, 333$",
+          "$322, 222, 222, 223$",
+          "$333, 333, 333, 333$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-2",
+      "name": "Problem 2 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_2",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Order of Operations",
+        "Fractions"
+      ],
+      "statement": "$\\frac{16+8}{4-2}=$",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$4$",
+          "$8$",
+          "$12$",
+          "$16$",
+          "$20$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-3",
+      "name": "Problem 3 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_3",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Large Numbers",
+        "Word to Number Conversion"
+      ],
+      "statement": "Two hundred thousand times two hundred thousand equals",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "four hundred thousand",
+          "four million",
+          "forty thousand",
+          "four hundred million",
+          "forty billion"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-6",
+      "name": "Problem 6 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_6",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Arrays",
+        "Min-Max"
+      ],
+      "statement": "Which number in the array below is both the largest in its column and the smallest in its row? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1$",
+          "$6$",
+          "$7$",
+          "$12$",
+          "$15$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-7",
+      "name": "Problem 7 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_7",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Estimation",
+        "Factoring"
+      ],
+      "statement": "The value of $\\frac{(487,000)(12,027,300)+(9,621,001)(487,000)}{(19,367)(0.05)}$ is closest to",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$10,000,000$",
+          "$100,000,000$",
+          "$1,000,000,000$",
+          "$10,000,000,000$",
+          "$100,000,000,000$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-8",
+      "name": "Problem 8 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_8",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Quotients",
+        "Negative Numbers"
+      ],
+      "statement": "What is the largest quotient that can be formed using two numbers chosen from the set $\\{-24, -3, -2, 1, 2, 8\\}$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$-24$",
+          "$-3$",
+          "$8$",
+          "$12$",
+          "$24$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-13",
+      "name": "Problem 13 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_13",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Trailing Zeros",
+        "Prime Factorization"
+      ],
+      "statement": "How many zeros are at the end of the product $25 \\times 25 \\times 25 \\times 25 \\times 25 \\times 25 \\times 25 \\times 8 \\times 8$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$3$",
+          "$6$",
+          "$9$",
+          "$10$",
+          "$12$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-14",
+      "name": "Problem 14 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_14",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Optimization",
+        "Worst-Case Scenario"
+      ],
+      "statement": "Several students are competing in a series of three races. A student earns $5$ points for winning a race, $3$ points for finishing second and $1$ point for finishing third. There are no ties. What is the smallest number of points that a student must earn in the three races to be guaranteed of earning more points than any other student?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$9$",
+          "$10$",
+          "$11$",
+          "$13$",
+          "$15$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-20",
+      "name": "Problem 20 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_20",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Cryptarithm",
+        "Digit Addition"
+      ],
+      "statement": "In the addition problem, each digit has been replaced by a letter. If different letters represent different digits then $C=$ [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1$",
+          "$3$",
+          "$5$",
+          "$7$",
+          "$9$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1992-1",
+      "name": "Problem 1 (1992 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1992_AJHSME_Problems/Problem_1",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Order of Operations",
+        "Fractions"
+      ],
+      "statement": "$\\frac{10-9+8-7+6-5+4-3+2-1}{1-2+3-4+5-6+7-8+9}=$",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$-1$",
+          "$1$",
+          "$5$",
+          "$9$",
+          "$10$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1992-2",
+      "name": "Problem 2 (1992 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1992_AJHSME_Problems/Problem_2",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Fractions"
+      ],
+      "statement": "Which of the following is not equal to $\\frac{5}{4}$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{10}{8}$",
+          "$1\\frac{1}{4}$",
+          "$1\\frac{3}{12}$",
+          "$1\\frac{1}{5}$",
+          "$1\\frac{10}{40}$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1992-3",
+      "name": "Problem 3 (1992 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1992_AJHSME_Problems/Problem_3",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Subtraction",
+        "Negative Numbers",
+        "Extremal Principle"
+      ],
+      "statement": "What is the largest difference that can be formed by subtracting two numbers chosen from the set $\\{-16, -4, 0, 2, 4, 12\\}$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$10$",
+          "$12$",
+          "$16$",
+          "$28$",
+          "$48$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1993-1",
+      "name": "Problem 1 (1993 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1993_AJHSME_Problems/Problem_1",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Multiplication",
+        "Negative Numbers",
+        "Fractions"
+      ],
+      "statement": "Which pair of numbers does NOT have a product equal to $36$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\{-4,-9\\}$",
+          "$\\{-3,-12\\}$",
+          "$\\{\\frac{1}{2},-72\\}$",
+          "$\\{1,36\\}$",
+          "$\\{\\frac{3}{2},24\\}$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1993-2",
+      "name": "Problem 2 (1993 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1993_AJHSME_Problems/Problem_2",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Fractions",
+        "Simplification"
+      ],
+      "statement": "When the fraction $\\frac{49}{84}$ is expressed in simplest form, then the sum of the numerator and the denominator will be",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$11$",
+          "$17$",
+          "$19$",
+          "$33$",
+          "$133$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1993-3",
+      "name": "Problem 3 (1993 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1993_AJHSME_Problems/Problem_3",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Prime Factorization",
+        "Divisibility"
+      ],
+      "statement": "Which of the following numbers has the largest prime factor?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$39$",
+          "$51$",
+          "$77$",
+          "$91$",
+          "$121$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1993-4",
+      "name": "Problem 4 (1993 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1993_AJHSME_Problems/Problem_4",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Decimals",
+        "Powers of 10",
+        "Scientific Notation"
+      ],
+      "statement": "$1000 \\times 1993 \\times 0.1993 \\times 10 =$",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1.993 \\times 10^{3}$",
+          "$1993.1993$",
+          "$(199.3)^{2}$",
+          "$1,993,001.993$",
+          "$(1993)^{2}$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1993-12",
+      "name": "Problem 12 (1993 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1993_AJHSME_Problems/Problem_12",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Order of Operations",
+        "Combinatorics"
+      ],
+      "statement": "If each of the three operation signs, $+$, $-$, $\\times$, is used exactly ONCE in one of the blanks in the expression $5 \\ \\_ \\ 4 \\ \\_ \\ 6 \\ \\_ \\ 3$ then the value of the result could equal",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$9$",
+          "$10$",
+          "$15$",
+          "$16$",
+          "$19$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1993-16",
+      "name": "Problem 16 (1993 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1993_AJHSME_Problems/Problem_16",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Continued Fractions",
+        "Simplification"
+      ],
+      "statement": "$\\frac{1}{1 + \\frac{1}{2 + \\frac{1}{3}}} =$",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{6}$",
+          "$\\frac{3}{10}$",
+          "$\\frac{7}{10}$",
+          "$\\frac{5}{6}$",
+          "$\\frac{10}{3}$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1993-20",
+      "name": "Problem 20 (1993 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1993_AJHSME_Problems/Problem_20",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Digit Sums",
+        "Patterns"
+      ],
+      "statement": "When $10^{93} - 93$ is expressed as a single whole number, the sum of the digits is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$10$",
+          "$93$",
+          "$819$",
+          "$826$",
+          "$833$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1994-1",
+      "name": "Problem 1 (1994 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1994_AJHSME_Problems/Problem_1",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Fractions",
+        "Comparing Fractions"
+      ],
+      "statement": "Which of the following is the largest?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{3}$",
+          "$\\frac{1}{4}$",
+          "$\\frac{3}{8}$",
+          "$\\frac{5}{12}$",
+          "$\\frac{7}{24}$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1994-2",
+      "name": "Problem 2 (1994 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1994_AJHSME_Problems/Problem_2",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Fractions",
+        "Addition"
+      ],
+      "statement": "$\\frac{1}{10}+\\frac{2}{10}+\\frac{3}{10}+\\frac{4}{10}+\\frac{5}{10}+\\frac{6}{10}+\\frac{7}{10}+\\frac{8}{10}+\\frac{9}{10}+\\frac{55}{10}=$",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$4\\frac{1}{2}$",
+          "$6.4$",
+          "$9$",
+          "$10$",
+          "$11$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1994-6",
+      "name": "Problem 6 (1994 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1994_AJHSME_Problems/Problem_6",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Units Digit",
+        "Consecutive Integers"
+      ],
+      "statement": "The unit's digit (one's digit) of the product of any six consecutive positive whole numbers is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$0$",
+          "$2$",
+          "$4$",
+          "$6$",
+          "$8$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1994-10",
+      "name": "Problem 10 (1994 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1994_AJHSME_Problems/Problem_10",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Factors",
+        "Divisibility"
+      ],
+      "statement": "For how many positive integer values of $N$ is the expression $\\frac{36}{N+2}$ an integer?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$7$",
+          "$8$",
+          "$9$",
+          "$10$",
+          "$12$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1994-13",
+      "name": "Problem 13 (1994 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1994_AJHSME_Problems/Problem_13",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Fractions",
+        "Averages"
+      ],
+      "statement": "The number halfway between $\\frac{1}{6}$ and $\\frac{1}{4}$ is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{10}$",
+          "$\\frac{1}{5}$",
+          "$\\frac{5}{24}$",
+          "$\\frac{7}{24}$",
+          "$\\frac{5}{12}$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1994-20",
+      "name": "Problem 20 (1994 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1994_AJHSME_Problems/Problem_20",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Fractions",
+        "Minimization"
+      ],
+      "statement": "Let $W$, $X$, $Y$ and $Z$ be four different digits selected from the set $\\{1, 2, 3, 4, 5, 6, 7, 8, 9\\}$. If the sum $\\frac{W}{X}+\\frac{Y}{Z}$ is to be as small as possible, then $\\frac{W}{X}+\\frac{Y}{Z}$ must equal",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{2}{17}$",
+          "$\\frac{3}{17}$",
+          "$\\frac{17}{72}$",
+          "$\\frac{25}{72}$",
+          "$\\frac{13}{36}$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1994-23",
+      "name": "Problem 23 (1994 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1994_AJHSME_Problems/Problem_23",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Cryptarithm",
+        "Digit Addition"
+      ],
+      "statement": "If $X$, $Y$ and $Z$ are different digits, then the largest possible $3$-digit sum for $XXX + YX + X$ has the form",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$XXY$",
+          "$XYZ$",
+          "$YYX$",
+          "$YYZ$",
+          "$ZZY$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1994-25",
+      "name": "Problem 25 (1994 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1994_AJHSME_Problems/Problem_25",
+      "source": "AJHSME",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Digit Sum",
+        "Pattern Recognition"
+      ],
+      "statement": "Find the sum of the digits in the answer to $\\underbrace{999\\dots99}_{94\\text{ nines}} \\times \\underbrace{444\\dots44}_{94\\text{ fours}}$ where a string of $94$ nines is multiplied by a string of $94$ fours.",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$846$",
+          "$855$",
+          "$945$",
+          "$954$",
+          "$1072$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1995-3",
+      "name": "Problem 3 (1995 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1995_AJHSME_Problems/Problem_3",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Fraction Operations"
+      ],
+      "statement": "Which of the following operations has the same effect on a number as multiplying by $\\frac{3}{4}$ and then dividing by $\\frac{3}{5}$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "dividing by $\\frac{4}{3}$",
+          "dividing by $\\frac{9}{20}$",
+          "multiplying by $\\frac{9}{20}$",
+          "dividing by $\\frac{3}{4}$",
+          "multiplying by $\\frac{5}{4}$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1995-5",
+      "name": "Problem 5 (1995 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1995_AJHSME_Problems/Problem_5",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Fractions",
+        "Estimation"
+      ],
+      "statement": "Find the smallest whole number that is larger than the sum $2\\frac{1}{2}+3\\frac{1}{3}+4\\frac{1}{4}+5\\frac{1}{5}$.",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$14$",
+          "$15$",
+          "$16$",
+          "$17$",
+          "$18$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1995-15",
+      "name": "Problem 15 (1995 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1995_AJHSME_Problems/Problem_15",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Repeating Decimals",
+        "Modular Arithmetic"
+      ],
+      "statement": "What is the $100^{\\text{th}}$ digit to the right of the decimal point in the decimal form of $\\frac{4}{37}$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$0$",
+          "$1$",
+          "$2$",
+          "$7$",
+          "$8$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1995-22",
+      "name": "Problem 22 (1995 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1995_AJHSME_Problems/Problem_22",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Prime Factorization"
+      ],
+      "statement": "The number $6545$ can be written as a product of a pair of positive two-digit numbers. What is the sum of this pair of numbers?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$162$",
+          "$172$",
+          "$173$",
+          "$174$",
+          "$222$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1996-1",
+      "name": "Problem 1 (1996 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1996_AJHSME_Problems/Problem_1",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Factors",
+        "Multiples"
+      ],
+      "statement": "How many positive factors of $36$ are also multiples of $4$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$2$",
+          "$3$",
+          "$4$",
+          "$5$",
+          "$6$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1996-5",
+      "name": "Problem 5 (1996 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1996_AJHSME_Problems/Problem_5",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Grid",
+        "Corner Sum"
+      ],
+      "statement": "The $64$ whole numbers from $1$ through $64$ are written, one per square, on a checkerboard (an $8$ by $8$ array of $64$ squares). The first $8$ numbers are written in order across the first row, the next $8$ across the second row, and so on. After all $64$ numbers are written, the sum of the numbers in the four corners will be",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$130$",
+          "$131$",
+          "$132$",
+          "$133$",
+          "$134$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1996-6",
+      "name": "Problem 6 (1996 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1996_AJHSME_Problems/Problem_6",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Minimization"
+      ],
+      "statement": "What is the smallest result that can be obtained from the following process?\nChoose three different numbers from the set $\\{3, 5, 7, 11, 13, 17\\}$.\nAdd two of these numbers.\nMultiply their sum by the third number.",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$15$",
+          "$30$",
+          "$36$",
+          "$50$",
+          "$56$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1996-14",
+      "name": "Problem 14 (1996 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1996_AJHSME_Problems/Problem_14",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Cross Sum",
+        "Digit Placement"
+      ],
+      "statement": "Six different digits from the set $\\{1,2,3,4,5,6,7,8,9\\}$ are placed in the squares in the figure shown so that the sum of the entries in the vertical column is $23$ and the sum of the entries in the horizontal row is $12$. The sum of the six digits used is [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$27$",
+          "$29$",
+          "$31$",
+          "$33$",
+          "$35$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1996-15",
+      "name": "Problem 15 (1996 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1996_AJHSME_Problems/Problem_15",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Modular Arithmetic",
+        "Units Digit"
+      ],
+      "statement": "The remainder when the product $1492 \\cdot 1776 \\cdot 1812 \\cdot 1996$ is divided by $5$ is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$0$",
+          "$1$",
+          "$2$",
+          "$3$",
+          "$4$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1997-1",
+      "name": "Problem 1 (1997 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1997_AJHSME_Problems/Problem_1",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Decimal Conversion",
+        "Fractions"
+      ],
+      "statement": "The value of $\\frac{1}{10}+\\frac{9}{100}+\\frac{9}{1000}+\\frac{7}{10000}$ is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$0.0026$",
+          "$0.0197$",
+          "$0.1997$",
+          "$0.26$",
+          "$1.997$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1997-3",
+      "name": "Problem 3 (1997 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1997_AJHSME_Problems/Problem_3",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Decimals",
+        "Ordering"
+      ],
+      "statement": "Which of the following numbers is the largest?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$0.97$",
+          "$0.979$",
+          "$0.9709$",
+          "$0.907$",
+          "$0.9089$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1997-5",
+      "name": "Problem 5 (1997 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1997_AJHSME_Problems/Problem_5",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Multiples",
+        "Digit Sum"
+      ],
+      "statement": "There are many two-digit multiples of $7$, but only two of the multiples have a digit sum of $10$. The sum of these two multiples of $7$ is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$119$",
+          "$126$",
+          "$140$",
+          "$175$",
+          "$189$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1997-6",
+      "name": "Problem 6 (1997 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1997_AJHSME_Problems/Problem_6",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Place Value",
+        "Powers of 10"
+      ],
+      "statement": "In the number $74982.1035$ the value of the \"place\" occupied by the digit $9$ is how many times as great as the value of the \"place\" occupied by the digit $3$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1,000$",
+          "$10,000$",
+          "$100,000$",
+          "$1,000,000$",
+          "$10,000,000$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1997-11",
+      "name": "Problem 11 (1997 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1997_AJHSME_Problems/Problem_11",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Divisors",
+        "Custom Operations"
+      ],
+      "statement": "Let $\\boxed{N}$ mean the number of whole number divisors of $N$. For example, $\\boxed{3} = 2$ because $3$ has two divisors, $1$ and $3$. Find the value of $\\boxed{11} \\times \\boxed{20}$.",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$6$",
+          "$8$",
+          "$12$",
+          "$16$",
+          "$24$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1997-24",
+      "name": "Problem 24 (1997 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1997_AJHSME_Problems/Problem_24",
+      "source": "AJHSME",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Digit Manipulation",
+        "Diophantine Equations"
+      ],
+      "statement": "There are positive integers that have these properties: \n* the sum of the squares of their digits is $50$, and \n* each digit is larger than the one to its left. \nThe product of the digits of the largest integer with both properties is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$7$",
+          "$25$",
+          "$36$",
+          "$48$",
+          "$60$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1997-25",
+      "name": "Problem 25 (1997 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1997_AJHSME_Problems/Problem_25",
+      "source": "AJHSME",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Units Digit",
+        "Modular Arithmetic"
+      ],
+      "statement": "All of the even numbers from $2$ to $98$ inclusive, excluding those ending in $0$, are multiplied together. What is the rightmost digit (the units digit) of the product?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$0$",
+          "$2$",
+          "$4$",
+          "$6$",
+          "$8$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1998-1",
+      "name": "Problem 1 (1998 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1998_AJHSME_Problems/Problem_1",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Fractions",
+        "Evaluating Expressions"
+      ],
+      "statement": "For $x=7$ which of the following is the smallest?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{6}{x}$",
+          "$\\frac{6}{x+1}$",
+          "$\\frac{6}{x-1}$",
+          "$\\frac{x}{6}$",
+          "$\\frac{x+1}{6}$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1998-3",
+      "name": "Problem 3 (1998 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1998_AJHSME_Problems/Problem_3",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Fractions",
+        "Order of Operations"
+      ],
+      "statement": "What is the value of $$\\frac{\\frac{3}{8} + \\frac{7}{8}}{\\frac{4}{5}}$$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1$",
+          "$\\frac{25}{16}$",
+          "$2$",
+          "$\\frac{43}{20}$",
+          "$\\frac{47}{16}$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1998-5",
+      "name": "Problem 5 (1998 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1998_AJHSME_Problems/Problem_5",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Decimals",
+        "Repeating Decimals"
+      ],
+      "statement": "Which of the following numbers is largest?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$9.12344$",
+          "$9.123\\overline{4}$",
+          "$9.12\\overline{34}$",
+          "$9.1\\overline{234}$",
+          "$9.\\overline{1234}$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1998-7",
+      "name": "Problem 7 (1998 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1998_AJHSME_Problems/Problem_7",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Multiplication",
+        "Decimals",
+        "Exponents"
+      ],
+      "statement": "What is the value of $100 \\times 19.98 \\times 1.998 \\times 1000$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$(1.998)^{2}$",
+          "$(19.98)^{2}$",
+          "$(199.8)^{2}$",
+          "$(1998)^{2}$",
+          "$(19980)^{2}$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-1999-1",
+      "name": "Problem 1 (1999 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1999_AMC_8_Problems/Problem_1",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Order of Operations",
+        "Basic Arithmetic"
+      ],
+      "statement": "$(6?3)+4-(2-1)=5$. To make this statement true, the question mark between the $6$ and the $3$ should be replaced by",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\div$",
+          "$\\times$",
+          "$+$",
+          "$-$",
+          "$\\text{None of these}$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-1999-3",
+      "name": "Problem 3 (1999 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1999_AMC_8_Problems/Problem_3",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Fractions",
+        "Decimals",
+        "Addition"
+      ],
+      "statement": "Which triplet of numbers has a sum NOT equal to $1$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$(\\frac{1}{2}, \\frac{1}{3}, \\frac{1}{6})$",
+          "$(2, -2, 1)$",
+          "$(0.1, 0.3, 0.6)$",
+          "$(1.1, -2.1, 1.0)$",
+          "$(-\\frac{3}{2}, -\\frac{5}{2}, 5)$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-1999-12",
+      "name": "Problem 12 (1999 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1999_AMC_8_Problems/Problem_12",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Ratios",
+        "Percentages"
+      ],
+      "statement": "The ratio of the number of games won to the number of games lost (no ties) by the Middle School Middies is $11:4$. To the nearest whole percent, what percent of its games did the team lose?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$24$",
+          "$27$",
+          "$36$",
+          "$45$",
+          "$73$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-1999-16",
+      "name": "Problem 16 (1999 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1999_AMC_8_Problems/Problem_16",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Percentages",
+        "System of Equations"
+      ],
+      "statement": "Tori's mathematics test had $75$ problems: $10$ arithmetic, $30$ algebra, and $35$ geometry problems. Although she answered $70\\%$ of the arithmetic, $40\\%$ of the algebra, and $60\\%$ of the geometry problems correctly, she did not pass the test because she got less than $60\\%$ of the problems right. How many more problems would she have needed to answer correctly to earn a $60\\%$ passing grade?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1$",
+          "$5$",
+          "$7$",
+          "$9$",
+          "$11$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-1999-24",
+      "name": "Problem 24 (1999 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1999_AMC_8_Problems/Problem_24",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Modular Arithmetic",
+        "Units Digit",
+        "Patterns"
+      ],
+      "statement": "When $1999^{2000}$ is divided by $5$, the remainder is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$4$",
+          "$1$",
+          "$2$",
+          "$3$",
+          "$0$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2000-2",
+      "name": "Problem 2 (2000 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2000_AMC_8_Problems/Problem_2",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Reciprocals",
+        "Inequalities"
+      ],
+      "statement": "Which of these numbers is less than its reciprocal?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$-2$",
+          "$-1$",
+          "$0$",
+          "$1$",
+          "$2$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2000-3",
+      "name": "Problem 3 (2000 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2000_AMC_8_Problems/Problem_3",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Number Line",
+        "Counting Integers"
+      ],
+      "statement": "How many whole numbers lie in the interval between $\\frac{5}{3}$ and $2\\pi$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$2$",
+          "$3$",
+          "$4$",
+          "$5$",
+          "infinitely many"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2000-7",
+      "name": "Problem 7 (2000 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2000_AMC_8_Problems/Problem_7",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Negative Numbers",
+        "Optimization",
+        "Products"
+      ],
+      "statement": "What is the minimum possible product of three different numbers of the set $\\{-8, -6, -4, 0, 3, 5, 7\\}$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$-336$",
+          "$-280$",
+          "$-210$",
+          "$-192$",
+          "$0$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2000-9",
+      "name": "Problem 9 (2000 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2000_AMC_8_Problems/Problem_9",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Powers",
+        "Digit Analysis",
+        "Crossword"
+      ],
+      "statement": "Three-digit powers of $2$ and $5$ are used in this \"cross-number\" puzzle. What is the only possible digit for the outlined square? [See figure in original PDF]\nACROSS\n$2$. $2^m$\nDOWN\n$1$. $5^n$",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$0$",
+          "$2$",
+          "$4$",
+          "$6$",
+          "$8$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2000-11",
+      "name": "Problem 11 (2000 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2000_AMC_8_Problems/Problem_11",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Divisibility",
+        "Digit Manipulation"
+      ],
+      "statement": "The number $64$ has the property that it is divisible by its units digit. How many whole numbers between $10$ and $50$ have this property?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$15$",
+          "$16$",
+          "$17$",
+          "$18$",
+          "$20$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2000-14",
+      "name": "Problem 14 (2000 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2000_AMC_8_Problems/Problem_14",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Units Digit",
+        "Modular Arithmetic"
+      ],
+      "statement": "What is the units digit of $19^{19}+99^{99}$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$0$",
+          "$1$",
+          "$2$",
+          "$8$",
+          "$9$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2000-23",
+      "name": "Problem 23 (2000 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2000_AMC_8_Problems/Problem_23",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Averages",
+        "Overlapping Sets"
+      ],
+      "statement": "There is a list of seven numbers. The average of the first four numbers is $5$, and the average of the last four numbers is $8$. If the average of all seven numbers is $6\\frac{4}{7}$, then the number common to both sets of four numbers is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$5\\frac{3}{7}$",
+          "$6$",
+          "$6\\frac{4}{7}$",
+          "$7$",
+          "$7\\frac{3}{7}$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2001-4",
+      "name": "Problem 4 (2001 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2001_AMC_8_Problems/Problem_4",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Digit Manipulation",
+        "Parity"
+      ],
+      "statement": "The digits $1$, $2$, $3$, $4$ and $9$ are each used once to form the smallest possible even five-digit number. The digit in the tens place is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1$",
+          "$2$",
+          "$3$",
+          "$4$",
+          "$9$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2001-10",
+      "name": "Problem 10 (2001 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2001_AMC_8_Problems/Problem_10",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Percentages",
+        "Money"
+      ],
+      "statement": "A collector offers to buy state quarters for $2000\\%$ of their face value. At that rate how much will Bryden get for his four state quarters?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$20$ dollars",
+          "$50$ dollars",
+          "$200$ dollars",
+          "$500$ dollars",
+          "$2000$ dollars"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2001-17",
+      "name": "Problem 17 (2001 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2001_AMC_8_Problems/Problem_17",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Percentages",
+        "Data Interpretation"
+      ],
+      "statement": "For the game show Who Wants To Be A Millionaire?, the dollar values of each question are shown in the following table (where $K=1000$). Questions $1$ to $15$ have values: $100$, $200$, $300$, $500$, $1K$, $2K$, $4K$, $8K$, $16K$, $32K$, $64K$, $125K$, $250K$, $500K$, $1000K$. Between which two questions is the percent increase of the value the smallest?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "From $1$ to $2$",
+          "From $2$ to $3$",
+          "From $3$ to $4$",
+          "From $11$ to $12$",
+          "From $14$ to $15$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2001-25",
+      "name": "Problem 25 (2001 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2001_AMC_8_Problems/Problem_25",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Divisibility Rules",
+        "Permutations"
+      ],
+      "statement": "There are $24$ four-digit whole numbers that use each of the four digits $2$, $4$, $5$ and $7$ exactly once. Only one of these four-digit numbers is a multiple of another one. Which of the following is it?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$5724$",
+          "$7245$",
+          "$7254$",
+          "$7425$",
+          "$7542$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2002-4",
+      "name": "Problem 4 (2002 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2002_AMC_8_Problems/Problem_4",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Palindromes",
+        "Digit Manipulation"
+      ],
+      "statement": "The year $2002$ is a palindrome (a number that reads the same from left to right as it does from right to left). What is the product of the digits of the next year after $2002$ that is a palindrome?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$0$",
+          "$4$",
+          "$9$",
+          "$16$",
+          "$25$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2002-5",
+      "name": "Problem 5 (2002 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2002_AMC_8_Problems/Problem_5",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Calendar Math",
+        "Modular Arithmetic"
+      ],
+      "statement": "Carlos Montado was born on Saturday, November $9$, $2002$. On what day of the week will Carlos be $706$ days old?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "Monday",
+          "Wednesday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2002-9",
+      "name": "Problem 9 (2002 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2002_AMC_8_Problems/Problem_9",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Table Reading",
+        "Money"
+      ],
+      "statement": "Juan organizes the stamps in his collection by country and by the decade in which they were issued. The prices he paid for them at a stamp shop were: Brazil and France, $6$ cents each, Peru $4$ cents each, and Spain $5$ cents each. (Brazil and Peru are South American countries and France and Spain are in Europe.)\n\nNumber of Stamps by Decade\nCountry | '50s | '60s | '70s | '80s\nBrazil | $4$ | $7$ | $12$ | $8$\nFrance | $8$ | $4$ | $12$ | $15$\nPeru | $6$ | $4$ | $6$ | $10$\nSpain | $3$ | $9$ | $13$ | $9$\n\nIn dollars and cents, how much did his South American stamps issued before the '70s cost him?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\$0.40$",
+          "$\\$1.06$",
+          "$\\$1.80$",
+          "$\\$2.38$",
+          "$\\$2.64$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2003-2",
+      "name": "Problem 2 (2003 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2003_AMC_8_Problems/Problem_2",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Prime Factorization",
+        "Divisibility"
+      ],
+      "statement": "Which of the following numbers has the smallest prime factor?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$55$",
+          "$57$",
+          "$58$",
+          "$59$",
+          "$61$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2003-3",
+      "name": "Problem 3 (2003 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2003_AMC_8_Problems/Problem_3",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Percentages",
+        "Fractions"
+      ],
+      "statement": "A burger at Ricky C's weighs $120$ grams, of which $30$ grams are filler. What percent of the burger is not filler?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$60\\%$",
+          "$65\\%$",
+          "$70\\%$",
+          "$75\\%$",
+          "$90\\%$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2003-5",
+      "name": "Problem 5 (2003 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2003_AMC_8_Problems/Problem_5",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Percentages",
+        "Proportions"
+      ],
+      "statement": "If $20\\%$ of a number is $12$, what is $30\\%$ of the same number?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$15$",
+          "$18$",
+          "$20$",
+          "$24$",
+          "$30$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2003-11",
+      "name": "Problem 11 (2003 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2003_AMC_8_Problems/Problem_11",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Percentages",
+        "Discounts"
+      ],
+      "statement": "Business is a little slow at Lou's Fine Shoes, so Lou decides to have a sale. On Friday, Lou increases all of Thursday's prices by $10\\%$. Over the weekend, Lou advertises the sale: \"Ten percent off the listed price. Sale starts Monday.\" How much does a pair of shoes cost on Monday that cost $40$ dollars on Thursday?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$36.00$",
+          "$39.60$",
+          "$40.00$",
+          "$40.40$",
+          "$44.00$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2003-14",
+      "name": "Problem 14 (2003 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2003_AMC_8_Problems/Problem_14",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Cryptarithm",
+        "Digit Manipulation"
+      ],
+      "statement": "In this addition problem, each letter stands for a different digit.\n$$\\begin{matrix} & T & W & O \\\\ + & T & W & O \\\\ \\hline & F & O & U & R \\end{matrix}$$\nIf $T=7$ and the letter $O$ represents an even number, what is the only possible value for $W$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$0$",
+          "$1$",
+          "$2$",
+          "$3$",
+          "$4$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2003-19",
+      "name": "Problem 19 (2003 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2003_AMC_8_Problems/Problem_19",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Least Common Multiple",
+        "Divisibility"
+      ],
+      "statement": "How many integers between $1000$ and $2000$ have all three of the numbers $15$, $20$, and $25$ as factors?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1$",
+          "$2$",
+          "$3$",
+          "$4$",
+          "$5$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2003-23",
+      "name": "Problem 23 (2003 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2003_AMC_8_Problems/Problem_23",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Modular Arithmetic",
+        "Patterns"
+      ],
+      "statement": "In the pattern below, the cat (denoted as a large circle in the figures below) moves clockwise through the four squares and the mouse (denoted as a dot in the figures below) moves counterclockwise through the eight exterior segments of the four squares. If the pattern is continued, where would the cat and mouse be after the $247^{\\text{th}}$ move? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "[Image A]",
+          "[Image B]",
+          "[Image C]",
+          "[Image D]",
+          "[Image E]"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2004-19",
+      "name": "Problem 19 (2004 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2004_AMC_8_Problems/Problem_19",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "LCM",
+        "Remainders"
+      ],
+      "statement": "A whole number larger than $2$ leaves a remainder of $2$ when divided by each of the numbers $3, 4, 5$ and $6$. The smallest such number lies between which two numbers?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$40 \\text{ and } 49$",
+          "$60 \\text{ and } 79$",
+          "$100 \\text{ and } 129$",
+          "$210 \\text{ and } 249$",
+          "$320 \\text{ and } 369$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2005-5",
+      "name": "Problem 5 (2005 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2005_AMC_8_Problems/Problem_5",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Optimization",
+        "Multiples"
+      ],
+      "statement": "Soda is sold in packs of $6$, $12$ and $24$ cans. What is the minimum number of packs needed to buy exactly $90$ cans of soda?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$4$",
+          "$5$",
+          "$6$",
+          "$8$",
+          "$15$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2005-6",
+      "name": "Problem 6 (2005 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2005_AMC_8_Problems/Problem_6",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Decimals",
+        "Inequalities"
+      ],
+      "statement": "Suppose $d$ is a digit. For how many values of $d$ is $2.00d5 > 2.005$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$0$",
+          "$4$",
+          "$5$",
+          "$6$",
+          "$10$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2005-8",
+      "name": "Problem 8 (2005 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2005_AMC_8_Problems/Problem_8",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Parity"
+      ],
+      "statement": "Suppose $m$ and $n$ are positive odd integers. Which of the following must also be an odd integer?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$m+3n$",
+          "$3m-n$",
+          "$3m^{2}+3n^{2}$",
+          "$(nm+3)^{2}$",
+          "$3mn$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2005-20",
+      "name": "Problem 20 (2005 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2005_AMC_8_Problems/Problem_20",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Modular Arithmetic"
+      ],
+      "statement": "Alice and Bob play a game involving a circle whose circumference is divided by $12$ equally-spaced points. The points are numbered clockwise, from $1$ to $12$. Both start on point $12$. Alice moves clockwise and Bob, counterclockwise. In a turn of the game, Alice moves $5$ points clockwise and Bob moves $9$ points counterclockwise. The game ends when they stop on the same point. How many turns will this take?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$6$",
+          "$8$",
+          "$12$",
+          "$14$",
+          "$24$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2005-24",
+      "name": "Problem 24 (2005 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2005_AMC_8_Problems/Problem_24",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Working Backwards",
+        "Binary"
+      ],
+      "statement": "A certain calculator has only two keys $[+1]$ and $[\\times2]$. When you press one of the keys, the calculator automatically displays the result. For instance, if the calculator originally displayed \"$9$\" and you pressed $[+1]$ it would display \"$10$.\" If you then pressed $[\\times2]$ it would display \"$20$.\" Starting with the display \"$1$,\" what is the fewest number of keystrokes you would need to reach \"$200$\"?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$8$",
+          "$9$",
+          "$10$",
+          "$11$",
+          "$12$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2006-4",
+      "name": "Problem 4 (2006 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2006_AMC_8_Problems/Problem_4",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Fractions",
+        "Rotations",
+        "Directions"
+      ],
+      "statement": "Initially, a spinner points west. Chenille moves it clockwise $2\\frac{1}{4}$ revolutions and then counter-clockwise $3\\frac{3}{4}$ revolutions. In what direction does the spinner point after the two moves? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\text{north}$",
+          "$\\text{east}$",
+          "$\\text{south}$",
+          "$\\text{west}$",
+          "$\\text{northwest}$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2006-22",
+      "name": "Problem 22 (2006 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2006_AMC_8_Problems/Problem_22",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Optimization",
+        "Maximum and Minimum",
+        "Addition"
+      ],
+      "statement": "Three different one-digit positive integers are placed in the bottom row of cells. Numbers in adjacent cells are added and the sum is placed in the cell above them. In the second row, continue the same process to obtain a number in the top cell. What is the difference between the largest and smallest numbers possible in the top cell? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$16$",
+          "$24$",
+          "$25$",
+          "$26$",
+          "$35$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2006-23",
+      "name": "Problem 23 (2006 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2006_AMC_8_Problems/Problem_23",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Modular Arithmetic",
+        "Chinese Remainder Theorem"
+      ],
+      "statement": "A box contains gold coins. If the coins are equally divided among six people, four coins are left over. If the coins are equally divided among five people, three coins are left over. If the box holds the smallest number of coins that meets these two conditions, how many coins are left when equally divided among seven people?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$0$",
+          "$1$",
+          "$2$",
+          "$3$",
+          "$5$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2006-24",
+      "name": "Problem 24 (2006 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2006_AMC_8_Problems/Problem_24",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Cryptarithm",
+        "Digit Puzzles"
+      ],
+      "statement": "In the multiplication problem below, $A$, $B$, $C$ and $D$ are different digits. What is $A+B$?\n$$ABA \\times CD = CDCD$$",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1$",
+          "$2$",
+          "$3$",
+          "$4$",
+          "$5$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2006-25",
+      "name": "Problem 25 (2006 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2006_AMC_8_Problems/Problem_25",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Prime Numbers",
+        "Averages",
+        "Logic"
+      ],
+      "statement": "Barry wrote $6$ different numbers, one on each side of $3$ cards, and laid the cards on a table, as shown. The sums of the two numbers on each of the three cards are equal. The three numbers on the hidden sides are prime numbers. What is the average of the hidden prime numbers? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$13$",
+          "$14$",
+          "$15$",
+          "$16$",
+          "$17$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2007-3",
+      "name": "Problem 3 (2007 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2007_AMC_8_Problems/Problem_3",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Prime Factorization"
+      ],
+      "statement": "What is the sum of the two smallest prime factors of $250$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$2$",
+          "$5$",
+          "$7$",
+          "$10$",
+          "$12$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2007-10",
+      "name": "Problem 10 (2007 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2007_AMC_8_Problems/Problem_10",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Sum of Divisors",
+        "Custom Operations"
+      ],
+      "statement": "For any positive integer $n$, define $\\boxed{n}$ to be the sum of the positive factors of $n$. For example, $\\boxed{6}=1+2+3+6=12$. Find $\\boxed{\\boxed{11}}$.",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$13$",
+          "$20$",
+          "$24$",
+          "$28$",
+          "$30$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2007-18",
+      "name": "Problem 18 (2007 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2007_AMC_8_Problems/Problem_18",
+      "source": "AMC 8",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Multiplication",
+        "Digit Analysis"
+      ],
+      "statement": "The product of the two $99$-digit numbers $$303,030,303,\\dots,030,303$$and$$505,050,505,\\dots,050,505$$ has thousands digit $A$ and units digit $B$. What is the sum of $A$ and $B$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$3$",
+          "$5$",
+          "$6$",
+          "$8$",
+          "$10$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2008-2",
+      "name": "Problem 2 (2008 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2008_AMC_8_Problems/Problem_2",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Cryptarithm",
+        "Digit Substitution"
+      ],
+      "statement": "The ten-letter code BEST OF LUCK represents the ten digits $0-9$, in order. What $4$-digit number is represented by the code word CLUE?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$8671$",
+          "$8672$",
+          "$9781$",
+          "$9782$",
+          "$9872$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2008-9",
+      "name": "Problem 9 (2008 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2008_AMC_8_Problems/Problem_9",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Percentages",
+        "Compound Interest"
+      ],
+      "statement": "In $2005$ Tycoon Tammy invested $\\$100$ for two years. During the first year her investment suffered a $15\\%$ loss, but during the second year the remaining investment showed a $20\\%$ gain. Over the two-year period, what was the change in Tammy's investment?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$5\\%\\text{ loss}$",
+          "$2\\%\\text{ loss}$",
+          "$1\\%\\text{ gain}$",
+          "$2\\%\\text{ gain}$",
+          "$5\\%\\text{ gain}$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2009-11",
+      "name": "Problem 11 (2009 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2009_AMC_8_Problems/Problem_11",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Factors",
+        "Divisibility"
+      ],
+      "statement": "The Amaco Middle School bookstore sells pencils costing a whole number of cents. Some seventh graders each bought a pencil, paying a total of $\\$1.43$. Some of the $30$ sixth graders each bought a pencil, and they paid a total of $\\$1.95$. How many more sixth graders than seventh graders bought a pencil?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1$",
+          "$2$",
+          "$3$",
+          "$4$",
+          "$5$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2009-17",
+      "name": "Problem 17 (2009 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2009_AMC_8_Problems/Problem_17",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Prime Factorization",
+        "Perfect Squares",
+        "Perfect Cubes"
+      ],
+      "statement": "The positive integers $x$ and $y$ are the two smallest positive integers for which the product of $360$ and $x$ is a square and the product of $360$ and $y$ is a cube. What is the sum of $x$ and $y$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$80$",
+          "$85$",
+          "$115$",
+          "$165$",
+          "$610$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2009-24",
+      "name": "Problem 24 (2009 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2009_AMC_8_Problems/Problem_24",
+      "source": "AMC 8",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Cryptarithm",
+        "Digits",
+        "Algebra"
+      ],
+      "statement": "The letters $A$, $B$, $C$ and $D$ represent digits. If $AB + CA = DA$ and $AB - CA = A$, what digit does $D$ represent?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$5$",
+          "$6$",
+          "$7$",
+          "$8$",
+          "$9$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2010-1",
+      "name": "Problem 1 (2010 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2010_AMC_8_Problems/Problem_1",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Addition"
+      ],
+      "statement": "At Euclid High School, the mathematics teachers are Mrs. Germain, Mr. Newton, and Mrs. Young. There are $11$ students in Mrs. Germain's class, $8$ in Mr. Newton's, and $9$ in Mrs. Young's class are taking the AMC $8$ this year. How many mathematics students at Euclid High School are taking the contest?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$26$",
+          "$27$",
+          "$28$",
+          "$29$",
+          "$30$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2010-14",
+      "name": "Problem 14 (2010 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2010_AMC_8_Problems/Problem_14",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Prime Factorization"
+      ],
+      "statement": "What is the sum of the prime factors of $2010$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$67$",
+          "$75$",
+          "$77$",
+          "$201$",
+          "$210$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2010-22",
+      "name": "Problem 22 (2010 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2010_AMC_8_Problems/Problem_22",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Digit Manipulation",
+        "Place Value"
+      ],
+      "statement": "The hundreds digit of a three-digit number is $2$ more than the units digit. The digits of the three-digit number are reversed, and the result is subtracted from the original three-digit number. What is the units digit of the result?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$0$",
+          "$2$",
+          "$4$",
+          "$6$",
+          "$8$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2011-3",
+      "name": "Problem 3 (2011 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2011_AMC_8_Problems/Problem_3",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Patterns",
+        "Ratios"
+      ],
+      "statement": "Extend the square pattern of $8$ black and $17$ white square tiles by attaching a border of black tiles around the square. What is the ratio of black tiles to white tiles in the extended pattern?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "8:17",
+          "25:49",
+          "36:25",
+          "32:17",
+          "36:17"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2011-5",
+      "name": "Problem 5 (2011 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2011_AMC_8_Problems/Problem_5",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Time Conversion",
+        "Modular Arithmetic"
+      ],
+      "statement": "What time was it $2011$ minutes after midnight on January $1$, $2011$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "\\text{January 1 at 9:31PM}",
+          "\\text{January 1 at 11:51PM}",
+          "\\text{January 2 at 3:11AM}",
+          "\\text{January 2 at 9:31AM}",
+          "\\text{January 2 at 6:01PM}"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2011-17",
+      "name": "Problem 17 (2011 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2011_AMC_8_Problems/Problem_17",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Prime Factorization"
+      ],
+      "statement": "Let $w$, $x$, $y$, and $z$ be whole numbers. If $2^w \\cdot 3^x \\cdot 5^y \\cdot 7^z = 588$, then what does $2w+3x+5y+7z$ equal?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "21",
+          "25",
+          "27",
+          "35",
+          "56"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2011-21",
+      "name": "Problem 21 (2011 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2011_AMC_8_Problems/Problem_21",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Logic",
+        "Prime Numbers"
+      ],
+      "statement": "Students guess that Norb's age is $24$, $28$, $30$, $32$, $36$, $38$, $41$, $44$, $47$, and $49$. Norb says, \"At least half of you guessed too low, two of you are off by one, and my age is a prime number.\" How old is Norb?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "29",
+          "31",
+          "37",
+          "43",
+          "48"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2011-22",
+      "name": "Problem 22 (2011 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2011_AMC_8_Problems/Problem_22",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Modular Arithmetic",
+        "Patterns"
+      ],
+      "statement": "What is the tens digit of $7^{2011}$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "0",
+          "1",
+          "3",
+          "4",
+          "7"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2011-24",
+      "name": "Problem 24 (2011 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2011_AMC_8_Problems/Problem_24",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Prime Numbers",
+        "Parity"
+      ],
+      "statement": "In how many ways can $10001$ be written as the sum of two primes?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2012-12",
+      "name": "Problem 12 (2012 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2012_AMC_8_Problems/Problem_12",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Modular Arithmetic",
+        "Units Digit",
+        "Patterns"
+      ],
+      "statement": "What is the units digit of $13^{2012}$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1$",
+          "$3$",
+          "$5$",
+          "$7$",
+          "$9$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2012-13",
+      "name": "Problem 13 (2012 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2012_AMC_8_Problems/Problem_13",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Divisibility",
+        "Word Problems"
+      ],
+      "statement": "Jamar bought some pencils costing more than a penny each at the school bookstore and paid $\\$1.43$. Sharona bought some of the same pencils and paid $\\$1.87$. How many more pencils did Sharona buy than Jamar?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$2$",
+          "$3$",
+          "$4$",
+          "$5$",
+          "$6$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2012-15",
+      "name": "Problem 15 (2012 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2012_AMC_8_Problems/Problem_15",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Least Common Multiple",
+        "Remainders"
+      ],
+      "statement": "The smallest number greater than $2$ that leaves a remainder of $2$ when divided by $3$, $4$, $5$, or $6$ lies between what numbers?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$40 \\text{ and } 50$",
+          "$51 \\text{ and } 55$",
+          "$56 \\text{ and } 60$",
+          "$61 \\text{ and } 65$",
+          "$66 \\text{ and } 99$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2012-16",
+      "name": "Problem 16 (2012 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2012_AMC_8_Problems/Problem_16",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Optimization",
+        "Place Value"
+      ],
+      "statement": "Each of the digits $0$, $1$, $2$, $3$, $4$, $5$, $6$, $7$, $8$, and $9$ is used only once to make two five-digit numbers so that they have the largest possible sum. Which of the following could be one of the numbers?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$76531$",
+          "$86724$",
+          "$87431$",
+          "$96240$",
+          "$97403$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2012-18",
+      "name": "Problem 18 (2012 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2012_AMC_8_Problems/Problem_18",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Prime Factorization",
+        "Number Theory"
+      ],
+      "statement": "What is the smallest positive integer that is neither prime nor square and that has no prime factor less than $50$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$3127$",
+          "$3133$",
+          "$3137$",
+          "$3139$",
+          "$3149$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2012-20",
+      "name": "Problem 20 (2012 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2012_AMC_8_Problems/Problem_20",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Fractions",
+        "Inequalities"
+      ],
+      "statement": "What is the correct ordering of the three numbers $\\frac{7}{21}$, $\\frac{5}{19}$, and $\\frac{9}{23}$ in increasing order?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{9}{23} < \\frac{7}{21} < \\frac{5}{19}$",
+          "$\\frac{5}{19} < \\frac{7}{21} < \\frac{9}{23}$",
+          "$\\frac{9}{23} < \\frac{5}{19} < \\frac{7}{21}$",
+          "$\\frac{5}{19} < \\frac{9}{23} < \\frac{7}{21}$",
+          "$\\frac{7}{21} < \\frac{5}{19} < \\frac{9}{23}$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2013-1",
+      "name": "Problem 1 (2013 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2013_AMC_8_Problems/Problem_1",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Divisibility",
+        "Remainders"
+      ],
+      "statement": "Danica wants to arrange her model cars in rows with exactly $6$ cars in each row. She now has $23$ model cars. What is the smallest number of additional cars she must buy in order to be able to arrange all her cars this way?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1$",
+          "$2$",
+          "$3$",
+          "$4$",
+          "$5$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2013-2",
+      "name": "Problem 2 (2013 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2013_AMC_8_Problems/Problem_2",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Percentages",
+        "Proportions"
+      ],
+      "statement": "A sign at the fish market says, \"$50\\%$ off, today only: half-pound packages for just $\\$3$ per package.\" What is the regular price for a full pound of fish, in dollars?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$6$",
+          "$9$",
+          "$10$",
+          "$12$",
+          "$15$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2013-10",
+      "name": "Problem 10 (2013 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2013_AMC_8_Problems/Problem_10",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "LCM",
+        "GCD",
+        "Prime Factorization"
+      ],
+      "statement": "What is the ratio of the least common multiple of $180$ and $594$ to the greatest common factor of $180$ and $594$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$110$",
+          "$165$",
+          "$330$",
+          "$625$",
+          "$660$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2013-13",
+      "name": "Problem 13 (2013 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2013_AMC_8_Problems/Problem_13",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Digit Manipulation",
+        "Divisibility by 9"
+      ],
+      "statement": "When Clara totaled her scores, she inadvertently reversed the units digit and the tens digit of one score. By which of the following might her incorrect sum have differed from the correct one?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$45$",
+          "$46$",
+          "$47$",
+          "$48$",
+          "$49$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2014-1",
+      "name": "Problem 1 (2014 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2014_AMC_8_Problems/Problem_1",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Order of Operations"
+      ],
+      "statement": "Harry and Terry are each told to calculate $8-(2+5)$. Harry gets the correct answer. Terry ignores the parentheses and calculates $8-2+5$. If Harry's answer is $H$ and Terry's answer is $T$, what is $H-T$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$-10$",
+          "$-6$",
+          "$0$",
+          "$6$",
+          "$10$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2014-2",
+      "name": "Problem 2 (2014 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2014_AMC_8_Problems/Problem_2",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Optimization",
+        "Coins"
+      ],
+      "statement": "Paul owes Paula $35$ cents and has a pocket full of $5$-cent coins, $10$-cent coins, and $25$-cent coins that he can use to pay her. What is the difference between the largest and the smallest number of coins he can use to pay her?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1$",
+          "$2$",
+          "$3$",
+          "$4$",
+          "$5$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2014-4",
+      "name": "Problem 4 (2014 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2014_AMC_8_Problems/Problem_4",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Parity",
+        "Prime Numbers"
+      ],
+      "statement": "The sum of two prime numbers is $85$. What is the product of these two prime numbers?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$85$",
+          "$91$",
+          "$115$",
+          "$133$",
+          "$166$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2014-8",
+      "name": "Problem 8 (2014 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2014_AMC_8_Problems/Problem_8",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Divisibility Rules"
+      ],
+      "statement": "Eleven members of the Middle School Math Club each paid the same amount for a guest speaker to talk about problem solving at their math club meeting. They paid their guest speaker $\\$1A2$. What is the missing digit $A$ of this $3$-digit number?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$0$",
+          "$1$",
+          "$2$",
+          "$3$",
+          "$4$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2014-13",
+      "name": "Problem 13 (2014 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2014_AMC_8_Problems/Problem_13",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Parity"
+      ],
+      "statement": "If $n$ and $m$ are integers and $n^{2}+m^{2}$ is even, which of the following is impossible?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$n$ and $m$ are even",
+          "$n$ and $m$ are odd",
+          "$n+m$ is even",
+          "$n+m$ is odd",
+          "none of these are impossible"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2014-21",
+      "name": "Problem 21 (2014 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2014_AMC_8_Problems/Problem_21",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Divisibility Rules",
+        "Digits"
+      ],
+      "statement": "The $7$-digit numbers $74A52B1$ and $326AB4C$ are each multiples of $3$. Which of the following could be the value of $C$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1$",
+          "$2$",
+          "$3$",
+          "$5$",
+          "$8$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2015-14",
+      "name": "Problem 14 (2015 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2015_AMC_8_Problems/Problem_14",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Parity",
+        "Divisibility",
+        "Algebraic Manipulation"
+      ],
+      "statement": "Which of the following integers cannot be written as the sum of $4$ consecutive odd integers?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "16",
+          "40",
+          "72",
+          "100",
+          "200"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2015-22",
+      "name": "Problem 22 (2015 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2015_AMC_8_Problems/Problem_22",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Divisors",
+        "Factors"
+      ],
+      "statement": "On June $1$, a group of students is standing in rows, with $15$ students in each row. On June $2$, the same group is standing with all of the students in $1$ long row. On June $3$, the same group is standing with just $1$ student in each row. On June $4$, the same group is standing with $6$ students in each row. This process continues through June $12$ with a different number of students per row each day. However, on June $13$, they cannot find a new way of organizing the students. What is the smallest possible number of students in the group?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "21",
+          "30",
+          "60",
+          "90",
+          "1080"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2015-23",
+      "name": "Problem 23 (2015 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2015_AMC_8_Problems/Problem_23",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Logic",
+        "Partitioning"
+      ],
+      "statement": "Tom has $12$ slips of paper which he wants to put into $5$ cups labeled A, B, C, D, E. He wants the sum of the numbers on the slips in each cup to be an integer. Furthermore, he wants the $5$ integers to be consecutive and increasing from A to E. The numbers on the papers are $2, 2, 2, 2.5, 2.5, 3, 3, 3, 3, 3.5, 4,$ and $4.5$. If a slip with $2$ goes into cup E and a slip with $3$ goes into cup B, then the slip with $3.5$ must go into what cup?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "\\text{A}",
+          "\\text{B}",
+          "\\text{C}",
+          "\\text{D}",
+          "\\text{E}"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2016-5",
+      "name": "Problem 5 (2016 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2016_AMC_8_Problems/Problem_5",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Modular Arithmetic",
+        "Remainders"
+      ],
+      "statement": "The number $N$ is a two-digit number. When $N$ is divided by $9$, the remainder is $1$. When $N$ is divided by $10$, the remainder is $3$. What is the remainder when $N$ is divided by $11$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$0$",
+          "$2$",
+          "$4$",
+          "$5$",
+          "$7$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2016-9",
+      "name": "Problem 9 (2016 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2016_AMC_8_Problems/Problem_9",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Prime Factorization",
+        "Sum of Prime Factors"
+      ],
+      "statement": "What is the sum of the distinct prime integer divisors of $2016$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$9$",
+          "$12$",
+          "$16$",
+          "$49$",
+          "$63$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2016-15",
+      "name": "Problem 15 (2016 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2016_AMC_8_Problems/Problem_15",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Difference of Squares",
+        "Divisibility"
+      ],
+      "statement": "What is the largest power of $2$ that is a divisor of $13^{4}-11^{4}$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$8$",
+          "$16$",
+          "$32$",
+          "$64$",
+          "$128$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2016-20",
+      "name": "Problem 20 (2016 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2016_AMC_8_Problems/Problem_20",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Least Common Multiple",
+        "Prime Factorization"
+      ],
+      "statement": "The least common multiple of $a$ and $b$ is $12$, and the least common multiple of $b$ and $c$ is $15$. What is the least possible value of the least common multiple of $a$ and $c$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$20$",
+          "$30$",
+          "$60$",
+          "$120$",
+          "$180$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2016-24",
+      "name": "Problem 24 (2016 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2016_AMC_8_Problems/Problem_24",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Divisibility Rules",
+        "Logic"
+      ],
+      "statement": "The digits $1, 2, 3, 4$, and $5$ are each used once to write a five-digit number $PQRST$. The three-digit number $PQR$ is divisible by $4$, the three-digit number $QRS$ is divisible by $5$, and the three-digit number $RST$ is divisible by $3$. What is $P$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1$",
+          "$2$",
+          "$3$",
+          "$4$",
+          "$5$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2017-1",
+      "name": "Problem 1 (2017 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2017_AMC_8_Problems/Problem_1",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Order of Operations"
+      ],
+      "statement": "Which of the following values is largest?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$2+0+1+7$",
+          "$2\\times0+1+7$",
+          "$2+0\\times1+7$",
+          "$2+0+1\\times7$",
+          "$2\\times0\\times1\\times7$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2017-4",
+      "name": "Problem 4 (2017 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2017_AMC_8_Problems/Problem_4",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Estimation",
+        "Scientific Notation"
+      ],
+      "statement": "When $0.000315$ is multiplied by $7,928,564$ the product is closest to which of the following?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$210$",
+          "$240$",
+          "$2100$",
+          "$2400$",
+          "$24000$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2017-5",
+      "name": "Problem 5 (2017 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2017_AMC_8_Problems/Problem_5",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Factorials",
+        "Arithmetic Series"
+      ],
+      "statement": "What is the value of the expression $\\frac{1\\cdot2\\cdot3\\cdot4\\cdot5\\cdot6\\cdot7\\cdot8}{1+2+3+4+5+6+7+8}$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1020$",
+          "$1120$",
+          "$1220$",
+          "$2240$",
+          "$3360$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2017-7",
+      "name": "Problem 7 (2017 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2017_AMC_8_Problems/Problem_7",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Divisibility",
+        "Prime Factorization"
+      ],
+      "statement": "Let $Z$ be a $6$-digit positive integer, such as $247247$, whose first three digits are the same as its last three digits taken in the same order. Which of the following numbers must also be a factor of $Z$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$11$",
+          "$19$",
+          "$101$",
+          "$111$",
+          "$1111$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2017-12",
+      "name": "Problem 12 (2017 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2017_AMC_8_Problems/Problem_12",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Least Common Multiple",
+        "Modular Arithmetic"
+      ],
+      "statement": "The smallest positive integer greater than $1$ that leaves a remainder of $1$ when divided by $4$, $5$, and $6$ lies between which of the following pairs of numbers?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$2$ and $19$",
+          "$20$ and $39$",
+          "$40$ and $59$",
+          "$60$ and $79$",
+          "$80$ and $99$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2017-19",
+      "name": "Problem 19 (2017 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2017_AMC_8_Problems/Problem_19",
+      "source": "AMC 8",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Legendre's Formula",
+        "Factoring"
+      ],
+      "statement": "For any positive integer $M$, the notation $M!$ denotes the product of the integers $1$ through $M$. What is the largest integer $n$ for which $5^n$ is a factor of the sum $98!+99!+100!$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$23$",
+          "$24$",
+          "$25$",
+          "$26$",
+          "$27$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2018-7",
+      "name": "Problem 7 (2018 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2018_AMC_8_Problems/Problem_7",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Divisibility Rules",
+        "Remainders"
+      ],
+      "statement": "The $5$-digit number $2018U$ is divisible by $9$. What is the remainder when this number is divided by $8$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1$",
+          "$3$",
+          "$5$",
+          "$6$",
+          "$7$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2018-14",
+      "name": "Problem 14 (2018 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2018_AMC_8_Problems/Problem_14",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Prime Factorization",
+        "Digit Optimization"
+      ],
+      "statement": "Let $N$ be the greatest five-digit number whose digits have a product of $120$. What is the sum of the digits of $N$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$15$",
+          "$16$",
+          "$17$",
+          "$18$",
+          "$20$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2018-18",
+      "name": "Problem 18 (2018 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2018_AMC_8_Problems/Problem_18",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Number of Divisors"
+      ],
+      "statement": "How many positive factors does $23,232$ have?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$9$",
+          "$12$",
+          "$28$",
+          "$36$",
+          "$42$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2018-21",
+      "name": "Problem 21 (2018 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2018_AMC_8_Problems/Problem_21",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Chinese Remainder Theorem"
+      ],
+      "statement": "How many positive three-digit integers have a remainder of $2$ when divided by $6$, a remainder of $5$ when divided by $9$, and a remainder of $7$ when divided by $11$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1$",
+          "$2$",
+          "$3$",
+          "$4$",
+          "$5$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2019-3",
+      "name": "Problem 3 (2019 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2019_AMC_8_Problems/Problem_3",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Fractions",
+        "Inequalities"
+      ],
+      "statement": "Which of the following is the correct order of the fractions $\\frac{15}{11}, \\frac{19}{15}$ and $\\frac{17}{13}$ from least to greatest?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{15}{11} < \\frac{17}{13} < \\frac{19}{15}$",
+          "$\\frac{15}{11} < \\frac{19}{15} < \\frac{17}{13}$",
+          "$\\frac{17}{13} < \\frac{19}{15} < \\frac{15}{11}$",
+          "$\\frac{19}{15} < \\frac{15}{11} < \\frac{17}{13}$",
+          "$\\frac{19}{15} < \\frac{17}{13} < \\frac{15}{11}$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2019-8",
+      "name": "Problem 8 (2019 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2019_AMC_8_Problems/Problem_8",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Percentages",
+        "Fractions"
+      ],
+      "statement": "Gilda has a bag of marbles. She gives $20\\%$ of them to her friend Pedro. Then, Gilda gives $10\\%$ of what is left to her other friend, Ebony. Finally, Gilda gives $25\\%$ of what is left in the bag to her brother. What percentage of her original bag does she have left?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$20$",
+          "$33\\frac{1}{3}$",
+          "$38$",
+          "$45$",
+          "$54$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2019-13",
+      "name": "Problem 13 (2019 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2019_AMC_8_Problems/Problem_13",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Palindromes",
+        "Digit Manipulation"
+      ],
+      "statement": "A palindrome is a number that has the same value when read from left to right or from right to left. (For example, $12321$ is a palindrome). Let $N$ be the least three-digit integer which is not a palindrome but which is the sum of three distinct two-digit palindromes. What is the sum of the digits of $N$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$2$",
+          "$3$",
+          "$4$",
+          "$5$",
+          "$6$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2019-14",
+      "name": "Problem 14 (2019 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2019_AMC_8_Problems/Problem_14",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Modular Arithmetic",
+        "Calendars"
+      ],
+      "statement": "Isabella has $6$ coupons that can be redeemed for free ice cream cones at Pete's Sweet Treats. In order to make the coupons last, she decides that she will redeem one every $10$ days until she has used them all. She knows that Pete's is closed on Sundays, but as she circles the $6$ dates on her calender, she realizes that no circled date falls on a Sunday. On what day of the week does Isabella redeem her first coupon?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2019-22",
+      "name": "Problem 22 (2019 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2019_AMC_8_Problems/Problem_22",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Percentages",
+        "Algebraic Setup"
+      ],
+      "statement": "A store increased the original price of a shirt by a certain percent and then decreased the new price by the same percent. Given that the resulting price was $84\\%$ of the original price, by what percent was the price increased and decreased?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$16$",
+          "$20$",
+          "$28$",
+          "$36$",
+          "$40$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2019-23",
+      "name": "Problem 23 (2019 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2019_AMC_8_Problems/Problem_23",
+      "source": "AMC 8",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Fractions",
+        "Diophantine Equations",
+        "Logic"
+      ],
+      "statement": "After Euclid High School's last basketball game, it was determined that $\\frac{1}{4}$ of the team's points were scored by Alexa and $\\frac{2}{7}$ were scored by Brittany. Chelsea scored $15$ points. None of the other $7$ team members scored more than $2$ points. What was the total number of points scored by the other $7$ team members?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$10$",
+          "$11$",
+          "$12$",
+          "$13$",
+          "$14$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2020-14",
+      "name": "Problem 14 (2020 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2020_AMC_8_Problems/Problem_14",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Data Interpretation",
+        "Averages"
+      ],
+      "statement": "There are $20$ cities in the County of Newton. Their populations are shown in the bar chart below. The average population of all the cities is indicated by the horizontal dashed line. Which of the following is closest to the total population of all $20$ cities? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$65,000$",
+          "$75,000$",
+          "$85,000$",
+          "$95,000$",
+          "$105,000$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2020-16",
+      "name": "Problem 16 (2020 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2020_AMC_8_Problems/Problem_16",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Logic",
+        "Sums",
+        "Overlapping Sets"
+      ],
+      "statement": "Each of the points $A$, $B$, $C$, $D$, $E$, and $F$ in the figure below represent a different digit from $1$ to $6$. Each of the five lines shown passes through some of these points. The digits along the line each are added to produce $5$ sums, one for each line. The total of the sums is $47$. What is the digit represented by $B$? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1$",
+          "$2$",
+          "$3$",
+          "$4$",
+          "$5$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2020-17",
+      "name": "Problem 17 (2020 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2020_AMC_8_Problems/Problem_17",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Number of Divisors",
+        "Prime Factorization"
+      ],
+      "statement": "How many factors of $2020$ have more than $3$ factors? (As an example, $12$ has $6$ factors, namely $1$, $2$, $3$, $4$, $6$, and $12$.)",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$6$",
+          "$7$",
+          "$8$",
+          "$9$",
+          "$10$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2020-19",
+      "name": "Problem 19 (2020 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2020_AMC_8_Problems/Problem_19",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Divisibility Rules",
+        "Digit Restrictions"
+      ],
+      "statement": "A number is called flippy if its digits alternate between two distinct digits. For example, $2020$ and $37373$ are flippy, but $3883$ and $123123$ are not. How many five-digit flippy numbers are divisible by $15$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$3$",
+          "$4$",
+          "$5$",
+          "$6$",
+          "$8$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2020-20",
+      "name": "Problem 20 (2020 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2020_AMC_8_Problems/Problem_20",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Logic",
+        "Parity",
+        "Averages"
+      ],
+      "statement": "A scientist walking through a forest recorded as integers the heights of $5$ trees standing in a row. She observed that each tree was either twice as tall or half as tall as the one to its right. Unfortunately some of her data was lost when rain fell on her notebook. Her notes are shown below, with blanks indicating the missing numbers. Based on her observations, the scientist was able to reconstruct the lost data. What was the average height of the trees, in meters?\nTree 1: \\_\\_\\_ meters\nTree 2: $11$ meters\nTree 3: \\_\\_\\_ meters\nTree 4: \\_\\_\\_ meters\nTree 5: \\_\\_\\_ meters\nAverage height: \\_\\_\\_$.2$ meters",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$22.2$",
+          "$24.2$",
+          "$33.2$",
+          "$35.2$",
+          "$37.2$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2022-3",
+      "name": "Problem 3 (2022 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2022_AMC_8_Problems/Problem_3",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Prime Factorization",
+        "Diophantine"
+      ],
+      "statement": "When three positive integers $a$, $b$, and $c$ are multiplied together, their product is $100$. Suppose $a < b < c$. In how many ways can the numbers be chosen?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$0$",
+          "$1$",
+          "$2$",
+          "$3$",
+          "$4$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2022-17",
+      "name": "Problem 17 (2022 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2022_AMC_8_Problems/Problem_17",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Units Digit",
+        "Modular Arithmetic",
+        "Factorials"
+      ],
+      "statement": "If $n$ is an even positive integer, the double factorial notation $n!!$ represents the product of all the even integers from $2$ to $n$. For example, $8!! = 2 \\cdot 4 \\cdot 6 \\cdot 8$. What is the units digit of the following sum?\n$$2!! + 4!! + 6!! + \\dots + 2018!! + 2020!! + 2022!!$$",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$0$",
+          "$2$",
+          "$4$",
+          "$6$",
+          "$8$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2023-1",
+      "name": "Problem 1 (2023 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2023_AMC_8_Problems/Problem_1",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Order of Operations"
+      ],
+      "statement": "What is the value of $(8 \\times 4 + 2) - (8 + 4 \\times 2)?$",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$0$",
+          "$6$",
+          "$10$",
+          "$18$",
+          "$24$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2023-4",
+      "name": "Problem 4 (2023 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2023_AMC_8_Problems/Problem_4",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Number Patterns",
+        "Primes"
+      ],
+      "statement": "The numbers from $1$ to $49$ are arranged in a spiral pattern on a square grid, beginning at the center. The first few numbers have been entered into the grid below. Consider the four numbers that will appear in the shaded squares, on the same diagonal as the number $7$. How many of these four numbers are prime? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$0$",
+          "$1$",
+          "$2$",
+          "$3$",
+          "$4$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2023-6",
+      "name": "Problem 6 (2023 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2023_AMC_8_Problems/Problem_6",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Exponents",
+        "Optimization"
+      ],
+      "statement": "The digits $2$, $0$, $2$, and $3$ are placed in the expression below, one digit per box. What is the maximum possible value of the expression? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$0$",
+          "$8$",
+          "$9$",
+          "$16$",
+          "$18$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2024-1",
+      "name": "Problem 1 (2024 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2024_AMC_8_Problems/Problem_1",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Units Digit",
+        "Subtraction"
+      ],
+      "statement": "What is the ones digit of $222,222 - 22,222 - 2,222 - 222 - 22 - 2$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$0$",
+          "$2$",
+          "$4$",
+          "$6$",
+          "$8$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2024-2",
+      "name": "Problem 2 (2024 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2024_AMC_8_Problems/Problem_2",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Fractions",
+        "Decimals",
+        "Arithmetic Operations"
+      ],
+      "statement": "What is the value of this expression in decimal form?\n\n$$\\frac{44}{11} + \\frac{110}{44} + \\frac{44}{1100}$$",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$6.4$",
+          "$6.504$",
+          "$6.54$",
+          "$6.9$",
+          "$6.94$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2024-4",
+      "name": "Problem 4 (2024 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2024_AMC_8_Problems/Problem_4",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Sum of Consecutive Integers",
+        "Perfect Squares"
+      ],
+      "statement": "When Yunji added all the integers from $1$ to $9$, she mistakenly left out a number. Her incorrect sum turned out to be a square number. Which number did Yunji leave out?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$5$",
+          "$6$",
+          "$7$",
+          "$8$",
+          "$9$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2024-5",
+      "name": "Problem 5 (2024 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2024_AMC_8_Problems/Problem_5",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Dice",
+        "Multiples",
+        "Sum and Product"
+      ],
+      "statement": "Aaliyah rolls two standard $6$-sided dice. She notices that the product of the two numbers rolled is a multiple of $6$. Which of the following integers cannot be the sum of the two numbers?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$5$",
+          "$6$",
+          "$7$",
+          "$8$",
+          "$9$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2024-15",
+      "name": "Problem 15 (2024 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2024_AMC_8_Problems/Problem_15",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Cryptarithm",
+        "Divisibility Rules"
+      ],
+      "statement": "Let the letters $F$, $L$, $Y$, $B$, $U$, $G$ represent different digits. Suppose $FLYFLY$ is the largest number that satisfies the equation $8 \\cdot FLYFLY = BUGBUG$. What is the value of $FLY + BUG$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1089$",
+          "$1098$",
+          "$1107$",
+          "$1116$",
+          "$1125$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2024-16",
+      "name": "Problem 16 (2024 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2024_AMC_8_Problems/Problem_16",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Divisibility",
+        "Grid Coloring",
+        "Pigeonhole Principle"
+      ],
+      "statement": "Minh enters the numbers from $1$ to $81$ in a $9 \\times 9$ grid in some order. She calculates the product of the numbers in each row and column. What is the least number of rows and columns that could have a product divisible by $3$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$8$",
+          "$9$",
+          "$10$",
+          "$11$",
+          "$12$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2025-14",
+      "name": "Problem 14 (2025 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2025_AMC_8_Problems/Problem_9",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Modular Arithmetic",
+        "Histograms",
+        "Data Representation"
+      ],
+      "statement": "Each of the even numbers $2, 4, 6, \\dots, 50$ is divided by $7$. The remainders are recorded. Which histogram displays the number of times each remainder appears? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "[Histogram A]",
+          "[Histogram B]",
+          "[Histogram C]",
+          "[Histogram D]",
+          "[Histogram E]"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2025-19",
+      "name": "Problem 19 (2025 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2025_AMC_8_Problems/Problem_12",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Pairing",
+        "Sums",
+        "Logic"
+      ],
+      "statement": "Five distinct integers from $1$ to $10$ are chosen, and five distinct integers from $11$ to $20$ are chosen. No two numbers differ by exactly $10$. What is the sum of the $10$ chosen numbers?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$95$",
+          "$100$",
+          "$105$",
+          "$110$",
+          "$115$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2025-25",
+      "name": "Problem 25 (2025 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2025_AMC_8_Problems/Problem_18",
+      "source": "AMC 8",
+      "difficulty": "Very Hard",
+      "isStarred": false,
+      "tags": [
+        "Prime Factorization",
+        "Difference of Squares",
+        "Number Properties"
+      ],
+      "statement": "How many four-digit numbers have all three of the following properties?\n(I) The tens digit and ones digit are both $9$.\n(II) The number is $1$ less than a perfect square.\n(III) The number is the product of exactly two prime numbers.",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$0$",
+          "$1$",
+          "$2$",
+          "$3$",
+          "$4$"
+        ],
+        "correctIndex": 1
+      },
       "solutionMetadata": {
         "kind": "none"
       }

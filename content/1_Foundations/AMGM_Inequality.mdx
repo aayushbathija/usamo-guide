@@ -14,8 +14,10 @@ also provides clean equality conditions.
 ## Key Ideas
 
 - For nonnegative $a,b$, $\frac{a+b}{2} \ge \sqrt{ab}$.
+  - In general, for nonnegative $a_1, a_2, ... a_n$, $\frac{a_1 + a_2 + ... + a_n}{n} \ge \sqrt[n]{a_1 a_2 ... a_n}$
 - Equality holds when all variables are equal.
-- For $ax+\frac{b}{x}$, the minimum is $2\sqrt{ab}$ at $x=\sqrt{b/a}$.
+  - i.e. When $a_1 = a_2 = ... = a_n$, $\frac{a_1 + a_2 + ... + a_n}{n} = \sqrt[n]{a_1 a_2 ... a_n}$
+- For $ax+\frac{b}{x}$, the minimum is $2\sqrt{ab}$ at $x=\sqrt{\frac{b}{a}}$.
 
 ## Core Skills
 
@@ -40,9 +42,7 @@ Find the minimum of $x + \frac{4}{x}$ for $x>0$.
 
 
 By AM-GM:
-$$
-\frac{x + \frac{4}{x}}{2} \ge \sqrt{x \cdot \frac{4}{x}} = 2
-$$
+$$\frac{x + \frac{4}{x}}{2} \ge \sqrt{x \cdot \frac{4}{x}} = 2$$
 So $x + \frac{4}{x} \ge 4$, with equality at $x=2$.
 
 ## More Examples
@@ -52,6 +52,8 @@ So $x + \frac{4}{x} \ge 4$, with equality at $x=2$.
 For $a,b,c \ge 0$ with $abc=1$, find the minimum of $a+b+c$.
 
 By AM-GM, $a+b+c \ge 3\sqrt[3]{abc} = 3$.
+
+This is when $a = b = c = 1$.
 
 ### Example 2: Fixed Sum
 
@@ -63,7 +65,23 @@ By AM-GM, $\frac{x+y}{2} \ge \sqrt{xy}$, so $xy \le 25$ at $x=y=5$.
 
 Find the minimum of $2x + \frac{8}{x}$ for $x>0$.
 
-Rewrite as $2\left(x + \frac{4}{x}\right) \ge 8$.
+By AM-GM, $2x + \frac{8}{x} \ge 2 \sqrt{2x \cdot \frac{8}{x}} = \sqrt{16} = 4$
+
+This is when $2x = \frac{8}{x}$, so when $x = 2$ as $x>0$
+
+### Example 4: Extensive Use
+
+Find the minimum value of $x + y$ when $(x - 2)(y - 2) = 81$ for $x, y > 2$
+
+From the given constraints, $x, y > 2$, rewrite this into $x - 2, y - 2, > 0$ and then apply AM-GM:
+
+$$(x-2) + (y-2) \ge 2 \sqrt{(x-2)(y-2)} = 2 \sqrt{81} = 18$$
+
+Which becomes:
+
+$$x + y \ge 22$$
+
+The equality is when $x - 2 = y - 2$ which is when, $x = y = 11$.
 
 ## Strategy Checklist
 

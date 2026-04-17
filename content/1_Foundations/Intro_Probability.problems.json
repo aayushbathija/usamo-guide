@@ -1,5 +1,1416 @@
 {
   "MODULE_ID": "intro-probability",
   "practice": [
-]
+    {
+      "uniqueId": "ajhsme-1985-22",
+      "name": "Problem 22 (1985 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1985_AJHSME_Problems/Problem_22",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Counting",
+        "Probability"
+      ],
+      "statement": "Assume every $7$-digit whole number is a possible telephone number except those which begin with $0$ or $1$. What fraction of telephone numbers begin with $9$ and end with $0$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{63}$",
+          "$\\frac{1}{80}$",
+          "$\\frac{1}{81}$",
+          "$\\frac{1}{90}$",
+          "$\\frac{1}{100}$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1986-24",
+      "name": "Problem 24 (1986 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1986_AJHSME_Problems/Problem_24",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Probability",
+        "Independent Events"
+      ],
+      "statement": "The $600$ students at King Middle School are divided into three groups of equal size for lunch. Each group has lunch at a different time. A computer randomly assigns each student to one of the three lunch groups. The probability that the three friends, Al, Bob, and Carol, will be assigned to the same lunch group is approximately:",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{27}$",
+          "$\\frac{1}{9}$",
+          "$\\frac{1}{8}$",
+          "$\\frac{1}{6}$",
+          "$\\frac{1}{3}$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1987-25",
+      "name": "Problem 25 (1987 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1987_AJHSME_Problems/Problem_25",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Parity",
+        "Combinatorics"
+      ],
+      "statement": "Ten balls numbered $1$ to $10$ are in a jar. Jack reaches into the jar and randomly removes one of the balls. Then Jill reaches into the jar and randomly removes a different ball. The probability that the sum of the two numbers on the balls removed is even is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{4}{9}$",
+          "$\\frac{9}{19}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{10}{19}$",
+          "$\\frac{5}{9}$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1989-25",
+      "name": "Problem 25 (1989 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1989_AJHSME_Problems/Problem_25",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Probability",
+        "Spinners",
+        "Parity"
+      ],
+      "statement": "Every time these two wheels are spun, two numbers are selected by the pointers. What is the probability that the sum of the two selected numbers is even? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{6}$",
+          "$\\frac{3}{8}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{5}{8}$",
+          "$\\frac{5}{6}$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1990-14",
+      "name": "Problem 14 (1990 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1990_AJHSME_Problems/Problem_14",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Ratios",
+        "Proportions"
+      ],
+      "statement": "A bag contains only blue balls and green balls. There are $6$ blue balls. If the probability of drawing a blue ball at random from this bag is $\\frac{1}{4}$, then the number of green balls in the bag is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$12$",
+          "$18$",
+          "$24$",
+          "$30$",
+          "$36$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-22",
+      "name": "Problem 22 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_22",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Independent Events",
+        "Parity"
+      ],
+      "statement": "Each spinner is divided into $3$ equal parts. The results obtained from spinning the two spinners are multiplied. What is the probability that this product is an even number? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{3}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{2}{3}$",
+          "$\\frac{7}{9}$",
+          "$1$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1992-23",
+      "name": "Problem 23 (1992 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1992_AJHSME_Problems/Problem_23",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Dice",
+        "Counting Outcomes"
+      ],
+      "statement": "If two dice are tossed, the probability that the product of the numbers showing on the tops of the dice is greater than $10$ is:",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{3}{7}$",
+          "$\\frac{17}{36}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{5}{8}$",
+          "$\\frac{11}{12}$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1994-22",
+      "name": "Problem 22 (1994 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1994_AJHSME_Problems/Problem_22",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Parity",
+        "Independent Events"
+      ],
+      "statement": "The two wheels shown below are spun and the two resulting numbers are added. The probability that the sum is even is [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{6}$",
+          "$\\frac{1}{4}$",
+          "$\\frac{1}{3}$",
+          "$\\frac{5}{12}$",
+          "$\\frac{4}{9}$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1995-20",
+      "name": "Problem 20 (1995 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1995_AJHSME_Problems/Problem_20",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Dice",
+        "Probability"
+      ],
+      "statement": "Diana and Apollo each roll a standard die obtaining a number at random from $1$ to $6$. What is the probability that Diana's number is larger than Apollo's number?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{3}$",
+          "$\\frac{5}{12}$",
+          "$\\frac{4}{9}$",
+          "$\\frac{17}{36}$",
+          "$\\frac{1}{2}$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1996-25",
+      "name": "Problem 25 (1996 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1996_AJHSME_Problems/Problem_25",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Geometric Probability",
+        "Area"
+      ],
+      "statement": "A point is chosen at random from within a circular region. What is the probability that the point is closer to the center of the region than it is to the boundary of the region?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{4}$",
+          "$\\frac{1}{3}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{2}{3}$",
+          "$\\frac{3}{4}$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1997-9",
+      "name": "Problem 9 (1997 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1997_AJHSME_Problems/Problem_9",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Permutations",
+        "Probability"
+      ],
+      "statement": "Three students, with different names, line up single file. What is the probability that they are in alphabetical order from front-to-back?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{12}$",
+          "$\\frac{1}{9}$",
+          "$\\frac{1}{6}$",
+          "$\\frac{1}{3}$",
+          "$\\frac{2}{3}$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1997-20",
+      "name": "Problem 20 (1997 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1997_AJHSME_Problems/Problem_20",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Dice",
+        "Product",
+        "Counting"
+      ],
+      "statement": "A pair of $8$-sided dice have sides numbered $1$ through $8$. Each side has the same probability (chance) of landing face up. The probability that the product of the two numbers that land face-up exceeds $36$ is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{5}{32}$",
+          "$\\frac{11}{64}$",
+          "$\\frac{3}{16}$",
+          "$\\frac{1}{4}$",
+          "$\\frac{1}{2}$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1998-19",
+      "name": "Problem 19 (1998 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1998_AJHSME_Problems/Problem_19",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Probability",
+        "Comparison",
+        "Sample Space"
+      ],
+      "statement": "Tamika selects two different numbers at random from the set $\\{8, 9, 10\\}$ and adds them. Carlos takes two different numbers at random from the set $\\{3, 5, 6\\}$ and multiplies them. What is the probability that Tamika's result is greater than Carlos' result?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{4}{9}$",
+          "$\\frac{5}{9}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{1}{3}$",
+          "\\text{[Missing]}"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-1999-10",
+      "name": "Problem 10 (1999 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1999_AMC_8_Problems/Problem_10",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Probability",
+        "Complementary Counting"
+      ],
+      "statement": "A complete cycle of a traffic light takes $60$ seconds. During each cycle the light is green for $25$ seconds, yellow for $5$ seconds, and red for $30$ seconds. At a randomly chosen time, what is the probability that the light will NOT be green?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{4}$",
+          "$\\frac{1}{3}$",
+          "$\\frac{5}{12}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{7}{12}$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2000-21",
+      "name": "Problem 21 (2000 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2000_AMC_8_Problems/Problem_21",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Coin Flipping",
+        "Independent Events"
+      ],
+      "statement": "Keiko tosses one penny and Ephraim tosses two pennies. The probability that Ephraim gets the same number of heads that Keiko gets is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{4}$",
+          "$\\frac{3}{8}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{2}{3}$",
+          "$\\frac{3}{4}$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2001-18",
+      "name": "Problem 18 (2001 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2001_AMC_8_Problems/Problem_18",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Dice",
+        "Multiples"
+      ],
+      "statement": "Two dice are thrown. What is the probability that the product of the two numbers is a multiple of $5$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{36}$",
+          "$\\frac{1}{18}$",
+          "$\\frac{1}{6}$",
+          "$\\frac{11}{36}$",
+          "$\\frac{1}{3}$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2002-12",
+      "name": "Problem 12 (2002 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2002_AMC_8_Problems/Problem_12",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Fractions",
+        "Complementary Probability"
+      ],
+      "statement": "A board game spinner is divided into three regions labeled A, B and C. The probability of the arrow stopping on region A is $\\frac{1}{3}$ and on region B is $\\frac{1}{2}$. The probability of the arrow stopping on region C is:",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{12}$",
+          "$\\frac{1}{6}$",
+          "$\\frac{1}{5}$",
+          "$\\frac{1}{3}$",
+          "$\\frac{1}{2}$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2002-21",
+      "name": "Problem 21 (2002 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2002_AMC_8_Problems/Problem_21",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Coin Flips",
+        "Binomial Probability"
+      ],
+      "statement": "Harold tosses a nickel four times. The probability that he gets at least as many heads as tails is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{5}{16}$",
+          "$\\frac{3}{8}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{5}{8}$",
+          "$\\frac{11}{16}$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2003-12",
+      "name": "Problem 12 (2003 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2003_AMC_8_Problems/Problem_12",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Probability",
+        "Divisibility",
+        "Product"
+      ],
+      "statement": "When a fair six-sided dice is tossed on a table top, the bottom face cannot be seen. What is the probability that the product of the $5$ faces that can be seen is divisible by $6$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{3}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{2}{3}$",
+          "$\\frac{5}{6}$",
+          "$1$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2004-21",
+      "name": "Problem 21 (2004 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2004_AMC_8_Problems/Problem_21",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Parity",
+        "Independent Events"
+      ],
+      "statement": "Spinners $A$ and $B$ are spun. On each spinner, the arrow is equally likely to land on each number. What is the probability that the product of the two spinners' numbers is even? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{4}$",
+          "$\\frac{1}{3}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{2}{3}$",
+          "$\\frac{3}{4}$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2004-22",
+      "name": "Problem 22 (2004 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2004_AMC_8_Problems/Problem_22",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Ratios",
+        "Variables"
+      ],
+      "statement": "At a party there are only single women and married men with their wives. The probability that a randomly selected woman is single is $\\frac{2}{5}$. What fraction of the people in the room are married men?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{3}$",
+          "$\\frac{3}{8}$",
+          "$\\frac{2}{5}$",
+          "$\\frac{5}{12}$",
+          "$\\frac{3}{5}$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2006-17",
+      "name": "Problem 17 (2006 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2006_AMC_8_Problems/Problem_17",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Parity",
+        "Independent Events"
+      ],
+      "statement": "Jeff rotates spinners $P$, $Q$ and $R$ and adds the resulting numbers. What is the probability that his sum is an odd number? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{4}$",
+          "$\\frac{1}{3}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{2}{3}$",
+          "$\\frac{3}{4}$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2007-21",
+      "name": "Problem 21 (2007 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2007_AMC_8_Problems/Problem_21",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Combinatorics",
+        "Favorable Outcomes"
+      ],
+      "statement": "Two cards are dealt from a deck of four red cards labeled A, B, C, D and four green cards labeled A, B, C, D. A winning pair is two of the same color or two of the same letter. What is the probability of drawing a winning pair?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{2}{7}$",
+          "$\\frac{3}{8}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{4}{7}$",
+          "$\\frac{5}{8}$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2007-24",
+      "name": "Problem 24 (2007 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2007_AMC_8_Problems/Problem_24",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Divisibility Rules",
+        "Combinatorics"
+      ],
+      "statement": "A bag contains four pieces of paper, each labeled with one of the digits $1$, $2$, $3$ or $4$, with no repeats. Three of these pieces are drawn, one at a time without replacement, to construct a three-digit number. What is the probability that the three-digit number is a multiple of $3$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{4}$",
+          "$\\frac{1}{3}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{2}{3}$",
+          "$\\frac{3}{4}$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2007-25",
+      "name": "Problem 25 (2007 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2007_AMC_8_Problems/Problem_25",
+      "source": "AMC 8",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Geometric Probability",
+        "Parity"
+      ],
+      "statement": "On the dart board shown in the figure, the outer circle has radius $6$ and the inner circle has radius $3$. Three radii divide each circle into the three congruent regions, with point values shown. The probability that a dart will hit a given region is proportional to the area of the region. When two darts hit this board, the score is the sum of the point values in the regions. What is the probability that the score is odd? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{17}{36}$",
+          "$\\frac{35}{72}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{37}{72}$",
+          "$\\frac{19}{36}$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2008-19",
+      "name": "Problem 19 (2008 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2008_AMC_8_Problems/Problem_19",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Combinatorics",
+        "Geometry"
+      ],
+      "statement": "Eight points are spaced around at intervals of one unit around a $2 \\times 2$ square, as shown. Two of the $8$ points are chosen at random. What is the probability that the two points are one unit apart? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{4}$",
+          "$\\frac{2}{7}$",
+          "$\\frac{4}{11}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{4}{7}$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2008-24",
+      "name": "Problem 24 (2008 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2008_AMC_8_Problems/Problem_24",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Number Theory",
+        "Perfect Squares",
+        "Casework"
+      ],
+      "statement": "Ten tiles numbered $1$ through $10$ are turned face down. One tile is turned up at random, and a die is rolled. What is the probability that the product of the numbers on the tile and the die will be a square?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{10}$",
+          "$\\frac{1}{6}$",
+          "$\\frac{11}{60}$",
+          "$\\frac{1}{5}$",
+          "$\\frac{7}{30}$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2009-10",
+      "name": "Problem 10 (2009 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2009_AMC_8_Problems/Problem_10",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Counting",
+        "Area"
+      ],
+      "statement": "On a checkerboard composed of $64$ unit squares, what is the probability that a randomly chosen unit square does not touch the outer edge of the board?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{16}$",
+          "$\\frac{7}{16}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{9}{16}$",
+          "$\\frac{49}{64}$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2009-12",
+      "name": "Problem 12 (2009 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2009_AMC_8_Problems/Problem_12",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Probability",
+        "Prime Numbers"
+      ],
+      "statement": "The two spinners shown are spun once and each lands on one of the numbered sectors. What is the probability that the sum of the numbers in the two sectors is prime? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{2}$",
+          "$\\frac{2}{3}$",
+          "$\\frac{3}{4}$",
+          "$\\frac{7}{9}$",
+          "$\\frac{5}{6}$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2009-13",
+      "name": "Problem 13 (2009 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2009_AMC_8_Problems/Problem_13",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Divisibility Rules",
+        "Permutations"
+      ],
+      "statement": "A three-digit integer contains one of each of the digits $1$, $3$, and $5$. What is the probability that the integer is divisible by $5$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{6}$",
+          "$\\frac{1}{3}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{2}{3}$",
+          "$\\frac{5}{6}$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2011-12",
+      "name": "Problem 12 (2011 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2011_AMC_8_Problems/Problem_12",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Seating Arrangements",
+        "Combinatorics"
+      ],
+      "statement": "Angie, Bridget, Carlos, and Diego are seated at random around a square table, one person to a side. What is the probability that Angie and Carlos are seated opposite each other?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "\\frac{1}{4}",
+          "\\frac{1}{3}",
+          "\\frac{1}{2}",
+          "\\frac{2}{3}",
+          "\\frac{3}{4}"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2011-18",
+      "name": "Problem 18 (2011 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2011_AMC_8_Problems/Problem_18",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Dice",
+        "Counting"
+      ],
+      "statement": "A fair $6$-sided die is rolled twice. What is the probability that the first number that comes up is greater than or equal to the second number?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "\\frac{1}{6}",
+          "\\frac{5}{12}",
+          "\\frac{1}{2}",
+          "\\frac{7}{12}",
+          "\\frac{5}{6}"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2013-8",
+      "name": "Problem 8 (2013 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2013_AMC_8_Problems/Problem_8",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Coin Toss",
+        "Counting Outcomes"
+      ],
+      "statement": "A fair coin is tossed $3$ times. What is the probability of at least two consecutive heads?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{8}$",
+          "$\\frac{1}{4}$",
+          "$\\frac{3}{8}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{3}{4}$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2013-14",
+      "name": "Problem 14 (2013 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2013_AMC_8_Problems/Problem_14",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Independent Events",
+        "Casework"
+      ],
+      "statement": "Abe holds $1$ green and $1$ red jelly bean in his hand. Bea holds $1$ green, $1$ yellow, and $2$ red jelly beans in her hand. Each randomly picks a jelly bean to show the other. What is the probability that the colors match?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{4}$",
+          "$\\frac{1}{3}$",
+          "$\\frac{3}{8}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{2}{3}$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2014-12",
+      "name": "Problem 12 (2014 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2014_AMC_8_Problems/Problem_12",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Permutations"
+      ],
+      "statement": "A magazine printed photos of three celebrities along with three photos of the celebrities as babies. The baby pictures did not identify the celebrities. Readers were asked to match each celebrity with the correct baby pictures. What is the probability that a reader guessing at random will match all three correctly?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{9}$",
+          "$\\frac{1}{6}$",
+          "$\\frac{1}{4}$",
+          "$\\frac{1}{3}$",
+          "$\\frac{1}{2}$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2014-18",
+      "name": "Problem 18 (2014 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2014_AMC_8_Problems/Problem_18",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Binomial Probability",
+        "Expected Value"
+      ],
+      "statement": "Four children were born at City Hospital yesterday. Assume each child is equally likely to be a boy or a girl. Which of the following outcomes is most likely?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "all $4$ are boys",
+          "all $4$ are girls",
+          "$2$ are girls and $2$ are boys",
+          "$3$ are of one gender and $1$ is of the other gender",
+          "all of these outcomes are equally likely"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2015-7",
+      "name": "Problem 7 (2015 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2015_AMC_8_Problems/Problem_7",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Independent Events",
+        "Parity"
+      ],
+      "statement": "Each of $2$ boxes contains $3$ chips numbered $1$, $2$, $3$. A chip is drawn randomly from each box and the numbers on the $2$ chips are multiplied. What is the probability that their product is even?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "\\frac{1}{9}",
+          "\\frac{2}{9}",
+          "\\frac{4}{9}",
+          "\\frac{1}{2}",
+          "\\frac{5}{9}"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2015-11",
+      "name": "Problem 11 (2015 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2015_AMC_8_Problems/Problem_11",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Combinatorics",
+        "Independent Events"
+      ],
+      "statement": "In the small country of Mathland, all automobile license plates have $4$ symbols. The first must be a vowel (A, E, I, O, or U), the second and third must be $2$ different letters among the $21$ non-vowels, and the fourth must be a digit ($0$ through $9$). If the symbols are chosen at random subject to these conditions, what is the probability that the plate will read ``AMC8''?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "\\frac{1}{22,050}",
+          "\\frac{1}{21,000}",
+          "\\frac{1}{10,500}",
+          "\\frac{1}{2,100}",
+          "\\frac{1}{1,050}"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2016-13",
+      "name": "Problem 13 (2016 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2016_AMC_8_Problems/Problem_13",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Combinations",
+        "Zero Product Property"
+      ],
+      "statement": "Two different numbers are randomly selected from the set $\\{-2, -1, 0, 3, 4, 5\\}$ and multiplied together. What is the probability that the product is $0$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{6}$",
+          "$\\frac{1}{5}$",
+          "$\\frac{1}{4}$",
+          "$\\frac{1}{3}$",
+          "$\\frac{1}{2}$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2016-21",
+      "name": "Problem 21 (2016 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2016_AMC_8_Problems/Problem_21",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Conditional Probability",
+        "Combinations"
+      ],
+      "statement": "A box contains $3$ red chips and $2$ green chips. Chips are drawn randomly, one at a time without replacement, until all $3$ of the reds are drawn or until both green chips are drawn. What is the probability that the $3$ reds are drawn?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{3}{10}$",
+          "$\\frac{2}{5}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{3}{5}$",
+          "$\\frac{7}{10}$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2017-10",
+      "name": "Problem 10 (2017 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2017_AMC_8_Problems/Problem_10",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Combinatorics",
+        "Dependent Events"
+      ],
+      "statement": "A box contains five cards, numbered $1$, $2$, $3$, $4$, and $5$. Three cards are selected randomly without replacement from the box. What is the probability that $4$ is the largest value selected?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{10}$",
+          "$\\frac{1}{5}$",
+          "$\\frac{3}{10}$",
+          "$\\frac{2}{5}$",
+          "$\\frac{1}{2}$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2017-20",
+      "name": "Problem 20 (2017 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2017_AMC_8_Problems/Problem_20",
+      "source": "AMC 8",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Counting",
+        "Permutations",
+        "Parity"
+      ],
+      "statement": "An integer between $1000$ and $9999$, inclusive, is chosen at random. What is the probability that it is an odd integer whose digits are all distinct?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{14}{75}$",
+          "$\\frac{56}{225}$",
+          "$\\frac{107}{400}$",
+          "$\\frac{7}{25}$",
+          "$\\frac{9}{25}$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2018-11",
+      "name": "Problem 11 (2018 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2018_AMC_8_Problems/Problem_11",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Combinatorics",
+        "Adjacency"
+      ],
+      "statement": "Abby, Bridget, and four of their classmates will be seated in two rows of three for a group picture, as shown. If the seating positions are assigned randomly, what is the probability that Abby and Bridget are adjacent to each other in the same row or the same column? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{3}$",
+          "$\\frac{2}{5}$",
+          "$\\frac{7}{15}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{2}{3}$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2018-23",
+      "name": "Problem 23 (2018 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2018_AMC_8_Problems/Problem_23",
+      "source": "AMC 8",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Combinatorics",
+        "Geometry Probability"
+      ],
+      "statement": "From a regular octagon, a triangle is formed by connecting three randomly chosen vertices of the octagon. What is the probability that at least one of the sides of the triangle is also a side of the octagon?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{2}{7}$",
+          "$\\frac{5}{42}$",
+          "$\\frac{11}{14}$",
+          "$\\frac{5}{7}$",
+          "$\\frac{6}{7}$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2019-6",
+      "name": "Problem 6 (2019 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2019_AMC_8_Problems/Problem_6",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Symmetry",
+        "Counting"
+      ],
+      "statement": "There are $81$ grid points (uniformly spaced) in the square shown in the diagram below, including the points on the edges. Point $P$ is the center of the square. Given that point $Q$ is randomly chosen from among the other $80$ points, what is the probability that line $PQ$ is a line of symmetry for the square? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{5}$",
+          "$\\frac{1}{4}$",
+          "$\\frac{2}{5}$",
+          "$\\frac{9}{20}$",
+          "$\\frac{1}{2}$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2019-15",
+      "name": "Problem 15 (2019 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2019_AMC_8_Problems/Problem_15",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Conditional Probability",
+        "Set Theory"
+      ],
+      "statement": "On a beach $50$ people are wearing sunglasses and $35$ people are wearing caps. Some people are wearing both sunglasses and caps. If one of the people wearing a cap is selected at random, the probability that this person is also wearing sunglasses is $\\frac{2}{5}$. If instead, someone wearing sunglasses is selected at random, what is the probability that this person is also wearing a cap?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{14}{85}$",
+          "$\\frac{7}{25}$",
+          "$\\frac{2}{5}$",
+          "$\\frac{4}{7}$",
+          "$\\frac{7}{10}$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2019-18",
+      "name": "Problem 18 (2019 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2019_AMC_8_Problems/Problem_18",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Parity",
+        "Independent Events"
+      ],
+      "statement": "The faces on each of two fair dice are numbered $1$, $2$, $3$, $5$, $7$, and $8$. When the two dice are tossed, what is the probability that their sum will be an even number?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{4}{9}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{5}{9}$",
+          "$\\frac{3}{5}$",
+          "$\\frac{2}{3}$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2020-13",
+      "name": "Problem 13 (2020 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2020_AMC_8_Problems/Problem_13",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Ratios",
+        "Algebraic Setup"
+      ],
+      "statement": "Jamal has a drawer containing $6$ green socks, $18$ purple socks, and $12$ orange socks. After adding more purple socks, Jamal noticed that there is now a $60\\%$ chance that a sock randomly selected from the drawer is purple. How many purple socks did Jamal add?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$6$",
+          "$9$",
+          "$12$",
+          "$18$",
+          "$24$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2022-12",
+      "name": "Problem 12 (2022 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2022_AMC_8_Problems/Problem_12",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Independent Events",
+        "Perfect Squares"
+      ],
+      "statement": "The arrows on the two spinners shown below are spun. Let the number $N$ equal $10$ times the number on Spinner A, added to the number on Spinner B. What is the probability that $N$ is a perfect square number? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{16}$",
+          "$\\frac{1}{8}$",
+          "$\\frac{1}{4}$",
+          "$\\frac{3}{8}$",
+          "$\\frac{1}{2}$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2022-25",
+      "name": "Problem 25 (2022 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2022_AMC_8_Problems/Problem_25",
+      "source": "AMC 8",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Markov Chains",
+        "States",
+        "Expected Value"
+      ],
+      "statement": "A cricket randomly hops between $4$ leaves, on each turn hopping to one of the other $3$ leaves with equal probability. After $4$ hops what is the probability that the cricket has returned to the leaf where it started?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{2}{9}$",
+          "$\\frac{19}{80}$",
+          "$\\frac{20}{81}$",
+          "$\\frac{1}{4}$",
+          "$\\frac{7}{27}$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2023-23",
+      "name": "Problem 23 (2023 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2023_AMC_8_Problems/Problem_23",
+      "source": "AMC 8",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Grid",
+        "Inclusion-Exclusion"
+      ],
+      "statement": "Each square in a $3 \\times 3$ grid is randomly filled with one of the $4$ gray-and-white tiles shown below on the right. What is the probability that the tiling will contain a large gray diamond in one of the smaller $2 \\times 2$ grids? Below is an example of one such tiling. [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{1024}$",
+          "$\\frac{1}{256}$",
+          "$\\frac{1}{64}$",
+          "$\\frac{1}{16}$",
+          "$\\frac{1}{4}$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2024-25",
+      "name": "Problem 25 (2024 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2024_AMC_8_Problems/Problem_25",
+      "source": "AMC 8",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Combinatorics",
+        "Probability",
+        "Seating Arrangements"
+      ],
+      "statement": "A small airplane has $4$ rows of seats with $3$ seats in each row. Eight passengers have boarded the plane and are distributed randomly among the seats. A married couple is next to board. What is the probability there will be $2$ adjacent seats in the same row for the couple?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\text{Missing A}$",
+          "$\\text{Missing B}$",
+          "$\\text{Missing C}$",
+          "$\\text{Missing D}$",
+          "$\\text{Missing E}$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    }
+  ]
 }

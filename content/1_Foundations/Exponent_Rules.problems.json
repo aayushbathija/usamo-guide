@@ -4,11 +4,13 @@
     {
       "uniqueId": "amc8-1999-24",
       "name": "Problem 24 (1999 AMC 8)",
-      "url": "https://artofproblemsolving.com/wiki/index.php/1999_AMC_8_Problems/Problem_24",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1999_AMC_8_Problems/Problem_24",
       "source": "AMC 8",
       "difficulty": "Medium",
       "isStarred": true,
-      "tags": ["Exponents"],
+      "tags": [
+        "Exponents"
+      ],
       "statement": "When $1999^{2000}$ is divided by $5$, the remainder is:",
       "solutionMetadata": {
         "kind": "none"
@@ -21,7 +23,10 @@
       "source": "AHSME",
       "difficulty": "Medium",
       "isStarred": false,
-      "tags": ["Arithmetic Series", "Exponents"],
+      "tags": [
+        "Arithmetic Series",
+        "Exponents"
+      ],
       "statement": "What is the smallest positive odd integer $n$ such that the product $2^{1/7} 2^{3/7} \\cdots 2^{(2n+1)/7}$ is greater than $1000$? (In the product, the denominators of the exponents are all sevens, and the numerators are the successive odd integers from $1$ to $2n+1$.)",
       "solutionMetadata": {
         "kind": "none"
@@ -75,6 +80,193 @@
       "isStarred": false,
       "tags": [],
       "statement": "What is the value of $\\frac{(2112 - 2021)^2}{169}$?",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1985-3",
+      "name": "Problem 3 (1985 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1985_AJHSME_Problems/Problem_3",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Powers of 10",
+        "Scientific Notation"
+      ],
+      "statement": "$$\\frac{10^7}{5 \\times 10^4} =$$",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$.002$",
+          "$.2$",
+          "$20$",
+          "$200$",
+          "$2000$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1987-19",
+      "name": "Problem 19 (1987 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1987_AJHSME_Problems/Problem_19",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Repeated Squaring"
+      ],
+      "statement": "A calculator has a squaring key $x^2$ which replaces the current number displayed with its square. For example, if the display is $000003$ and the $x^2$ key is depressed, then the display becomes $000009$. If the display reads $000002$, how many times must you depress the $x^2$ key to produce a displayed number greater than $500$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$4$",
+          "$5$",
+          "$8$",
+          "$9$",
+          "$250$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1993-7",
+      "name": "Problem 7 (1993 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1993_AJHSME_Problems/Problem_7",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Exponent Arithmetic",
+        "Factoring"
+      ],
+      "statement": "$3^{3} + 3^{3} + 3^{3} =$",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$3^{4}$",
+          "$9^{3}$",
+          "$3^{9}$",
+          "$27^{3}$",
+          "$3^{27}$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2010-24",
+      "name": "Problem 24 (2010 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2010_AMC_8_Problems/Problem_24",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Comparing Exponents"
+      ],
+      "statement": "What is the correct ordering of the three numbers, $10^{8}$, $5^{12}$, and $2^{24}$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$2^{24} < 10^{8} < 5^{12}$",
+          "$2^{24} < 5^{12} < 10^{8}$",
+          "$5^{12} < 2^{24} < 10^{8}$",
+          "$10^{8} < 5^{12} < 2^{24}$",
+          "$10^{8} < 2^{24} < 5^{12}$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2011-15",
+      "name": "Problem 15 (2011 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2011_AMC_8_Problems/Problem_15",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Power of 10",
+        "Digits"
+      ],
+      "statement": "How many digits are in the product $4^5 \\cdot 5^{10}$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "8",
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2016-7",
+      "name": "Problem 7 (2016 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2016_AMC_8_Problems/Problem_7",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Perfect Squares",
+        "Parity of Exponents"
+      ],
+      "statement": "Which of the following numbers is not a perfect square?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1^{2016}$",
+          "$2^{2017}$",
+          "$3^{2018}$",
+          "$4^{2019}$",
+          "$5^{2020}$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2017-3",
+      "name": "Problem 3 (2017 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2017_AMC_8_Problems/Problem_3",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Nested Radicals",
+        "Square Roots"
+      ],
+      "statement": "What is the value of the expression $\\sqrt{16\\sqrt{8\\sqrt{4}}}$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$4$",
+          "$4\\sqrt{2}$",
+          "$8$",
+          "$8\\sqrt{2}$",
+          "$16$"
+        ],
+        "correctIndex": 2
+      },
       "solutionMetadata": {
         "kind": "none"
       }

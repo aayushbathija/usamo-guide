@@ -39,6 +39,7 @@
     "@typescript-eslint/eslint-plugin": "^5.28.0",
     "@typescript-eslint/parser": "^5.28.0",
     "algoliasearch": "^4.10.5",
+    "autoprefixer": "^10.5.0",
     "babel-loader": "^10.0.0",
     "babel-plugin-remove-graphql-queries": "^4.16.0",
     "babel-preset-react-app": "^10.1.0",
@@ -179,8 +180,10 @@
     "latex": "^0.0.1",
     "latex.js": "^0.12.6",
     "lucide-react": "^0.577.0",
+    "ogl": "^1.0.11",
     "supabase": "^2.76.11",
-    "throttle-debounce": "^5.0.2"
+    "throttle-debounce": "^5.0.2",
+    "yarn": "^1.22.22"
   },
   "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }

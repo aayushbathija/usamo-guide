@@ -1,24 +1,31 @@
 import * as React from 'react';
 
+const completedColor = '#6A3E85';
+const inProgressColor = '#A96BC2';
+const skippedColor = '#D5A6E7';
+const notStartedColor = '#40365F';
+const trackColor = 'rgba(244, 237, 234, 0.14)';
+const mutedText = 'rgba(244, 237, 234, 0.72)';
+
 const ProgressBar = ({ text, green, yellow, blue }) => {
   return (
     <div className="relative">
-      <div className="flex h-4 overflow-hidden bg-gray-200 text-xs dark:bg-gray-700">
+      <div className="flex h-4 overflow-hidden text-xs rounded-full" style={{ background: trackColor }}>
         <div
-          style={{ width: `${green}%` }}
-          className="flex flex-col justify-center bg-green-500 text-center whitespace-nowrap text-white shadow-none dark:bg-green-800"
+          style={{ width: `${green}%`, background: completedColor }}
+          className="flex flex-col justify-center text-center whitespace-nowrap text-white shadow-none"
         />
         <div
-          style={{ width: `${yellow}%` }}
-          className="flex flex-col justify-center bg-yellow-300 text-center whitespace-nowrap text-white shadow-none dark:bg-yellow-800"
+          style={{ width: `${yellow}%`, background: inProgressColor }}
+          className="flex flex-col justify-center text-center whitespace-nowrap text-white shadow-none"
         />
         <div
-          style={{ width: `${blue}%` }}
-          className="flex flex-col justify-center bg-blue-500 text-center whitespace-nowrap text-white shadow-none dark:bg-blue-800"
+          style={{ width: `${blue}%`, background: skippedColor }}
+          className="flex flex-col justify-center text-center whitespace-nowrap text-white shadow-none"
         />
       </div>
       <div className="text-right">
-        <span className="dark:text-dark-med-emphasis inline-block text-sm font-semibold text-gray-800">
+        <span className="inline-block text-sm font-semibold" style={{ color: mutedText }}>
           {text}
         </span>
       </div>
@@ -70,27 +77,27 @@ export default function DashboardProgress({
         <FancyNumber
           number={completed}
           text="Completed"
-          textColor="text-green-800 dark:text-green-100"
-          bgColor="bg-green-100 dark:bg-green-800"
+          textColor="text-[#F4EDEA]"
+          bgColor="bg-[#6A3E85]"
         />
         <FancyNumber
           number={inProgress}
           text="In Progress"
-          textColor="text-yellow-800 dark:text-yellow-100"
-          bgColor="bg-yellow-100 dark:bg-yellow-800"
+          textColor="text-[#F4EDEA]"
+          bgColor="bg-[#A96BC2]"
         />
         <FancyNumber
           number={skipped}
           text="Skipped"
-          textColor="text-blue-800 dark:text-blue-50"
-          bgColor="bg-blue-50 dark:bg-blue-800"
+          textColor="text-[#F4EDEA]"
+          bgColor="bg-[#D5A6E7]"
         />
         <FancyNumber
           number={notStarted}
           text="Not Started"
-          textColor="text-gray-800"
-          bgColor="bg-gray-100"
-          subTextColor="text-gray-800 dark:text-gray-100"
+          textColor="text-[#F4EDEA]"
+          bgColor="bg-[#40365F]"
+          subTextColor="text-[#D2D4C8]"
         />
       </div>
       <ProgressBar
@@ -113,24 +120,24 @@ const ProgressBarSmall = ({
   return (
     <div className={className}>
       <div className="inline-block">
-        <div className="flex h-2 w-24 items-center overflow-hidden rounded-full bg-gray-200 text-xs dark:bg-gray-700">
+        <div className="flex h-2 w-24 items-center overflow-hidden rounded-full text-xs" style={{ background: trackColor }}>
           <div
-            style={{ width: `${green}%` }}
-            className="h-2 bg-green-500 dark:bg-green-800"
+            style={{ width: `${green}%`, background: completedColor }}
+            className="h-2"
           />
           <div
-            style={{ width: `${yellow}%` }}
-            className="h-2 bg-yellow-300 dark:bg-yellow-800"
+            style={{ width: `${yellow}%`, background: inProgressColor }}
+            className="h-2"
           />
           <div
-            style={{ width: `${blue}%` }}
-            className="h-2 bg-blue-500 dark:bg-blue-800"
+            style={{ width: `${blue}%`, background: skippedColor }}
+            className="h-2"
           />
         </div>
       </div>
       {/*  text-gray-800 dark:text-dark-med-emphasis */}
       <div className="ml-1 inline-block">
-        {text && <span className="text-sm font-semibold">&nbsp;{text}</span>}
+        {text && <span className="text-sm font-semibold" style={{ color: mutedText }}>&nbsp;{text}</span>}
       </div>
     </div>
   );

@@ -1,85 +1,820 @@
 {
   "MODULE_ID": "arithmetic-sequences",
   "practice": [
-  {
-    "uniqueId": "amc8-2026-18",
-    "name": "Problem 18 (2026 AMC 8)",
-    "url": "https://artofproblemsolving.com/wiki/index.php/2026_AMC_8_Problems/Problem_18",
-    "source": "AMC 8",
-    "difficulty": "Medium",
-    "isStarred": false,
-    "tags": [
-      "Number Theory",
-      "Consecutive Integers"
-    ],
-    "statement": "How many ways can 60 be written as a sum of at least two consecutive positive even integers?",
-    "solutionMetadata": {
-      "kind": "none"
+    {
+      "uniqueId": "amc8-2026-18",
+      "name": "Problem 18 (2026 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php/2026_AMC_8_Problems/Problem_18",
+      "source": "AMC 8",
+      "difficulty": "Medium",
+      "isStarred": false,
+      "tags": [
+        "Number Theory",
+        "Consecutive Integers"
+      ],
+      "statement": "How many ways can 60 be written as a sum of at least two consecutive positive even integers?",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2015-18",
+      "name": "Problem 18 (2015 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_8_Problems/Problem_18",
+      "source": "AMC 8",
+      "difficulty": "Medium",
+      "isStarred": false,
+      "tags": [
+        "Probability",
+        "Counting"
+      ],
+      "statement": "The product of the two 2-digit numbers is even. What is the probability that both numbers are odd?",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc10-2005a-17",
+      "name": "Problem 17 (2005 AMC 10A)",
+      "url": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_10A_Problems/Problem_17",
+      "source": "AMC 10",
+      "difficulty": "Medium",
+      "isStarred": false,
+      "tags": [
+        "Arithmetic Sequence",
+        "Geometry"
+      ],
+      "statement": "In the five-sided star shown, the letters $A, B, C, D,$ and $E$ are replaced by the numbers $3, 5, 6, 7,$ and $9$, although not necessarily in this order. The sums of the numbers at the ends of the line segments $AB, BC, CD, DE,$ and $EA$ form an arithmetic sequence, although not necessarily in this order. What is the middle term of the sequence?",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc10-2023b-23",
+      "name": "Problem 23 (2023 AMC 10B)",
+      "url": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10B_Problems/Problem_23",
+      "source": "AMC 10",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Algebra",
+        "Number Theory"
+      ],
+      "statement": "The sum of $n$ terms of an arithmetic progression is $221$. If the first term is $a$ and the common difference is $d$, what is $a+d+n$?",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc10-2024a-21",
+      "name": "Problem 21 (2024 AMC 10A)",
+      "url": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_21",
+      "source": "AMC 10",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Arithmetic Progression",
+        "Algebra"
+      ],
+      "statement": "The numbers, in order, of each row and the numbers, in order, of each column of a $5 \times 5$ array of integers form an arithmetic progression of length $5$. The numbers in positions $(5,5), (2,4), (4,3),$ and $(3,1)$ are $0, 48, 16,$ and $12$, respectively. What number is in position $(1,2)$?",
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1985-2",
+      "name": "Problem 2 (1985 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1985_AJHSME_Problems/Problem_2",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Sum of Consecutive Integers",
+        "Addition"
+      ],
+      "statement": "$90 + 91 + 92 + 93 + 94 + 95 + 96 + 97 + 98 + 99 =$",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$845$",
+          "$945$",
+          "$1005$",
+          "$1025$",
+          "$1045$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1987-3",
+      "name": "Problem 3 (1987 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1987_AJHSME_Problems/Problem_3",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Sum of Arithmetic Sequence",
+        "Factoring"
+      ],
+      "statement": "$2(81+83+85+87+89+91+93+95+97+99)=$",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$1600$",
+          "$1650$",
+          "$1700$",
+          "$1750$",
+          "$1800$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1988-19",
+      "name": "Problem 19 (1988 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1988_AJHSME_Problems/Problem_19",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Nth Term",
+        "Arithmetic Progressions"
+      ],
+      "statement": "What is the $100^{\\text{th}}$ number in the arithmetic sequence: $1, 5, 9, 13, 17, 21, 25, \\dots$",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$397$",
+          "$399$",
+          "$401$",
+          "$403$",
+          "$405$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1990-16",
+      "name": "Problem 16 (1990 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1990_AJHSME_Problems/Problem_16",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Telescoping",
+        "Summation"
+      ],
+      "statement": "$1990 - 1980 + 1970 - 1960 + \\dots - 20 + 10 =$",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$-990$",
+          "$-10$",
+          "$990$",
+          "$1000$",
+          "$1990$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1991-18",
+      "name": "Problem 18 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_18",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Sum of Sequence",
+        "Parity",
+        "Optimization"
+      ],
+      "statement": "An auditorium with $20$ rows of seats has $10$ seats in the first row. Each successive row has one more seat than the previous row. If students taking an exam are permitted to sit in any row, but not next to another student in that row, then the maximum number of students that can be seated for an exam is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$150$",
+          "$180$",
+          "$200$",
+          "$400$",
+          "$460$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1992-15",
+      "name": "Problem 15 (1992 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1992_AJHSME_Problems/Problem_15",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Modular Arithmetic",
+        "Patterns"
+      ],
+      "statement": "What is the $1992^{\\text{nd}}$ letter in this sequence? $$\\text{ABCDEDCBAABCDEDCBAABCDEDCBAABCDEDC}\\dots$$",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\text{A}$",
+          "$\\text{B}$",
+          "$\\text{C}$",
+          "$\\text{D}$",
+          "$\\text{E}$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1993-19",
+      "name": "Problem 19 (1993 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1993_AJHSME_Problems/Problem_19",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Series",
+        "Grouping",
+        "Subtraction"
+      ],
+      "statement": "$(1901 + 1902 + 1903 + \\dots + 1993) - (101 + 102 + 103 + \\dots + 193) =$",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$167,400$",
+          "$172,050$",
+          "$181,071$",
+          "$199,300$",
+          "$362,142$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1993-24",
+      "name": "Problem 24 (1993 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1993_AJHSME_Problems/Problem_24",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Patterns",
+        "Perfect Squares",
+        "Triangular Numbers"
+      ],
+      "statement": "What number is directly above $142$ in this array of numbers? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$99$",
+          "$119$",
+          "$120$",
+          "$121$",
+          "$122$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1994-15",
+      "name": "Problem 15 (1994 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1994_AJHSME_Problems/Problem_15",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Patterns",
+        "Modular Arithmetic"
+      ],
+      "statement": "If this path is to continue in the same pattern: [See figure in original PDF] then which sequence of arrows goes from point $425$ to point $427$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "[See figure in original PDF]",
+          "[See figure in original PDF]",
+          "[See figure in original PDF]",
+          "[See figure in original PDF]",
+          "[See figure in original PDF]"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1996-3",
+      "name": "Problem 3 (1996 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1996_AJHSME_Problems/Problem_3",
+      "source": "AJHSME",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Factoring",
+        "Sum of Sequence"
+      ],
+      "statement": "$$\\frac{2+4+6+\\cdot\\cdot\\cdot+34}{3+6+9+\\cdot\\cdot\\cdot+51}=$$",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\frac{1}{3}$",
+          "$\\frac{2}{3}$",
+          "$\\frac{3}{2}$",
+          "$\\frac{17}{3}$",
+          "$\\frac{34}{3}$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1996-16",
+      "name": "Problem 16 (1996 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1996_AJHSME_Problems/Problem_16",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Sum of Sequence",
+        "Pattern Recognition"
+      ],
+      "statement": "$1-2-3+4+5-6-7+8+9-10-11+\\cdot\\cdot\\cdot+1992+1993-1994-1995+1996=$",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$-998$",
+          "$-1$",
+          "$0$",
+          "$1$",
+          "$998$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1998-12",
+      "name": "Problem 12 (1998 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1998_AJHSME_Problems/Problem_12",
+      "source": "AJHSME",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Series",
+        "Pattern Recognition",
+        "Simplification"
+      ],
+      "statement": "What is the value of $2(1 - \\frac{1}{2}) + 3(1 - \\frac{1}{3}) + 4(1 - \\frac{1}{4}) + \\dots + 10(1 - \\frac{1}{10})$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$45$",
+          "$49$",
+          "$50$",
+          "$54$",
+          "$55$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1998-22",
+      "name": "Problem 22 (1998 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1998_AJHSME_Problems/Problem_22",
+      "source": "AJHSME",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Sequence Rules",
+        "Pattern Recognition",
+        "Cycles"
+      ],
+      "statement": "Terri produces a sequence of positive integers by following three rules. She starts with a positive integer, then applies the appropriate rule to the result, and continues in this fashion.\nRule 1: If the integer is less than $10$, multiply it by $9$.\nRule 2: If the integer is even and greater than $9$, divide it by $2$.\nRule 3: If the integer is odd and greater than $9$, subtract $5$ from it.\nFind the $98^{\\text{th}}$ term of the sequence that begins $98$, $49$, $\\dots$",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$6$",
+          "$11$",
+          "$22$",
+          "$27$",
+          "$54$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1998-24",
+      "name": "Problem 24 (1998 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1998_AJHSME_Problems/Problem_24",
+      "source": "AJHSME",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Sequence Continuation",
+        "Modular Arithmetic",
+        "Grid Patterns"
+      ],
+      "statement": "A rectangular board of $8$ columns has squares numbered beginning in the upper left corner and moving left to right so row one is numbered $1$ through $8$, row two is $9$ through $16$, and so on. A student shades square $1$, then skips one square and shades square $3$, skips two squares and shades square $6$, skips $3$ squares and shades square $10$, and continues in this way until there is at least one shaded square in each column. What is the number of the shaded square that first achieves this result? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$36$",
+          "$64$",
+          "$78$",
+          "$91$",
+          "$120$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2002-11",
+      "name": "Problem 11 (2002 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2002_AMC_8_Problems/Problem_11",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Patterns",
+        "Squares"
+      ],
+      "statement": "A sequence of squares is made of identical square tiles. The edge of each square is one tile length longer than the edge of the previous square. The first three squares are shown. How many more tiles does the seventh square require than the sixth?\n[See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$11$",
+          "$12$",
+          "$13$",
+          "$14$",
+          "$15$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2005-12",
+      "name": "Problem 12 (2005 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2005_AMC_8_Problems/Problem_12",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Sum",
+        "Algebra"
+      ],
+      "statement": "Big Al, the ape, ate $100$ bananas from May $1$ through May $5$. Each day he ate six more bananas than on the previous day. How many bananas did Big Al eat on May $5$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$20$",
+          "$22$",
+          "$30$",
+          "$32$",
+          "$34$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2009-5",
+      "name": "Problem 5 (2009 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2009_AMC_8_Problems/Problem_5",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Sequences",
+        "Addition"
+      ],
+      "statement": "A sequence of numbers starts with $1$, $2$, and $3$. The fourth number of the sequence is the sum of the previous three numbers in the sequence: $1+2+3=6$. In the same way, every number after the fourth is the sum of the previous three numbers. What is the eighth number in the sequence?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$11$",
+          "$20$",
+          "$37$",
+          "$68$",
+          "$99$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2009-18",
+      "name": "Problem 18 (2009 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2009_AMC_8_Problems/Problem_18",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Patterns",
+        "Tiling",
+        "Area"
+      ],
+      "statement": "The diagram represents a $7$-foot-by-$7$-foot floor that is tiled with $1$-square-foot black tiles and white tiles. Notice that the corners have white tiles. If a $15$-foot-by-$15$-foot floor is to be tiled in the same manner, how many white tiles will be needed? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$49$",
+          "$57$",
+          "$64$",
+          "$96$",
+          "$126$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2013-3",
+      "name": "Problem 3 (2013 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2013_AMC_8_Problems/Problem_3",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Summation",
+        "Grouping"
+      ],
+      "statement": "What is the value of $4 \\cdot (-1+2-3+4-5+6-7+\\dots+1000)$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$-10$",
+          "$0$",
+          "$1$",
+          "$500$",
+          "$2000$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2015-9",
+      "name": "Problem 9 (2015 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2015_AMC_8_Problems/Problem_9",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Sum of Odds"
+      ],
+      "statement": "On her first day of work, Janabel sold $1$ widget. On day $2$, she sold $3$ widgets. On day $3$, she sold $5$ widgets, and on each succeeding day, she sold $2$ more widgets than she had sold on the previous day. How many widgets in total had Janabel sold after working $20$ days?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "39",
+          "40",
+          "210",
+          "400",
+          "401"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2016-8",
+      "name": "Problem 8 (2016 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2016_AMC_8_Problems/Problem_8",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Arithmetic Series",
+        "Grouping Terms"
+      ],
+      "statement": "Find the value of the expression $100-98+96-94+92-90+\\dots+8-6+4-2$.",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$20$",
+          "$40$",
+          "$50$",
+          "$80$",
+          "$100$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2016-19",
+      "name": "Problem 19 (2016 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2016_AMC_8_Problems/Problem_19",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Consecutive Integers",
+        "Arithmetic Series"
+      ],
+      "statement": "The sum of $25$ consecutive even integers is $10,000$. What is the largest of these $25$ consecutive integers?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$360$",
+          "$388$",
+          "$412$",
+          "$416$",
+          "$424$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2018-5",
+      "name": "Problem 5 (2018 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2018_AMC_8_Problems/Problem_5",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Pairing",
+        "Arithmetic Series"
+      ],
+      "statement": "What is the value of $1+3+5+\\dots+2017+2019-2-4-6-\\dots-2016-2018$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$-1010$",
+          "$-1009$",
+          "$1008$",
+          "$1009$",
+          "$1010$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2020-4",
+      "name": "Problem 4 (2020 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2020_AMC_8_Problems/Problem_4",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Patterns",
+        "Visual Logic"
+      ],
+      "statement": "Three hexagons of increasing size are shown below. Suppose the dot pattern continues so that each successive hexagon contains one more band of dots. How many dots are in the next hexagon? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$35$",
+          "$37$",
+          "$39$",
+          "$43$",
+          "$49$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2022-6",
+      "name": "Problem 6 (2022 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2022_AMC_8_Problems/Problem_6",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Arithmetic Progression",
+        "Algebraic Setup"
+      ],
+      "statement": "Three positive integers are equally spaced on a number line. The middle number is $15$, and the largest number is $4$ times the smallest number. What is the smallest of these three numbers?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$4$",
+          "$5$",
+          "$6$",
+          "$7$",
+          "$8$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2023-25",
+      "name": "Problem 25 (2023 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2023_AMC_8_Problems/Problem_25",
+      "source": "AMC 8",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Inequalities",
+        "Digits"
+      ],
+      "statement": "Fifteen integers $a_{1}, a_{2}, a_{3}, \\dots, a_{15}$ are arranged in order on a number line. The integers are equally spaced and have the property that $1 \\leq a_{1} \\leq 10$, $13 \\leq a_{2} \\leq 20$, and $241 \\leq a_{15} \\leq 250$. What is the sum of digits of $a_{14}$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$8$",
+          "$9$",
+          "$10$",
+          "$11$",
+          "$12$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2025-4",
+      "name": "Problem 4 (2025 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2025_AMC_8_Problems/Problem_3",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Arithmetic Progression",
+        "Nth Term"
+      ],
+      "statement": "Lucius is counting backwards by $7$s. His first three numbers are $100$, $93$, and $86$. What is his $10^{\\text{th}}$ number?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$30$",
+          "$37$",
+          "$42$",
+          "$44$",
+          "$47$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
     }
-  },
-  {
-    "uniqueId": "amc8-2015-18",
-    "name": "Problem 18 (2015 AMC 8)",
-    "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_8_Problems/Problem_18",
-    "source": "AMC 8",
-    "difficulty": "Medium",
-    "isStarred": false,
-    "tags": [
-      "Probability",
-      "Counting"
-    ],
-    "statement": "The product of the two 2-digit numbers is even. What is the probability that both numbers are odd?",
-    "solutionMetadata": {
-      "kind": "none"
-    }
-  },
-  {
-    "uniqueId": "amc10-2005a-17",
-    "name": "Problem 17 (2005 AMC 10A)",
-    "url": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_10A_Problems/Problem_17",
-    "source": "AMC 10",
-    "difficulty": "Medium",
-    "isStarred": false,
-    "tags": [
-      "Arithmetic Sequence",
-      "Geometry"
-    ],
-    "statement": "In the five-sided star shown, the letters $A, B, C, D,$ and $E$ are replaced by the numbers $3, 5, 6, 7,$ and $9$, although not necessarily in this order. The sums of the numbers at the ends of the line segments $AB, BC, CD, DE,$ and $EA$ form an arithmetic sequence, although not necessarily in this order. What is the middle term of the sequence?",
-    "solutionMetadata": {
-      "kind": "none"
-    }
-  },
-  {
-    "uniqueId": "amc10-2023b-23",
-    "name": "Problem 23 (2023 AMC 10B)",
-    "url": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10B_Problems/Problem_23",
-    "source": "AMC 10",
-    "difficulty": "Hard",
-    "isStarred": false,
-    "tags": [
-      "Algebra",
-      "Number Theory"
-    ],
-    "statement": "The sum of $n$ terms of an arithmetic progression is $221$. If the first term is $a$ and the common difference is $d$, what is $a+d+n$?",
-    "solutionMetadata": {
-      "kind": "none"
-    }
-  },
-  {
-    "uniqueId": "amc10-2024a-21",
-    "name": "Problem 21 (2024 AMC 10A)",
-    "url": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_21",
-    "source": "AMC 10",
-    "difficulty": "Hard",
-    "isStarred": false,
-    "tags": [
-      "Arithmetic Progression",
-      "Algebra"
-    ],
-    "statement": "The numbers, in order, of each row and the numbers, in order, of each column of a $5 \times 5$ array of integers form an arithmetic progression of length $5$. The numbers in positions $(5,5), (2,4), (4,3),$ and $(3,1)$ are $0, 48, 16,$ and $12$, respectively. What number is in position $(1,2)$?",
-    "solutionMetadata": {
-      "kind": "none"
-    }
-  }
-]
+  ]
 }

@@ -51,6 +51,334 @@
       "solutionMetadata": {
         "kind": "none"
       }
+    },
+    {
+      "uniqueId": "ajhsme-1991-10",
+      "name": "Problem 10 (1991 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1991_AJHSME_Problems/Problem_10",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Area of Parallelogram",
+        "Coordinates"
+      ],
+      "statement": "The area in square units of the region enclosed by parallelogram $ABCD$ is [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$6$",
+          "$8$",
+          "$12$",
+          "$15$",
+          "$18$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "ajhsme-1996-17",
+      "name": "Problem 17 (1996 AJHSME)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=1996_AJHSME_Problems/Problem_17",
+      "source": "AJHSME",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Area of a Triangle",
+        "Square Area"
+      ],
+      "statement": "Figure $OPQR$ is a square. Point $O$ is the origin, and point $Q$ has coordinates $(2, 2)$. What are the coordinates for $T$ so that the area of triangle $PQT$ equals the area of square $OPQR$? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$(-6,0)$",
+          "$(-4,0)$",
+          "$(-2,0)$",
+          "$(2,0)$",
+          "$(4,0)$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2001-11",
+      "name": "Problem 11 (2001 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2001_AMC_8_Problems/Problem_11",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Area of Polygons",
+        "Coordinates"
+      ],
+      "statement": "Points $A$, $B$, $C$ and $D$ have these coordinates: $A(3,2)$, $B(3,-2)$, $C(-3,-2)$ and $D(-3,0)$. The area of quadrilateral $ABCD$ is",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$12$",
+          "$15$",
+          "$18$",
+          "$21$",
+          "$24$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2003-24",
+      "name": "Problem 24 (2003 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2003_AMC_8_Problems/Problem_24",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Functions",
+        "Graphing",
+        "Distance"
+      ],
+      "statement": "A ship travels from point $A$ to point $B$ along a semicircular path, centered at Island $X$. Then it travels along a straight path from $B$ to $C$. Which of these graphs best shows the ship's distance from Island $X$ as it moves along its course? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "[Graph A]",
+          "[Graph B]",
+          "[Graph C]",
+          "[Graph D]",
+          "[Graph E]"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2005-17",
+      "name": "Problem 17 (2005 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2005_AMC_8_Problems/Problem_17",
+      "source": "AMC 8",
+      "difficulty": "Very Easy",
+      "isStarred": false,
+      "tags": [
+        "Slope",
+        "Rate"
+      ],
+      "statement": "The results of a cross-country team's training run are graphed below. Which student has the greatest average speed? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\text{Angela}$",
+          "$\\text{Briana}$",
+          "$\\text{Carla}$",
+          "$\\text{Debra}$",
+          "$\\text{Evelyn}$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2006-10",
+      "name": "Problem 10 (2006 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2006_AMC_8_Problems/Problem_10",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Inverse Variation",
+        "Graphs"
+      ],
+      "statement": "Jorge's teacher asks him to plot all the ordered pairs $(w, l)$ of positive integers for which $w$ is the width and $l$ is the length of a rectangle with area $12$. What should his graph look like? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$\\text{Graph A}$",
+          "$\\text{Graph B}$",
+          "$\\text{Graph C}$",
+          "$\\text{Graph D}$",
+          "$\\text{Graph E}$"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2015-19",
+      "name": "Problem 19 (2015 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2015_AMC_8_Problems/Problem_19",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Pick's Theorem",
+        "Shoelace Formula",
+        "Area"
+      ],
+      "statement": "A triangle with vertices as $A=(1,3)$, $B=(5,1)$, and $C=(4,4)$ is plotted on a $6 \\times 5$ grid. What fraction of the grid is covered by the triangle? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "\\frac{1}{6}",
+          "\\frac{1}{5}",
+          "\\frac{1}{4}",
+          "\\frac{1}{3}",
+          "\\frac{1}{2}"
+        ],
+        "correctIndex": 0
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2019-21",
+      "name": "Problem 21 (2019 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2019_AMC_8_Problems/Problem_21",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Graphing Lines",
+        "Triangle Area"
+      ],
+      "statement": "What is the area of the triangle formed by the lines $y=5$, $y=1+x$, and $y=1-x$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$4$",
+          "$8$",
+          "$10$",
+          "$12$",
+          "$16$"
+        ],
+        "correctIndex": 4
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2022-18",
+      "name": "Problem 18 (2022 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2022_AMC_8_Problems/Problem_18",
+      "source": "AMC 8",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Midpoint Formula",
+        "Distance Formula",
+        "Area of Rectangle"
+      ],
+      "statement": "The midpoints of the four sides of a rectangle are $(-3, 0)$, $(2, 0)$, $(5, 4)$ and $(0, 4)$. What is the area of the rectangle?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$20$",
+          "$25$",
+          "$40$",
+          "$50$",
+          "$80$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2023-7",
+      "name": "Problem 7 (2023 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2023_AMC_8_Problems/Problem_7",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Lines",
+        "Intersections"
+      ],
+      "statement": "A rectangle, with sides parallel to the $x$-axis and $y$-axis, has opposite vertices located at $(15,3)$ and $(16,5)$. A line is drawn through points $A(0,0)$ and $B(3,1)$. Another line is drawn through points $C(0,10)$ and $D(2,9)$. How many points on the rectangle lie on at least one of the two lines? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$0$",
+          "$1$",
+          "$2$",
+          "$3$",
+          "$4$"
+        ],
+        "correctIndex": 1
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2024-11",
+      "name": "Problem 11 (2024 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2024_AMC_8_Problems/Problem_11",
+      "source": "AMC 8",
+      "difficulty": "Easy",
+      "isStarred": false,
+      "tags": [
+        "Area of Triangle",
+        "Coordinates"
+      ],
+      "statement": "The coordinates of $\\triangle ABC$ are $A(5,7)$, $B(11,7)$, $C(3,y)$, with $y > 7$. The area of $\\triangle ABC$ is $12$. What is the value of $y$?",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$8$",
+          "$9$",
+          "$10$",
+          "$11$",
+          "$12$"
+        ],
+        "correctIndex": 3
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "amc8-2024-23",
+      "name": "Problem 23 (2024 AMC 8)",
+      "url": "https://artofproblemsolving.com/wiki/index.php?title=2024_AMC_8_Problems/Problem_23",
+      "source": "AMC 8",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [
+        "Line Segments",
+        "Grid Intersection",
+        "Number Theory"
+      ],
+      "statement": "Rodrigo has a very large sheet of graph paper. First he draws a line segment connecting point $(0, 4)$ to point $(2,0)$ and colors the $4$ cells whose interiors intersect the segment, as shown below. Next Rodrigo draws a line segment connecting point $(2000, 3000)$ to point $(5000, 8000)$. How many cells will he color this time? [See figure in original PDF]",
+      "interaction": {
+        "type": "mcq",
+        "choices": [
+          "$6000$",
+          "$6500$",
+          "$7000$",
+          "$7500$",
+          "$8000$"
+        ],
+        "correctIndex": 2
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
     }
   ]
 }

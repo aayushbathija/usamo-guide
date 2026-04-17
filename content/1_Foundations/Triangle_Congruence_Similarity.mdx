@@ -1,0 +1,374 @@
+---
+id: triangle-congruence-similarty
+title: Triangle Congruence & Similarity
+author: Mehul Biala
+description: The foundations of geometric deduction, covering SSS/SAS/AA criteria, the right triangle altitude theorem, and area scaling.
+prerequisites: []
+---
+
+## Overview
+
+**Target Contests:** AMC 8, AMC 10
+
+In competition geometry, you are rarely given every side length and angle. Instead, you must deduce missing information by finding relationships between different parts of a figure. The two most powerful tools for bridging these gaps are **Congruence** (finding exact identical copies of a triangle) and **Similarity** (finding scaled-up or scaled-down versions of a triangle).
+
+<div style={{ display: 'flex', justifyContent: 'center', margin: '2rem 0' }}>
+  <svg viewBox="0 -30 400 150" width="100%" height="150" xmlns="http://www.w3.org/2000/svg">
+    <polygon points="20,100 60,20 100,100" fill="none" stroke="#3b82f6" strokeWidth="2"/>
+    <text x="115" y="70" textAnchor="middle" fontFamily="sans-serif" fontSize="24" fill="white">≅</text>
+    <polygon points="130,100 170,20 210,100" fill="none" stroke="#3b82f6" strokeWidth="2"/>
+    <text x="240" y="70" textAnchor="middle" fontFamily="sans-serif" fontSize="24" fill="white">~</text>
+    <polygon points="250,100 310,-20 370,100" fill="none" stroke="#ef4444" strokeWidth="2"/>
+  </svg>
+</div>
+
+## 1. Triangle Congruence (The "Equals" of Geometry)
+
+Two triangles are congruent ($\cong$) if they are exactly the same size and shape. All corresponding angles are equal, and all corresponding side lengths are equal. If you prove two triangles are congruent, you instantly know that all their matching parts are identical (often abbreviated as **CPCTC**: Corresponding Parts of Congruent Triangles are Congruent).
+
+You do not need to check all six parts (3 sides, 3 angles) to prove congruence. You only need three specific pieces of information:
+
+* **SSS (Side-Side-Side):** If all three sides of one triangle equal all three sides of another, they are congruent.
+  <div style={{ margin: '1rem 0' }}>
+    <svg viewBox="0 0 240 100" width="100%" height="100" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="10,80 40,20 90,80" fill="none" stroke="white" strokeWidth="2"/>
+      <line x1="19" y1="47" x2="31" y2="53" stroke="#60a5fa" strokeWidth="2"/>
+      <line x1="46" y1="72" x2="46" y2="88" stroke="#60a5fa" strokeWidth="2"/>
+      <line x1="54" y1="72" x2="54" y2="88" stroke="#60a5fa" strokeWidth="2"/>
+      <line x1="58" y1="48" x2="64" y2="43" stroke="#60a5fa" strokeWidth="2"/>
+      <line x1="62" y1="53" x2="68" y2="48" stroke="#60a5fa" strokeWidth="2"/>
+      <line x1="66" y1="58" x2="72" y2="53" stroke="#60a5fa" strokeWidth="2"/>
+      
+      <polygon points="130,80 160,20 210,80" fill="none" stroke="white" strokeWidth="2"/>
+      <line x1="139" y1="47" x2="151" y2="53" stroke="#60a5fa" strokeWidth="2"/>
+      <line x1="166" y1="72" x2="166" y2="88" stroke="#60a5fa" strokeWidth="2"/>
+      <line x1="174" y1="72" x2="174" y2="88" stroke="#60a5fa" strokeWidth="2"/>
+      <line x1="178" y1="48" x2="184" y2="43" stroke="#60a5fa" strokeWidth="2"/>
+      <line x1="182" y1="53" x2="188" y2="48" stroke="#60a5fa" strokeWidth="2"/>
+      <line x1="186" y1="58" x2="192" y2="53" stroke="#60a5fa" strokeWidth="2"/>
+    </svg>
+  </div>
+
+* **SAS (Side-Angle-Side):** Two sides and the angle *between* them are equal.
+  <div style={{ margin: '1rem 0' }}>
+    <svg viewBox="0 0 240 100" width="100%" height="100" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="10,80 40,20 90,80" fill="none" stroke="white" strokeWidth="2"/>
+      <path d="M 25 80 A 15 15 0 0 0 16 66" fill="none" stroke="#60a5fa" strokeWidth="2"/>
+      <line x1="19" y1="47" x2="31" y2="53" stroke="#60a5fa" strokeWidth="2"/>
+      <line x1="46" y1="72" x2="46" y2="88" stroke="#60a5fa" strokeWidth="2"/>
+      <line x1="54" y1="72" x2="54" y2="88" stroke="#60a5fa" strokeWidth="2"/>
+      
+      <polygon points="130,80 160,20 210,80" fill="none" stroke="white" strokeWidth="2"/>
+      <path d="M 145 80 A 15 15 0 0 0 136 66" fill="none" stroke="#60a5fa" strokeWidth="2"/>
+      <line x1="139" y1="47" x2="151" y2="53" stroke="#60a5fa" strokeWidth="2"/>
+      <line x1="166" y1="72" x2="166" y2="88" stroke="#60a5fa" strokeWidth="2"/>
+      <line x1="174" y1="72" x2="174" y2="88" stroke="#60a5fa" strokeWidth="2"/>
+    </svg>
+  </div>
+
+* **ASA (Angle-Side-Angle):** Two angles and the side *between* them are equal.
+  <div style={{ margin: '1rem 0' }}>
+    <svg viewBox="0 0 240 100" width="100%" height="100" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="10,80 40,20 90,80" fill="none" stroke="white" strokeWidth="2"/>
+      <path d="M 25 80 A 15 15 0 0 0 16 66" fill="none" stroke="#60a5fa" strokeWidth="2"/>
+      <path d="M 75 80 A 15 15 0 0 1 80 68" fill="none" stroke="#60a5fa" strokeWidth="2"/>
+      <path d="M 70 80 A 20 20 0 0 1 76 64" fill="none" stroke="#60a5fa" strokeWidth="2"/>
+      <line x1="50" y1="72" x2="50" y2="88" stroke="#60a5fa" strokeWidth="2"/>
+      
+      <polygon points="130,80 160,20 210,80" fill="none" stroke="white" strokeWidth="2"/>
+      <path d="M 145 80 A 15 15 0 0 0 136 66" fill="none" stroke="#60a5fa" strokeWidth="2"/>
+      <path d="M 195 80 A 15 15 0 0 1 200 68" fill="none" stroke="#60a5fa" strokeWidth="2"/>
+      <path d="M 190 80 A 20 20 0 0 1 196 64" fill="none" stroke="#60a5fa" strokeWidth="2"/>
+      <line x1="170" y1="72" x2="170" y2="88" stroke="#60a5fa" strokeWidth="2"/>
+    </svg>
+  </div>
+
+* **AAS (Angle-Angle-Side):** Two angles and a non-included side are equal.
+  <div style={{ margin: '1rem 0' }}>
+    <svg viewBox="0 0 240 100" width="100%" height="100" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="10,80 40,20 90,80" fill="none" stroke="white" strokeWidth="2"/>
+      <path d="M 25 80 A 15 15 0 0 0 16 66" fill="none" stroke="#60a5fa" strokeWidth="2"/>
+      <path d="M 75 80 A 15 15 0 0 1 80 68" fill="none" stroke="#60a5fa" strokeWidth="2"/>
+      <path d="M 70 80 A 20 20 0 0 1 76 64" fill="none" stroke="#60a5fa" strokeWidth="2"/>
+      <line x1="19" y1="47" x2="31" y2="53" stroke="#60a5fa" strokeWidth="2"/>
+      
+      <polygon points="130,80 160,20 210,80" fill="none" stroke="white" strokeWidth="2"/>
+      <path d="M 145 80 A 15 15 0 0 0 136 66" fill="none" stroke="#60a5fa" strokeWidth="2"/>
+      <path d="M 195 80 A 15 15 0 0 1 200 68" fill="none" stroke="#60a5fa" strokeWidth="2"/>
+      <path d="M 190 80 A 20 20 0 0 1 196 64" fill="none" stroke="#60a5fa" strokeWidth="2"/>
+      <line x1="139" y1="47" x2="151" y2="53" stroke="#60a5fa" strokeWidth="2"/>
+    </svg>
+  </div>
+
+* **HL (Hypotenuse-Leg):** *For right triangles only.* If the hypotenuse and one leg match, they are congruent.
+  <div style={{ margin: '1rem 0' }}>
+    <svg viewBox="0 0 240 100" width="100%" height="100" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="10,80 10,20 70,80" fill="none" stroke="white" strokeWidth="2"/>
+      <polygon points="10,70 20,70 20,80" fill="none" stroke="#60a5fa" strokeWidth="1"/>
+      <line x1="34" y1="56" x2="46" y2="44" stroke="#60a5fa" strokeWidth="2"/>
+      <line x1="36" y1="72" x2="36" y2="88" stroke="#60a5fa" strokeWidth="2"/>
+      <line x1="44" y1="72" x2="44" y2="88" stroke="#60a5fa" strokeWidth="2"/>
+      
+      <polygon points="130,80 130,20 190,80" fill="none" stroke="white" strokeWidth="2"/>
+      <polygon points="130,70 140,70 140,80" fill="none" stroke="#60a5fa" strokeWidth="1"/>
+      <line x1="154" y1="56" x2="166" y2="44" stroke="#60a5fa" strokeWidth="2"/>
+      <line x1="156" y1="72" x2="156" y2="88" stroke="#60a5fa" strokeWidth="2"/>
+      <line x1="164" y1="72" x2="164" y2="88" stroke="#60a5fa" strokeWidth="2"/>
+    </svg>
+  </div>
+
+### Why SSA Fails: The "Swinging Hinge" Proof
+
+A common trap is assuming that two sides and a non-included angle (Side-Side-Angle) guarantee congruence. **They do not.** This is known as the ambiguous case. Let's prove geometrically why SSA fails to lock a triangle into a single, unique shape.
+
+<div style={{ display: 'flex', justifyContent: 'center', margin: '2rem 0' }}>
+  <svg viewBox="0 0 320 150" width="100%" height="150" xmlns="http://www.w3.org/2000/svg">
+    <line x1="10" y1="130" x2="250" y2="130" stroke="white" strokeWidth="2" strokeDasharray="4"/>
+    <polygon points="20,130 120,30 88,130" fill="rgba(239,68,68,0.1)" stroke="#ef4444" strokeWidth="2"/>
+    <polygon points="20,130 120,30 152,130" fill="none" stroke="#3b82f6" strokeWidth="2" strokeDasharray="4"/>
+    <line x1="20" y1="130" x2="120" y2="30" stroke="white" strokeWidth="3"/>
+    <line x1="120" y1="30" x2="120" y2="130" stroke="white" strokeWidth="1" strokeDasharray="2"/>
+    <text x="125" y="85" fontFamily="sans-serif" fontSize="12" fill="white">h</text>
+    <path d="M 75 115 A 105 105 0 0 0 165 115" fill="none" stroke="white" strokeDasharray="4"/>
+    <text x="10" y="145" fontFamily="sans-serif" fill="white">A</text>
+    <text x="115" y="20" fontFamily="sans-serif" fill="white">B</text>
+    <text x="75" y="145" fill="white" fontFamily="sans-serif">C₁</text>
+    <text x="155" y="145" fill="white" fontFamily="sans-serif">C₂</text>
+    <text x="60" y="70" fontFamily="sans-serif" fill="white">c</text>
+    <text x="95" y="85" fill="#ef4444" fontFamily="sans-serif">a</text>
+    <text x="145" y="85" fill="#3b82f6" fontFamily="sans-serif">a</text>
+  </svg>
+</div>
+
+**The Proof:**
+Suppose we are given an angle $\angle A$, a fixed adjacent side of length $c$ (forming segment $AB$), and a fixed opposite side of length $a$. We want to construct $\triangle ABC$.
+1. Draw the angle $\angle A$. The bottom ray extends infinitely (this will contain our unknown side $b$).
+2. From vertex $A$, measure out length $c$ along the top ray to establish vertex $B$.
+3. Now, we must attach the final side of length $a$ to vertex $B$ and drop it down to intersect the bottom ray at vertex $C$.
+4. Imagine side $a$ is a pendulum hanging from point $B$. Let the shortest distance (the altitude) from $B$ to the bottom ray be $h$.
+5. If $h < a < c$, the pendulum of length $a$ will swing and intersect the bottom ray at **two distinct points**, let's call them $C_1$ and $C_2$.
+6. This creates two completely different triangles: $\triangle ABC_1$ (an obtuse triangle) and $\triangle ABC_2$ (an acute triangle).
+7. Both triangles share the exact same Side ($c$), Side ($a$), and Angle ($\angle A$), but they are obviously not congruent. Therefore, SSA cannot be used to prove congruence.
+
+## 2. Triangle Similarity (The "Scaled" of Geometry)
+
+Two triangles are similar ($\sim$) if they have the exact same shape, but not necessarily the same size. Think of it as zooming in or out on a screen. 
+In similar triangles:
+1. All corresponding **angles** are exactly equal.
+2. All corresponding **sides** are strictly proportional (they share a constant scaling factor, $k$).
+
+### Similarity Criteria
+Proving similarity requires even less information than congruence:
+
+* **AA (Angle-Angle):** This is the king of AMC geometry. Because the angles of a triangle always sum to $180^\circ$, if you know two angles match, the third *must* match. **If you see parallel lines, look for AA similarity immediately.**
+  <div style={{ margin: '1rem 0' }}>
+    <svg viewBox="0 0 240 100" width="100%" height="100" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="10,80 40,20 90,80" fill="none" stroke="white" strokeWidth="2"/>
+      <path d="M 25 80 A 15 15 0 0 0 16 66" fill="none" stroke="#60a5fa" strokeWidth="2"/>
+      <path d="M 75 80 A 15 15 0 0 1 80 68" fill="none" stroke="#60a5fa" strokeWidth="2"/>
+      <path d="M 70 80 A 20 20 0 0 1 76 64" fill="none" stroke="#60a5fa" strokeWidth="2"/>
+      <polygon points="130,80 152.5,35 190,80" fill="none" stroke="white" strokeWidth="2"/>
+      <path d="M 145 80 A 15 15 0 0 0 136 66" fill="none" stroke="#60a5fa" strokeWidth="2"/>
+      <path d="M 175 80 A 15 15 0 0 1 180 68" fill="none" stroke="#60a5fa" strokeWidth="2"/>
+      <path d="M 170 80 A 20 20 0 0 1 176 64" fill="none" stroke="#60a5fa" strokeWidth="2"/>
+    </svg>
+  </div>
+
+* **SAS Similarity:** Two sides are proportional, and the included angle is exactly equal.
+  <div style={{ margin: '1rem 0' }}>
+    <svg viewBox="0 0 240 100" width="100%" height="100" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="10,80 40,20 90,80" fill="none" stroke="white" strokeWidth="2"/>
+      <path d="M 25 80 A 15 15 0 0 0 16 66" fill="none" stroke="#60a5fa" strokeWidth="2"/>
+      <text x="12" y="45" fill="#60a5fa" fontStyle="italic" fontFamily="sans-serif">a</text>
+      <text x="45" y="95" fill="#60a5fa" fontStyle="italic" fontFamily="sans-serif">b</text>
+      
+      <polygon points="130,80 152.5,35 190,80" fill="none" stroke="white" strokeWidth="2"/>
+      <path d="M 145 80 A 15 15 0 0 0 136 66" fill="none" stroke="#60a5fa" strokeWidth="2"/>
+      <text x="120" y="55" fill="#60a5fa" fontStyle="italic" fontFamily="sans-serif">ka</text>
+      <text x="150" y="95" fill="#60a5fa" fontStyle="italic" fontFamily="sans-serif">kb</text>
+    </svg>
+  </div>
+
+* **SSS Similarity:** All three pairs of sides share the exact same ratio.
+  <div style={{ margin: '1rem 0' }}>
+    <svg viewBox="0 0 240 100" width="100%" height="100" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="10,80 40,20 90,80" fill="none" stroke="white" strokeWidth="2"/>
+      <text x="12" y="45" fill="#60a5fa" fontStyle="italic" fontFamily="sans-serif">a</text>
+      <text x="45" y="95" fill="#60a5fa" fontStyle="italic" fontFamily="sans-serif">b</text>
+      <text x="68" y="45" fill="#60a5fa" fontStyle="italic" fontFamily="sans-serif">c</text>
+      
+      <polygon points="130,80 152.5,35 190,80" fill="none" stroke="white" strokeWidth="2"/>
+      <text x="120" y="55" fill="#60a5fa" fontStyle="italic" fontFamily="sans-serif">ka</text>
+      <text x="150" y="95" fill="#60a5fa" fontStyle="italic" fontFamily="sans-serif">kb</text>
+      <text x="175" y="55" fill="#60a5fa" fontStyle="italic" fontFamily="sans-serif">kc</text>
+    </svg>
+  </div>
+
+## 3. The Two Most Important AMC Similarity Setups
+
+### A. The Area Scaling Law (The $k^2$ Rule)
+
+<div style={{ display: 'flex', justifyContent: 'center', margin: '2rem 0' }}>
+  <svg viewBox="0 0 200 180" width="200" height="180" xmlns="http://www.w3.org/2000/svg">
+    <polygon points="100,20 20,160 180,160" fill="#111827" stroke="white" strokeWidth="2"/>
+    <polygon points="60,90 140,90 100,160" fill="#1f2937" stroke="white" strokeWidth="2"/>
+    <text x="100" y="70" textAnchor="middle" fontFamily="sans-serif" fontSize="12" fill="white">1</text>
+    <text x="60" y="135" textAnchor="middle" fontFamily="sans-serif" fontSize="12" fill="white">2</text>
+    <text x="140" y="135" textAnchor="middle" fontFamily="sans-serif" fontSize="12" fill="white">3</text>
+    <text x="100" y="120" textAnchor="middle" fontFamily="sans-serif" fontSize="12" fill="white">4</text>
+  </svg>
+</div>
+
+If two triangles are similar with a side length ratio of $1 : k$, their perimeters also have a ratio of $1 : k$. 
+However, **their areas have a ratio of $1 : k^2$.** If you draw a segment connecting the midpoints of two sides of a triangle (a midline), the small top triangle is similar to the whole triangle with a side ratio of $1 : 2$. Therefore, the small triangle holds exactly $1/4$ of the total area, leaving $3/4$ of the area for the trapezoid at the bottom. 
+
+### B. The Right Triangle Altitude Theorem
+
+<div style={{ display: 'flex', justifyContent: 'center', margin: '2rem 0' }}>
+  <svg viewBox="0 0 300 150" width="100%" height="150" xmlns="http://www.w3.org/2000/svg">
+    <polygon points="100,120 140,60 230,120" fill="none" stroke="white" strokeWidth="2"/>
+    <line x1="140" y1="60" x2="140" y2="120" stroke="#ef4444" strokeWidth="2"/>
+    <polygon points="140,60 134,68 143,74 148,66" fill="none" stroke="white" strokeWidth="1"/>
+    <rect x="140" y="110" width="10" height="10" fill="none" stroke="white"/>
+    <text x="140" y="50" textAnchor="middle" fontFamily="sans-serif" fill="white">C</text>
+    <text x="90" y="130" fontFamily="sans-serif" fill="white">A</text>
+    <text x="240" y="130" fontFamily="sans-serif" fill="white">B</text>
+    <text x="140" y="138" textAnchor="middle" fontFamily="sans-serif" fill="white">D</text>
+  </svg>
+</div>
+
+If you draw an altitude from the right angle of a right triangle to its hypotenuse, you do not just get one right triangle—you get **three**, and they are **all similar to each other by AA similarity**.
+
+Let right $\triangle ABC$ have its right angle at $C$, and let $CD$ be the altitude to hypotenuse $AB$.
+Because they share angles, $\triangle ACD \sim \triangle CBD \sim \triangle ABC$.
+Setting up the proportions yields two incredibly useful formulas:
+1. $CD^2 = AD \cdot BD$ (The altitude is the geometric mean of the two hypotenuse segments).
+2. $AC^2 = AD \cdot AB$ (A leg is the geometric mean of the adjacent segment and the whole hypotenuse).
+
+---
+
+## Worked Examples
+
+### Example 1: Nested Triangles and Area
+
+<div style={{ display: 'flex', justifyContent: 'center', margin: '2rem 0' }}>
+  <svg viewBox="0 0 200 160" width="200" height="160" xmlns="http://www.w3.org/2000/svg">
+    <polygon points="100,30 10,120 190,120" fill="none" stroke="white" strokeWidth="2"/>
+    <line x1="70" y1="60" x2="130" y2="60" stroke="#3b82f6" strokeWidth="2"/>
+    <text x="100" y="20" textAnchor="middle" fontFamily="sans-serif" fill="white">A</text>
+    <text x="55" y="65" fontFamily="sans-serif" fill="white">D</text>
+    <text x="135" y="65" fontFamily="sans-serif" fill="white">E</text>
+    <text x="0" y="130" fontFamily="sans-serif" fill="white">B</text>
+    <text x="190" y="130" fontFamily="sans-serif" fill="white">C</text>
+    <text x="75" y="45" fontFamily="sans-serif" fontSize="12" fill="white">3</text>
+    <text x="30" y="90" fontFamily="sans-serif" fontSize="12" fill="white">6</text>
+  </svg>
+</div>
+
+**Problem:**
+In $\triangle ABC$, point $D$ is on $AB$ and point $E$ is on $AC$ such that $DE \parallel BC$. If $AD = 3$ and $DB = 6$, and the area of $\triangle ADE$ is $10$, what is the area of the quadrilateral $DBCE$?
+
+**Solution:**
+Because $DE \parallel BC$, the corresponding angles are equal ($\angle ADE = \angle ABC$ and $\angle AED = \angle ACB$). 
+By AA similarity, $\triangle ADE \sim \triangle ABC$.
+
+Next, find the ratio of the sides. The side of the small triangle is $AD = 3$. The corresponding side of the large triangle is the whole length $AB = AD + DB = 3 + 6 = 9$.
+The side ratio $k$ is $\frac{9}{3} = 3$.
+
+Since the sides are scaled by a factor of $3$, the area is scaled by a factor of $k^2 = 3^2 = 9$.
+Area of $\triangle ABC = 9 \times (\text{Area of } \triangle ADE) = 9 \times 10 = 90$.
+
+To find the area of quadrilateral $DBCE$, subtract the small triangle from the whole triangle:
+$\text{Area}(DBCE) = 90 - 10 = 80$.
+
+### Example 2: The Hourglass (Bowtie) Similarity
+
+<div style={{ display: 'flex', justifyContent: 'center', margin: '2rem 0' }}>
+  <svg viewBox="0 0 300 160" width="100%" height="160" xmlns="http://www.w3.org/2000/svg">
+    <polygon points="130,30 170,30 200,130 100,130" fill="none" stroke="white" strokeWidth="2"/>
+    <line x1="130" y1="30" x2="200" y2="130" stroke="#3b82f6" strokeWidth="1"/>
+    <line x1="170" y1="30" x2="100" y2="130" stroke="#3b82f6" strokeWidth="1"/>
+    <text x="120" y="25" fontFamily="sans-serif" fill="white">A</text>
+    <text x="175" y="25" fontFamily="sans-serif" fill="white">B</text>
+    <text x="85" y="140" fontFamily="sans-serif" fill="white">D</text>
+    <text x="205" y="140" fontFamily="sans-serif" fill="white">C</text>
+    <text x="150" y="70" textAnchor="middle" fontFamily="sans-serif" fill="white">E</text>
+    <text x="150" y="25" textAnchor="middle" fontFamily="sans-serif" fontSize="12" fill="white">4</text>
+    <text x="150" y="145" textAnchor="middle" fontFamily="sans-serif" fontSize="12" fill="white">10</text>
+  </svg>
+</div>
+
+**Problem:**
+Trapezoid $ABCD$ has parallel bases $AB$ and $CD$. The diagonals $AC$ and $BD$ intersect at point $E$. If $AB = 4$, $CD = 10$, and the length of diagonal $AC$ is $21$, find the length of $AE$.
+
+**Solution:**
+Because $AB \parallel CD$, the alternate interior angles are equal: $\angle EAB = \angle ECD$ and $\angle EBA = \angle EDC$. Also, the vertical angles at $E$ are equal. 
+By AA similarity, $\triangle ABE \sim \triangle CDE$. (Be careful with the vertex order! Top-left corresponds to bottom-right).
+
+The ratio of similarity between the top and bottom triangles is the ratio of their parallel bases: $\frac{AB}{CD} = \frac{4}{10} = \frac{2}{5}$.
+This means every segment in $\triangle ABE$ is $\frac{2}{5}$ the length of its corresponding segment in $\triangle CDE$.
+So, $\frac{AE}{CE} = \frac{2}{5}$, which means $CE = \frac{5}{2} AE$.
+
+We know the whole diagonal $AC = AE + CE = 21$.
+Substitute for $CE$:
+
+$$
+AE + \frac{5}{2} AE = 21
+$$
+
+$$
+\frac{7}{2} AE = 21
+$$
+
+$$
+AE = 21 \times \frac{2}{7} = 6
+$$
+
+### Example 3: Right Triangle Altitude 
+
+<div style={{ display: 'flex', justifyContent: 'center', margin: '2rem 0' }}>
+  <svg viewBox="0 0 300 150" width="100%" height="150" xmlns="http://www.w3.org/2000/svg">
+    <polygon points="80,120 120,60 210,120" fill="none" stroke="white" strokeWidth="2"/>
+    <line x1="120" y1="60" x2="120" y2="120" stroke="#ef4444" strokeWidth="2"/>
+    <polygon points="120,60 114,68 123,74 128,66" fill="none" stroke="white" strokeWidth="1"/>
+    <rect x="120" y="110" width="10" height="10" fill="none" stroke="white"/>
+    <text x="120" y="50" textAnchor="middle" fontFamily="sans-serif" fill="white">Q</text>
+    <text x="70" y="130" fontFamily="sans-serif" fill="white">P</text>
+    <text x="220" y="130" fontFamily="sans-serif" fill="white">R</text>
+    <text x="120" y="138" textAnchor="middle" fontFamily="sans-serif" fill="white">S</text>
+    <text x="100" y="135" textAnchor="middle" fontFamily="sans-serif" fill="white">4</text>
+    <text x="165" y="135" textAnchor="middle" fontFamily="sans-serif" fill="white">9</text>
+    <text x="130" y="95" fill="#ef4444" fontFamily="sans-serif">h</text>
+  </svg>
+</div>
+
+**Problem:**
+In right $\triangle PQR$ with right angle at $Q$, altitude $QS$ is drawn to hypotenuse $PR$. If $PS = 4$ and $SR = 9$, find the area of $\triangle PQR$.
+
+**Solution:**
+Using the Right Triangle Altitude theorem, we know the three triangles are similar. The altitude squared equals the product of the two hypotenuse segments:
+
+$$
+QS^2 = PS \cdot SR
+$$
+
+$$
+QS^2 = 4 \times 9 = 36
+$$
+
+$$
+QS = 6
+$$
+
+Now we have the height of the large triangle. The base of the large triangle is the entire hypotenuse $PR = PS + SR = 4 + 9 = 13$.
+The area of $\triangle PQR = \frac{1}{2} \cdot \text{base} \cdot \text{height} = \frac{1}{2} \cdot 13 \cdot 6 = 39$.
+
+## Common Pitfalls
+
+- **Incorrect Vertex Matching:** When writing similarity statements (e.g., $\triangle ABC \sim \triangle DEF$), the order of the letters dictates which angles and sides match up. In the hourglass shape, $\triangle ABE$ is similar to $\triangle CDE$, **not** $\triangle DCE$. If you mess up the order, your side proportions will be inverted.
+- **Forgetting to square the ratio for Area:** If a side ratio is $1:3$, the area ratio is $1:9$. Students constantly forget to square the ratio, or incorrectly apply the $k^2$ rule to perimeter (perimeter scales linearly, just like sides).
+- **Adding instead of Scaling:** Similarity is strictly about multiplication/division. If a side goes from $5$ to $10$, the triangle is scaled by $\times 2$. It is *not* scaled by $+5$.
+
+## Practice Problems
+
+<Problems problems="practice" />

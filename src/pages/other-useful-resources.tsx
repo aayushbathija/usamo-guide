@@ -96,7 +96,7 @@ const RESOURCES: TopicResources[] = [
       },
       {
         name: 'IMOmath - Functional Equations',
-        href: 'https://imomath.com/index.cgi?page=problemsFunctionalEquations',
+        href: 'https://www.imomath.com/index.cgi?page=functionalEquations',
         description:
           'Olympiad-style functional equation problems sorted for focused practice.',
         imageSrc:
@@ -237,8 +237,9 @@ function ResourceCard({
   const imageSrc = link.imageSrc ?? fallbackImageSrc;
   const imageAlt = link.imageAlt ?? fallbackImageAlt;
 
+
   return (
-    <article className="overflow-hidden rounded-2xl border border-orange-200/60 bg-white/85 shadow-sm backdrop-blur-sm dark:border-orange-900/70 dark:bg-gray-900/60">
+    <article className="overflow-hidden rounded-2xl border border-[rgba(240,194,255,0.20)] bg-[rgba(18,15,36,0.70)] shadow-sm backdrop-blur-sm">
       <div
         className={`grid items-start lg:grid-cols-2 ${reverse ? 'lg:[&>*:first-child]:order-2' : ''}`}
       >
@@ -249,17 +250,18 @@ function ResourceCard({
             className="h-full w-full object-cover object-center"
             loading="lazy"
           />
-          <div className="pointer-events-none absolute inset-0 bg-linear-to-t from-black/45 via-black/15 to-transparent" />
-          <div className="absolute right-3 bottom-3 rounded-md bg-black/55 px-2.5 py-1 text-xs font-medium tracking-wide text-orange-100 uppercase">
+          <div className="pointer-events-none absolute inset-0 bg-linear-to-t from-black/55 via-black/20 to-transparent" />
+          <div className="absolute right-3 bottom-3 rounded-md bg-[rgba(10,8,24,0.70)] px-2.5 py-1 text-xs font-medium tracking-wide text-[#F0C2FF] uppercase">
             {topic}
           </div>
         </div>
 
+
         <div className="flex flex-col justify-center px-5 py-6 sm:px-7">
-          <h3 className="text-2xl font-black tracking-tight text-gray-900 dark:text-gray-100">
+          <h3 className="text-2xl font-black tracking-tight text-[#F4EDEA]">
             {link.name}
           </h3>
-          <p className="mt-3 text-sm leading-6 text-gray-700 dark:text-gray-300 sm:text-base">
+          <p className="mt-3 text-sm leading-6 text-[rgba(244,237,234,0.72)] sm:text-base">
             {link.description}
           </p>
           <div className="mt-6">
@@ -267,7 +269,7 @@ function ResourceCard({
               href={link.href}
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center rounded-full border border-orange-300 bg-orange-50 px-4 py-2 text-sm font-semibold text-orange-900 transition hover:bg-orange-100 dark:border-orange-800 dark:bg-orange-950/40 dark:text-orange-200 dark:hover:bg-orange-900/50"
+              className="inline-flex items-center rounded-full border border-[rgba(240,194,255,0.30)] bg-[#70428A] px-4 py-2 text-sm font-semibold text-[#F4EDEA] transition hover:bg-[#8A52AA] shadow-[0_0_15px_rgba(176,139,208,0.20)]"
             >
               Visit resource {'->'}
             </a>
@@ -278,6 +280,7 @@ function ResourceCard({
   );
 }
 
+
 function TopicSection({
   topic,
   icon: Icon,
@@ -287,22 +290,23 @@ function TopicSection({
   links,
 }: TopicResources) {
   return (
-    <section className="rounded-3xl border border-orange-300/70 bg-orange-50/60 p-4 shadow-sm dark:border-orange-900/70 dark:bg-orange-950/15 sm:p-5 lg:p-6">
-      <div className="mb-5 rounded-2xl border border-orange-200/70 bg-white/90 px-5 py-5 dark:border-orange-900/70 dark:bg-gray-900/70 sm:px-6">
+    <section className="rounded-3xl border border-[rgba(240,194,255,0.20)] bg-[rgba(10,8,24,0.35)] p-4 shadow-[0_0_30px_rgba(176,139,208,0.10)] sm:p-5 lg:p-6">
+      <div className="mb-5 rounded-2xl border border-[rgba(240,194,255,0.20)] bg-[rgba(18,15,36,0.80)] px-5 py-5 sm:px-6">
         <div className="flex items-start gap-3">
-          <div className="rounded-lg bg-orange-100 p-2 text-orange-700 dark:bg-orange-900/50 dark:text-orange-200">
+          <div className="rounded-lg bg-[rgba(112,66,138,0.35)] p-2 text-[#F0C2FF]">
             <Icon className="h-5 w-5" aria-hidden="true" />
           </div>
           <div>
-            <h2 className="text-4xl font-black tracking-tight text-gray-900 dark:text-gray-100 sm:text-5xl">
+            <h2 className="text-4xl font-black tracking-tight text-[#F4EDEA] sm:text-5xl">
               {topic}
             </h2>
-            <p className="mt-2 text-sm leading-6 text-gray-700 dark:text-gray-300 sm:text-base">
+            <p className="mt-2 text-sm leading-6 text-[rgba(244,237,234,0.72)] sm:text-base">
               {intro}
             </p>
           </div>
         </div>
       </div>
+
 
       <div className="space-y-5">
         {links.map((link, index) => (
@@ -320,28 +324,37 @@ function TopicSection({
   );
 }
 
+
+// And update the header section:
 export default function OtherUsefulResourcesPage(props: PageProps) {
   return (
     <Layout>
       <SEO title="Other Useful Resources" pathname={props.path} />
 
-      <div className="min-h-screen bg-gradient-to-b from-gray-50 via-orange-50 to-blue-50 text-gray-900 dark:from-[#1b120a] dark:via-[#0a192f] dark:to-[#0d1321] dark:text-gray-100">
+
+      <div
+        data-page-tone="dark"
+        className="min-h-screen text-[#F4EDEA]"
+        style={{ background: 'linear-gradient(to bottom, #120F24 0%, #0E0B1F 48%, #0A0818 100%)' }}
+      >
         <TopNavigationBar linkLogoToIndex={true} redirectToDashboard={false} />
 
+
         <main className="mx-auto max-w-screen-2xl px-4 py-10 sm:px-6 lg:px-8">
-          <header className="rounded-2xl border border-orange-200/70 bg-white/90 px-6 py-14 text-center shadow-xs backdrop-blur-sm dark:border-orange-900 dark:bg-gray-900/70 sm:px-10 sm:py-20">
-            <p className="text-sm font-semibold tracking-wide text-orange-700 uppercase dark:text-orange-300">
+          <header className="rounded-2xl border border-[rgba(240,194,255,0.20)] bg-[rgba(18,15,36,0.80)] px-6 py-14 text-center shadow-[0_0_25px_rgba(176,139,208,0.15)] backdrop-blur-sm sm:px-10 sm:py-20">
+            <p className="text-sm font-semibold tracking-wide text-[#F0C2FF] uppercase">
               Community-curated links
             </p>
-            <h1 className="mt-4 text-5xl font-black tracking-tight sm:text-6xl lg:text-7xl">
+            <h1 className="mt-4 text-5xl font-black tracking-tight text-[#F4EDEA] sm:text-6xl lg:text-7xl">
               Other Useful Resources
             </h1>
-            <p className="mx-auto mt-6 max-w-3xl text-base leading-7 text-gray-700 dark:text-gray-300 sm:text-lg">
+            <p className="mx-auto mt-6 max-w-3xl text-base leading-7 text-[rgba(244,237,234,0.72)] sm:text-lg">
               This page collects strong external resources for specific contest
               math topics. Use it as a companion to USAMO Guide when you want
               extra explanations, alternate problem sets, or deeper dives.
             </p>
           </header>
+
 
           <div className="mt-8 space-y-8">
             {RESOURCES.map(topic => (
