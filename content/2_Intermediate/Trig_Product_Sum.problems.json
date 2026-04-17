@@ -1,4 +1,74 @@
 {
-  "MODULE_ID": "trig-product-sum",
-  "practice": []
+  "MODULE_ID": "trig-product-sum-aime",
+  "practice": [
+    {
+      "uniqueId": "unique-problem-04",
+      "name": "Product-to-Sum Chains",
+      "url": "",
+      "source": "My own",
+      "difficulty": "Normal",
+      "isStarred": false,
+      "tags": [
+        "Trigonometry",
+        "Product-to-Sum"
+      ],
+      "statement": "Evaluate the following product:\n$$\\cos(20^\\circ) \\cos(40^\\circ) \\cos(80^\\circ)$$\nExpress your answer as a common fraction.",
+      "interaction": {
+        "type": "none"
+      },
+      "solutionReveal": {
+        "mode": "inline",
+        "markdown": "## Solution\n\nWe use the identity $\\sin(2\\theta) = 2\\sin\\theta \\cos\\theta$, or $\\cos\\theta = \\frac{\\sin(2\\theta)}{2\\sin\\theta}$.\n\nLet $P = \\cos(20^\\circ) \\cos(40^\\circ) \\cos(80^\\circ)$. Multiply and divide by $2\\sin(20^\\circ)$:\n$$P = \\frac{2\\sin(20^\\circ) \\cos(20^\\circ) \\cos(40^\\circ) \\cos(80^\\circ)}{2\\sin(20^\\circ)}$$\n$$P = \\frac{\\sin(40^\\circ) \\cos(40^\\circ) \\cos(80^\\circ)}{2\\sin(20^\\circ)}$$\n\nMultiply and divide by 2 again:\n$$P = \\frac{2\\sin(40^\\circ) \\cos(40^\\circ) \\cos(80^\\circ)}{4\\sin(20^\\circ)} = \\frac{\\sin(80^\\circ) \\cos(80^\\circ)}{4\\sin(20^\\circ)}$$\n\nMultiply and divide by 2 one last time:\n$$P = \\frac{2\\sin(80^\\circ) \\cos(80^\\circ)}{8\\sin(20^\\circ)} = \\frac{\\sin(160^\\circ)}{8\\sin(20^\\circ)}$$\n\nSince $\\sin(160^\\circ) = \\sin(180^\\circ - 20^\\circ) = \\sin(20^\\circ)$, the terms cancel:\n$$P = \\frac{\\sin(20^\\circ)}{8\\sin(20^\\circ)} = \\frac{1}{8}$$\n\nFinal Answer: **1/8**"
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "unique-problem-05",
+      "name": "Sum-to-Product Ratio",
+      "url": "",
+      "source": "My own",
+      "difficulty": "Hard",
+      "isStarred": true,
+      "tags": [
+        "Trigonometry",
+        "Sum-to-Product"
+      ],
+      "statement": "Simplify the expression to a single trigonometric function:\n$$\\frac{\\sin(7x) - \\sin(5x)}{\\cos(7x) + \\cos(5x)}$$\nThen, find the smallest positive value of $x$ (in degrees) such that this expression equals $\\frac{1}{\\sqrt{3}}$.",
+      "interaction": {
+        "type": "none"
+      },
+      "solutionReveal": {
+        "mode": "inline",
+        "markdown": "## Solution\n\nApply the Sum-to-Product identities:\n1. $\\sin A - \\sin B = 2\\cos\\left(\\frac{A+B}{2}\\right)\\sin\\left(\\frac{A-B}{2}\\right)$\n2. $\\cos A + \\cos B = 2\\cos\\left(\\frac{A+B}{2}\\right)\\cos\\left(\\frac{A-B}{2}\\right)$\n\nSubstituting $A=7x$ and $B=5x$:\n$$\\frac{2\\cos(6x)\\sin(x)}{2\\cos(6x)\\cos(x)} = \\frac{\\sin(x)}{\\cos(x)} = \\tan(x)$$\n\nWe need to find the smallest positive $x$ such that $\\tan(x) = \\frac{1}{\\sqrt{3}}$.\nFrom the unit circle, we know $\\tan(30^\\circ) = \\frac{1}{\\sqrt{3}}$.\n\nFinal Answer: **30**"
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    },
+    {
+      "uniqueId": "unique-problem-06",
+      "name": "Telescoping Sine Sum",
+      "url": "",
+      "source": "My own",
+      "difficulty": "Hard",
+      "isStarred": true,
+      "tags": [
+        "Trigonometry",
+        "Telescoping Series"
+      ],
+      "statement": "Compute the value of the sum:\n$$\\sum_{n=1}^{44} 2\\sin(n^\\circ) \\sin(1^\\circ)$$\nExpress your answer in terms of $\\cos(1^\\circ)$ and $\\cos(45^\\circ)$.",
+      "interaction": {
+        "type": "none"
+      },
+      "solutionReveal": {
+        "mode": "inline",
+        "markdown": "## Solution\n\nUse the Product-to-Sum identity: $2\\sin A \\sin B = \\cos(A-B) - \\cos(A+B)$.\n\nFor each term in the sum, $A=n$ and $B=1$:\n$$2\\sin(n^\\circ) \\sin(1^\\circ) = \\cos((n-1)^\\circ) - \\cos((n+1)^\\circ)$$\n\nNow, write out the sum:\n$n=1: \\cos(0^\\circ) - \\cos(2^\\circ)$\n$n=2: \\cos(1^\\circ) - \\cos(3^\\circ)$\n$n=3: \\cos(2^\\circ) - \\cos(4^\\circ)$\n$n=4: \\cos(3^\\circ) - \\cos(5^\\circ)$\n...\n$n=43: \\cos(42^\\circ) - \\cos(44^\\circ)$\n$n=44: \\cos(43^\\circ) - \\cos(45^\\circ)$\n\nThis is a double telescoping sum. The terms $\\cos(2^\\circ), \\cos(3^\\circ), \\dots, \\cos(43^\\circ)$ all cancel out. The remaining terms are:\n$$S = \\cos(0^\\circ) + \\cos(1^\\circ) - \\cos(44^\\circ) - \\cos(45^\\circ)$$\n\nSince $\\cos(0^\\circ) = 1$, the expression simplifies to:\n$$S = 1 + \\cos(1^\\circ) - \\cos(44^\\circ) - \\cos(45^\\circ)$$\n\nFinal Answer: **1 + cos(1°) - cos(44°) - cos(45°)**"
+      },
+      "solutionMetadata": {
+        "kind": "none"
+      }
+    }
+  ]
 }
