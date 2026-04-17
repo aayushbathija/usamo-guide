@@ -1,0 +1,53 @@
+---
+id: expected-value
+title: Expected Value
+author: Aaron He
+description: An introduction to solving expected value problems
+prerequisites: [intro-probability]
+---
+
+### Overview
+A *random variable* is defined as a number whose value is determined by a random process, like a die roll. The *expected value* of a random variable is a fancy way of saying its average value.
+
+Let $P(e)$ be the probability of event $e$ happening. For a random variable $X$ with outcomes $x_1, x_2, \ldots, x_n$ occurring with probabilities $p_1, p_2, \ldots, p_n$ is the weighted average:
+
+$$E[X] \;=\; \sum_{i=1}^{n} x_i \, p_i.$$
+There are two very important facts about expected value.
+1. If $X, Y$ are two *independent* random variables, then $E[XY] = E[X]E[Y]$.
+2. *Linearity of Expectation*: If $X,Y$ are two random variables, then $E[X+Y]=E[X]+E[Y]$. This is true *regardless* of whether or not $X,Y$ are independent.
+### A Simple Example
+In a dice roll, the possible outcomes are $1,2,3,4,5,6$ and the probability of each is $\frac{1}{6}$, so the expected value is
+
+$$\frac{1}{6}\cdot1+\frac{1}{6}\cdot2+\frac{1}{6}\cdot3+\frac{1}{6}\cdot4+\frac{1}{6}\cdot5+\frac{1}{6}\cdot6 = 3.5$$
+The expected sum of two dice rolls is $3.5+3.5=7$.
+The expected product of two dice rolls is $3.5\times3.5=12.25$, as the dice rolls are independent.
+
+### Worked Example #1
+Suppose there are $n$ people, each of whom has a name tag. The name tags are shuffled, and each person is randomly given a name tag. What is the expected number of people who received their own name tag?
+#### Solution
+Label the people $1,2,...,n$. The trick here is to define the *indicator variable* $X_i$ to be 0 if person $i$ does not get his name tag and 1 if person $i$ does get his name tag. Notice that $X_1+X_2+\cdot\cdot\cdot+X_n$ is just the number of people who got their own name tag.
+
+> Using indicator variables which take on a value of 0 or 1 is a common trick.
+
+$E[X_i]=\frac{1}{n}$, as each person has a $\frac{1}{n}$ probability of getting their own name tag. Hence the expected number of people who got their own name tag is $E[X_1+X_2+\cdot\cdot\cdot+X_n]=E[x_1]+E[x_2]+\cdot\cdot\cdot+E[x_n]=n\cdot\frac{1}{n}=\boxed{1}$.
+
+### Worked Example #2 (2021 Fall AMC 10B #16)
+Five balls are arranged around a circle. Chris chooses two adjacent balls at random and interchanges them. Then Silva does the same, with her choice of adjacent balls to interchange being independent of Chris's. What is the expected number of balls that occupy their original positions after these two successive transpositions?
+#### Solution
+Once again we use indicator variables. Label the balls $1,2,3,4,5$ and define $X_i$ to be 1 if ball $i$ remains in its original position after the transpositions and 0 if it does not. Then the number of balls that are in their original positions is $X_1+X_2+X_3+X_4+X_5$.
+
+There is a $(\frac{3}{5})^2$ chance that a given ball does not get swapped and a $\frac{2}{5}\cdot\frac{1}{5}$ chance the ball returns to its original position after being swapped by both Chris and Silva. So $E[x_i]=(\frac{3}{5})^2+\frac{2}{5}\cdot\frac{1}{5}=\frac{11}{25}$. Hence the expected number of balls that occupy their original positions is $E[X_1]+E[X_2]+E[X_3]+E[X_4]+E[X_5]=5\cdot\frac{11}{25}=\boxed{2.2}$.
+
+### Worked Example #3 (1991 Canada MO #2)
+Let $n$ be a fixed positive integer. Find the sum of all positive integers with the following property:
+In base 2, it has exactly $2n$ digits consisting of $n$ ones and $n$ zeros. (The first digit cannot be 0.)
+#### Solution
+The expected value of the first digit is clearly 1. The expected value of all subsequent digits is $\frac{n-1}{2n-1}$, since excluding the first digit there are $n-1$ ones and $2n-1$ zeros.
+
+Hence the expected value of one such number is
+$$2^{n-1} + (2^{n-2}+2^{n-3}+\cdots+2^1+2^0)\frac{n-1}{2n-1}$$
+$$=2^{n-1}+(2^{n-1}-1)\frac{n-1}{2n-1}$$
+
+There are $\binom{2n-1}{n-1}$ such numbers, so the sum of all such numbers is
+$$\binom{2n-1}{n-1}(2^{n-1}+(2^{n-1}-1)\frac{n-1}{2n-1})$$
+$$=\boxed{(2^{2n-1}-1)\tbinom{2n-2}{n}+2^{2n-1}\tbinom{2n-1}{n}}$$

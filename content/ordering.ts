@@ -137,7 +137,7 @@ const MODULE_ORDERING: { [key in SectionID]: Chapter[] } = {
     {
       name: 'Probability',
       description: 'Conditional probability, geometric probability, and expected value.',
-      items: ['probability-intermediate', 'geometric-probability'],
+      items: ['probability-intermediate', 'geometric-probability', 'expected-value'],
     },
     {
       name: 'Number Theory',
